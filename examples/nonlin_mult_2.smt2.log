@@ -1,0 +1,267 @@
+13:20:06 - line:175 - Chronosymbolic - by Ray Luo
+13:20:06 - line:176 - Date: 2023-06-29
+13:20:06 - line:177 - ========Information========
+13:20:06 - line:102 - Rule number: 3
+13:20:06 - line:103 - Relation number: 2
+13:20:06 - line:104 - Horn Relations:
+[fail(), inv(inv_0_n, inv_1_n, inv_2_n, inv_3_n, inv_4_n, )]
+13:20:06 - line:132 - Mod Features:
+OrderedSet()
+13:20:06 - line:136 - Var number: 5
+13:20:06 - line:138 - Horn Rules:
+Index: 1
+Rule: [Not(a <= 0), b >= a, c1 == 0, e1 == 0, d1 == 0] -> inv(a, b, c1, d1, e1)
+Index: 2
+Rule: [c2 == 1 + c1, d2 == d1 + a, e2 == e1 + b, inv(a, b, c1, d1, e1)] -> inv(a, b, c2, d2, e2)
+Index: 3
+Rule: [Not(e1 >= a*c1), inv(a, b, c1, d1, e1)] -> fail
+
+
+[fail] -> False
+13:20:06 - line:23 - Facts: [[Not(a <= 0), b >= a, c1 == 0, e1 == 0, d1 == 0] -> inv(a, b, c1, d1, e1)]
+Num: 1
+13:20:06 - line:24 - Fact rels: []
+Num: 0
+13:20:06 - line:25 - Query rels: [fail]
+Num: 1
+13:20:06 - line:26 - Queries: [[fail] -> False, [Not(e1 >= a*c1), inv(a, b, c1, d1, e1)] -> fail]
+Num: 2
+13:20:06 - line:1259 - Episode No.1
+13:20:06 - line:69 - ============== Init Phase ==============
+13:20:06 - line:102 - Find SAFE zones from Facts
+13:20:06 - line:104 - Init SAFE zone for inv: And(Var_1 >= Var_0,
+    Var_0 >= 1,
+    Var_2 == 0,
+    Var_4 == 0,
+    Var_3 == 0)
+13:20:06 - line:144 - Find UNSAFE zones from Queries
+13:20:06 - line:146 - Init UNSAFE zone for inv: Not(Var_4 >= Var_0*Var_2)
+13:20:06 - line:241 - Forward Iteration 1
+13:20:06 - line:337 - Relation update count: 1
+13:20:06 - line:241 - Forward Iteration 2
+13:20:06 - line:337 - Relation update count: 1
+13:20:06 - line:241 - Forward Iteration 3
+13:20:06 - line:304 -
+                                Stop expansion at Rule 2,
+                                is_quantifier: False,
+                                len(body_and): 776, len(nzone): 1022
+13:20:06 - line:335 - Relation update count: 0
+13:20:06 - line:340 - After expansion, update SAFE zone for inv
+13:20:06 - line:351 - Backward Iteration 1
+13:20:06 - line:449 - Relation update count: 1
+13:20:06 - line:351 - Backward Iteration 2
+13:20:06 - line:449 - Relation update count: 1
+13:20:06 - line:351 - Backward Iteration 3
+13:20:06 - line:449 - Relation update count: 1
+13:20:06 - line:452 - After expansion, updated UNSAFE zone for inv
+13:20:06 - line:459 - Sample dps for inv
+13:20:06 - line:972 - SVM Calls: 0, Total SVM time: 0.0002701282501220703
+13:20:06 - line:597 - New Candidate for fail:
+   False
+13:20:06 - line:597 - New Candidate for inv:
+   False
+13:20:06 - line:208 - ============== Init Phase Ended, Time: 0.08259844779968262 ==============
+13:20:06 - line:637 - ========== Constraint Solving of Horn Clauses ===========
+13:20:06 - line:641 - Work list size: 3
+13:20:06 - line:643 - VERIFY Horn Rule Index 1
+13:20:06 - line:689 - This rule is a FACT, skipped
+13:20:06 - line:641 - Work list size: 2
+13:20:06 - line:643 - VERIFY Horn Rule Index 2
+13:20:06 - line:736 - Rule Index 2 Verification Round 1
+13:20:06 - line:1206 - SAT, CEX: inv(1, 1, 2, 2, 2, ); -> inv(1, 1, 3, 3, 3, )
+13:20:06 - line:37 - Add positive DP [1, 1, 3, 3, 3] for relation inv
+13:20:06 - line:804 - Got Pos DP inv(a, b, c2, d2, e2): [1, 1, 3, 3, 3] from forward implication
+13:20:06 - line:972 - SVM Calls: 0, Total SVM time: 0.0003254413604736328
+13:20:06 - line:37 - Add positive DP [1, 1, 4, 4, 4] for relation inv
+13:20:06 - line:37 - Add positive DP [1, 1, 5, 5, 5] for relation inv
+13:20:06 - line:135 - Sampled positive states in this round:
+13:20:06 - line:137 - Rel: inv, DP: [And(a == 1, b == 1, c2 == 3, d2 == 3, e2 == 3), And(a == 1, b == 1, c2 == 4, d2 == 4, e2 == 4), And(a == 1, b == 1, c2 == 5, d2 == 5, e2 == 5)]
+13:20:06 - line:546 - New Candidate for PRED_1:
+   True (dataset all True)
+13:20:06 - line:888 - For IMPLICATION rules this round,
+13:20:06 - line:889 - Updated positive datasets for 1 relations
+13:20:06 - line:890 - Updated negative datasets for 0 relations
+13:20:06 - line:736 - Rule Index 2 Verification Round 2
+13:20:06 - line:193 - Add (tentative: False) negative DP [3, -3, -8, 3, -3] for relation inv
+13:20:06 - line:838 - Got Neg DP inv: [3, -3, -8, 3, -3] from backward implication
+13:20:06 - line:907 - SVM cmd: utils/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 5 -p 3 -n 1 -g 0 -f PRED_1 tmp/FromCmd.svm.data 2>&1
+13:20:06 - line:915 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+
+
+13:20:06 - line:927 - SVM data output:
+['true']
+13:20:06 - line:972 - SVM Calls: 1, Total SVM time: 0.003610849380493164
+13:20:06 - line:193 - Add (tentative: False) negative DP [3, -3, -9, 0, 0] for relation inv
+13:20:06 - line:347 - Sampled negative states in this round:
+13:20:06 - line:349 - Rel: inv, DP: [And(Var_0 == 3,
+    Var_1 == -3,
+    Var_2 == -8,
+    Var_3 == 3,
+    Var_4 == -3), And(a == 3, b == -3, c1 == -9, d1 == 0, e1 == 0)]
+13:20:06 - line:569 - C5 cmd: utils/C50/c5.0.dt_entropy -I 1 -m 1 -f tmp/FromCmd 2>&1
+13:20:06 - line:593 - positive dataset:
+Rel: inv, dps: OrderedSet([(1, 1, 3, 3, 3), (1, 1, 4, 4, 4), (1, 1, 5, 5, 5)])
+size: 3
+13:20:06 - line:594 - negative dataset:
+Rel: inv, dps: OrderedSet([(3, -3, -8, 3, -3), (3, -3, -9, 0, 0)])
+negative tentative dataset:
+size: 2, tentative_size: 0
+13:20:06 - line:596 - DT Calls: 1, Total DT time: 0.005838871002197266
+13:20:06 - line:888 - For IMPLICATION rules this round,
+13:20:06 - line:889 - Updated positive datasets for 0 relations
+13:20:06 - line:890 - Updated negative datasets for 1 relations
+13:20:06 - line:736 - Rule Index 2 Verification Round 3
+13:20:06 - line:193 - Add (tentative: False) negative DP [-1, -2, 5, -5, -2] for relation inv
+13:20:06 - line:838 - Got Neg DP inv: [-1, -2, 5, -5, -2] from backward implication
+13:20:06 - line:907 - SVM cmd: utils/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 5 -p 3 -n 3 -g 0 -f PRED_1 tmp/FromCmd.svm.data 2>&1
+13:20:06 - line:915 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+
+
+13:20:06 - line:927 - SVM data output:
+['true']
+13:20:06 - line:972 - SVM Calls: 2, Total SVM time: 0.0060617923736572266
+13:20:06 - line:193 - Add (tentative: False) negative DP [-1, -2, 4, -4, 0] for relation inv
+13:20:06 - line:347 - Sampled negative states in this round:
+13:20:06 - line:349 - Rel: inv, DP: [And(Var_0 == -1,
+    Var_1 == -2,
+    Var_2 == 5,
+    Var_3 == -5,
+    Var_4 == -2), And(a == -1, b == -2, c1 == 4, d1 == -4, e1 == 0)]
+13:20:06 - line:569 - C5 cmd: utils/C50/c5.0.dt_entropy -I 1 -m 1 -f tmp/FromCmd 2>&1
+13:20:06 - line:593 - positive dataset:
+Rel: inv, dps: OrderedSet([(1, 1, 3, 3, 3), (1, 1, 4, 4, 4), (1, 1, 5, 5, 5)])
+size: 3
+13:20:06 - line:594 - negative dataset:
+Rel: inv, dps: OrderedSet([(3, -3, -8, 3, -3), (3, -3, -9, 0, 0), (-1, -2, 5, -5, -2), (-1, -2, 4, -4, 0)])
+negative tentative dataset:
+size: 4, tentative_size: 0
+13:20:06 - line:596 - DT Calls: 2, Total DT time: 0.010164260864257812
+13:20:06 - line:888 - For IMPLICATION rules this round,
+13:20:06 - line:889 - Updated positive datasets for 0 relations
+13:20:06 - line:890 - Updated negative datasets for 1 relations
+13:20:06 - line:736 - Rule Index 2 Verification Round 4
+13:20:06 - line:193 - Add (tentative: False) negative DP [7, 3, -3, -8, -8] for relation inv
+13:20:06 - line:838 - Got Neg DP inv: [7, 3, -3, -8, -8] from backward implication
+13:20:06 - line:907 - SVM cmd: utils/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 5 -p 3 -n 5 -g 0 -f PRED_1 tmp/FromCmd.svm.data 2>&1
+13:20:06 - line:915 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+
+
+13:20:06 - line:927 - SVM data output:
+['true']
+13:20:06 - line:972 - SVM Calls: 3, Total SVM time: 0.008613824844360352
+13:20:06 - line:193 - Add (tentative: False) negative DP [7, 3, -4, -15, -11] for relation inv
+13:20:06 - line:347 - Sampled negative states in this round:
+13:20:06 - line:349 - Rel: inv, DP: [And(Var_0 == 7,
+    Var_1 == 3,
+    Var_2 == -3,
+    Var_3 == -8,
+    Var_4 == -8), And(a == 7, b == 3, c1 == -4, d1 == -15, e1 == -11)]
+13:20:06 - line:569 - C5 cmd: utils/C50/c5.0.dt_entropy -I 1 -m 1 -f tmp/FromCmd 2>&1
+13:20:06 - line:593 - positive dataset:
+Rel: inv, dps: OrderedSet([(1, 1, 3, 3, 3), (1, 1, 4, 4, 4), (1, 1, 5, 5, 5)])
+size: 3
+13:20:06 - line:594 - negative dataset:
+Rel: inv, dps: OrderedSet([(3, -3, -8, 3, -3), (3, -3, -9, 0, 0), (-1, -2, 5, -5, -2), (-1, -2, 4, -4, 0), (7, 3, -3, -8, -8), (7, 3, -4, -15, -11)])
+negative tentative dataset:
+size: 6, tentative_size: 0
+13:20:06 - line:596 - DT Calls: 3, Total DT time: 0.014484167098999023
+13:20:06 - line:888 - For IMPLICATION rules this round,
+13:20:06 - line:889 - Updated positive datasets for 0 relations
+13:20:06 - line:890 - Updated negative datasets for 1 relations
+13:20:06 - line:736 - Rule Index 2 Verification Round 5
+13:20:06 - line:193 - Add (tentative: False) negative DP [5, 4, 0, -2, 3] for relation inv
+13:20:06 - line:838 - Got Neg DP inv: [5, 4, 0, -2, 3] from backward implication
+13:20:06 - line:907 - SVM cmd: utils/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 5 -p 3 -n 7 -g 0 -f PRED_1 tmp/FromCmd.svm.data 2>&1
+13:20:06 - line:915 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+
+
+13:20:06 - line:927 - SVM data output:
+['true']
+13:20:06 - line:972 - SVM Calls: 4, Total SVM time: 0.011057138442993164
+13:20:06 - line:193 - Add (tentative: False) negative DP [5, 4, -1, -7, -1] for relation inv
+13:20:06 - line:347 - Sampled negative states in this round:
+13:20:06 - line:349 - Rel: inv, DP: [And(Var_0 == 5,
+    Var_1 == 4,
+    Var_2 == 0,
+    Var_3 == -2,
+    Var_4 == 3), And(a == 5, b == 4, c1 == -1, d1 == -7, e1 == -1)]
+13:20:06 - line:569 - C5 cmd: utils/C50/c5.0.dt_entropy -I 1 -m 1 -f tmp/FromCmd 2>&1
+13:20:06 - line:593 - positive dataset:
+Rel: inv, dps: OrderedSet([(1, 1, 3, 3, 3), (1, 1, 4, 4, 4), (1, 1, 5, 5, 5)])
+size: 3
+13:20:06 - line:594 - negative dataset:
+Rel: inv, dps: OrderedSet([(3, -3, -8, 3, -3), (3, -3, -9, 0, 0), (-1, -2, 5, -5, -2), (-1, -2, 4, -4, 0), (7, 3, -3, -8, -8), (7, 3, -4, -15, -11), (5, 4, 0, -2, 3), (5, 4, -1, -7, -1)])
+negative tentative dataset:
+size: 8, tentative_size: 0
+13:20:06 - line:596 - DT Calls: 4, Total DT time: 0.01905083656311035
+13:20:06 - line:888 - For IMPLICATION rules this round,
+13:20:06 - line:889 - Updated positive datasets for 0 relations
+13:20:06 - line:890 - Updated negative datasets for 1 relations
+13:20:06 - line:736 - Rule Index 2 Verification Round 6
+13:20:06 - line:881 - UNSAT, This rule is PASSED
+13:20:06 - line:641 - Work list size: 2
+13:20:06 - line:643 - VERIFY Horn Rule Index 3
+13:20:06 - line:727 - This rule is a Query, skipped
+13:20:06 - line:641 - Work list size: 1
+13:20:06 - line:643 - VERIFY Horn Rule Index 3
+13:20:06 - line:727 - This rule is a Query, skipped
+13:20:06 - line:905 - ==================================
+13:20:06 - line:1259 - Episode No.2
+13:20:06 - line:637 - ========== Constraint Solving of Horn Clauses ===========
+13:20:06 - line:641 - Work list size: 3
+13:20:06 - line:643 - VERIFY Horn Rule Index 1
+13:20:06 - line:689 - This rule is a FACT, skipped
+13:20:06 - line:641 - Work list size: 2
+13:20:06 - line:643 - VERIFY Horn Rule Index 2
+13:20:06 - line:736 - Rule Index 2 Verification Round 1
+13:20:06 - line:881 - UNSAT, This rule is PASSED
+13:20:06 - line:641 - Work list size: 1
+13:20:06 - line:643 - VERIFY Horn Rule Index 3
+13:20:06 - line:727 - This rule is a Query, skipped
+13:20:06 - line:905 - ==================================
+13:20:06 - line:1285 - ************** Finished in 0.646906852722168 (secs) in 2 epochs **************
+13:20:06 - line:1288 - Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 25
+13:20:06 - line:1289 - Total SVM Time: 0.011057138442993164, DT Time: 0.01905083656311035, Z3 Time: 0.3920609951019287
+13:20:06 - line:1290 - Others: 0.22473788261413574, Init Phase Time: 0.08259844779968262, Simplifier Solver Time: 0.002895832061767578
+13:20:06 - line:1297 - ************** Auxiliary Info **************
+13:20:06 - line:1300 - max_len_exp_fwd: 776
+13:20:06 - line:1300 - max_len_exp_bwd: 215
+13:20:06 - line:1300 - len_exp_zone_fwd: [(79, 196), (392, 606), (776, 1022)]
+13:20:06 - line:1300 - len_exp_zone_bwd: [(48, 106), (144, 181), (215, 256)]
+13:20:06 - line:1300 - Total Iter: 7
+13:20:06 - line:1300 - QE Time: 0.0028340816497802734
+13:20:06 - line:1305 - ************** Program is correct **************
+13:20:06 - line:1308 -
+Relation: fail,
+Candidate: False
+13:20:06 - line:1308 -
+Relation: inv,
+Candidate: Or(And(Var_1 >= Var_0,
+       Var_0 >= 1,
+       Var_2 == 0,
+       Var_4 == 0,
+       Var_3 == 0),
+   And(Var_0 >= 1,
+       Var_2 == 1,
+       Var_3 == Var_0,
+       Var_4 == Var_1,
+       Var_1 >= Var_0),
+   And(Var_1 >= Var_0,
+       Var_0 >= 1,
+       Var_2 == 1,
+       Var_4 + -1*Var_1 == 0,
+       Var_3 + -1*Var_0 == 0),
+   And(Var_0 >= 1,
+       Var_2 == 2,
+       Var_3 + -2*Var_0 == 0,
+       Var_4 + -2*Var_1 == 0,
+       Var_1 >= Var_0),
+   And(Not(Or(Not(Var_4 >= Var_0*Var_2),
+              Not(Var_4 + 3*Var_1 >= Var_0*(3 + Var_2)),
+              Not(Var_4 + 2*Var_1 >= Var_0*(2 + Var_2)),
+              Not(Var_4 + Var_1 >= Var_0*(1 + Var_2)))),
+       Var_0 + -1*Var_1 <= 0))
