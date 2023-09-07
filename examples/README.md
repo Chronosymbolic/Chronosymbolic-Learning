@@ -45,3 +45,6 @@ Candidate: Or(And(Var_1 >= Var_0,
               Not(Var_4 + Var_1 >= Var_0*(1 + Var_2)))),
        Var_0 + -1*Var_1 <= 0))
 ```
+
+# DT exmaple
+Visualize how DT changes over time, here we provide a simple instance in `dt_visualizer.ipynb` showcasing this feature.
