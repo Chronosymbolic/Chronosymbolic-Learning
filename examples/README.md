@@ -46,5 +46,5 @@ Candidate: Or(And(Var_1 >= Var_0,
        Var_0 + -1*Var_1 <= 0))
 ```
 
-# DT exmaple
+## DT exmaple
 Visualize how DT changes over time, here we provide a simple instance in `dt_visualizer.ipynb` showcasing this feature.
