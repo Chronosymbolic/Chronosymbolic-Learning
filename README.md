@@ -31,7 +31,7 @@ Then, prepare the dataset following the instruction in `data/` folder.
 
 - Run: `python test.py` with the parameters below:
 
-    - Specify file name using `-f FILE_NAME`
+    - Specify instance file name using `-f FILE_NAME`
 
     - Specify log file (which records how the tool solves the CHC system) using `-l FILE_NAME`
 
@@ -45,7 +45,9 @@ Then, prepare the dataset following the instruction in `data/` folder.
 
     - Adjust timeout using `-t TIMEOUT`, only effective in directory mode
 
-    - Specify result file using `-o FILE_NAME`, export a result csv (with success and timing statistics) with the same file name using `-a`
+    - Specify overall result file using `-o FILE_NAME`, export a result csv (with success and timing statistics) with the same file name using `-a`
+
+    - Individual LOG files will be outputed in `./log/YOUR_INSTANCE_PATH`
 
     - Start testing from the file index k in the folder `-s k` (index start from zero)
 
