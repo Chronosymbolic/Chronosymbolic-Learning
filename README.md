@@ -5,7 +5,9 @@ Artifact for paper "Chronosymbolic Learning: Efficient CHC Solving with Symbolic
 
 - See `./examples` for examples on how our tool works
 
-## Requirement
+## Requirement (To set up our environment)
+Python (3.7.0 or higher, and anaconda recommended)
+
 Install packages in `requirements.txt`:
 
 ```
@@ -56,6 +58,9 @@ Then, prepare the dataset following the instruction in `data/` folder.
     - More options see `--help`
 
 # To reproduce Chronosymbolic-single
+
+Please refer to the configuration in `./experiment/result_summary.log`. The default config should also be decent. Even fixed random seeds can cause some minor randomness that may slightly affect the performance.
+
 - `python test.py -f tests/safe -a -r -v -t 360 -o result/result_safe.log`
 
 - `python test.py -f tests/unsafe -a -r -v -t 360 -o result/result_unsafe.log`
@@ -65,7 +70,7 @@ Then, prepare the dataset following the instruction in `data/` folder.
 
 # To run the baselines
 ## Spacer and GSpacer
-- Configure [z3-gspacer-branch](https://github.com/hgvk94/z3/tree/ggbranch)
+- Configure [z3-gspacer-branch](https://github.com/hgvk94/z3/tree/ggbranch), `chmod +x z3`
 
 - Specify the path of z3 (with GSpacer) binary in `utils/run_spacer.py` and `utils/run_spacer_filtered.py`
 
