@@ -1,0 +1,85 @@
+# FILE_NAME: '/mnt/ramdisk/FromCmd'
+# FILE_NAME: '/dev/shm/FromCmd'
+FILE_NAME: 'tmp/FromCmd'
+LOGGING: on
+
+SVM:
+  EnableSVM: true
+  SVMCParameter: 1
+  SVMCoeffBound: 5
+  SVMAHyperplane: 0
+  SVMFreqPos: 0
+  SVMFreqNeg: 30
+
+DT:  # only works for sklearn DT
+  RNDSeed: 1
+  Criterion: 'entropy'  # entropy or gini
+  Splitter: 'best'  # best or random
+
+OCT: on
+MODFind: on  # enable automatically find mod patterns
+DIVFind: off  # enable automatically find div patterns (beta)
+MOD: []
+DIV: []  # (beta)
+# a list of mod and div k features
+
+ValIterMode: false  # false: policy iter mode (update a rule until passed)
+ClearBodyAppsDP: false
+RuleSampleLen: 2
+RuleSampleWidth: 1
+RuleSampleLenNeg: 1
+RuleSampleWidthNeg: 1
+
+FactSampleMaxRound: 10
+QuerySampleMaxRound: 2
+# prevent from sampling too much monotonic dps, must >= 2
+
+LC: 0
+OverflowLimit: 214748364900
+Z3_Solver_Timeout: 360000
+Z3_Global_Timeout: 10000
+
+EnableMatchFact: true
+# may accelerate pos dp collection, but may also trigger more z3 calls
+# could enable it when pos dps are sparse. Only for v1 and v2, Chronosymbolic uses is_in_zone()
+
+Dataset:
+  QueueModePos: off
+  QueueModeNeg: off
+  # if enable this, pos/neg dataset is a fixed-length queue
+  QueueLenPos: 50
+  QueueLenNeg: 50
+  QueueTentNegProp: 0.5
+  QueueRealNegProp: 0.5
+
+
+RelationUpperBound: 500
+# constrain chc relation number
+
+SampleBatchSize: 0
+
+InitPhase: on
+UseSafeZone: true
+UseUnsafeZone: true
+# expansion related
+Expansion:
+  UseExpansion: true
+  ForceExp: false
+  BodyCstrExpUB: 700
+  NewZoneExpUB: 1500
+  InitExpMinIter: 3
+  InitExpMaxIter: 7
+  FreeVarUB: 500
+
+Verbosity:
+  PrintCstr: off
+  PrintNewCandFreq: 50
+  PrintCex: 5
+  # PrintNewCandFreq: 1
+  # PrintCex: 1
+
+Strategy:
+  # SafeZoneUsage: '(self.total_iter // 200) % 2 == 0'  # if you want fix UseSafeZone = True, set 'True'
+  # UnsafeZoneUsage: '(self.total_iter // 100) % 2 == 0'
+  SafeZoneUsage: 'True'
+  UnsafeZoneUsage: 'True'
