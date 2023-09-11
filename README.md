@@ -6,22 +6,18 @@ Artifact for the paper "Chronosymbolic Learning: Efficient CHC Solving with Symb
 - See `./examples` for examples of how our tool works
 
 ## Requirement (To set up our environment)
-Python (3.7.0 or higher, and anaconda recommended)
+Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
-Install packages in `requirements.txt`:
+- Install packages in `requirements.txt`: `pip install -r requirements.txt`
 
-```
-pip install -r requirements.txt
-```
+- May have to manually set up `PYTHONPATH` and `PATH` properly,  `PYTHONPATH=$Z3_BIN/python`, `PATH=$PATH:$Z3_BIN`
 
-May have to manually set up `PYTHONPATH` and `PATH` properly,  `PYTHONPATH=$Z3_BIN/python`, `PATH=$PATH:$Z3_BIN`
-
-Then, prepare the dataset following the instructions in `data/` folder.
+- If the C5.0/LIBSVM binary cannot executed properly, may have to recompile them in your OS and specify the binary executable files in `utils/dt/dt.py` in `class C5DT`, `C5_exec_path` and `utils/svm/svm.py` in `class LibSVMLearner`, `svm_exec_path`
 
 ## Chronosymbolic Learning
 - Support SMT-LIB2 format (check-sat) and Datalog format (rule-query) 
 
-- Have executable binaries of decision tree and SVM for Linux and MacOS, and can automatically adapt to the OS
+- Have executable binaries of decision tree and SVM for Linux and MacOS, and can automatically adapt to the OS (Linux/Mac)
 
 - Control flow implemented in `learner/run_agent.py` `run_Agent` function
 

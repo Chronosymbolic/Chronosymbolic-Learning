@@ -1,5 +1,7 @@
-## result_summary_safe.log
-The log shows the running log of our reported experiment on ``Chronosymbolic-single''. This experiment runs a suite of instances using a fixed set of hyperparameters. The structure of the log is as follows:
+## result_safe_summary.log and result_unsafe_summary.log
+The logs are the running logs of our reported experiment on ``Chronosymbolic-single''. This experiment runs a suite of instances using a fixed set of hyperparameters. 
+
+The structure of the log is as follows:
 
 1. The first 2 lines are the modules used.
 
