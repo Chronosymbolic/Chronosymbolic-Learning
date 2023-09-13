@@ -5,7 +5,7 @@ The structure of the log is as follows:
 
 1. The first 2 lines are the modules used.
 
-2. The "Hyperparameters" section shows all the hyperparameters in `config.yaml`.
+2. The "Hyperparameters" section shows all the hyperparameters in `config.yml`.
 
 3. The "CHC Solving" part shows the results of solving all instances in the test suite. For each instance, it shows the file names, the size of the `*.smt2` or `*.smt` instance, the overall running time and time of each component, auxiliary info generated when running our tool (not important), the satisfiability of the CHC (correctness of corresponding program) and the proof (solution interpretation of predicates), and the double check procedure ensuring the correctness of the proof.
 

@@ -36,18 +36,18 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
     - Specify directory name using `-r -f DIR_NAME` to run a test suite (logs are automatically generated in log/DIR_NAME)
         - e.g. `python test.py -f tests/safe/ -a -r -v -t 360 -o result/result.log`
     
-    - Or specify a file list using `-b -f FILELIST` (run files specified in the file list, whose format is the same as `tests/filtered`)
-        - e.g. `python test.py -a -v -b -f tests/filtered -a -t 360 -o result/result.log`
+    - Or specify a file list using `-b -f FILELIST` (run files specified in the file list whose format is one file path in each line)
+        - e.g. `python test.py -a -v -b -f tests/filtered.txt -a -t 360 -o result/result.log`
 
     - Increase log file verbosity using `-v` (not effective in output on screen)
 
     - Adjust timeout using `-t TIMEOUT`, only effective in directory mode
 
-    - Specify the overall result file using `-o FILE_NAME`, export a result CSV (with success and timing statistics) with the same file name using `-a`
+    - Specify the result summary log file using `-o FILE_NAME`; Export an additional result summary CSV `FILE_NAME_prefix.csv` (with success and timing statistics) using `-a`; The summary is only available when running multiple instances (directory mode or file list mode)
 
     - Start testing from the file index k in the folder `-s K` (`K` is the index starting from zero)
 
-    - If you want to run multiple instances, make sure to use different `FILE_NAME`-s in the config file to avoid clash (`config.yaml` in default)
+    - If you want to run multiple instances, make sure to use different `FILE_NAME`-s in the config file to avoid clash (`config.yml` in default)
 
     - More options see `--help`
 
@@ -55,7 +55,7 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
 # To reproduce Chronosymbolic-single
 
-Please refer to the configuration in `./experiment/result_summary.log`. The default config should also be decent. Even fixed random seeds can cause minor randomness that may slightly affect the performance.
+Please refer to the configuration in `./experiment/result_summary.log`. Using the default config in `config.yml` should also be decent. Even fixed random seeds can cause minor randomness that may slightly affect the performance.
 
 - `python test.py -f tests/safe -a -r -v -t 360 -o result/result_safe.log`
 
@@ -89,7 +89,7 @@ In `test.py` `guess_manually` function:
 
 - Run `learner/enumerate.py` that enumerates through a context-free grammar
 
-## Benchmarks
+# Benchmarks
 [CHC-COMP](https://github.com/chc-comp)
 
 [Freqhorn](https://github.com/freqhorn/freqhorn)
@@ -97,7 +97,7 @@ In `test.py` `guess_manually` function:
 [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test)
 
 
-## Reference
+# Reference
 [chc-tools](https://github.com/chc-comp/chc-tools/tree/master/chctools)
 
 [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm)
