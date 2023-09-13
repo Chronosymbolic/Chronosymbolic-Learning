@@ -15,15 +15,15 @@ def load_yaml(config_path):
         params = yaml.load(f, Loader=yaml.SafeLoader)
     return params
 
-def double_check(file_name, logger, cand_map, learner_cand_map=None):
+def double_check(file_name, logger, cand_map, learner_cand_map=None, free_vars_prefix='Var_'):
     from horndb.horndb import DoubleChecker
-    double_checker = DoubleChecker(file_name, logger)
+    double_checker = DoubleChecker(file_name, logger, free_vars_prefix)
     res = False
     try:
         logger.warning('\n************** Double Check **************')
         res = double_checker.check(cand_map)
     except RuntimeError:
-        logger.warning('CHC System Double Check TIMEOUT')
+        logger.warning('CHC System Double Check ERROR/TIMEOUT')
     except KeyboardInterrupt:
         logger.warning('CHC System Double Check KILLED')
 

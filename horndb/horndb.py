@@ -595,7 +595,7 @@ class DoubleChecker:
     """
     Double check the result of the learner
     """
-    def __init__(self, file_name, logger):
+    def __init__(self, file_name, logger, free_vars_prefix='Var_'):
         self.solver = z3.Solver()
         self.solver.set(timeout=120000)
         db = load_horn_db_from_file(file_name, original=True)
@@ -603,7 +603,7 @@ class DoubleChecker:
         self.rels = list(reversed(db.get_rels_list()))
         self.rel_decls = [r.decl() for r in self.rels]
         self.logger = logger
-        self.free_vars_prefix = 'Var_'  # None for v1 and v2
+        self.free_vars_prefix = free_vars_prefix  # None for v1 and v2, 'Var_' for Chronosymbolic
 
 
     def get_def(self, rule, cand_map, rel=None):

@@ -26,8 +26,8 @@ import logging
 
 
 # --- Set agent and DT algorithm here ---
-# ClassAgent = Chronosymbolic
-ClassAgent = DataDrivenLearner  # LinearArbitrary like
+ClassAgent = Chronosymbolic
+# ClassAgent = DataDrivenLearner  # LinearArbitrary like
 # ClassAgent = DataDrivenLearner_v2  # LinearArbitrary like, optimized
 
 ClassDT = C5DT  # C5.0
@@ -88,7 +88,7 @@ def run_single_file(args, logger, agent_params):
     is_successful, _, is_correct = run_Agent(Agent, logger)
     if is_correct and is_successful:
         learner_cand_map = None if Agent.__class__.__name__ != 'Chronosymbolic' else Agent.learner_cand_map
-        _ = double_check(args.file_name, logger, Agent.cand_map, learner_cand_map)
+        _ = double_check(args.file_name, logger, Agent.cand_map, learner_cand_map, Agent.free_vars_prefix)
 
 
 def run_dir_mode(args, logger, agent_params):
@@ -157,7 +157,7 @@ def run_dir_mode(args, logger, agent_params):
             
             if is_correct and is_successful:
                 learner_cand_map = None if Agent.__class__.__name__ != 'Chronosymbolic' else Agent.learner_cand_map
-                _ = double_check(path_file, logger, Agent.cand_map, learner_cand_map)
+                _ = double_check(path_file, logger, Agent.cand_map, learner_cand_map, Agent.free_vars_prefix)
             
             logger.warning('\n\n')
 
@@ -253,7 +253,7 @@ def run_filelist_mode(args, logger, agent_params):
         
         if is_correct and is_successful:
             learner_cand_map = None if Agent.__class__.__name__ != 'Chronosymbolic' else Agent.learner_cand_map
-            _ = double_check(file_name, logger, Agent.cand_map, learner_cand_map)
+            _ = double_check(file_name, logger, Agent.cand_map, learner_cand_map, Agent.free_vars_prefix)
         
         logger.warning('\n\n')
 

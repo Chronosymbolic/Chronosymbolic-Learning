@@ -80,6 +80,7 @@ class DataDrivenLearner:
         self.unknowns = {}
         self.mod_nums = OrderedSet(self.params['MOD'])
         self.div_nums = OrderedSet(self.params['DIV'])
+        self.free_vars_prefix = None
         if not os.path.exists('tmp'):
             os.makedirs('tmp')
 
