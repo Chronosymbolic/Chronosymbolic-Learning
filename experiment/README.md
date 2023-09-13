@@ -1,5 +1,5 @@
 ## result_safe_summary.log and result_unsafe_summary.log
-The logs are the running logs of our reported experiment on ``Chronosymbolic-single''. This experiment runs a suite of instances using a fixed set of hyperparameters. 
+The logs are the running logs of our reported experiment on ``Chronosymbolic-single''. This experiment runs a suite of instances using a fixed set of hyperparameters.
 
 The structure of the log is as follows:
 
@@ -13,11 +13,11 @@ The structure of the log is as follows:
 
 The specifications of the device used to generate this log:
 
-- Processor	12th Gen Intel(R) Core(TM) i7-12700H   2.30 GHz
+- Processor 12th Gen Intel(R) Core(TM) i7-12700H   2.30 GHz
 
-- Installed RAM	32.0 GB (31.7 GB usable)
+- Installed RAM 32.0 GB (31.7 GB usable)
   
-- System type	64-bit operating system, x64-based processor
+- System type: 64-bit operating system, x64-based processor
 
 
 ## comparison.xlsx

@@ -26,11 +26,12 @@ import logging
 
 
 # --- Set agent and DT algorithm here ---
-ClassAgent = Chronosymbolic
-# ClassAgent = DataDrivenLearner
+# ClassAgent = Chronosymbolic
+ClassAgent = DataDrivenLearner  # LinearArbitrary like
+# ClassAgent = DataDrivenLearner_v2  # LinearArbitrary like, optimized
 
-ClassDT = C5DT
-# ClassDT = SklearnDT
+ClassDT = C5DT  # C5.0
+# ClassDT = SklearnDT  # CART
 # --- Set agent and DT algorithm here ---
 
 
@@ -280,7 +281,7 @@ def run_filelist_mode(args, logger, agent_params):
 
 if __name__ == "__main__":    
     # sys.exit(guess_manually())
-    file_name = 'tests/simple_smt/10000.smt2'
+    file_name = 'tests/simple_smt/10000.smt2'  # for testing functionality
 
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--file_name', help='SMTLIB File Name or dir name', default=file_name)

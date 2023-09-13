@@ -1,0 +1,7 @@
+pysmt
+pyyaml
+z3-solver
+nltk
+ordered-set
+colorlog
+eventlet

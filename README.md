@@ -51,6 +51,8 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
     - More options see `--help`
 
+- After finishing running, the `./tmp` directory can be deleted safely
+
 # To reproduce Chronosymbolic-single
 
 Please refer to the configuration in `./experiment/result_summary.log`. The default config should also be decent. Even fixed random seeds can cause minor randomness that may slightly affect the performance.
