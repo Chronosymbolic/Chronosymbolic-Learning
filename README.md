@@ -43,7 +43,7 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
     - Adjust timeout using `-t TIMEOUT`, only effective in directory mode
 
-    - Specify the result summary log file using `-o FILE_NAME`; Export an additional result summary CSV `FILE_NAME_prefix.csv` (with success and timing statistics) using `-a`; The summary is only available when running multiple instances (directory mode or file list mode)
+    - Specify the result summary log file using `-o FILE_NAME`; Export an additional result summary CSV `FILE_NAME_prefix.csv` (with success and timing statistics, and `is_correct` column shows the satisfiability of the CHC system if solved) using `-a`; The summary is only available when running multiple instances (directory mode or file list mode)
 
     - Start solving from the file index `K` in the folder `-s K` (`K` is the index starting from zero)
 
