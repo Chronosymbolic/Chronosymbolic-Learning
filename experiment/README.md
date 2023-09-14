@@ -21,7 +21,18 @@ The specifications of the device used to generate this log:
 
 
 ## comparison.xlsx
-Detailed running time data on our major performance evaluation in the experiment section.
+Detailed running time data on our major performance evaluation in the experiment section of our paper.
 
 ## result_rnd_seed.xlsx
-Detailed running time data on our performance evaluation with different random seeds is described in our Appendix.
+Detailed running time data on our performance evaluation with different random seeds is described in the Appendix of the paper. We only show safe instances as an example. In `result_rnd_seed_gini.xlsx`, the only difference is to use Gini impurity instead of Shannon Entropy in DTs.
+
+## To reproduce Chronosymbolic-cover
+Unfortunately due to the incompleteness of our logging system then, the hyperparameters of the 13 runs are not fully recorded. We provide essential experiments needed to run to reproduce the result:
+
+1. Different strategies on scheduling the candidate hypothesis in Table 1 of our paper (e.g., tuning the hyperparameters in `SafeZoneUsage: '(self.total_iter // 200) % 2 == 0', UnsafeZoneUsage: '(self.total_iter // 100) % 2 == 0`);
+2. Using different DT settings (may try random DT as well that may not work well overall but works on some specific instances) and Agents (set in `./test.py`);
+3. Different dataset settings (enable the queue mode or not, how many samples should the datasets keep);
+4. Different expansion strategy for the reasoner (`Expansion` in `./config.yml`).
+
+## To reproduce results of CHC-COMP-22-LIA
+The default settings in `./config.yml` should be decent (might be a little bit worse than the best result but within 5%). Note that, if the timeout malfunctions for some instances, interrupt the tool manually and use the `-s K` option starting from the file index `K` in the folder.

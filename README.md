@@ -45,7 +45,7 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
     - Specify the result summary log file using `-o FILE_NAME`; Export an additional result summary CSV `FILE_NAME_prefix.csv` (with success and timing statistics) using `-a`; The summary is only available when running multiple instances (directory mode or file list mode)
 
-    - Start testing from the file index k in the folder `-s K` (`K` is the index starting from zero)
+    - Start solving from the file index `K` in the folder `-s K` (`K` is the index starting from zero)
 
     - If you want to run multiple instances, make sure to use different `FILE_NAME`-s in the config file to avoid clash (`config.yml` in default)
 
@@ -53,15 +53,13 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
 - After finishing running, the `./tmp` directory can be deleted safely
 
-# To reproduce Chronosymbolic-single
+# To reproduce the major result: Chronosymbolic-single
 
-Please refer to the configuration in `./experiment/result_summary.log`. Using the default config in `config.yml` should also be decent. Even fixed random seeds can cause minor randomness that may slightly affect the performance.
+Please refer to the configuration in `./experiment/result_summary.log` and `./experiment/README.md` (where settings for other minor experiments are also provided). Using the default config in `config.yml` should also be decent. Even fixed random seeds can cause minor randomness that may slightly affect the performance.
 
 - `python test.py -f tests/safe -a -r -v -t 360 -o result/result_safe.log`
 
 - `python test.py -f tests/unsafe -a -r -v -t 360 -o result/result_unsafe.log`
-
-- `python test.py -f tests/multiple_pred -a -r -v -t 360 -o result/result_multi.log`
 
 
 # To run the baselines
