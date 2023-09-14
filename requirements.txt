@@ -5,3 +5,4 @@ nltk
 ordered-set
 colorlog
 eventlet
+scikit-learn
