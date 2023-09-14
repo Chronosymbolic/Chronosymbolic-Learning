@@ -12,7 +12,7 @@ Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
 
 - May have to manually set up `PYTHONPATH` and `PATH` properly,  `PYTHONPATH=$Z3_BIN/python`, `PATH=$PATH:$Z3_BIN`
 
-- If the C5.0/LIBSVM binary cannot executed properly, may have to recompile them in your OS and specify the binary executable files in `utils/dt/dt.py` in `class C5DT`, `C5_exec_path` and `utils/svm/svm.py` in `class LibSVMLearner`, `svm_exec_path`
+- If the C5.0/LIBSVM binary cannot be executed properly, may have to recompile them in your OS and specify the binary executable files in `utils/dt/dt.py` in `class C5DT`, `C5_exec_path` and `utils/svm/svm.py` in `class LibSVMLearner`, `svm_exec_path`
 
 ## Chronosymbolic Learning
 - Support SMT-LIB2 format (check-sat) and Datalog format (rule-query) 
