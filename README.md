@@ -74,6 +74,7 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 
 ## LinearArbitrary and Freqhorn
 Refer to [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test) and [Freqhorn](https://github.com/freqhorn/freqhorn)
+A prebuilt docker image is available on [Docker Hub](https://hub.docker.com/r/sunsetray/lineararbitrary_seahorn).
 For LinearArbitrary, you can also try our optimized data-driven learner implementation (set `ClassAgent = Chronosymbolic` to `ClassAgent = DataDrivenLearner` in `test.py` and run it in the same way as Chronosymbolic does)
 
 ## Manually "guess" an inductive invariant (hard to scale up)
