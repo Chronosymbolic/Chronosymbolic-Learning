@@ -6,9 +6,10 @@ Artifact for the paper "Chronosymbolic Learning: Efficient CHC Solving with Symb
 - See `./examples` for examples of how our tool works
 
 ## Requirement (To set up our environment)
-Python (3.7.0 or higher, and [Anaconda](https://www.anaconda.com/) recommended)
+Python (3.7.0 or higher recommended, and [Anaconda](https://www.anaconda.com/) recommended to set up a new environment)
 
 - Install packages in `requirements.txt`: `pip install -r requirements.txt`
+    - Though not integrated in our artifact, you can also try to use [scikit-learn-intelex](https://intel.github.io/scikit-learn-intelex/latest/) to speed up CART DT if possible
 
 - May have to manually set up `PYTHONPATH` and `PATH` properly,  `PYTHONPATH=$Z3_BIN/python`, `PATH=$PATH:$Z3_BIN`
 
