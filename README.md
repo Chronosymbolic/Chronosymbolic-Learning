@@ -73,8 +73,8 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 
 - Enable GSpacer: `enable_global_guidance = 1`
 
-## LinearArbitrary and Freqhorn
-Refer to [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test) and [Freqhorn](https://github.com/freqhorn/freqhorn).
+## LinearArbitrary and FreqHorn
+Refer to [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test) and [FreqHorn](https://github.com/freqhorn/freqhorn).
 
 A prebuilt docker image is available on [Docker Hub](https://hub.docker.com/r/sunsetray/lineararbitrary_seahorn).
 
