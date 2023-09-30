@@ -6,3 +6,4 @@ ordered-set
 colorlog
 eventlet
 scikit-learn
+pandas
