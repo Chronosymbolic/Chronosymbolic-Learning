@@ -60,9 +60,9 @@ Z3_Solver_Timeout: 360000
 
 --------- CHC Solving ---------
 
-======== File No.1/53 (0 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/count_by_1_true-unreach-call_true-termination_cex.c.smt2 ========
+======== File No.1/53 (0 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/count_by_1_true-unreach-call_true-termination_cex.c.smt2 ========
 ********* SMT2 Loading time: 0.002241849899291992 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/count_by_1_true-unreach-call_true-termination_cex.c.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/count_by_1_true-unreach-call_true-termination_cex.c.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0233209133148 (secs) in 3 epochs **************
 Total SVM Calls: 350, DT Calls: 9480, Z3 Calls: 10781
@@ -79,9 +79,9 @@ QE Time: 0.0015141963958740234
 
 
 
-======== File No.2/53 (0 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/menlo_park_cex_simpl_1.smt2 ========
+======== File No.2/53 (0 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/menlo_park_cex_simpl_1.smt2 ========
 ********* SMT2 Loading time: 0.0033566951751708984 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/menlo_park_cex_simpl_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/menlo_park_cex_simpl_1.smt2.log
 ************** Finished in 0.03143167495727539 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0045969486236572266
@@ -90,9 +90,9 @@ Others: 0.026834726333618164, Init Phase Time: 0.031222820281982422, Simplifier 
 
 
 
-======== File No.3/53 (1 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_multiple_inv_01_cex.smt2 ========
+======== File No.3/53 (1 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_multiple_inv_01_cex.smt2 ========
 ********* SMT2 Loading time: 0.0026407241821289062 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_multiple_inv_01_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_multiple_inv_01_cex.smt2.log
 ************** Finished in 0.20434188842773438 (secs) in 1 epochs **************
 Total SVM Calls: 1, DT Calls: 2, Z3 Calls: 24
 Total SVM Time: 0.0026464462280273438, DT Time: 0.005766391754150391, Z3 Time: 0.12301039695739746
@@ -108,9 +108,9 @@ QE Time: 0.0006866455078125
 
 
 
-======== File No.4/53 (2 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_multiple_inv_02_cex.smt2 ========
+======== File No.4/53 (2 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_multiple_inv_02_cex.smt2 ========
 ********* SMT2 Loading time: 0.002941608428955078 secs, Size: 0.43KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_multiple_inv_02_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_multiple_inv_02_cex.smt2.log
 ************** Finished in 0.02975916862487793 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.002904653549194336
@@ -119,9 +119,9 @@ Others: 0.026854515075683594, Init Phase Time: 0.02953648567199707, Simplifier S
 
 
 
-======== File No.5/53 (3 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_multiple_inv_03_cex.smt2 ========
+======== File No.5/53 (3 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_multiple_inv_03_cex.smt2 ========
 ********* SMT2 Loading time: 0.0035631656646728516 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_multiple_inv_03_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_multiple_inv_03_cex.smt2.log
 ************** Finished in 0.03842496871948242 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.005623579025268555
@@ -130,9 +130,9 @@ Others: 0.03280138969421387, Init Phase Time: 0.03817868232727051, Simplifier So
 
 
 
-======== File No.6/53 (4 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_multiple_inv_04_cex.smt2 ========
+======== File No.6/53 (4 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_multiple_inv_04_cex.smt2 ========
 ********* SMT2 Loading time: 0.0038661956787109375 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_multiple_inv_04_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_multiple_inv_04_cex.smt2.log
 ************** Finished in 0.31877732276916504 (secs) in 1 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 37
 Total SVM Time: 0.0026636123657226562, DT Time: 0.0030517578125, Z3 Time: 0.19514250755310059
@@ -148,9 +148,9 @@ QE Time: 0.002320528030395508
 
 
 
-======== File No.7/53 (5 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_multiple_inv_05_cex.smt2 ========
+======== File No.7/53 (5 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_multiple_inv_05_cex.smt2 ========
 ********* SMT2 Loading time: 0.003151416778564453 secs, Size: 0.44KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_multiple_inv_05_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_multiple_inv_05_cex.smt2.log
 ************** Finished in 0.031007051467895508 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0029478073120117188
@@ -159,9 +159,9 @@ Others: 0.02805924415588379, Init Phase Time: 0.030750274658203125, Simplifier S
 
 
 
-======== File No.8/53 (6 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_01_cex.smt2 ========
+======== File No.8/53 (6 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_01_cex.smt2 ========
 ********* SMT2 Loading time: 0.002357006072998047 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_01_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_01_cex.smt2.log
 ************** Finished in 0.011860370635986328 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.002819538116455078
@@ -170,9 +170,9 @@ Others: 0.00904083251953125, Init Phase Time: 0.011638879776000977, Simplifier S
 
 
 
-======== File No.9/53 (7 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_02_cex.smt2 ========
+======== File No.9/53 (7 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_02_cex.smt2 ========
 ********* SMT2 Loading time: 0.003311634063720703 secs, Size: 0.73KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_02_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_02_cex.smt2.log
 ************** Finished in 0.017706871032714844 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0032618045806884766
@@ -181,9 +181,9 @@ Others: 0.014445066452026367, Init Phase Time: 0.01735520362854004, Simplifier S
 
 
 
-======== File No.10/53 (8 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_03_cex.smt2 ========
+======== File No.10/53 (8 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_03_cex.smt2 ========
 ********* SMT2 Loading time: 0.0029020309448242188 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_03_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_03_cex.smt2.log
 ************** Finished in 15.96593976020813 (secs) in 2 epochs **************
 Total SVM Calls: 84, DT Calls: 423, Z3 Calls: 737
 Total SVM Time: 2.7591629028320312, DT Time: 1.499995470046997, Z3 Time: 4.48321008682251
@@ -199,9 +199,9 @@ QE Time: 0.0009541511535644531
 
 
 
-======== File No.11/53 (9 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_04_cex.smt2 ========
+======== File No.11/53 (9 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_04_cex.smt2 ========
 ********* SMT2 Loading time: 0.0031435489654541016 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_04_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_04_cex.smt2.log
 ************** Finished in 0.014500141143798828 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.003161907196044922
@@ -210,9 +210,9 @@ Others: 0.011338233947753906, Init Phase Time: 0.01427602767944336, Simplifier S
 
 
 
-======== File No.12/53 (10 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_05_cex.smt2 ========
+======== File No.12/53 (10 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_05_cex.smt2 ========
 ********* SMT2 Loading time: 0.0027947425842285156 secs, Size: 0.43KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_05_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_05_cex.smt2.log
 Solving instance timeout!
 ************** Finished in 360.010614156723 (secs) in 1 epochs **************
 Total SVM Calls: 7230, DT Calls: 7893, Z3 Calls: 8336
@@ -228,9 +228,9 @@ Total Iter: 7895
 
 
 
-======== File No.13/53 (10 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_06_cex.smt2 ========
+======== File No.13/53 (10 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_06_cex.smt2 ========
 ********* SMT2 Loading time: 0.0029952526092529297 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_06_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_06_cex.smt2.log
 ************** Finished in 0.03272056579589844 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0037076473236083984
@@ -239,9 +239,9 @@ Others: 0.02901291847229004, Init Phase Time: 0.032480716705322266, Simplifier S
 
 
 
-======== File No.14/53 (11 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_07_cex.smt2 ========
+======== File No.14/53 (11 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_07_cex.smt2 ========
 ********* SMT2 Loading time: 0.0023500919342041016 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_07_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_07_cex.smt2.log
 ************** Finished in 0.08446025848388672 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 8
 Total SVM Time: 7.772445678710938e-05, DT Time: 0, Z3 Time: 0.04104304313659668
@@ -257,9 +257,9 @@ QE Time: 0.0006926059722900391
 
 
 
-======== File No.15/53 (12 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_08_cex.smt2 ========
+======== File No.15/53 (12 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_08_cex.smt2 ========
 ********* SMT2 Loading time: 0.0026340484619140625 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_only_08_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_only_08_cex.smt2.log
 ************** Finished in 0.017995834350585938 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0030913352966308594
@@ -268,9 +268,9 @@ Others: 0.014904499053955078, Init Phase Time: 0.017787456512451172, Simplifier 
 
 
 
-======== File No.16/53 (13 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_01_cex.smt2 ========
+======== File No.16/53 (13 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_01_cex.smt2 ========
 ********* SMT2 Loading time: 0.0024209022521972656 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_01_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_01_cex.smt2.log
 ************** Finished in 128.38813996315002 (secs) in 1 epochs **************
 Total SVM Calls: 46, DT Calls: 199, Z3 Calls: 335
 Total SVM Time: 121.89711117744446, DT Time: 0.8137259483337402, Z3 Time: 2.1470017433166504
@@ -286,9 +286,9 @@ QE Time: 0.001081228256225586
 
 
 
-======== File No.17/53 (14 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_02_cex.smt2 ========
+======== File No.17/53 (14 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_02_cex.smt2 ========
 ********* SMT2 Loading time: 0.0033042430877685547 secs, Size: 0.58KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_02_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_02_cex.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0027074813843 (secs) in 4 epochs **************
 Total SVM Calls: 236, DT Calls: 1311, Z3 Calls: 2031
@@ -305,9 +305,9 @@ QE Time: 0.0012142658233642578
 
 
 
-======== File No.18/53 (14 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_03_cex.smt2 ========
+======== File No.18/53 (14 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_03_cex.smt2 ========
 ********* SMT2 Loading time: 0.003001689910888672 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_03_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_03_cex.smt2.log
 ************** Finished in 0.01381540298461914 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0030260086059570312
@@ -316,9 +316,9 @@ Others: 0.01078939437866211, Init Phase Time: 0.013585329055786133, Simplifier S
 
 
 
-======== File No.19/53 (15 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_04_cex.smt2 ========
+======== File No.19/53 (15 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_04_cex.smt2 ========
 ********* SMT2 Loading time: 0.002624034881591797 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_04_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_04_cex.smt2.log
 ************** Finished in 6.906497955322266 (secs) in 1 epochs **************
 Total SVM Calls: 44, DT Calls: 210, Z3 Calls: 390
 Total SVM Time: 0.13519501686096191, DT Time: 0.7177348136901855, Z3 Time: 2.4025261402130127
@@ -334,9 +334,9 @@ QE Time: 0.0010342597961425781
 
 
 
-======== File No.20/53 (16 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_05_cex.smt2 ========
+======== File No.20/53 (16 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_05_cex.smt2 ========
 ********* SMT2 Loading time: 0.003168344497680664 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_05_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_05_cex.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0089545249939 (secs) in 24 epochs **************
 Total SVM Calls: 374, DT Calls: 5428, Z3 Calls: 6486
@@ -353,9 +353,9 @@ QE Time: 0.001005411148071289
 
 
 
-======== File No.21/53 (16 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_06_cex.smt2 ========
+======== File No.21/53 (16 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_06_cex.smt2 ========
 ********* SMT2 Loading time: 0.0031690597534179688 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_06_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_06_cex.smt2.log
 ************** Finished in 0.02596592903137207 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.003301858901977539
@@ -364,9 +364,9 @@ Others: 0.02266407012939453, Init Phase Time: 0.025747060775756836, Simplifier S
 
 
 
-======== File No.22/53 (17 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_07_cex.smt2 ========
+======== File No.22/53 (17 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_07_cex.smt2 ========
 ********* SMT2 Loading time: 0.003142118453979492 secs, Size: 0.64KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_07_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_07_cex.smt2.log
 ************** Finished in 0.014222860336303711 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.003027200698852539
@@ -375,9 +375,9 @@ Others: 0.011195659637451172, Init Phase Time: 0.014001607894897461, Simplifier 
 
 
 
-======== File No.23/53 (18 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_08_cex.smt2 ========
+======== File No.23/53 (18 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_08_cex.smt2 ========
 ********* SMT2 Loading time: 0.0025196075439453125 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_08_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_08_cex.smt2.log
 ************** Finished in 7.708892822265625 (secs) in 1 epochs **************
 Total SVM Calls: 44, DT Calls: 243, Z3 Calls: 422
 Total SVM Time: 0.1193380355834961, DT Time: 0.8632330894470215, Z3 Time: 2.575920343399048
@@ -393,9 +393,9 @@ QE Time: 0.0007817745208740234
 
 
 
-======== File No.24/53 (19 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_09_cex.smt2 ========
+======== File No.24/53 (19 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_09_cex.smt2 ========
 ********* SMT2 Loading time: 0.002626180648803711 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_09_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_09_cex.smt2.log
 ************** Finished in 0.01169443130493164 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0030128955841064453
@@ -404,9 +404,9 @@ Others: 0.008681535720825195, Init Phase Time: 0.011471748352050781, Simplifier 
 
 
 
-======== File No.25/53 (20 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_10_cex.smt2 ========
+======== File No.25/53 (20 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_10_cex.smt2 ========
 ********* SMT2 Loading time: 0.0024547576904296875 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_10_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_10_cex.smt2.log
 ************** Finished in 0.011991739273071289 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0027778148651123047
@@ -415,9 +415,9 @@ Others: 0.009213924407958984, Init Phase Time: 0.011770486831665039, Simplifier 
 
 
 
-======== File No.26/53 (21 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_11_cex.smt2 ========
+======== File No.26/53 (21 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_11_cex.smt2 ========
 ********* SMT2 Loading time: 0.0032079219818115234 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_11_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_11_cex.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0011661052704 (secs) in 69 epochs **************
 Total SVM Calls: 701, DT Calls: 5550, Z3 Calls: 7203
@@ -434,9 +434,9 @@ QE Time: 0.0007832050323486328
 
 
 
-======== File No.27/53 (21 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_12_cex.smt2 ========
+======== File No.27/53 (21 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_12_cex.smt2 ========
 ********* SMT2 Loading time: 0.004124641418457031 secs, Size: 0.72KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_12_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_12_cex.smt2.log
 ************** Finished in 0.02655482292175293 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.005781412124633789
@@ -445,9 +445,9 @@ Others: 0.02077341079711914, Init Phase Time: 0.02629995346069336, Simplifier So
 
 
 
-======== File No.28/53 (22 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_13_cex.smt2 ========
+======== File No.28/53 (22 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_13_cex.smt2 ========
 ********* SMT2 Loading time: 0.0036780834197998047 secs, Size: 0.76KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_13_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_13_cex.smt2.log
 ************** Finished in 0.017374277114868164 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.004084110260009766
@@ -456,9 +456,9 @@ Others: 0.013290166854858398, Init Phase Time: 0.017152070999145508, Simplifier 
 
 
 
-======== File No.29/53 (23 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_14_cex.smt2 ========
+======== File No.29/53 (23 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_14_cex.smt2 ========
 ********* SMT2 Loading time: 0.00359344482421875 secs, Size: 0.73KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_14_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_14_cex.smt2.log
 ************** Finished in 0.01604485511779785 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0029897689819335938
@@ -467,9 +467,9 @@ Others: 0.013055086135864258, Init Phase Time: 0.015825271606445312, Simplifier 
 
 
 
-======== File No.30/53 (24 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_15_cex.smt2 ========
+======== File No.30/53 (24 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_15_cex.smt2 ========
 ********* SMT2 Loading time: 0.0038459300994873047 secs, Size: 0.73KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_15_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_15_cex.smt2.log
 ************** Finished in 0.01723766326904297 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.003916263580322266
@@ -478,9 +478,9 @@ Others: 0.013321399688720703, Init Phase Time: 0.017017364501953125, Simplifier 
 
 
 
-======== File No.31/53 (25 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_disj_ite_01_cex.smt2 ========
+======== File No.31/53 (25 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_disj_ite_01_cex.smt2 ========
 ********* SMT2 Loading time: 0.002893686294555664 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_disj_ite_01_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_disj_ite_01_cex.smt2.log
 ************** Finished in 0.2394261360168457 (secs) in 1 epochs **************
 Total SVM Calls: 4, DT Calls: 3, Z3 Calls: 21
 Total SVM Time: 0.010687589645385742, DT Time: 0.010200738906860352, Z3 Time: 0.12368655204772949
@@ -496,9 +496,9 @@ QE Time: 0.0009891986846923828
 
 
 
-======== File No.32/53 (26 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_disj_ite_02_cex.smt2 ========
+======== File No.32/53 (26 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_disj_ite_02_cex.smt2 ========
 ********* SMT2 Loading time: 0.0027942657470703125 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_disj_ite_02_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_disj_ite_02_cex.smt2.log
 ************** Finished in 2.067319393157959 (secs) in 2 epochs **************
 Total SVM Calls: 11, DT Calls: 63, Z3 Calls: 113
 Total SVM Time: 0.028020858764648438, DT Time: 0.21556329727172852, Z3 Time: 0.70719313621521
@@ -514,9 +514,9 @@ QE Time: 0.0004405975341796875
 
 
 
-======== File No.33/53 (27 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_disj_ite_03_cex.smt2 ========
+======== File No.33/53 (27 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_disj_ite_03_cex.smt2 ========
 ********* SMT2 Loading time: 0.0028667449951171875 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_disj_ite_03_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_disj_ite_03_cex.smt2.log
 ************** Finished in 14.969561100006104 (secs) in 1 epochs **************
 Total SVM Calls: 73, DT Calls: 463, Z3 Calls: 682
 Total SVM Time: 0.6767323017120361, DT Time: 1.6150786876678467, Z3 Time: 4.490983009338379
@@ -532,9 +532,9 @@ QE Time: 0.000881195068359375
 
 
 
-======== File No.34/53 (28 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_disj_ite_04_cex.smt2 ========
+======== File No.34/53 (28 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_disj_ite_04_cex.smt2 ========
 ********* SMT2 Loading time: 0.002842426300048828 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_disj_ite_04_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_disj_ite_04_cex.smt2.log
 ************** Finished in 0.9414050579071045 (secs) in 1 epochs **************
 Total SVM Calls: 7, DT Calls: 25, Z3 Calls: 55
 Total SVM Time: 0.01797628402709961, DT Time: 0.09053587913513184, Z3 Time: 0.3543820381164551
@@ -550,9 +550,9 @@ QE Time: 0.000993490219116211
 
 
 
-======== File No.35/53 (29 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_disj_ite_05_cex.smt2 ========
+======== File No.35/53 (29 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_disj_ite_05_cex.smt2 ========
 ********* SMT2 Loading time: 0.0028274059295654297 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_disj_ite_05_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_disj_ite_05_cex.smt2.log
 ************** Finished in 11.59440302848816 (secs) in 2 epochs **************
 Total SVM Calls: 51, DT Calls: 363, Z3 Calls: 566
 Total SVM Time: 0.3749666213989258, DT Time: 1.2962946891784668, Z3 Time: 3.575744867324829
@@ -568,9 +568,9 @@ QE Time: 0.0007562637329101562
 
 
 
-======== File No.36/53 (30 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_disj_ite_06_cex.smt2 ========
+======== File No.36/53 (30 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_disj_ite_06_cex.smt2 ========
 ********* SMT2 Loading time: 0.0028569698333740234 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_search_disj_ite_06_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_search_disj_ite_06_cex.smt2.log
 ************** Finished in 193.5532193183899 (secs) in 1 epochs **************
 Total SVM Calls: 274, DT Calls: 5070, Z3 Calls: 6022
 Total SVM Time: 43.46053743362427, DT Time: 19.10193634033203, Z3 Time: 39.99265456199646
@@ -586,9 +586,9 @@ QE Time: 0.0007412433624267578
 
 
 
-======== File No.37/53 (31 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_shrink_big_numbers_1024_cex.smt2 ========
+======== File No.37/53 (31 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_shrink_big_numbers_1024_cex.smt2 ========
 ********* SMT2 Loading time: 0.004181623458862305 secs, Size: 14.20KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_shrink_big_numbers_1024_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_shrink_big_numbers_1024_cex.smt2.log
 ************** Finished in 0.0841512680053711 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.029120445251464844
@@ -597,9 +597,9 @@ Others: 0.05503082275390625, Init Phase Time: 0.08391952514648438, Simplifier So
 
 
 
-======== File No.38/53 (32 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_shrink_big_numbers_2048_cex.smt2 ========
+======== File No.38/53 (32 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_shrink_big_numbers_2048_cex.smt2 ========
 ********* SMT2 Loading time: 0.0053980350494384766 secs, Size: 29.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_shrink_big_numbers_2048_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_shrink_big_numbers_2048_cex.smt2.log
 ************** Finished in 0.36706995964050293 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.2867143154144287
@@ -608,9 +608,9 @@ Others: 0.08035564422607422, Init Phase Time: 0.36685872077941895, Simplifier So
 
 
 
-======== File No.39/53 (33 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_shrink_big_numbers_4096_cex.smt2 ========
+======== File No.39/53 (33 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_shrink_big_numbers_4096_cex.smt2 ========
 ********* SMT2 Loading time: 0.008140325546264648 secs, Size: 59.71KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_shrink_big_numbers_4096_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_shrink_big_numbers_4096_cex.smt2.log
 ************** Finished in 0.5201935768127441 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.34474897384643555
@@ -619,9 +619,9 @@ Others: 0.1754446029663086, Init Phase Time: 0.5199534893035889, Simplifier Solv
 
 
 
-======== File No.40/53 (34 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_shrink_big_numbers_8192_cex.smt2 ========
+======== File No.40/53 (34 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_shrink_big_numbers_8192_cex.smt2 ========
 ********* SMT2 Loading time: 0.01590251922607422 secs, Size: 92.20KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_shrink_big_numbers_8192_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_shrink_big_numbers_8192_cex.smt2.log
 ************** Finished in 2.135303497314453 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 1.849890947341919
@@ -630,9 +630,9 @@ Others: 0.2854125499725342, Init Phase Time: 2.1350741386413574, Simplifier Solv
 
 
 
-======== File No.41/53 (35 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_01_cex.smt2 ========
+======== File No.41/53 (35 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_01_cex.smt2 ========
 ********* SMT2 Loading time: 0.0028476715087890625 secs, Size: 0.34KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_01_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_01_cex.smt2.log
 ************** Finished in 0.018039226531982422 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.004957914352416992
@@ -641,9 +641,9 @@ Others: 0.01308131217956543, Init Phase Time: 0.017760276794433594, Simplifier S
 
 
 
-======== File No.42/53 (36 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_02_cex.smt2 ========
+======== File No.42/53 (36 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_02_cex.smt2 ========
 ********* SMT2 Loading time: 0.002626180648803711 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_02_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_02_cex.smt2.log
 ************** Finished in 0.011332511901855469 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.006401538848876953
@@ -658,9 +658,9 @@ QE Time: 0.00022745132446289062
 
 
 
-======== File No.43/53 (37 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_03_cex.smt2 ========
+======== File No.43/53 (37 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_03_cex.smt2 ========
 ********* SMT2 Loading time: 0.002557039260864258 secs, Size: 0.33KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_03_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_03_cex.smt2.log
 ************** Finished in 0.3448920249938965 (secs) in 1 epochs **************
 Total SVM Calls: 5, DT Calls: 4, Z3 Calls: 32
 Total SVM Time: 0.012397050857543945, DT Time: 0.013676166534423828, Z3 Time: 0.20492935180664062
@@ -676,9 +676,9 @@ QE Time: 0.0014982223510742188
 
 
 
-======== File No.44/53 (38 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_04_cex.smt2 ========
+======== File No.44/53 (38 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_04_cex.smt2 ========
 ********* SMT2 Loading time: 0.0024030208587646484 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_04_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_04_cex.smt2.log
 ************** Finished in 0.08763337135314941 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.07067251205444336
@@ -687,9 +687,9 @@ Others: 0.016960859298706055, Init Phase Time: 0.08739566802978516, Simplifier S
 
 
 
-======== File No.45/53 (39 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_05_cex.smt2 ========
+======== File No.45/53 (39 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_05_cex.smt2 ========
 ********* SMT2 Loading time: 0.002299785614013672 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_05_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_05_cex.smt2.log
 ************** Finished in 0.013648271560668945 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.003926992416381836
@@ -698,9 +698,9 @@ Others: 0.00972127914428711, Init Phase Time: 0.013424158096313477, Simplifier S
 
 
 
-======== File No.46/53 (40 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_06_cex.smt2 ========
+======== File No.46/53 (40 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_06_cex.smt2 ========
 ********* SMT2 Loading time: 0.0022711753845214844 secs, Size: 0.26KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_06_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_06_cex.smt2.log
 ************** Finished in 0.02141737937927246 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.004355430603027344
@@ -709,9 +709,9 @@ Others: 0.017061948776245117, Init Phase Time: 0.021165132522583008, Simplifier 
 
 
 
-======== File No.47/53 (41 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_07_cex.smt2 ========
+======== File No.47/53 (41 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_07_cex.smt2 ========
 ********* SMT2 Loading time: 0.002495288848876953 secs, Size: 0.37KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_07_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_07_cex.smt2.log
 ************** Finished in 0.010929584503173828 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.002877473831176758
@@ -720,9 +720,9 @@ Others: 0.00805211067199707, Init Phase Time: 0.010692358016967773, Simplifier S
 
 
 
-======== File No.48/53 (42 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_08_cex.smt2 ========
+======== File No.48/53 (42 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_08_cex.smt2 ========
 ********* SMT2 Loading time: 0.0030629634857177734 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_08_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_08_cex.smt2.log
 ************** Finished in 0.04192709922790527 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.985664367675781e-05, DT Time: 0, Z3 Time: 0.010324954986572266
@@ -738,9 +738,9 @@ QE Time: 0.0002193450927734375
 
 
 
-======== File No.49/53 (43 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_09_cex.smt2 ========
+======== File No.49/53 (43 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_09_cex.smt2 ========
 ********* SMT2 Loading time: 0.002937793731689453 secs, Size: 0.35KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_09_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_09_cex.smt2.log
 ************** Finished in 0.019893646240234375 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0045926570892333984
@@ -749,9 +749,9 @@ Others: 0.015300989151000977, Init Phase Time: 0.019665956497192383, Simplifier 
 
 
 
-======== File No.50/53 (44 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_10_cex.smt2 ========
+======== File No.50/53 (44 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_10_cex.smt2 ========
 ********* SMT2 Loading time: 0.00767207145690918 secs, Size: 1.25KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_10_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_10_cex.smt2.log
 ************** Finished in 0.06771063804626465 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.002667665481567383
@@ -760,9 +760,9 @@ Others: 0.06504297256469727, Init Phase Time: 0.06746721267700195, Simplifier So
 
 
 
-======== File No.51/53 (45 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_triv_11_cex.smt2 ========
+======== File No.51/53 (45 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_triv_11_cex.smt2 ========
 ********* SMT2 Loading time: 0.007764339447021484 secs, Size: 1.23KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/samples_triv_11_cex.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/samples_triv_11_cex.smt2.log
 ************** Finished in 0.0917205810546875 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.002629995346069336
@@ -771,9 +771,9 @@ Others: 0.08909058570861816, Init Phase Time: 0.09145975112915039, Simplifier So
 
 
 
-======== File No.52/53 (46 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/vac_1.smt2 ========
+======== File No.52/53 (46 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/vac_1.smt2 ========
 ********* SMT2 Loading time: 0.00431513786315918 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/vac_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/vac_1.smt2.log
 ************** Finished in 0.06152772903442383 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 0.0032939910888671875
@@ -782,9 +782,9 @@ Others: 0.05823373794555664, Init Phase Time: 0.061269521713256836, Simplifier S
 
 
 
-======== File No.53/53 (47 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/vac_2.smt2 ========
+======== File No.53/53 (47 succeeded): /home/ssr/Chronosymbolic-Learning/tests/unsafe/vac_2.smt2 ========
 ********* SMT2 Loading time: 0.004103422164916992 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn_cex/vac_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/unsafe/vac_2.smt2.log
 ************** Finished in 0.13146233558654785 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.843971252441406e-05, DT Time: 0, Z3 Time: 0.03237414360046387
@@ -796,8 +796,8 @@ Others: 0.09900975227355957, Init Phase Time: 0.13119935989379883, Simplifier So
 ********* Total time elapsed: 36.000000 mins 28.634071 secs **********
 ********* Successfully solved: 48/53 **********
 Fail to solve:
-/home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/count_by_1_true-unreach-call_true-termination_cex.c.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_only_05_cex.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_02_cex.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_05_cex.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn_cex/samples_search_11_cex.smt2
+/home/ssr/Chronosymbolic-Learning/tests/unsafe/count_by_1_true-unreach-call_true-termination_cex.c.smt2
+/home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_only_05_cex.smt2
+/home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_02_cex.smt2
+/home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_05_cex.smt2
+/home/ssr/Chronosymbolic-Learning/tests/unsafe/samples_search_11_cex.smt2

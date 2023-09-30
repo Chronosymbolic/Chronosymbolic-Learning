@@ -60,9 +60,9 @@ Z3_Solver_Timeout: 360000
 
 --------- CHC Solving ---------
 
-======== File No.1/235 (0 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/abdu_01.smt2 ========
+======== File No.1/235 (0 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/abdu_01.smt2 ========
 ********* SMT2 Loading time: 0.003991127014160156 secs, Size: 0.43KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/abdu_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_01.smt2.log
 ************** Finished in 0.0799407958984375 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.58306884765625e-05, DT Time: 0, Z3 Time: 0.035310983657836914
@@ -122,9 +122,9 @@ Learner's Result FAILED
 
 
 
-======== File No.2/235 (1 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/abdu_02.smt2 ========
+======== File No.2/235 (1 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/abdu_02.smt2 ========
 ********* SMT2 Loading time: 0.0031125545501708984 secs, Size: 0.68KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/abdu_02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_02.smt2.log
 ************** Finished in 1.7012879848480225 (secs) in 2 epochs **************
 Total SVM Calls: 24, DT Calls: 38, Z3 Calls: 128
 Total SVM Time: 0.09222626686096191, DT Time: 0.16869139671325684, Z3 Time: 0.7937185764312744
@@ -199,9 +199,9 @@ Candidate: -2*Var_0 + Var_1 == 0
 
 
 
-======== File No.3/235 (2 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/abdu_03.smt2 ========
+======== File No.3/235 (2 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/abdu_03.smt2 ========
 ********* SMT2 Loading time: 0.003699064254760742 secs, Size: 0.44KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/abdu_03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_03.smt2.log
 ************** Finished in 1.0431442260742188 (secs) in 2 epochs **************
 Total SVM Calls: 20, DT Calls: 21, Z3 Calls: 91
 Total SVM Time: 0.05865120887756348, DT Time: 0.07776713371276855, Z3 Time: 0.5426256656646729
@@ -277,9 +277,9 @@ Learner's Result FAILED
 
 
 
-======== File No.4/235 (3 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/abdu_04.smt2 ========
+======== File No.4/235 (3 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/abdu_04.smt2 ========
 ********* SMT2 Loading time: 0.0026695728302001953 secs, Size: 0.58KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/abdu_04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_04.smt2.log
 ************** Finished in 0.08884000778198242 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.059906005859375e-05, DT Time: 0, Z3 Time: 0.04884004592895508
@@ -311,9 +311,9 @@ Learner's Result FAILED
 
 
 
-======== File No.5/235 (4 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/bhmr2007_true-unreach-call.smt2 ========
+======== File No.5/235 (4 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/bhmr2007_true-unreach-call.smt2 ========
 ********* SMT2 Loading time: 0.003144502639770508 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/bhmr2007_true-unreach-call.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/bhmr2007_true-unreach-call.smt2.log
 ************** Finished in 0.8526737689971924 (secs) in 2 epochs **************
 Total SVM Calls: 17, DT Calls: 17, Z3 Calls: 77
 Total SVM Time: 0.04782509803771973, DT Time: 0.06083321571350098, Z3 Time: 0.44094133377075195
@@ -353,9 +353,9 @@ Learner's Result FAILED
 
 
 
-======== File No.6/235 (5 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/bouncy_three_counters_merged.smt2 ========
+======== File No.6/235 (5 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/bouncy_three_counters_merged.smt2 ========
 ********* SMT2 Loading time: 0.003289937973022461 secs, Size: 0.90KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/bouncy_three_counters_merged.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/bouncy_three_counters_merged.smt2.log
 ************** Finished in 3.174579620361328 (secs) in 2 epochs **************
 Total SVM Calls: 22, DT Calls: 89, Z3 Calls: 171
 Total SVM Time: 0.08414888381958008, DT Time: 0.39272403717041016, Z3 Time: 1.1045048236846924
@@ -398,9 +398,9 @@ Candidate: False
 
 
 
-======== File No.7/235 (6 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/bouncy_two_counters_merged.smt2 ========
+======== File No.7/235 (6 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/bouncy_two_counters_merged.smt2 ========
 ********* SMT2 Loading time: 0.003041982650756836 secs, Size: 0.76KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/bouncy_two_counters_merged.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/bouncy_two_counters_merged.smt2.log
 ************** Finished in 0.48987674713134766 (secs) in 2 epochs **************
 Total SVM Calls: 8, DT Calls: 10, Z3 Calls: 45
 Total SVM Time: 0.022233247756958008, DT Time: 0.034568071365356445, Z3 Time: 0.2503385543823242
@@ -437,9 +437,9 @@ Candidate: False
 
 
 
-======== File No.8/235 (7 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/cegar1.smt2 ========
+======== File No.8/235 (7 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/cegar1.smt2 ========
 ********* SMT2 Loading time: 0.003015756607055664 secs, Size: 0.43KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/cegar1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cegar1.smt2.log
 ************** Finished in 0.2305450439453125 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 3, Z3 Calls: 25
 Total SVM Time: 0.007143974304199219, DT Time: 0.009798288345336914, Z3 Time: 0.13217520713806152
@@ -478,9 +478,9 @@ Learner's Result FAILED
 
 
 
-======== File No.9/235 (8 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/cegar2.smt2 ========
+======== File No.9/235 (8 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/cegar2.smt2 ========
 ********* SMT2 Loading time: 0.0023517608642578125 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/cegar2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cegar2.smt2.log
 ************** Finished in 0.23098492622375488 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 5, Z3 Calls: 17
 Total SVM Time: 0.0025424957275390625, DT Time: 0.01623249053955078, Z3 Time: 0.09551191329956055
@@ -512,9 +512,9 @@ Learner's Result FAILED
 
 
 
-======== File No.10/235 (9 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/cggmp_iter_1.smt2 ========
+======== File No.10/235 (9 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/cggmp_iter_1.smt2 ========
 ********* SMT2 Loading time: 0.0025060176849365234 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/cggmp_iter_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cggmp_iter_1.smt2.log
 ************** Finished in 0.03174567222595215 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.935264587402344e-05, DT Time: 0, Z3 Time: 0.008819580078125
@@ -551,9 +551,9 @@ Learner's Result FAILED
 
 
 
-======== File No.11/235 (10 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/cggmp_iter_2.smt2 ========
+======== File No.11/235 (10 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/cggmp_iter_2.smt2 ========
 ********* SMT2 Loading time: 0.002962827682495117 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/cggmp_iter_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cggmp_iter_2.smt2.log
 ************** Finished in 0.03273510932922363 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.507469177246094e-05, DT Time: 0, Z3 Time: 0.00971364974975586
@@ -590,9 +590,9 @@ Learner's Result FAILED
 
 
 
-======== File No.12/235 (11 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/cggmp_iter_3.smt2 ========
+======== File No.12/235 (11 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/cggmp_iter_3.smt2 ========
 ********* SMT2 Loading time: 0.002789020538330078 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/cggmp_iter_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cggmp_iter_3.smt2.log
 ************** Finished in 0.03164792060852051 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.744529724121094e-05, DT Time: 0, Z3 Time: 0.009141921997070312
@@ -629,9 +629,9 @@ Learner's Result FAILED
 
 
 
-======== File No.13/235 (12 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_1.smt2 ========
+======== File No.13/235 (12 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_div_1.smt2 ========
 ********* SMT2 Loading time: 0.003453969955444336 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_div_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_1.smt2.log
 ************** Finished in 0.08923101425170898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.462501525878906e-05, DT Time: 0, Z3 Time: 0.04656338691711426
@@ -664,9 +664,9 @@ Learner's Result FAILED
 
 
 
-======== File No.14/235 (13 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_2.smt2 ========
+======== File No.14/235 (13 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_div_2.smt2 ========
 ********* SMT2 Loading time: 0.0028455257415771484 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_div_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_2.smt2.log
 ************** Finished in 0.08773922920227051 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.937980651855469e-05, DT Time: 0, Z3 Time: 0.04886341094970703
@@ -699,9 +699,9 @@ Learner's Result FAILED
 
 
 
-======== File No.15/235 (14 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_3.smt2 ========
+======== File No.15/235 (14 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_div_3.smt2 ========
 ********* SMT2 Loading time: 0.0024394989013671875 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_div_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_3.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00181221961975 (secs) in 1 epochs **************
 Total SVM Calls: 128, DT Calls: 3666, Z3 Calls: 3922
@@ -717,9 +717,9 @@ Total Iter: 3668
 
 
 
-======== File No.16/235 (14 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_4.smt2 ========
+======== File No.16/235 (14 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_div_4.smt2 ========
 ********* SMT2 Loading time: 0.0029566287994384766 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_div_4.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_4.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00488924980164 (secs) in 1 epochs **************
 Total SVM Calls: 166, DT Calls: 3999, Z3 Calls: 4182
@@ -735,9 +735,9 @@ Total Iter: 4001
 
 
 
-======== File No.17/235 (14 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_mod.smt2 ========
+======== File No.17/235 (14 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_div_mod.smt2 ========
 ********* SMT2 Loading time: 0.011825084686279297 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_div_mod.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_mod.smt2.log
 ************** Finished in 0.06993675231933594 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 6.556510925292969e-05, DT Time: 0, Z3 Time: 0.03290438652038574
@@ -792,9 +792,9 @@ Learner's Result FAILED
 
 
 
-======== File No.18/235 (15 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_mod_1.smt2 ========
+======== File No.18/235 (15 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_mod_1.smt2 ========
 ********* SMT2 Loading time: 0.002519845962524414 secs, Size: 0.29KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_mod_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_mod_1.smt2.log
 ************** Finished in 0.07942652702331543 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.626678466796875e-05, DT Time: 0, Z3 Time: 0.04564666748046875
@@ -825,9 +825,9 @@ Learner's Result FAILED
 
 
 
-======== File No.19/235 (16 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_mod_2.smt2 ========
+======== File No.19/235 (16 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_mod_2.smt2 ========
 ********* SMT2 Loading time: 0.002743244171142578 secs, Size: 0.29KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_mod_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_mod_2.smt2.log
 ************** Finished in 0.08535242080688477 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.8650970458984375e-05, DT Time: 0, Z3 Time: 0.0504758358001709
@@ -858,9 +858,9 @@ Learner's Result FAILED
 
 
 
-======== File No.20/235 (17 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/const_mod_3.smt2 ========
+======== File No.20/235 (17 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/const_mod_3.smt2 ========
 ********* SMT2 Loading time: 0.003002166748046875 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/const_mod_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_mod_3.smt2.log
 ************** Finished in 0.08347201347351074 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.747245788574219e-05, DT Time: 0, Z3 Time: 0.04521894454956055
@@ -893,9 +893,9 @@ Learner's Result FAILED
 
 
 
-======== File No.21/235 (18 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/count_by_1_variant_true-unreach-call_true-termination.smt2 ========
+======== File No.21/235 (18 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/count_by_1_variant_true-unreach-call_true-termination.smt2 ========
 ********* SMT2 Loading time: 0.0026068687438964844 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/count_by_1_variant_true-unreach-call_true-termination.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/count_by_1_variant_true-unreach-call_true-termination.smt2.log
 ************** Finished in 0.07265472412109375 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 7.462501525878906e-05, DT Time: 0, Z3 Time: 0.03339529037475586
@@ -960,9 +960,9 @@ Learner's Result FAILED
 
 
 
-======== File No.22/235 (19 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/count_by_2_modif_true-unreach-call_true-termination.smt2 ========
+======== File No.22/235 (19 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/count_by_2_modif_true-unreach-call_true-termination.smt2 ========
 ********* SMT2 Loading time: 0.003361940383911133 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/count_by_2_modif_true-unreach-call_true-termination.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/count_by_2_modif_true-unreach-call_true-termination.smt2.log
 ************** Finished in 93.58772659301758 (secs) in 5 epochs **************
 Total SVM Calls: 202, DT Calls: 1671, Z3 Calls: 2272
 Total SVM Time: 43.15684914588928, DT Time: 6.594724655151367, Z3 Time: 14.658939838409424
@@ -1034,9 +1034,9 @@ Learner's Result FAILED
 
 
 
-======== File No.23/235 (20 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/count_by_2_true-unreach-call_true-termination.smt2 ========
+======== File No.23/235 (20 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/count_by_2_true-unreach-call_true-termination.smt2 ========
 ********* SMT2 Loading time: 0.002668142318725586 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/count_by_2_true-unreach-call_true-termination.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/count_by_2_true-unreach-call_true-termination.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0184805393219 (secs) in 10 epochs **************
 Total SVM Calls: 1752, DT Calls: 6839, Z3 Calls: 11975
@@ -1053,9 +1053,9 @@ QE Time: 0.0008571147918701172
 
 
 
-======== File No.24/235 (20 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/countud.smt2 ========
+======== File No.24/235 (20 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/countud.smt2 ========
 ********* SMT2 Loading time: 0.0027780532836914062 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/countud.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/countud.smt2.log
 ************** Finished in 0.6624927520751953 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 12, Z3 Calls: 67
 Total SVM Time: 0.03183555603027344, DT Time: 0.03944063186645508, Z3 Time: 0.370891809463501
@@ -1100,9 +1100,9 @@ Candidate: False
 
 
 
-======== File No.25/235 (21 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/css2003_true-unreach-call.smt2 ========
+======== File No.25/235 (21 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/css2003_true-unreach-call.smt2 ========
 ********* SMT2 Loading time: 0.003607034683227539 secs, Size: 0.71KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/css2003_true-unreach-call.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/css2003_true-unreach-call.smt2.log
 ************** Finished in 0.100067138671875 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001068115234375, DT Time: 0, Z3 Time: 0.049634456634521484
@@ -1174,9 +1174,9 @@ Learner's Result FAILED
 
 
 
-======== File No.26/235 (22 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig01.smt2 ========
+======== File No.26/235 (22 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig01.smt2 ========
 ********* SMT2 Loading time: 0.0027327537536621094 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig01.smt2.log
 ************** Finished in 0.08205819129943848 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.794929504394531e-05, DT Time: 0, Z3 Time: 0.04525256156921387
@@ -1208,9 +1208,9 @@ Learner's Result FAILED
 
 
 
-======== File No.27/235 (23 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig02.smt2 ========
+======== File No.27/235 (23 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig02.smt2 ========
 ********* SMT2 Loading time: 0.003988742828369141 secs, Size: 0.74KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig02.smt2.log
 ************** Finished in 0.09869050979614258 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00011229515075683594, DT Time: 0, Z3 Time: 0.050966739654541016
@@ -1335,9 +1335,9 @@ Learner's Result FAILED
 
 
 
-======== File No.28/235 (24 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig03.smt2 ========
+======== File No.28/235 (24 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig03.smt2 ========
 ********* SMT2 Loading time: 0.0028536319732666016 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig03.smt2.log
 ************** Finished in 0.16080689430236816 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 16
 Total SVM Time: 0.005239963531494141, DT Time: 0.006208658218383789, Z3 Time: 0.08651995658874512
@@ -1366,9 +1366,9 @@ Learner's Result FAILED
 
 
 
-======== File No.29/235 (25 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig04.smt2 ========
+======== File No.29/235 (25 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig04.smt2 ========
 ********* SMT2 Loading time: 0.0028946399688720703 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig04.smt2.log
 ************** Finished in 0.0886545181274414 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.628036499023438e-05, DT Time: 0, Z3 Time: 0.0482180118560791
@@ -1424,9 +1424,9 @@ Learner's Result FAILED
 
 
 
-======== File No.30/235 (26 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig05.smt2 ========
+======== File No.30/235 (26 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig05.smt2 ========
 ********* SMT2 Loading time: 0.003284931182861328 secs, Size: 0.63KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig05.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig05.smt2.log
 ************** Finished in 0.13035297393798828 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0023980140686035156, DT Time: 0.0028307437896728516, Z3 Time: 0.0698232650756836
@@ -1458,9 +1458,9 @@ Learner's Result FAILED
 
 
 
-======== File No.31/235 (27 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig07.smt2 ========
+======== File No.31/235 (27 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig07.smt2 ========
 ********* SMT2 Loading time: 0.0030629634857177734 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig07.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig07.smt2.log
 ************** Finished in 0.6950242519378662 (secs) in 2 epochs **************
 Total SVM Calls: 14, DT Calls: 14, Z3 Calls: 64
 Total SVM Time: 0.03611111640930176, DT Time: 0.04526877403259277, Z3 Time: 0.36629438400268555
@@ -1535,9 +1535,9 @@ Candidate: False
 
 
 
-======== File No.32/235 (28 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig08.smt2 ========
+======== File No.32/235 (28 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig08.smt2 ========
 ********* SMT2 Loading time: 0.002723217010498047 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig08.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig08.smt2.log
 ************** Finished in 8.161878824234009 (secs) in 3 epochs **************
 Total SVM Calls: 3, DT Calls: 296, Z3 Calls: 317
 Total SVM Time: 0.007876873016357422, DT Time: 0.9868965148925781, Z3 Time: 2.0610744953155518
@@ -1573,9 +1573,9 @@ Candidate: False
 
 
 
-======== File No.33/235 (29 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig10.smt2 ========
+======== File No.33/235 (29 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig10.smt2 ========
 ********* SMT2 Loading time: 0.0033180713653564453 secs, Size: 0.63KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig10.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig10.smt2.log
 ************** Finished in 0.03265833854675293 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.723403930664062e-05, DT Time: 0, Z3 Time: 0.009134292602539062
@@ -1603,9 +1603,9 @@ Learner's Result FAILED
 
 
 
-======== File No.34/235 (30 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig13.smt2 ========
+======== File No.34/235 (30 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig13.smt2 ========
 ********* SMT2 Loading time: 0.003179311752319336 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig13.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig13.smt2.log
 ************** Finished in 0.7270853519439697 (secs) in 2 epochs **************
 Total SVM Calls: 14, DT Calls: 14, Z3 Calls: 73
 Total SVM Time: 0.03722190856933594, DT Time: 0.048732757568359375, Z3 Time: 0.3991506099700928
@@ -1648,9 +1648,9 @@ Learner's Result FAILED
 
 
 
-======== File No.35/235 (31 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig14.smt2 ========
+======== File No.35/235 (31 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig14.smt2 ========
 ********* SMT2 Loading time: 0.0034105777740478516 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig14.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig14.smt2.log
 ************** Finished in 0.5744361877441406 (secs) in 2 epochs **************
 Total SVM Calls: 11, DT Calls: 11, Z3 Calls: 53
 Total SVM Time: 0.029017210006713867, DT Time: 0.037430524826049805, Z3 Time: 0.310138463973999
@@ -1687,9 +1687,9 @@ Learner's Result FAILED
 
 
 
-======== File No.36/235 (32 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig15.smt2 ========
+======== File No.36/235 (32 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig15.smt2 ========
 ********* SMT2 Loading time: 0.003110170364379883 secs, Size: 0.44KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig15.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig15.smt2.log
 ************** Finished in 0.2631685733795166 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 24
 Total SVM Time: 0.010217428207397461, DT Time: 0.012131214141845703, Z3 Time: 0.1396617889404297
@@ -1765,9 +1765,9 @@ Learner's Result FAILED
 
 
 
-======== File No.37/235 (33 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig16.smt2 ========
+======== File No.37/235 (33 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig16.smt2 ========
 ********* SMT2 Loading time: 0.0033028125762939453 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig16.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig16.smt2.log
 ************** Finished in 0.7239844799041748 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 13, Z3 Calls: 69
 Total SVM Time: 0.03255105018615723, DT Time: 0.04502153396606445, Z3 Time: 0.391787052154541
@@ -1851,9 +1851,9 @@ Candidate: False
 
 
 
-======== File No.38/235 (34 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig18.smt2 ========
+======== File No.38/235 (34 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig18.smt2 ========
 ********* SMT2 Loading time: 0.003273487091064453 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig18.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig18.smt2.log
 ************** Finished in 48.88166880607605 (secs) in 3 epochs **************
 Total SVM Calls: 129, DT Calls: 1251, Z3 Calls: 1692
 Total SVM Time: 11.50386929512024, DT Time: 4.906095504760742, Z3 Time: 10.846851348876953
@@ -1966,9 +1966,9 @@ Candidate: Or(And(Var_2 <= 1,
 
 
 
-======== File No.39/235 (35 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig19.smt2 ========
+======== File No.39/235 (35 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig19.smt2 ========
 ********* SMT2 Loading time: 0.003196239471435547 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig19.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig19.smt2.log
 ************** Finished in 0.21788716316223145 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 3, Z3 Calls: 19
 Total SVM Time: 0.008289337158203125, DT Time: 0.009941816329956055, Z3 Time: 0.10780024528503418
@@ -2042,9 +2042,9 @@ Candidate: False
 
 
 
-======== File No.40/235 (36 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig20-1.smt2 ========
+======== File No.40/235 (36 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig20-1.smt2 ========
 ********* SMT2 Loading time: 0.0034940242767333984 secs, Size: 0.71KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig20-1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig20-1.smt2.log
 ************** Finished in 1.3287065029144287 (secs) in 2 epochs **************
 Total SVM Calls: 21, DT Calls: 28, Z3 Calls: 107
 Total SVM Time: 0.06042194366455078, DT Time: 0.10768246650695801, Z3 Time: 0.6126134395599365
@@ -2079,9 +2079,9 @@ Candidate: Var_0 + Var_1 + -1*Var_4 == 0
 
 
 
-======== File No.41/235 (37 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig20-2.smt2 ========
+======== File No.41/235 (37 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig20-2.smt2 ========
 ********* SMT2 Loading time: 0.004028797149658203 secs, Size: 0.71KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig20-2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig20-2.smt2.log
 ************** Finished in 0.484372615814209 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 10, Z3 Calls: 38
 Total SVM Time: 0.015603065490722656, DT Time: 0.03448772430419922, Z3 Time: 0.21457672119140625
@@ -2111,9 +2111,9 @@ Learner's Result FAILED
 
 
 
-======== File No.42/235 (38 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig20-3.smt2 ========
+======== File No.42/235 (38 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig20-3.smt2 ========
 ********* SMT2 Loading time: 0.0035719871520996094 secs, Size: 0.71KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig20-3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig20-3.smt2.log
 ************** Finished in 0.27087974548339844 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 5, Z3 Calls: 21
 Total SVM Time: 0.007959365844726562, DT Time: 0.016604185104370117, Z3 Time: 0.11806178092956543
@@ -2142,9 +2142,9 @@ Learner's Result FAILED
 
 
 
-======== File No.43/235 (39 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig21.smt2 ========
+======== File No.43/235 (39 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig21.smt2 ========
 ********* SMT2 Loading time: 0.004235744476318359 secs, Size: 0.78KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig21.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig21.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0014135837555 (secs) in 118 epochs **************
 Total SVM Calls: 1764, DT Calls: 6077, Z3 Calls: 11735
@@ -2161,9 +2161,9 @@ QE Time: 0.0002713203430175781
 
 
 
-======== File No.44/235 (39 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22-1.smt2 ========
+======== File No.44/235 (39 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22-1.smt2 ========
 ********* SMT2 Loading time: 0.003231048583984375 secs, Size: 0.59KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22-1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-1.smt2.log
 ************** Finished in 0.09020709991455078 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.7738037109375e-05, DT Time: 0, Z3 Time: 0.046813249588012695
@@ -2195,9 +2195,9 @@ Learner's Result FAILED
 
 
 
-======== File No.45/235 (40 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22-2.smt2 ========
+======== File No.45/235 (40 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22-2.smt2 ========
 ********* SMT2 Loading time: 0.003266572952270508 secs, Size: 0.59KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22-2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-2.smt2.log
 ************** Finished in 0.09692144393920898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00010824203491210938, DT Time: 0, Z3 Time: 0.05277538299560547
@@ -2271,9 +2271,9 @@ Learner's Result FAILED
 
 
 
-======== File No.46/235 (41 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22-3.smt2 ========
+======== File No.46/235 (41 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22-3.smt2 ========
 ********* SMT2 Loading time: 0.003453969955444336 secs, Size: 0.65KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22-3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-3.smt2.log
 ************** Finished in 2.544267177581787 (secs) in 2 epochs **************
 Total SVM Calls: 34, DT Calls: 63, Z3 Calls: 145
 Total SVM Time: 0.11274981498718262, DT Time: 0.24273228645324707, Z3 Time: 1.1064109802246094
@@ -2440,9 +2440,9 @@ Learner's Result FAILED
 
 
 
-======== File No.47/235 (42 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22-4.smt2 ========
+======== File No.47/235 (42 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22-4.smt2 ========
 ********* SMT2 Loading time: 0.0028603076934814453 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22-4.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-4.smt2.log
 ************** Finished in 1.0947225093841553 (secs) in 2 epochs **************
 Total SVM Calls: 16, DT Calls: 26, Z3 Calls: 74
 Total SVM Time: 0.042540550231933594, DT Time: 0.0922231674194336, Z3 Time: 0.5011477470397949
@@ -2595,9 +2595,9 @@ Learner's Result FAILED
 
 
 
-======== File No.48/235 (43 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22-5.smt2 ========
+======== File No.48/235 (43 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22-5.smt2 ========
 ********* SMT2 Loading time: 0.003464937210083008 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22-5.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-5.smt2.log
 ************** Finished in 0.7044899463653564 (secs) in 2 epochs **************
 Total SVM Calls: 9, DT Calls: 17, Z3 Calls: 47
 Total SVM Time: 0.023204803466796875, DT Time: 0.0582127571105957, Z3 Time: 0.3057832717895508
@@ -2748,9 +2748,9 @@ Learner's Result FAILED
 
 
 
-======== File No.49/235 (44 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22-6.smt2 ========
+======== File No.49/235 (44 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22-6.smt2 ========
 ********* SMT2 Loading time: 0.0030591487884521484 secs, Size: 0.59KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22-6.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-6.smt2.log
 ************** Finished in 0.029709815979003906 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.271766662597656e-05, DT Time: 0, Z3 Time: 0.009467363357543945
@@ -2780,9 +2780,9 @@ Learner's Result FAILED
 
 
 
-======== File No.50/235 (45 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig22.smt2 ========
+======== File No.50/235 (45 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig22.smt2 ========
 ********* SMT2 Loading time: 0.0029065608978271484 secs, Size: 0.60KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig22.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22.smt2.log
 ************** Finished in 0.0957796573638916 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.845329284667969e-05, DT Time: 0, Z3 Time: 0.05190634727478027
@@ -2862,9 +2862,9 @@ Learner's Result FAILED
 
 
 
-======== File No.51/235 (46 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig37.smt2 ========
+======== File No.51/235 (46 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig37.smt2 ========
 ********* SMT2 Loading time: 0.003164052963256836 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig37.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig37.smt2.log
 ************** Finished in 0.7317860126495361 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 17, Z3 Calls: 63
 Total SVM Time: 0.031054258346557617, DT Time: 0.05765414237976074, Z3 Time: 0.35181093215942383
@@ -2896,9 +2896,9 @@ Learner's Result FAILED
 
 
 
-======== File No.52/235 (47 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig41.smt2 ========
+======== File No.52/235 (47 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig41.smt2 ========
 ********* SMT2 Loading time: 0.002928018569946289 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig41.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig41.smt2.log
 ************** Finished in 0.42208385467529297 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 9, Z3 Calls: 32
 Total SVM Time: 0.0138397216796875, DT Time: 0.03073596954345703, Z3 Time: 0.19222116470336914
@@ -2979,9 +2979,9 @@ Learner's Result FAILED
 
 
 
-======== File No.53/235 (48 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig42-1.smt2 ========
+======== File No.53/235 (48 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig42-1.smt2 ========
 ********* SMT2 Loading time: 0.002959728240966797 secs, Size: 0.76KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig42-1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig42-1.smt2.log
 ************** Finished in 0.10573577880859375 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.463859558105469e-05, DT Time: 0, Z3 Time: 0.06036543846130371
@@ -3073,9 +3073,9 @@ Learner's Result FAILED
 
 
 
-======== File No.54/235 (49 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig42.smt2 ========
+======== File No.54/235 (49 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig42.smt2 ========
 ********* SMT2 Loading time: 0.003394603729248047 secs, Size: 0.78KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig42.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig42.smt2.log
 ************** Finished in 0.11036419868469238 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.58306884765625e-05, DT Time: 0, Z3 Time: 0.06430292129516602
@@ -3171,9 +3171,9 @@ Learner's Result FAILED
 
 
 
-======== File No.55/235 (50 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig43.smt2 ========
+======== File No.55/235 (50 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig43.smt2 ========
 ********* SMT2 Loading time: 0.0027887821197509766 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig43.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig43.smt2.log
 ************** Finished in 0.0891427993774414 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.700920104980469e-05, DT Time: 0, Z3 Time: 0.04747605323791504
@@ -3235,9 +3235,9 @@ Learner's Result FAILED
 
 
 
-======== File No.56/235 (51 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig44-1.smt2 ========
+======== File No.56/235 (51 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig44-1.smt2 ========
 ********* SMT2 Loading time: 0.0031681060791015625 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig44-1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig44-1.smt2.log
 ************** Finished in 0.09150147438049316 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.775161743164062e-05, DT Time: 0, Z3 Time: 0.047250986099243164
@@ -3278,9 +3278,9 @@ Learner's Result FAILED
 
 
 
-======== File No.57/235 (52 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig44.smt2 ========
+======== File No.57/235 (52 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig44.smt2 ========
 ********* SMT2 Loading time: 0.003260374069213867 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig44.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig44.smt2.log
 ************** Finished in 0.09076046943664551 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.870529174804688e-05, DT Time: 0, Z3 Time: 0.04713296890258789
@@ -3327,9 +3327,9 @@ Learner's Result FAILED
 
 
 
-======== File No.58/235 (53 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig46.smt2 ========
+======== File No.58/235 (53 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/dillig46.smt2 ========
 ********* SMT2 Loading time: 0.003573894500732422 secs, Size: 0.74KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/dillig46.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig46.smt2.log
 ************** Finished in 0.033144474029541016 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.699562072753906e-05, DT Time: 0, Z3 Time: 0.009568452835083008
@@ -3357,9 +3357,9 @@ Learner's Result FAILED
 
 
 
-======== File No.59/235 (54 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/ex14.smt2 ========
+======== File No.59/235 (54 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/ex14.smt2 ========
 ********* SMT2 Loading time: 0.0027837753295898438 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/ex14.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/ex14.smt2.log
 ************** Finished in 0.07343935966491699 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.678436279296875e-05, DT Time: 0, Z3 Time: 0.03304862976074219
@@ -3416,9 +3416,9 @@ Learner's Result FAILED
 
 
 
-======== File No.60/235 (55 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/ex7.smt2 ========
+======== File No.60/235 (55 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/ex7.smt2 ========
 ********* SMT2 Loading time: 0.0030317306518554688 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/ex7.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/ex7.smt2.log
 ************** Finished in 0.11738109588623047 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 10
 Total SVM Time: 0.0023190975189208984, DT Time: 0.003174304962158203, Z3 Time: 0.055121660232543945
@@ -3484,9 +3484,9 @@ Learner's Result FAILED
 
 
 
-======== File No.61/235 (56 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/exact_iters_1.smt2 ========
+======== File No.61/235 (56 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/exact_iters_1.smt2 ========
 ********* SMT2 Loading time: 0.0026917457580566406 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/exact_iters_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_1.smt2.log
 ************** Finished in 0.1690969467163086 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.005228757858276367, DT Time: 0.00647282600402832, Z3 Time: 0.09041714668273926
@@ -3525,9 +3525,9 @@ Learner's Result FAILED
 
 
 
-======== File No.62/235 (57 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/exact_iters_2.smt2 ========
+======== File No.62/235 (57 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/exact_iters_2.smt2 ========
 ********* SMT2 Loading time: 0.002790212631225586 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/exact_iters_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_2.smt2.log
 ************** Finished in 3.687397003173828 (secs) in 2 epochs **************
 Total SVM Calls: 35, DT Calls: 111, Z3 Calls: 231
 Total SVM Time: 0.14052581787109375, DT Time: 0.3858036994934082, Z3 Time: 1.3587021827697754
@@ -3568,9 +3568,9 @@ Candidate: False
 
 
 
-======== File No.63/235 (58 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/exact_iters_3.smt2 ========
+======== File No.63/235 (58 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/exact_iters_3.smt2 ========
 ********* SMT2 Loading time: 0.0026111602783203125 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/exact_iters_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_3.smt2.log
 ************** Finished in 3.4149763584136963 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 56, Z3 Calls: 104
 Total SVM Time: 1.640789270401001, DT Time: 0.19803905487060547, Z3 Time: 0.6226370334625244
@@ -3616,9 +3616,9 @@ Candidate: False
 
 
 
-======== File No.64/235 (59 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/exact_iters_4.smt2 ========
+======== File No.64/235 (59 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/exact_iters_4.smt2 ========
 ********* SMT2 Loading time: 0.002914905548095703 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/exact_iters_4.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_4.smt2.log
 ************** Finished in 0.17336344718933105 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.005341291427612305, DT Time: 0.006471872329711914, Z3 Time: 0.0915379524230957
@@ -3655,9 +3655,9 @@ Learner's Result FAILED
 
 
 
-======== File No.65/235 (60 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/exact_iters_5.smt2 ========
+======== File No.65/235 (60 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/exact_iters_5.smt2 ========
 ********* SMT2 Loading time: 0.002997875213623047 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/exact_iters_5.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_5.smt2.log
 ************** Finished in 25.785250902175903 (secs) in 5 epochs **************
 Total SVM Calls: 70, DT Calls: 823, Z3 Calls: 1043
 Total SVM Time: 1.751211166381836, DT Time: 3.0952556133270264, Z3 Time: 6.538817644119263
@@ -3700,9 +3700,9 @@ Candidate: -1*Var_0 + -1*Var_1 + -1*Var_2 == -1000
 
 
 
-======== File No.66/235 (61 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/fig3.smt2 ========
+======== File No.66/235 (61 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/fig3.smt2 ========
 ********* SMT2 Loading time: 0.0035331249237060547 secs, Size: 0.66KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/fig3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/fig3.smt2.log
 ************** Finished in 0.027063846588134766 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.343292236328125e-05, DT Time: 0, Z3 Time: 0.008151769638061523
@@ -3730,9 +3730,9 @@ Learner's Result FAILED
 
 
 
-======== File No.67/235 (62 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/fig9.smt2 ========
+======== File No.67/235 (62 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/fig9.smt2 ========
 ********* SMT2 Loading time: 0.0024814605712890625 secs, Size: 0.36KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/fig9.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/fig9.smt2.log
 ************** Finished in 0.030225515365600586 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.9114227294921875e-05, DT Time: 0, Z3 Time: 0.008016347885131836
@@ -3769,9 +3769,9 @@ Learner's Result FAILED
 
 
 
-======== File No.68/235 (63 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/formula22.smt2 ========
+======== File No.68/235 (63 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/formula22.smt2 ========
 ********* SMT2 Loading time: 0.002865314483642578 secs, Size: 0.69KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/formula22.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/formula22.smt2.log
 ************** Finished in 0.06735992431640625 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 9.274482727050781e-05, DT Time: 0, Z3 Time: 0.031177282333374023
@@ -3800,9 +3800,9 @@ Learner's Result FAILED
 
 
 
-======== File No.69/235 (64 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/formula25.smt2 ========
+======== File No.69/235 (64 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/formula25.smt2 ========
 ********* SMT2 Loading time: 0.0031347274780273438 secs, Size: 0.83KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/formula25.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/formula25.smt2.log
 ************** Finished in 0.06964421272277832 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 9.202957153320312e-05, DT Time: 0, Z3 Time: 0.031928300857543945
@@ -3833,9 +3833,9 @@ Learner's Result FAILED
 
 
 
-======== File No.70/235 (65 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/formula27.smt2 ========
+======== File No.70/235 (65 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/formula27.smt2 ========
 ********* SMT2 Loading time: 0.004004240036010742 secs, Size: 0.96KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/formula27.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/formula27.smt2.log
 ************** Finished in 0.07116246223449707 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 0.00010633468627929688, DT Time: 0, Z3 Time: 0.03180074691772461
@@ -3871,9 +3871,9 @@ Learner's Result FAILED
 
 
 
-======== File No.71/235 (66 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/gcd_1.smt2 ========
+======== File No.71/235 (66 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/gcd_1.smt2 ========
 ********* SMT2 Loading time: 0.00389862060546875 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/gcd_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gcd_1.smt2.log
 ************** Finished in 0.08791160583496094 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.678436279296875e-05, DT Time: 0, Z3 Time: 0.046061038970947266
@@ -4100,9 +4100,9 @@ Learner's Result FAILED
 
 
 
-======== File No.72/235 (67 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/gcd_2.smt2 ========
+======== File No.72/235 (67 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/gcd_2.smt2 ========
 ********* SMT2 Loading time: 0.0034406185150146484 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/gcd_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gcd_2.smt2.log
 ************** Finished in 1.0463364124298096 (secs) in 2 epochs **************
 Total SVM Calls: 13, DT Calls: 25, Z3 Calls: 72
 Total SVM Time: 0.03253817558288574, DT Time: 0.08568477630615234, Z3 Time: 0.4702341556549072
@@ -4223,9 +4223,9 @@ Candidate: False
 
 
 
-======== File No.73/235 (68 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/gcd_3.smt2 ========
+======== File No.73/235 (68 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/gcd_3.smt2 ========
 ********* SMT2 Loading time: 0.0031609535217285156 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/gcd_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gcd_3.smt2.log
 ************** Finished in 1.3588237762451172 (secs) in 2 epochs **************
 Total SVM Calls: 20, DT Calls: 30, Z3 Calls: 105
 Total SVM Time: 0.04819917678833008, DT Time: 0.10450935363769531, Z3 Time: 0.6672711372375488
@@ -4366,9 +4366,9 @@ Learner's Result FAILED
 
 
 
-======== File No.74/235 (69 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/gj2007_true-unreach-call.smt2 ========
+======== File No.74/235 (69 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/gj2007_true-unreach-call.smt2 ========
 ********* SMT2 Loading time: 0.002928018569946289 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/gj2007_true-unreach-call.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gj2007_true-unreach-call.smt2.log
 ************** Finished in 1.1483089923858643 (secs) in 2 epochs **************
 Total SVM Calls: 18, DT Calls: 25, Z3 Calls: 97
 Total SVM Time: 0.05517005920410156, DT Time: 0.0913994312286377, Z3 Time: 0.5683858394622803
@@ -4431,9 +4431,9 @@ Learner's Result FAILED
 
 
 
-======== File No.75/235 (70 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/half_true_modif.smt2 ========
+======== File No.75/235 (70 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/half_true_modif.smt2 ========
 ********* SMT2 Loading time: 0.003337383270263672 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/half_true_modif.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/half_true_modif.smt2.log
 ************** Finished in 1.5008249282836914 (secs) in 2 epochs **************
 Total SVM Calls: 23, DT Calls: 37, Z3 Calls: 106
 Total SVM Time: 0.08062601089477539, DT Time: 0.13929057121276855, Z3 Time: 0.6418938636779785
@@ -4489,9 +4489,9 @@ Learner's Result FAILED
 
 
 
-======== File No.76/235 (71 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/half_true_orig.smt2 ========
+======== File No.76/235 (71 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/half_true_orig.smt2 ========
 ********* SMT2 Loading time: 0.002817869186401367 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/half_true_orig.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/half_true_orig.smt2.log
 ************** Finished in 0.8622896671295166 (secs) in 2 epochs **************
 Total SVM Calls: 13, DT Calls: 18, Z3 Calls: 73
 Total SVM Time: 0.041008710861206055, DT Time: 0.06862711906433105, Z3 Time: 0.43300795555114746
@@ -4543,9 +4543,9 @@ Learner's Result FAILED
 
 
 
-======== File No.77/235 (72 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/hhk2008_true-unreach-call.smt2 ========
+======== File No.77/235 (72 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/hhk2008_true-unreach-call.smt2 ========
 ********* SMT2 Loading time: 0.003324747085571289 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/hhk2008_true-unreach-call.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/hhk2008_true-unreach-call.smt2.log
 ************** Finished in 3.951198101043701 (secs) in 2 epochs **************
 Total SVM Calls: 13, DT Calls: 14, Z3 Calls: 68
 Total SVM Time: 3.2416205406188965, DT Time: 0.04896974563598633, Z3 Time: 0.3907299041748047
@@ -4622,9 +4622,9 @@ Learner's Result FAILED
 
 
 
-======== File No.78/235 (73 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/menlo_park_term_orig.smt2 ========
+======== File No.78/235 (73 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/menlo_park_term_orig.smt2 ========
 ********* SMT2 Loading time: 0.003389120101928711 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/menlo_park_term_orig.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/menlo_park_term_orig.smt2.log
 ************** Finished in 0.03803610801696777 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.4849853515625e-05, DT Time: 0, Z3 Time: 0.010119915008544922
@@ -4666,9 +4666,9 @@ Learner's Result FAILED
 
 
 
-======== File No.79/235 (74 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/menlo_park_term_simpl_1.smt2 ========
+======== File No.79/235 (74 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/menlo_park_term_simpl_1.smt2 ========
 ********* SMT2 Loading time: 0.0032622814178466797 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/menlo_park_term_simpl_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/menlo_park_term_simpl_1.smt2.log
 ************** Finished in 0.03688311576843262 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.128715515136719e-05, DT Time: 0, Z3 Time: 0.009787321090698242
@@ -4710,9 +4710,9 @@ Learner's Result FAILED
 
 
 
-======== File No.80/235 (75 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/menlo_park_term_simpl_2.smt2 ========
+======== File No.80/235 (75 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/menlo_park_term_simpl_2.smt2 ========
 ********* SMT2 Loading time: 0.003755331039428711 secs, Size: 0.57KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/menlo_park_term_simpl_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/menlo_park_term_simpl_2.smt2.log
 ************** Finished in 0.039186716079711914 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.318092346191406e-05, DT Time: 0, Z3 Time: 0.010655403137207031
@@ -4761,9 +4761,9 @@ Learner's Result FAILED
 
 
 
-======== File No.81/235 (76 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/n_c11.smt2 ========
+======== File No.81/235 (76 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/n_c11.smt2 ========
 ********* SMT2 Loading time: 0.0029554367065429688 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/n_c11.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/n_c11.smt2.log
 ************** Finished in 0.08513617515563965 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.698204040527344e-05, DT Time: 0, Z3 Time: 0.046539306640625
@@ -4800,9 +4800,9 @@ Learner's Result FAILED
 
 
 
-======== File No.82/235 (77 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_count_by_k_true-unreach-call_true-termination.smt2 ========
+======== File No.82/235 (77 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_count_by_k_true-unreach-call_true-termination.smt2 ========
 ********* SMT2 Loading time: 0.0029511451721191406 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_count_by_k_true-unreach-call_true-termination.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_count_by_k_true-unreach-call_true-termination.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0163023471832 (secs) in 3 epochs **************
 Total SVM Calls: 640, DT Calls: 2049, Z3 Calls: 4054
@@ -4819,9 +4819,9 @@ QE Time: 0.0009069442749023438
 
 
 
-======== File No.83/235 (77 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_div.smt2 ========
+======== File No.83/235 (77 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_div.smt2 ========
 ********* SMT2 Loading time: 0.0026721954345703125 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_div.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_div.smt2.log
 ************** Finished in 0.18060040473937988 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.677078247070312e-05, DT Time: 0, Z3 Time: 0.13910579681396484
@@ -4865,9 +4865,9 @@ Learner's Result FAILED
 
 
 
-======== File No.84/235 (78 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_factorial.smt2 ========
+======== File No.84/235 (78 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_factorial.smt2 ========
 ********* SMT2 Loading time: 0.0026044845581054688 secs, Size: 0.36KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_factorial.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_factorial.smt2.log
 ************** Finished in 0.12879228591918945 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.866455078125e-05, DT Time: 0, Z3 Time: 0.09204888343811035
@@ -4899,9 +4899,9 @@ Learner's Result FAILED
 
 
 
-======== File No.85/235 (79 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_gauss_sum.smt2 ========
+======== File No.85/235 (79 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_gauss_sum.smt2 ========
 ********* SMT2 Loading time: 0.003284931182861328 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_gauss_sum.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_gauss_sum.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00350856781006 (secs) in 3 epochs **************
 Total SVM Calls: 205, DT Calls: 833, Z3 Calls: 1442
@@ -4918,9 +4918,9 @@ QE Time: 0.001043558120727539
 
 
 
-======== File No.86/235 (79 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_minus_1.smt2 ========
+======== File No.86/235 (79 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_minus_1.smt2 ========
 ********* SMT2 Loading time: 0.0031037330627441406 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_minus_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_minus_1.smt2.log
 ************** Finished in 0.42928433418273926 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 6, Z3 Calls: 30
 Total SVM Time: 0.013275384902954102, DT Time: 0.020543336868286133, Z3 Time: 0.25603246688842773
@@ -4970,9 +4970,9 @@ Learner's Result FAILED
 
 
 
-======== File No.87/235 (80 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_minus_2.smt2 ========
+======== File No.87/235 (80 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_minus_2.smt2 ========
 ********* SMT2 Loading time: 0.00316619873046875 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_minus_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_minus_2.smt2.log
 ************** Finished in 0.12866783142089844 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.893013000488281e-05, DT Time: 0, Z3 Time: 0.08313608169555664
@@ -5056,9 +5056,9 @@ Learner's Result FAILED
 
 
 
-======== File No.88/235 (81 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mod_1.smt2 ========
+======== File No.88/235 (81 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mod_1.smt2 ========
 ********* SMT2 Loading time: 0.0026001930236816406 secs, Size: 0.33KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mod_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mod_1.smt2.log
 Error <class 'RuntimeError'>: Z3 returns unknown (solve_negated_rule)
 ************** Finished in 360.21852469444275 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 8
@@ -5095,9 +5095,9 @@ Unsolved Last Constraint: [a1 == a + b,
 
 
 
-======== File No.89/235 (81 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mod_2.smt2 ========
+======== File No.89/235 (81 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mod_2.smt2 ========
 ********* SMT2 Loading time: 0.0027723312377929688 secs, Size: 0.36KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mod_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mod_2.smt2.log
 Error <class 'RuntimeError'>: Z3 returns unknown (check_overlap)
 ************** Finished in 360.09948801994324 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
@@ -5153,9 +5153,9 @@ Unsolved Last Constraint: [Or(And(inv_1_n >= 1, inv_0_n >= 1, inv_0_n%inv_1_n ==
 
 
 
-======== File No.90/235 (81 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mod_mult.smt2 ========
+======== File No.90/235 (81 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mod_mult.smt2 ========
 ********* SMT2 Loading time: 0.003915548324584961 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mod_mult.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mod_mult.smt2.log
 ************** Finished in 1.039076805114746 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.006211996078491211, DT Time: 0.006666421890258789, Z3 Time: 0.9480545520782471
@@ -5197,9 +5197,9 @@ Learner's Result FAILED
 
 
 
-======== File No.91/235 (82 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_1.smt2 ========
+======== File No.91/235 (82 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_1.smt2 ========
 ********* SMT2 Loading time: 0.002981901168823242 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mult_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_1.smt2.log
 ************** Finished in 0.15309882164001465 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.107589721679688e-05, DT Time: 0, Z3 Time: 0.11019563674926758
@@ -5235,9 +5235,9 @@ Learner's Result FAILED
 
 
 
-======== File No.92/235 (83 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_2.smt2 ========
+======== File No.92/235 (83 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_2.smt2 ========
 ********* SMT2 Loading time: 0.0037424564361572266 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mult_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_2.smt2.log
 ************** Finished in 0.5233364105224609 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 25
 Total SVM Time: 0.010342121124267578, DT Time: 0.013721942901611328, Z3 Time: 0.3731210231781006
@@ -5288,9 +5288,9 @@ Learner's Result FAILED
 
 
 
-======== File No.93/235 (84 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_3.smt2 ========
+======== File No.93/235 (84 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_3.smt2 ========
 ********* SMT2 Loading time: 0.003586292266845703 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mult_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_3.smt2.log
 ************** Finished in 2.2437140941619873 (secs) in 2 epochs **************
 Total SVM Calls: 17, DT Calls: 40, Z3 Calls: 102
 Total SVM Time: 0.04828476905822754, DT Time: 0.1486067771911621, Z3 Time: 1.2646799087524414
@@ -5341,9 +5341,9 @@ Learner's Result FAILED
 
 
 
-======== File No.94/235 (85 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_4.smt2 ========
+======== File No.94/235 (85 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_4.smt2 ========
 ********* SMT2 Loading time: 0.003278970718383789 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mult_4.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_4.smt2.log
 ************** Finished in 0.5764486789703369 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.004704952239990234, DT Time: 0.006443977355957031, Z3 Time: 0.4763612747192383
@@ -5394,9 +5394,9 @@ Learner's Result FAILED
 
 
 
-======== File No.95/235 (86 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_5.smt2 ========
+======== File No.95/235 (86 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_5.smt2 ========
 ********* SMT2 Loading time: 0.0035851001739501953 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mult_5.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_5.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00144052505493 (secs) in 1 epochs **************
 Total SVM Calls: 240, DT Calls: 884, Z3 Calls: 1632
@@ -5412,9 +5412,9 @@ Total Iter: 886
 
 
 
-======== File No.96/235 (86 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_6.smt2 ========
+======== File No.96/235 (86 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_6.smt2 ========
 ********* SMT2 Loading time: 0.0027773380279541016 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_mult_6.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_6.smt2.log
 ************** Finished in 1.2670466899871826 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.724761962890625e-05, DT Time: 0, Z3 Time: 1.2232050895690918
@@ -5446,9 +5446,9 @@ Learner's Result FAILED
 
 
 
-======== File No.97/235 (87 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_power.smt2 ========
+======== File No.97/235 (87 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_power.smt2 ========
 ********* SMT2 Loading time: 0.0027549266815185547 secs, Size: 0.31KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_power.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_power.smt2.log
 ************** Finished in 0.13088417053222656 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.246566772460938e-05, DT Time: 0, Z3 Time: 0.09476566314697266
@@ -5480,9 +5480,9 @@ Learner's Result FAILED
 
 
 
-======== File No.98/235 (88 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_square.smt2 ========
+======== File No.98/235 (88 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_square.smt2 ========
 ********* SMT2 Loading time: 0.003014802932739258 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonlin_square.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_square.smt2.log
 ************** Finished in 0.12746500968933105 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.747245788574219e-05, DT Time: 0, Z3 Time: 0.08649826049804688
@@ -5520,9 +5520,9 @@ Learner's Result FAILED
 
 
 
-======== File No.99/235 (89 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/nonterm_01.smt2 ========
+======== File No.99/235 (89 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/nonterm_01.smt2 ========
 ********* SMT2 Loading time: 0.0026102066040039062 secs, Size: 0.33KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/nonterm_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonterm_01.smt2.log
 ************** Finished in 0.03068995475769043 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.601478576660156e-05, DT Time: 0, Z3 Time: 0.00822591781616211
@@ -5553,9 +5553,9 @@ Learner's Result FAILED
 
 
 
-======== File No.100/235 (90 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/phases_true-unreach-call1.smt2 ========
+======== File No.100/235 (90 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/phases_true-unreach-call1.smt2 ========
 ********* SMT2 Loading time: 0.0034623146057128906 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/phases_true-unreach-call1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/phases_true-unreach-call1.smt2.log
 ************** Finished in 6.292083978652954 (secs) in 2 epochs **************
 Total SVM Calls: 63, DT Calls: 134, Z3 Calls: 363
 Total SVM Time: 0.307265043258667, DT Time: 0.5966591835021973, Z3 Time: 3.03145170211792
@@ -5614,9 +5614,9 @@ Candidate: Or(And(Var_1%2 <= 0,
 
 
 
-======== File No.101/235 (91 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/recur_1.smt2 ========
+======== File No.101/235 (91 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/recur_1.smt2 ========
 ********* SMT2 Loading time: 0.0027577877044677734 secs, Size: 1.24KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/recur_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/recur_1.smt2.log
 ************** Finished in 0.0839548110961914 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.866455078125e-05, DT Time: 0, Z3 Time: 0.04897618293762207
@@ -5643,9 +5643,9 @@ Learner's Result FAILED
 
 
 
-======== File No.102/235 (92 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/recur_102.smt2 ========
+======== File No.102/235 (92 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/recur_102.smt2 ========
 ********* SMT2 Loading time: 0.0026535987854003906 secs, Size: 1.51KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/recur_102.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/recur_102.smt2.log
 ************** Finished in 0.07996439933776855 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 8
 Total SVM Time: 8.177757263183594e-05, DT Time: 0, Z3 Time: 0.045336008071899414
@@ -5672,9 +5672,9 @@ Learner's Result FAILED
 
 
 
-======== File No.103/235 (93 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_01.smt2 ========
+======== File No.103/235 (93 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_01.smt2 ========
 ********* SMT2 Loading time: 0.0033102035522460938 secs, Size: 0.59KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_disj_ite_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_01.smt2.log
 ************** Finished in 0.13956117630004883 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.002855062484741211, DT Time: 0.003101348876953125, Z3 Time: 0.07759737968444824
@@ -5739,9 +5739,9 @@ Learner's Result FAILED
 
 
 
-======== File No.104/235 (94 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_02.smt2 ========
+======== File No.104/235 (94 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_02.smt2 ========
 ********* SMT2 Loading time: 0.0032358169555664062 secs, Size: 0.59KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_disj_ite_02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_02.smt2.log
 ************** Finished in 0.13254237174987793 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0027141571044921875, DT Time: 0.0034859180450439453, Z3 Time: 0.07587075233459473
@@ -5771,9 +5771,9 @@ Learner's Result FAILED
 
 
 
-======== File No.105/235 (95 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_03.smt2 ========
+======== File No.105/235 (95 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_03.smt2 ========
 ********* SMT2 Loading time: 0.002916574478149414 secs, Size: 0.64KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_disj_ite_03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_03.smt2.log
 ************** Finished in 0.13665461540222168 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.002910614013671875, DT Time: 0.003063678741455078, Z3 Time: 0.07704353332519531
@@ -5823,9 +5823,9 @@ Learner's Result FAILED
 
 
 
-======== File No.106/235 (96 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_04.smt2 ========
+======== File No.106/235 (96 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_04.smt2 ========
 ********* SMT2 Loading time: 0.003116130828857422 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_disj_ite_04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_04.smt2.log
 ************** Finished in 0.1367506980895996 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0029883384704589844, DT Time: 0.0034215450286865234, Z3 Time: 0.07677483558654785
@@ -5874,9 +5874,9 @@ Learner's Result FAILED
 
 
 
-======== File No.107/235 (97 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_05.smt2 ========
+======== File No.107/235 (97 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_05.smt2 ========
 ********* SMT2 Loading time: 0.002659320831298828 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_disj_ite_05.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_05.smt2.log
 ************** Finished in 14.381858587265015 (secs) in 3 epochs **************
 Total SVM Calls: 74, DT Calls: 404, Z3 Calls: 690
 Total SVM Time: 1.4365684986114502, DT Time: 1.5131323337554932, Z3 Time: 4.6176745891571045
@@ -5949,9 +5949,9 @@ Candidate: False
 
 
 
-======== File No.108/235 (98 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_06.smt2 ========
+======== File No.108/235 (98 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_06.smt2 ========
 ********* SMT2 Loading time: 0.0027892589569091797 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_disj_ite_06.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_06.smt2.log
 Error <class 'RuntimeError'>: Duplicate neg data points should be impossible
 ************** Finished in 3.7934157848358154 (secs) in 2 epochs **************
 Total SVM Calls: 30, DT Calls: 104, Z3 Calls: 239
@@ -5968,9 +5968,9 @@ QE Time: 0.0008633136749267578
 
 
 
-======== File No.109/235 (98 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_01.smt2 ========
+======== File No.109/235 (98 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_01.smt2 ========
 ********* SMT2 Loading time: 0.0026929378509521484 secs, Size: 0.37KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_01.smt2.log
 ************** Finished in 0.13644170761108398 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.00250244140625, DT Time: 0.003081798553466797, Z3 Time: 0.07559418678283691
@@ -6006,9 +6006,9 @@ Learner's Result FAILED
 
 
 
-======== File No.110/235 (99 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_02.smt2 ========
+======== File No.110/235 (99 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_02.smt2 ========
 ********* SMT2 Loading time: 0.0032196044921875 secs, Size: 0.60KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_02.smt2.log
 ************** Finished in 0.9643564224243164 (secs) in 2 epochs **************
 Total SVM Calls: 9, DT Calls: 24, Z3 Calls: 57
 Total SVM Time: 0.022631168365478516, DT Time: 0.08523130416870117, Z3 Time: 0.3744528293609619
@@ -6055,9 +6055,9 @@ Learner's Result FAILED
 
 
 
-======== File No.111/235 (100 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_03.smt2 ========
+======== File No.111/235 (100 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_03.smt2 ========
 ********* SMT2 Loading time: 0.0027217864990234375 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_03.smt2.log
 ************** Finished in 0.8910632133483887 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 19, Z3 Calls: 64
 Total SVM Time: 0.030963659286499023, DT Time: 0.06780266761779785, Z3 Time: 0.4396378993988037
@@ -6092,9 +6092,9 @@ Learner's Result FAILED
 
 
 
-======== File No.112/235 (101 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_04.smt2 ========
+======== File No.112/235 (101 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_04.smt2 ========
 ********* SMT2 Loading time: 0.0026438236236572266 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_04.smt2.log
 ************** Finished in 0.1404275894165039 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0026035308837890625, DT Time: 0.002924680709838867, Z3 Time: 0.07406163215637207
@@ -6137,9 +6137,9 @@ Candidate: Var_0 + -1*Var_1 <= 0
 
 
 
-======== File No.113/235 (102 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_05.smt2 ========
+======== File No.113/235 (102 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_05.smt2 ========
 ********* SMT2 Loading time: 0.0028123855590820312 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_05.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_05.smt2.log
 ************** Finished in 4.972194194793701 (secs) in 2 epochs **************
 Total SVM Calls: 15, DT Calls: 103, Z3 Calls: 188
 Total SVM Time: 1.5007634162902832, DT Time: 0.39995574951171875, Z3 Time: 1.2378911972045898
@@ -6178,9 +6178,9 @@ Candidate: 2*Var_0 + -1*Var_1 <= -1
 
 
 
-======== File No.114/235 (103 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_06.smt2 ========
+======== File No.114/235 (103 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_06.smt2 ========
 ********* SMT2 Loading time: 0.0029344558715820312 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_06.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_06.smt2.log
 ************** Finished in 0.2758464813232422 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 25
 Total SVM Time: 0.010009527206420898, DT Time: 0.012842655181884766, Z3 Time: 0.1484208106994629
@@ -6225,9 +6225,9 @@ Learner's Result FAILED
 
 
 
-======== File No.115/235 (104 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_07.smt2 ========
+======== File No.115/235 (104 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_07.smt2 ========
 ********* SMT2 Loading time: 0.003280162811279297 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_07.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_07.smt2.log
 ************** Finished in 0.029867172241210938 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.343292236328125e-05, DT Time: 0, Z3 Time: 0.009183645248413086
@@ -6255,9 +6255,9 @@ Learner's Result FAILED
 
 
 
-======== File No.116/235 (105 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_08.smt2 ========
+======== File No.116/235 (105 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_08.smt2 ========
 ********* SMT2 Loading time: 0.002957582473754883 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_08.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_08.smt2.log
 ************** Finished in 0.08883166313171387 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.7738037109375e-05, DT Time: 0, Z3 Time: 0.049398183822631836
@@ -6289,9 +6289,9 @@ Learner's Result FAILED
 
 
 
-======== File No.117/235 (106 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_09.smt2 ========
+======== File No.117/235 (106 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_09.smt2 ========
 ********* SMT2 Loading time: 0.0029044151306152344 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_09.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_09.smt2.log
 ************** Finished in 0.08319258689880371 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.678436279296875e-05, DT Time: 0, Z3 Time: 0.04782533645629883
@@ -6320,9 +6320,9 @@ Learner's Result FAILED
 
 
 
-======== File No.118/235 (107 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_10.smt2 ========
+======== File No.118/235 (107 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_10.smt2 ========
 ********* SMT2 Loading time: 0.0026977062225341797 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_10.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_10.smt2.log
 ************** Finished in 0.02545905113220215 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.4345855712890625e-05, DT Time: 0, Z3 Time: 0.009085416793823242
@@ -6349,9 +6349,9 @@ Learner's Result FAILED
 
 
 
-======== File No.119/235 (108 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_11.smt2 ========
+======== File No.119/235 (108 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_11.smt2 ========
 ********* SMT2 Loading time: 0.003659963607788086 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_11.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_11.smt2.log
 ************** Finished in 0.0921483039855957 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.390975952148438e-05, DT Time: 0, Z3 Time: 0.05039262771606445
@@ -6383,9 +6383,9 @@ Learner's Result FAILED
 
 
 
-======== File No.120/235 (109 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_12.smt2 ========
+======== File No.120/235 (109 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_12.smt2 ========
 ********* SMT2 Loading time: 0.003828763961791992 secs, Size: 0.72KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_12.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_12.smt2.log
 ************** Finished in 0.10040044784545898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00012230873107910156, DT Time: 0, Z3 Time: 0.051802635192871094
@@ -6439,9 +6439,9 @@ Learner's Result FAILED
 
 
 
-======== File No.121/235 (110 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_13.smt2 ========
+======== File No.121/235 (110 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_13.smt2 ========
 ********* SMT2 Loading time: 0.004145145416259766 secs, Size: 0.73KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_13.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_13.smt2.log
 ************** Finished in 0.09518694877624512 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001125335693359375, DT Time: 0, Z3 Time: 0.0502934455871582
@@ -6480,9 +6480,9 @@ Learner's Result FAILED
 
 
 
-======== File No.122/235 (111 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_14.smt2 ========
+======== File No.122/235 (111 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_14.smt2 ========
 ********* SMT2 Loading time: 0.003837108612060547 secs, Size: 0.73KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_14.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_14.smt2.log
 ************** Finished in 0.09363293647766113 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00010967254638671875, DT Time: 0, Z3 Time: 0.04858875274658203
@@ -6521,9 +6521,9 @@ Learner's Result FAILED
 
 
 
-======== File No.123/235 (112 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_15.smt2 ========
+======== File No.123/235 (112 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_15.smt2 ========
 ********* SMT2 Loading time: 0.0038449764251708984 secs, Size: 0.73KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_15.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_15.smt2.log
 ************** Finished in 0.09476661682128906 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00011038780212402344, DT Time: 0, Z3 Time: 0.048921823501586914
@@ -6562,9 +6562,9 @@ Learner's Result FAILED
 
 
 
-======== File No.124/235 (113 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_16.smt2 ========
+======== File No.124/235 (113 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_16.smt2 ========
 ********* SMT2 Loading time: 0.003467559814453125 secs, Size: 0.51KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_16.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_16.smt2.log
 ************** Finished in 0.4258596897125244 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 7, Z3 Calls: 38
 Total SVM Time: 0.015723705291748047, DT Time: 0.0231170654296875, Z3 Time: 0.22782635688781738
@@ -6640,9 +6640,9 @@ Learner's Result FAILED
 
 
 
-======== File No.125/235 (114 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_17.smt2 ========
+======== File No.125/235 (114 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_17.smt2 ========
 ********* SMT2 Loading time: 0.003111124038696289 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_17.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_17.smt2.log
 ************** Finished in 0.3187596797943115 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 5, Z3 Calls: 28
 Total SVM Time: 0.009971380233764648, DT Time: 0.016304731369018555, Z3 Time: 0.16855812072753906
@@ -6718,9 +6718,9 @@ Learner's Result FAILED
 
 
 
-======== File No.126/235 (115 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_18.smt2 ========
+======== File No.126/235 (115 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_18.smt2 ========
 ********* SMT2 Loading time: 0.00304412841796875 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_18.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_18.smt2.log
 ************** Finished in 0.09682559967041016 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.655952453613281e-05, DT Time: 0, Z3 Time: 0.05286812782287598
@@ -6769,9 +6769,9 @@ Learner's Result FAILED
 
 
 
-======== File No.127/235 (116 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_19.smt2 ========
+======== File No.127/235 (116 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_19.smt2 ========
 ********* SMT2 Loading time: 0.0035440921783447266 secs, Size: 0.74KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_19.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_19.smt2.log
 ************** Finished in 0.09681272506713867 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.584426879882812e-05, DT Time: 0, Z3 Time: 0.051047563552856445
@@ -6824,9 +6824,9 @@ Learner's Result FAILED
 
 
 
-======== File No.128/235 (117 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_20.smt2 ========
+======== File No.128/235 (117 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_20.smt2 ========
 ********* SMT2 Loading time: 0.0038671493530273438 secs, Size: 0.74KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_20.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_20.smt2.log
 ************** Finished in 98.02219581604004 (secs) in 32 epochs **************
 Total SVM Calls: 387, DT Calls: 2907, Z3 Calls: 4097
 Total SVM Time: 2.1258933544158936, DT Time: 11.86864447593689, Z3 Time: 29.754645824432373
@@ -6868,9 +6868,9 @@ Candidate: And(Var_1 + Var_2 + -1*Var_3 == 0,
 
 
 
-======== File No.129/235 (118 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_21.smt2 ========
+======== File No.129/235 (118 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_21.smt2 ========
 ********* SMT2 Loading time: 0.0035142898559570312 secs, Size: 0.59KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_21.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_21.smt2.log
 ************** Finished in 0.3120548725128174 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 5, Z3 Calls: 26
 Total SVM Time: 0.012038230895996094, DT Time: 0.016244888305664062, Z3 Time: 0.165147066116333
@@ -6903,9 +6903,9 @@ Learner's Result FAILED
 
 
 
-======== File No.130/235 (119 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_22.smt2 ========
+======== File No.130/235 (119 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_22.smt2 ========
 ********* SMT2 Loading time: 0.0028536319732666016 secs, Size: 0.57KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_22.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_22.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0092363357544 (secs) in 1 epochs **************
 Total SVM Calls: 2493, DT Calls: 6894, Z3 Calls: 15198
@@ -6921,9 +6921,9 @@ Total Iter: 6896
 
 
 
-======== File No.131/235 (119 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_23.smt2 ========
+======== File No.131/235 (119 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_23.smt2 ========
 ********* SMT2 Loading time: 0.0027151107788085938 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_23.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_23.smt2.log
 ************** Finished in 0.18499279022216797 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.0059506893157958984, DT Time: 0.006733417510986328, Z3 Time: 0.10393047332763672
@@ -6954,9 +6954,9 @@ Learner's Result FAILED
 
 
 
-======== File No.132/235 (120 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_24.smt2 ========
+======== File No.132/235 (120 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_24.smt2 ========
 ********* SMT2 Loading time: 0.003473997116088867 secs, Size: 0.65KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_24.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_24.smt2.log
 ************** Finished in 3.2982466220855713 (secs) in 2 epochs **************
 Total SVM Calls: 59, DT Calls: 65, Z3 Calls: 259
 Total SVM Time: 0.20151519775390625, DT Time: 0.2661306858062744, Z3 Time: 1.69441819190979
@@ -7049,9 +7049,9 @@ Candidate: False
 
 
 
-======== File No.133/235 (121 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_25.smt2 ========
+======== File No.133/235 (121 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_25.smt2 ========
 ********* SMT2 Loading time: 0.0028450489044189453 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_25.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_25.smt2.log
 ************** Finished in 0.14380550384521484 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0026357173919677734, DT Time: 0.003189563751220703, Z3 Time: 0.08317279815673828
@@ -7111,9 +7111,9 @@ Candidate: False
 
 
 
-======== File No.134/235 (122 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_26.smt2 ========
+======== File No.134/235 (122 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_26.smt2 ========
 ********* SMT2 Loading time: 0.003210306167602539 secs, Size: 0.66KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_mutants_26.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_26.smt2.log
 ************** Finished in 0.6882760524749756 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 12, Z3 Calls: 59
 Total SVM Time: 0.031449317932128906, DT Time: 0.042128801345825195, Z3 Time: 0.37611842155456543
@@ -7177,9 +7177,9 @@ Learner's Result FAILED
 
 
 
-======== File No.135/235 (123 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_01.smt2 ========
+======== File No.135/235 (123 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_01.smt2 ========
 ********* SMT2 Loading time: 0.0024285316467285156 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_01.smt2.log
 ************** Finished in 0.09097623825073242 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.43865966796875e-05, DT Time: 0, Z3 Time: 0.05088973045349121
@@ -7213,9 +7213,9 @@ Learner's Result FAILED
 
 
 
-======== File No.136/235 (124 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_02.smt2 ========
+======== File No.136/235 (124 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_02.smt2 ========
 ********* SMT2 Loading time: 0.0033288002014160156 secs, Size: 0.71KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_02.smt2.log
 ************** Finished in 0.10368800163269043 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00010657310485839844, DT Time: 0, Z3 Time: 0.052545785903930664
@@ -7291,9 +7291,9 @@ Learner's Result FAILED
 
 
 
-======== File No.137/235 (125 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_03.smt2 ========
+======== File No.137/235 (125 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_03.smt2 ========
 ********* SMT2 Loading time: 0.0026886463165283203 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_03.smt2.log
 ************** Finished in 0.09052467346191406 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.961822509765625e-05, DT Time: 0, Z3 Time: 0.050295114517211914
@@ -7329,9 +7329,9 @@ Learner's Result FAILED
 
 
 
-======== File No.138/235 (126 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_04.smt2 ========
+======== File No.138/235 (126 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_04.smt2 ========
 ********* SMT2 Loading time: 0.0027217864990234375 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_04.smt2.log
 ************** Finished in 0.49456191062927246 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 10, Z3 Calls: 42
 Total SVM Time: 0.012778043746948242, DT Time: 0.03453683853149414, Z3 Time: 0.2574329376220703
@@ -7374,9 +7374,9 @@ Candidate: Var_1 == 0
 
 
 
-======== File No.139/235 (127 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_05.smt2 ========
+======== File No.139/235 (127 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_05.smt2 ========
 ********* SMT2 Loading time: 0.0028460025787353516 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_05.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_05.smt2.log
 ************** Finished in 0.13666582107543945 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0024962425231933594, DT Time: 0.0031251907348632812, Z3 Time: 0.07639408111572266
@@ -7419,9 +7419,9 @@ Candidate: Var_0 + -1*Var_1 <= 0
 
 
 
-======== File No.140/235 (128 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_06.smt2 ========
+======== File No.140/235 (128 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_06.smt2 ========
 ********* SMT2 Loading time: 0.0029447078704833984 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_06.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_06.smt2.log
 ************** Finished in 0.8379597663879395 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 18, Z3 Calls: 63
 Total SVM Time: 0.031087875366210938, DT Time: 0.06346011161804199, Z3 Time: 0.40445446968078613
@@ -7477,9 +7477,9 @@ Learner's Result FAILED
 
 
 
-======== File No.141/235 (129 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_07.smt2 ========
+======== File No.141/235 (129 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_07.smt2 ========
 ********* SMT2 Loading time: 0.0023572444915771484 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_07.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_07.smt2.log
 ************** Finished in 0.08416318893432617 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.364418029785156e-05, DT Time: 0, Z3 Time: 0.048064231872558594
@@ -7522,9 +7522,9 @@ Learner's Result FAILED
 
 
 
-======== File No.142/235 (130 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_08.smt2 ========
+======== File No.142/235 (130 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_08.smt2 ========
 ********* SMT2 Loading time: 0.0027532577514648438 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_08.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_08.smt2.log
 ************** Finished in 0.09373998641967773 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.296966552734375e-05, DT Time: 0, Z3 Time: 0.052034616470336914
@@ -7673,9 +7673,9 @@ Learner's Result FAILED
 
 
 
-======== File No.143/235 (131 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_09.smt2 ========
+======== File No.143/235 (131 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_09.smt2 ========
 ********* SMT2 Loading time: 0.002794504165649414 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_09.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_09.smt2.log
 ************** Finished in 0.0964057445526123 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.581710815429688e-05, DT Time: 0, Z3 Time: 0.05304121971130371
@@ -7729,9 +7729,9 @@ Learner's Result FAILED
 
 
 
-======== File No.144/235 (132 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_seeds_10.smt2 ========
+======== File No.144/235 (132 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_seeds_10.smt2 ========
 ********* SMT2 Loading time: 0.0024955272674560547 secs, Size: 0.35KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_seeds_10.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_10.smt2.log
 ************** Finished in 0.02815079689025879 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.0067901611328125e-05, DT Time: 0, Z3 Time: 0.008469343185424805
@@ -7758,9 +7758,9 @@ Learner's Result FAILED
 
 
 
-======== File No.145/235 (133 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_01.smt2 ========
+======== File No.145/235 (133 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_01.smt2 ========
 ********* SMT2 Loading time: 0.0025517940521240234 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_01.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0012254714966 (secs) in 2 epochs **************
 Total SVM Calls: 71, DT Calls: 11491, Z3 Calls: 11721
@@ -7777,9 +7777,9 @@ QE Time: 0.0005860328674316406
 
 
 
-======== File No.146/235 (133 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_02.smt2 ========
+======== File No.146/235 (133 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_02.smt2 ========
 ********* SMT2 Loading time: 0.003480672836303711 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_02.smt2.log
 ************** Finished in 166.14070296287537 (secs) in 47 epochs **************
 Total SVM Calls: 559, DT Calls: 3281, Z3 Calls: 5068
 Total SVM Time: 55.390727043151855, DT Time: 13.317276954650879, Z3 Time: 37.995147466659546
@@ -7846,9 +7846,9 @@ Learner's Result FAILED
 
 
 
-======== File No.147/235 (134 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_03.smt2 ========
+======== File No.147/235 (134 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_03.smt2 ========
 ********* SMT2 Loading time: 0.0030219554901123047 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_03.smt2.log
 ************** Finished in 203.07662439346313 (secs) in 17 epochs **************
 Total SVM Calls: 1098, DT Calls: 5149, Z3 Calls: 8504
 Total SVM Time: 18.866774797439575, DT Time: 25.913662910461426, Z3 Time: 62.66845893859863
@@ -7893,9 +7893,9 @@ Candidate: False
 
 
 
-======== File No.148/235 (135 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_04.smt2 ========
+======== File No.148/235 (135 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_04.smt2 ========
 ********* SMT2 Loading time: 0.00313568115234375 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_04.smt2.log
 ************** Finished in 1.2887935638427734 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 36, Z3 Calls: 59
 Total SVM Time: 0.011196613311767578, DT Time: 0.13716983795166016, Z3 Time: 0.4399428367614746
@@ -7955,9 +7955,9 @@ Learner's Result FAILED
 
 
 
-======== File No.149/235 (136 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_05.smt2 ========
+======== File No.149/235 (136 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_05.smt2 ========
 ********* SMT2 Loading time: 0.0027909278869628906 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_05.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_05.smt2.log
 ************** Finished in 0.4878110885620117 (secs) in 2 epochs **************
 Total SVM Calls: 8, DT Calls: 8, Z3 Calls: 43
 Total SVM Time: 0.02183079719543457, DT Time: 0.02680683135986328, Z3 Time: 0.2710585594177246
@@ -8010,9 +8010,9 @@ Learner's Result FAILED
 
 
 
-======== File No.150/235 (137 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_06.smt2 ========
+======== File No.150/235 (137 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_06.smt2 ========
 ********* SMT2 Loading time: 0.0033347606658935547 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_06.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_06.smt2.log
 ************** Finished in 49.228846073150635 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 314, Z3 Calls: 389
 Total SVM Time: 39.20159363746643, DT Time: 1.2289769649505615, Z3 Time: 2.940614938735962
@@ -8049,9 +8049,9 @@ Candidate: And(-1*Var_0 + -2*Var_1 + 2*Var_2 == -1,
 
 
 
-======== File No.151/235 (138 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_07.smt2 ========
+======== File No.151/235 (138 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_07.smt2 ========
 ********* SMT2 Loading time: 0.003431081771850586 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_07.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_07.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0123357772827 (secs) in 1 epochs **************
 Total SVM Calls: 1, DT Calls: 11833, Z3 Calls: 11844
@@ -8067,9 +8067,9 @@ Total Iter: 11835
 
 
 
-======== File No.152/235 (138 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_08.smt2 ========
+======== File No.152/235 (138 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_08.smt2 ========
 ********* SMT2 Loading time: 0.003012418746948242 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_08.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_08.smt2.log
 ************** Finished in 0.716080904006958 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 18, Z3 Calls: 46
 Total SVM Time: 0.010313749313354492, DT Time: 0.06415271759033203, Z3 Time: 0.30285000801086426
@@ -8144,9 +8144,9 @@ Candidate: False
 
 
 
-======== File No.153/235 (139 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_09.smt2 ========
+======== File No.153/235 (139 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_09.smt2 ========
 ********* SMT2 Loading time: 0.0025131702423095703 secs, Size: 0.27KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_09.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_09.smt2.log
 ************** Finished in 0.09093642234802246 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.555152893066406e-05, DT Time: 0, Z3 Time: 0.052215576171875
@@ -8204,9 +8204,9 @@ Learner's Result FAILED
 
 
 
-======== File No.154/235 (140 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_10.smt2 ========
+======== File No.154/235 (140 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_10.smt2 ========
 ********* SMT2 Loading time: 0.0023813247680664062 secs, Size: 0.29KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_10.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_10.smt2.log
 ************** Finished in 75.41095328330994 (secs) in 4 epochs **************
 Total SVM Calls: 1146, DT Calls: 1524, Z3 Calls: 7246
 Total SVM Time: 9.84489130973816, DT Time: 5.35794734954834, Z3 Time: 43.12432885169983
@@ -8239,9 +8239,9 @@ Candidate: Or(Var_0 <= 1000, And(Not(Var_0 <= 1000), Var_0%5 <= 0))
 
 
 
-======== File No.155/235 (141 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_11.smt2 ========
+======== File No.155/235 (141 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_11.smt2 ========
 ********* SMT2 Loading time: 0.0032176971435546875 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_11.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_11.smt2.log
 Solving instance timeout!
 ************** Finished in 360.01152658462524 (secs) in 2 epochs **************
 Total SVM Calls: 305, DT Calls: 2938, Z3 Calls: 4048
@@ -8258,9 +8258,9 @@ QE Time: 0.00045013427734375
 
 
 
-======== File No.156/235 (141 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_12.smt2 ========
+======== File No.156/235 (141 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_12.smt2 ========
 ********* SMT2 Loading time: 0.003403902053833008 secs, Size: 0.51KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_12.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_12.smt2.log
 ************** Finished in 8.786245822906494 (secs) in 2 epochs **************
 Total SVM Calls: 14, DT Calls: 139, Z3 Calls: 194
 Total SVM Time: 3.9804461002349854, DT Time: 0.5563240051269531, Z3 Time: 1.504896879196167
@@ -8299,9 +8299,9 @@ Candidate: And(Var_1 + -1*Var_2 <= 1,
 
 
 
-======== File No.157/235 (142 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_13.smt2 ========
+======== File No.157/235 (142 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_13.smt2 ========
 ********* SMT2 Loading time: 0.0031249523162841797 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_13.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_13.smt2.log
 ************** Finished in 0.26926350593566895 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 4, Z3 Calls: 24
 Total SVM Time: 0.00825047492980957, DT Time: 0.013576984405517578, Z3 Time: 0.15078043937683105
@@ -8380,9 +8380,9 @@ Learner's Result FAILED
 
 
 
-======== File No.158/235 (143 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_14.smt2 ========
+======== File No.158/235 (143 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_14.smt2 ========
 ********* SMT2 Loading time: 0.002771139144897461 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_14.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_14.smt2.log
 Solving instance timeout!
 ************** Finished in 360.002032995224 (secs) in 1 epochs **************
 Total SVM Calls: 1328, DT Calls: 6113, Z3 Calls: 9659
@@ -8398,9 +8398,9 @@ Total Iter: 6115
 
 
 
-======== File No.159/235 (143 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_15.smt2 ========
+======== File No.159/235 (143 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_15.smt2 ========
 ********* SMT2 Loading time: 0.002922534942626953 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_15.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_15.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00577569007874 (secs) in 1 epochs **************
 Total SVM Calls: 156, DT Calls: 1124, Z3 Calls: 1514
@@ -8416,9 +8416,9 @@ Total Iter: 1126
 
 
 
-======== File No.160/235 (143 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_16.smt2 ========
+======== File No.160/235 (143 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_16.smt2 ========
 ********* SMT2 Loading time: 0.0035910606384277344 secs, Size: 0.60KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_16.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_16.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00325059890747 (secs) in 1 epochs **************
 Total SVM Calls: 94, DT Calls: 3226, Z3 Calls: 3451
@@ -8434,9 +8434,9 @@ Total Iter: 3228
 
 
 
-======== File No.161/235 (143 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_17.smt2 ========
+======== File No.161/235 (143 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_17.smt2 ========
 ********* SMT2 Loading time: 0.003399372100830078 secs, Size: 0.57KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_17.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_17.smt2.log
 ************** Finished in 0.5285940170288086 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 9, Z3 Calls: 40
 Total SVM Time: 0.017659425735473633, DT Time: 0.032740116119384766, Z3 Time: 0.26772475242614746
@@ -8513,9 +8513,9 @@ Learner's Result FAILED
 
 
 
-======== File No.162/235 (144 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_18.smt2 ========
+======== File No.162/235 (144 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_18.smt2 ========
 ********* SMT2 Loading time: 0.0032203197479248047 secs, Size: 0.39KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_18.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_18.smt2.log
 ************** Finished in 0.17122483253479004 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 2, Z3 Calls: 13
 Total SVM Time: 0.003305673599243164, DT Time: 0.00790262222290039, Z3 Time: 0.08597373962402344
@@ -8579,9 +8579,9 @@ Learner's Result FAILED
 
 
 
-======== File No.163/235 (145 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_19.smt2 ========
+======== File No.163/235 (145 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_19.smt2 ========
 ********* SMT2 Loading time: 0.00327301025390625 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_19.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_19.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0015103816986 (secs) in 1 epochs **************
 Total SVM Calls: 96, DT Calls: 209, Z3 Calls: 242
@@ -8597,9 +8597,9 @@ Total Iter: 211
 
 
 
-======== File No.164/235 (145 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_20.smt2 ========
+======== File No.164/235 (145 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_20.smt2 ========
 ********* SMT2 Loading time: 0.003091573715209961 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_20.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_20.smt2.log
 ************** Finished in 52.24874925613403 (secs) in 2 epochs **************
 Total SVM Calls: 31, DT Calls: 371, Z3 Calls: 469
 Total SVM Time: 40.10338306427002, DT Time: 1.5361402034759521, Z3 Time: 3.5768489837646484
@@ -8636,9 +8636,9 @@ Candidate: And(-1*Var_0 + -1*Var_1 + Var_2 == -1,
 
 
 
-======== File No.165/235 (146 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_21.smt2 ========
+======== File No.165/235 (146 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_21.smt2 ========
 ********* SMT2 Loading time: 0.0037865638732910156 secs, Size: 0.60KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_21.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_21.smt2.log
 ************** Finished in 9.640626668930054 (secs) in 5 epochs **************
 Total SVM Calls: 51, DT Calls: 266, Z3 Calls: 408
 Total SVM Time: 0.22670912742614746, DT Time: 1.2475459575653076, Z3 Time: 3.1815555095672607
@@ -8795,9 +8795,9 @@ Learner's Result FAILED
 
 
 
-======== File No.166/235 (147 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_22.smt2 ========
+======== File No.166/235 (147 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_22.smt2 ========
 ********* SMT2 Loading time: 0.003171205520629883 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_22.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_22.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0025415420532 (secs) in 2 epochs **************
 Total SVM Calls: 609, DT Calls: 7801, Z3 Calls: 9631
@@ -8814,9 +8814,9 @@ QE Time: 0.0006818771362304688
 
 
 
-======== File No.167/235 (147 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_23.smt2 ========
+======== File No.167/235 (147 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_23.smt2 ========
 ********* SMT2 Loading time: 0.0029354095458984375 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_23.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_23.smt2.log
 ************** Finished in 0.03431057929992676 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.8160552978515625e-05, DT Time: 0, Z3 Time: 0.011887788772583008
@@ -8844,9 +8844,9 @@ Learner's Result FAILED
 
 
 
-======== File No.168/235 (148 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_24.smt2 ========
+======== File No.168/235 (148 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_24.smt2 ========
 ********* SMT2 Loading time: 0.00322723388671875 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_24.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_24.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0291051864624 (secs) in 4 epochs **************
 Total SVM Calls: 278, DT Calls: 7674, Z3 Calls: 8486
@@ -8863,9 +8863,9 @@ QE Time: 0.0007576942443847656
 
 
 
-======== File No.169/235 (148 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_25.smt2 ========
+======== File No.169/235 (148 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_25.smt2 ========
 ********* SMT2 Loading time: 0.002866506576538086 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_25.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_25.smt2.log
 ************** Finished in 8.538275957107544 (secs) in 2 epochs **************
 Total SVM Calls: 58, DT Calls: 214, Z3 Calls: 372
 Total SVM Time: 0.24164986610412598, DT Time: 0.9450829029083252, Z3 Time: 3.4832701683044434
@@ -8926,9 +8926,9 @@ Learner's Result FAILED
 
 
 
-======== File No.170/235 (149 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_26.smt2 ========
+======== File No.170/235 (149 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_26.smt2 ========
 ********* SMT2 Loading time: 0.0033299922943115234 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_26.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_26.smt2.log
 ************** Finished in 0.338716983795166 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 5, Z3 Calls: 29
 Total SVM Time: 0.012761354446411133, DT Time: 0.0163118839263916, Z3 Time: 0.18484234809875488
@@ -8989,9 +8989,9 @@ Learner's Result FAILED
 
 
 
-======== File No.171/235 (150 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_27.smt2 ========
+======== File No.171/235 (150 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_27.smt2 ========
 ********* SMT2 Loading time: 0.0028116703033447266 secs, Size: 0.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_27.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_27.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00124287605286 (secs) in 1 epochs **************
 Total SVM Calls: 329, DT Calls: 2190, Z3 Calls: 3167
@@ -9007,9 +9007,9 @@ Total Iter: 2192
 
 
 
-======== File No.172/235 (150 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_28.smt2 ========
+======== File No.172/235 (150 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_28.smt2 ========
 ********* SMT2 Loading time: 0.0032618045806884766 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_28.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_28.smt2.log
 ************** Finished in 265.01318526268005 (secs) in 7 epochs **************
 Total SVM Calls: 271, DT Calls: 7178, Z3 Calls: 7933
 Total SVM Time: 37.82847785949707, DT Time: 29.236005067825317, Z3 Time: 62.24666619300842
@@ -9046,9 +9046,9 @@ Candidate: And(Var_0 + Var_1 + 2*Var_2 >= 100,
 
 
 
-======== File No.173/235 (151 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_29.smt2 ========
+======== File No.173/235 (151 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_29.smt2 ========
 ********* SMT2 Loading time: 0.0031867027282714844 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_29.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_29.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0060911178589 (secs) in 1 epochs **************
 Total SVM Calls: 116, DT Calls: 9340, Z3 Calls: 9681
@@ -9064,9 +9064,9 @@ Total Iter: 9342
 
 
 
-======== File No.174/235 (151 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_30.smt2 ========
+======== File No.174/235 (151 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_30.smt2 ========
 ********* SMT2 Loading time: 0.0033888816833496094 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_30.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_30.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0041117668152 (secs) in 1 epochs **************
 Total SVM Calls: 162, DT Calls: 781, Z3 Calls: 1096
@@ -9082,9 +9082,9 @@ Total Iter: 783
 
 
 
-======== File No.175/235 (151 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_31.smt2 ========
+======== File No.175/235 (151 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_31.smt2 ========
 ********* SMT2 Loading time: 0.003200054168701172 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_31.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_31.smt2.log
 ************** Finished in 81.77399635314941 (secs) in 2 epochs **************
 Total SVM Calls: 108, DT Calls: 1445, Z3 Calls: 1771
 Total SVM Time: 35.6438205242157, DT Time: 5.710603952407837, Z3 Time: 13.219727516174316
@@ -9154,9 +9154,9 @@ Learner's Result FAILED
 
 
 
-======== File No.176/235 (152 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_32.smt2 ========
+======== File No.176/235 (152 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_32.smt2 ========
 ********* SMT2 Loading time: 0.0033130645751953125 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_32.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_32.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00102281570435 (secs) in 1 epochs **************
 Total SVM Calls: 1093, DT Calls: 9456, Z3 Calls: 12735
@@ -9172,9 +9172,9 @@ Total Iter: 9458
 
 
 
-======== File No.177/235 (152 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_33.smt2 ========
+======== File No.177/235 (152 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_33.smt2 ========
 ********* SMT2 Loading time: 0.002992391586303711 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_33.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_33.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0015935897827 (secs) in 1 epochs **************
 Total SVM Calls: 913, DT Calls: 1352, Z3 Calls: 4075
@@ -9190,9 +9190,9 @@ Total Iter: 1354
 
 
 
-======== File No.178/235 (152 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_34.smt2 ========
+======== File No.178/235 (152 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_34.smt2 ========
 ********* SMT2 Loading time: 0.002809762954711914 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_34.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_34.smt2.log
 ************** Finished in 3.0635547637939453 (secs) in 2 epochs **************
 Total SVM Calls: 31, DT Calls: 82, Z3 Calls: 183
 Total SVM Time: 0.09347248077392578, DT Time: 0.29633140563964844, Z3 Time: 1.2159528732299805
@@ -9241,9 +9241,9 @@ Learner's Result FAILED
 
 
 
-======== File No.179/235 (153 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_35.smt2 ========
+======== File No.179/235 (153 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_35.smt2 ========
 ********* SMT2 Loading time: 0.0031104087829589844 secs, Size: 0.56KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_35.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_35.smt2.log
 Solving instance timeout!
 ************** Finished in 360.01685309410095 (secs) in 29 epochs **************
 Total SVM Calls: 1986, DT Calls: 7566, Z3 Calls: 13642
@@ -9260,9 +9260,9 @@ QE Time: 0.0006308555603027344
 
 
 
-======== File No.180/235 (153 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_36.smt2 ========
+======== File No.180/235 (153 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_36.smt2 ========
 ********* SMT2 Loading time: 0.002790689468383789 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_36.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_36.smt2.log
 ************** Finished in 0.0928342342376709 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.914138793945312e-05, DT Time: 0, Z3 Time: 0.0511777400970459
@@ -9311,9 +9311,9 @@ Learner's Result FAILED
 
 
 
-======== File No.181/235 (154 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_37.smt2 ========
+======== File No.181/235 (154 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_37.smt2 ========
 ********* SMT2 Loading time: 0.002777099609375 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_37.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_37.smt2.log
 ************** Finished in 3.1868293285369873 (secs) in 2 epochs **************
 Total SVM Calls: 9, DT Calls: 48, Z3 Calls: 80
 Total SVM Time: 1.5142860412597656, DT Time: 0.18907380104064941, Z3 Time: 0.5808916091918945
@@ -9399,9 +9399,9 @@ Learner's Result FAILED
 
 
 
-======== File No.182/235 (155 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_38.smt2 ========
+======== File No.182/235 (155 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_38.smt2 ========
 ********* SMT2 Loading time: 0.0028929710388183594 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_38.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_38.smt2.log
 Solving instance timeout!
 ************** Finished in 360.02648878097534 (secs) in 1 epochs **************
 Total SVM Calls: 1430, DT Calls: 11193, Z3 Calls: 15488
@@ -9417,9 +9417,9 @@ Total Iter: 11195
 
 
 
-======== File No.183/235 (155 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_39.smt2 ========
+======== File No.183/235 (155 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_39.smt2 ========
 ********* SMT2 Loading time: 0.003409147262573242 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_39.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_39.smt2.log
 Solving instance timeout!
 ************** Finished in 360.01720428466797 (secs) in 1 epochs **************
 Total SVM Calls: 53, DT Calls: 11574, Z3 Calls: 12030
@@ -9435,9 +9435,9 @@ Total Iter: 11576
 
 
 
-======== File No.184/235 (155 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_40.smt2 ========
+======== File No.184/235 (155 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_40.smt2 ========
 ********* SMT2 Loading time: 0.0029718875885009766 secs, Size: 0.54KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_40.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_40.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0331108570099 (secs) in 3 epochs **************
 Total SVM Calls: 502, DT Calls: 7466, Z3 Calls: 8937
@@ -9454,9 +9454,9 @@ QE Time: 0.0007677078247070312
 
 
 
-======== File No.185/235 (155 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_41.smt2 ========
+======== File No.185/235 (155 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_41.smt2 ========
 ********* SMT2 Loading time: 0.00254058837890625 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_41.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_41.smt2.log
 Solving instance timeout!
 ************** Finished in 360.027880191803 (secs) in 1 epochs **************
 Total SVM Calls: 48, DT Calls: 11395, Z3 Calls: 11528
@@ -9472,9 +9472,9 @@ Total Iter: 11397
 
 
 
-======== File No.186/235 (155 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_42.smt2 ========
+======== File No.186/235 (155 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_42.smt2 ========
 ********* SMT2 Loading time: 0.0032668113708496094 secs, Size: 0.51KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_42.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_42.smt2.log
 ************** Finished in 48.92671751976013 (secs) in 21 epochs **************
 Total SVM Calls: 153, DT Calls: 915, Z3 Calls: 1438
 Total SVM Time: 18.50139045715332, DT Time: 3.4034318923950195, Z3 Time: 10.253399848937988
@@ -9509,9 +9509,9 @@ Candidate: -2*Var_0 + Var_2 >= -34
 
 
 
-======== File No.187/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_43.smt2 ========
+======== File No.187/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_43.smt2 ========
 ********* SMT2 Loading time: 0.0029845237731933594 secs, Size: 0.42KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_43.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_43.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00087571144104 (secs) in 3 epochs **************
 Total SVM Calls: 3223, DT Calls: 8490, Z3 Calls: 21422
@@ -9528,9 +9528,9 @@ QE Time: 0.0006196498870849609
 
 
 
-======== File No.188/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_44.smt2 ========
+======== File No.188/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_44.smt2 ========
 ********* SMT2 Loading time: 0.0027990341186523438 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_44.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_44.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0058591365814 (secs) in 1 epochs **************
 Total SVM Calls: 240, DT Calls: 2367, Z3 Calls: 3097
@@ -9546,9 +9546,9 @@ Total Iter: 2369
 
 
 
-======== File No.189/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_45.smt2 ========
+======== File No.189/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_45.smt2 ========
 ********* SMT2 Loading time: 0.0029561519622802734 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_45.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_45.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00199341773987 (secs) in 1 epochs **************
 Total SVM Calls: 2529, DT Calls: 6048, Z3 Calls: 17891
@@ -9564,9 +9564,9 @@ Total Iter: 6050
 
 
 
-======== File No.190/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_46.smt2 ========
+======== File No.190/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_46.smt2 ========
 ********* SMT2 Loading time: 0.003004312515258789 secs, Size: 0.37KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_46.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_46.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00377440452576 (secs) in 3 epochs **************
 Total SVM Calls: 1283, DT Calls: 2985, Z3 Calls: 9336
@@ -9583,9 +9583,9 @@ QE Time: 0.0005524158477783203
 
 
 
-======== File No.191/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_47.smt2 ========
+======== File No.191/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_47.smt2 ========
 ********* SMT2 Loading time: 0.0032296180725097656 secs, Size: 0.52KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_47.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_47.smt2.log
 Solving instance timeout!
 ************** Finished in 360.02267932891846 (secs) in 1 epochs **************
 Total SVM Calls: 57, DT Calls: 9513, Z3 Calls: 9683
@@ -9601,9 +9601,9 @@ Total Iter: 9515
 
 
 
-======== File No.192/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_48.smt2 ========
+======== File No.192/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_48.smt2 ========
 ********* SMT2 Loading time: 0.0028188228607177734 secs, Size: 0.47KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_48.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_48.smt2.log
 Solving instance timeout!
 ************** Finished in 360.01803278923035 (secs) in 1 epochs **************
 Total SVM Calls: 619, DT Calls: 9740, Z3 Calls: 12822
@@ -9619,9 +9619,9 @@ Total Iter: 9742
 
 
 
-======== File No.193/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_49.smt2 ========
+======== File No.193/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_49.smt2 ========
 ********* SMT2 Loading time: 0.0028879642486572266 secs, Size: 0.48KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_49.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_49.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00820899009705 (secs) in 1 epochs **************
 Total SVM Calls: 455, DT Calls: 10653, Z3 Calls: 12006
@@ -9637,9 +9637,9 @@ Total Iter: 10655
 
 
 
-======== File No.194/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_50.smt2 ========
+======== File No.194/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_50.smt2 ========
 ********* SMT2 Loading time: 0.003264904022216797 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_50.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_50.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00923252105713 (secs) in 1 epochs **************
 Total SVM Calls: 94, DT Calls: 3662, Z3 Calls: 3886
@@ -9655,9 +9655,9 @@ Total Iter: 3664
 
 
 
-======== File No.195/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_51.smt2 ========
+======== File No.195/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_51.smt2 ========
 ********* SMT2 Loading time: 0.0031032562255859375 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_51.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_51.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0062646865845 (secs) in 1 epochs **************
 Total SVM Calls: 103, DT Calls: 10037, Z3 Calls: 10346
@@ -9673,9 +9673,9 @@ Total Iter: 10039
 
 
 
-======== File No.196/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_52.smt2 ========
+======== File No.196/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_52.smt2 ========
 ********* SMT2 Loading time: 0.002927541732788086 secs, Size: 0.44KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_52.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_52.smt2.log
 Solving instance timeout!
 ************** Finished in 360.00116181373596 (secs) in 2 epochs **************
 Total SVM Calls: 397, DT Calls: 11505, Z3 Calls: 12704
@@ -9692,9 +9692,9 @@ QE Time: 0.0006685256958007812
 
 
 
-======== File No.197/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_53.smt2 ========
+======== File No.197/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_53.smt2 ========
 ********* SMT2 Loading time: 0.003283977508544922 secs, Size: 0.61KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_53.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_53.smt2.log
 Error <class 'RuntimeError'>: Z3 returns unknown (solve_negated_rule)
 ************** Finished in 615.9165632724762 (secs) in 1 epochs **************
 Total SVM Calls: 70, DT Calls: 3003, Z3 Calls: 3163
@@ -9910,9 +9910,9 @@ Unsolved Last Constraint: [Not(And(Not(If(500 <= (1 + x0)%1000,
 
 
 
-======== File No.198/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_54.smt2 ========
+======== File No.198/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_54.smt2 ========
 ********* SMT2 Loading time: 0.0028612613677978516 secs, Size: 0.53KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_54.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_54.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0087056159973 (secs) in 2 epochs **************
 Total SVM Calls: 640, DT Calls: 8260, Z3 Calls: 10156
@@ -9929,9 +9929,9 @@ QE Time: 0.0008282661437988281
 
 
 
-======== File No.199/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_55.smt2 ========
+======== File No.199/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_55.smt2 ========
 ********* SMT2 Loading time: 0.003032684326171875 secs, Size: 0.50KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_55.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_55.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0159137248993 (secs) in 1 epochs **************
 Total SVM Calls: 253, DT Calls: 6678, Z3 Calls: 7476
@@ -9947,9 +9947,9 @@ Total Iter: 6680
 
 
 
-======== File No.200/235 (156 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_56.smt2 ========
+======== File No.200/235 (156 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_56.smt2 ========
 ********* SMT2 Loading time: 0.002947568893432617 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_56.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_56.smt2.log
 ************** Finished in 9.92481780052185 (secs) in 2 epochs **************
 Total SVM Calls: 53, DT Calls: 262, Z3 Calls: 454
 Total SVM Time: 0.2958533763885498, DT Time: 1.185326099395752, Z3 Time: 3.535191774368286
@@ -10114,9 +10114,9 @@ Learner's Result FAILED
 
 
 
-======== File No.201/235 (157 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_57.smt2 ========
+======== File No.201/235 (157 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_57.smt2 ========
 ********* SMT2 Loading time: 0.0031299591064453125 secs, Size: 0.62KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_57.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_57.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0030143260956 (secs) in 2 epochs **************
 Total SVM Calls: 359, DT Calls: 5162, Z3 Calls: 6251
@@ -10133,9 +10133,9 @@ QE Time: 0.0007197856903076172
 
 
 
-======== File No.202/235 (157 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_58.smt2 ========
+======== File No.202/235 (157 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_split_58.smt2 ========
 ********* SMT2 Loading time: 0.0031011104583740234 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_58.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_58.smt2.log
 Solving instance timeout!
 ************** Finished in 360.0031545162201 (secs) in 3 epochs **************
 Total SVM Calls: 344, DT Calls: 2647, Z3 Calls: 3821
@@ -10152,9 +10152,9 @@ QE Time: 0.001115560531616211
 
 
 
-======== File No.203/235 (157 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_01.smt2 ========
+======== File No.203/235 (157 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_01.smt2 ========
 ********* SMT2 Loading time: 0.0029251575469970703 secs, Size: 0.34KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_01.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_01.smt2.log
 ************** Finished in 0.20444536209106445 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 19
 Total SVM Time: 0.006184101104736328, DT Time: 0.007275104522705078, Z3 Time: 0.11744952201843262
@@ -10193,9 +10193,9 @@ Learner's Result FAILED
 
 
 
-======== File No.204/235 (158 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_02.smt2 ========
+======== File No.204/235 (158 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_02.smt2 ========
 ********* SMT2 Loading time: 0.002593517303466797 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_02.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_02.smt2.log
 ************** Finished in 0.02614617347717285 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.1021575927734375e-05, DT Time: 0, Z3 Time: 0.009040355682373047
@@ -10222,9 +10222,9 @@ Learner's Result FAILED
 
 
 
-======== File No.205/235 (159 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_03.smt2 ========
+======== File No.205/235 (159 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_03.smt2 ========
 ********* SMT2 Loading time: 0.002981424331665039 secs, Size: 0.33KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_03.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_03.smt2.log
 ************** Finished in 0.09453487396240234 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.842613220214844e-05, DT Time: 0, Z3 Time: 0.0578455924987793
@@ -10251,9 +10251,9 @@ Learner's Result FAILED
 
 
 
-======== File No.206/235 (160 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_04.smt2 ========
+======== File No.206/235 (160 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_04.smt2 ========
 ********* SMT2 Loading time: 0.0027790069580078125 secs, Size: 0.33KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_04.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_04.smt2.log
 ************** Finished in 0.09400153160095215 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.20159912109375e-05, DT Time: 0, Z3 Time: 0.05262279510498047
@@ -10285,9 +10285,9 @@ Learner's Result FAILED
 
 
 
-======== File No.207/235 (161 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_05.smt2 ========
+======== File No.207/235 (161 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_05.smt2 ========
 ********* SMT2 Loading time: 0.0024509429931640625 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_05.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_05.smt2.log
 ************** Finished in 0.029427528381347656 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.030632019042969e-05, DT Time: 0, Z3 Time: 0.008949518203735352
@@ -10314,9 +10314,9 @@ Learner's Result FAILED
 
 
 
-======== File No.208/235 (162 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_06.smt2 ========
+======== File No.208/235 (162 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_06.smt2 ========
 ********* SMT2 Loading time: 0.0029687881469726562 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_06.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_06.smt2.log
 ************** Finished in 0.09334874153137207 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.200241088867188e-05, DT Time: 0, Z3 Time: 0.05224108695983887
@@ -10347,9 +10347,9 @@ Learner's Result FAILED
 
 
 
-======== File No.209/235 (163 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_07.smt2 ========
+======== File No.209/235 (163 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_07.smt2 ========
 ********* SMT2 Loading time: 0.0028390884399414062 secs, Size: 0.32KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_07.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_07.smt2.log
 ************** Finished in 0.09015297889709473 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.104873657226562e-05, DT Time: 0, Z3 Time: 0.05060601234436035
@@ -10378,9 +10378,9 @@ Learner's Result FAILED
 
 
 
-======== File No.210/235 (164 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_08.smt2 ========
+======== File No.210/235 (164 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_08.smt2 ========
 ********* SMT2 Loading time: 0.002338409423828125 secs, Size: 0.27KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_08.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_08.smt2.log
 ************** Finished in 0.027285337448120117 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.054473876953125e-05, DT Time: 0, Z3 Time: 0.008911609649658203
@@ -10407,9 +10407,9 @@ Learner's Result FAILED
 
 
 
-======== File No.211/235 (165 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_09.smt2 ========
+======== File No.211/235 (165 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_09.smt2 ========
 ********* SMT2 Loading time: 0.0031027793884277344 secs, Size: 0.36KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_09.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_09.smt2.log
 ************** Finished in 0.02796173095703125 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.079673767089844e-05, DT Time: 0, Z3 Time: 0.009250402450561523
@@ -10436,9 +10436,9 @@ Learner's Result FAILED
 
 
 
-======== File No.212/235 (166 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_10.smt2 ========
+======== File No.212/235 (166 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_10.smt2 ========
 ********* SMT2 Loading time: 0.0022211074829101562 secs, Size: 0.18KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_10.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_10.smt2.log
 ************** Finished in 0.026261091232299805 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 3.743171691894531e-05, DT Time: 0, Z3 Time: 0.008301973342895508
@@ -10465,9 +10465,9 @@ Learner's Result FAILED
 
 
 
-======== File No.213/235 (167 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_11.smt2 ========
+======== File No.213/235 (167 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_11.smt2 ========
 ********* SMT2 Loading time: 0.0025000572204589844 secs, Size: 0.36KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_11.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_11.smt2.log
 ************** Finished in 0.0265963077545166 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.245208740234375e-05, DT Time: 0, Z3 Time: 0.008872270584106445
@@ -10494,9 +10494,9 @@ Learner's Result FAILED
 
 
 
-======== File No.214/235 (168 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_12.smt2 ========
+======== File No.214/235 (168 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_12.smt2 ========
 ********* SMT2 Loading time: 0.0038008689880371094 secs, Size: 0.55KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_12.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_12.smt2.log
 ************** Finished in 0.028211116790771484 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 8.535385131835938e-05, DT Time: 0, Z3 Time: 0.009355545043945312
@@ -10523,9 +10523,9 @@ Learner's Result FAILED
 
 
 
-======== File No.215/235 (169 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_13.smt2 ========
+======== File No.215/235 (169 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_13.smt2 ========
 ********* SMT2 Loading time: 0.0026421546936035156 secs, Size: 0.35KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_13.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_13.smt2.log
 ************** Finished in 0.09090995788574219 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.413459777832031e-05, DT Time: 0, Z3 Time: 0.05111050605773926
@@ -10557,9 +10557,9 @@ Learner's Result FAILED
 
 
 
-======== File No.216/235 (170 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_14.smt2 ========
+======== File No.216/235 (170 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_14.smt2 ========
 ********* SMT2 Loading time: 0.0026721954345703125 secs, Size: 0.38KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_14.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_14.smt2.log
 ************** Finished in 0.09523606300354004 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.604194641113281e-05, DT Time: 0, Z3 Time: 0.05544567108154297
@@ -10615,9 +10615,9 @@ Learner's Result FAILED
 
 
 
-======== File No.217/235 (171 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_15.smt2 ========
+======== File No.217/235 (171 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_15.smt2 ========
 ********* SMT2 Loading time: 0.0026667118072509766 secs, Size: 0.35KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_15.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_15.smt2.log
 ************** Finished in 0.08996129035949707 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.5367431640625e-05, DT Time: 0, Z3 Time: 0.04987454414367676
@@ -10650,9 +10650,9 @@ Learner's Result FAILED
 
 
 
-======== File No.218/235 (172 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_16.smt2 ========
+======== File No.218/235 (172 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_16.smt2 ========
 ********* SMT2 Loading time: 0.002949237823486328 secs, Size: 0.63KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_16.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_16.smt2.log
 ************** Finished in 0.10217761993408203 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001163482666015625, DT Time: 0, Z3 Time: 0.053552865982055664
@@ -10690,9 +10690,9 @@ Learner's Result FAILED
 
 
 
-======== File No.219/235 (173 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_17.smt2 ========
+======== File No.219/235 (173 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_17.smt2 ========
 ********* SMT2 Loading time: 0.0033533573150634766 secs, Size: 0.89KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_17.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_17.smt2.log
 ************** Finished in 0.10248541831970215 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001266002655029297, DT Time: 0, Z3 Time: 0.051775217056274414
@@ -10744,9 +10744,9 @@ Learner's Result FAILED
 
 
 
-======== File No.220/235 (174 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_18.smt2 ========
+======== File No.220/235 (174 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_18.smt2 ========
 ********* SMT2 Loading time: 0.0023746490478515625 secs, Size: 0.35KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/s_triv_18.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_18.smt2.log
 Error <class 'RuntimeError'>: Overflow Value: 3292348566220
 ************** Finished in 0.06690597534179688 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
@@ -10762,9 +10762,9 @@ Total Iter: 1
 
 
 
-======== File No.221/235 (174 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/sn_1024.smt2 ========
+======== File No.221/235 (174 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/sn_1024.smt2 ========
 ********* SMT2 Loading time: 0.003841400146484375 secs, Size: 14.21KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/sn_1024.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_1024.smt2.log
 ************** Finished in 0.38747739791870117 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.602836608886719e-05, DT Time: 0, Z3 Time: 0.3052828311920166
@@ -10920,9 +10920,9 @@ Learner's Result FAILED
 
 
 
-======== File No.222/235 (175 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/sn_2048.smt2 ========
+======== File No.222/235 (175 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/sn_2048.smt2 ========
 ********* SMT2 Loading time: 0.005369901657104492 secs, Size: 29.46KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/sn_2048.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_2048.smt2.log
 ************** Finished in 0.7915501594543457 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.626678466796875e-05, DT Time: 0, Z3 Time: 0.6697218418121338
@@ -11078,9 +11078,9 @@ Learner's Result FAILED
 
 
 
-======== File No.223/235 (176 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/sn_4096.smt2 ========
+======== File No.223/235 (176 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/sn_4096.smt2 ========
 ********* SMT2 Loading time: 0.009135246276855469 secs, Size: 59.72KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/sn_4096.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_4096.smt2.log
 ************** Finished in 1.994642972946167 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.698204040527344e-05, DT Time: 0, Z3 Time: 1.761354684829712
@@ -11236,9 +11236,9 @@ Learner's Result FAILED
 
 
 
-======== File No.224/235 (177 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/sn_8192.smt2 ========
+======== File No.224/235 (177 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/sn_8192.smt2 ========
 ********* SMT2 Loading time: 0.016867637634277344 secs, Size: 92.21KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/sn_8192.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_8192.smt2.log
 ************** Finished in 5.6922242641448975 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.8650970458984375e-05, DT Time: 0, Z3 Time: 5.340851068496704
@@ -11394,9 +11394,9 @@ Learner's Result FAILED
 
 
 
-======== File No.225/235 (178 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/spec_011.smt2 ========
+======== File No.225/235 (178 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/spec_011.smt2 ========
 ********* SMT2 Loading time: 0.0038564205169677734 secs, Size: 0.45KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/spec_011.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/spec_011.smt2.log
 ************** Finished in 0.050328969955444336 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.081031799316406e-05, DT Time: 0, Z3 Time: 0.018356800079345703
@@ -11444,9 +11444,9 @@ Learner's Result FAILED
 
 
 
-======== File No.226/235 (179 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/tg.smt2 ========
+======== File No.226/235 (179 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/tg.smt2 ========
 ********* SMT2 Loading time: 0.003528118133544922 secs, Size: 0.96KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/tg.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/tg.smt2.log
 ************** Finished in 3.958604097366333 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 96, Z3 Calls: 131
 Total SVM Time: 0.017253398895263672, DT Time: 0.3427760601043701, Z3 Time: 1.6497950553894043
@@ -11490,9 +11490,9 @@ Candidate: Var_0 <= 5
 
 
 
-======== File No.227/235 (180 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/three_dots_moving_1.smt2 ========
+======== File No.227/235 (180 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/three_dots_moving_1.smt2 ========
 ********* SMT2 Loading time: 0.0034689903259277344 secs, Size: 0.70KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/three_dots_moving_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/three_dots_moving_1.smt2.log
 ************** Finished in 0.046254634857177734 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.224082946777344e-05, DT Time: 0, Z3 Time: 0.016417741775512695
@@ -11524,9 +11524,9 @@ Learner's Result FAILED
 
 
 
-======== File No.228/235 (181 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/three_dots_moving_2.smt2 ========
+======== File No.228/235 (181 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/three_dots_moving_2.smt2 ========
 ********* SMT2 Loading time: 0.0034608840942382812 secs, Size: 0.92KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/three_dots_moving_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/three_dots_moving_2.smt2.log
 ************** Finished in 2.85072660446167 (secs) in 2 epochs **************
 Total SVM Calls: 40, DT Calls: 50, Z3 Calls: 199
 Total SVM Time: 0.14732837677001953, DT Time: 0.21061468124389648, Z3 Time: 1.5525166988372803
@@ -11560,9 +11560,9 @@ Learner's Result FAILED
 
 
 
-======== File No.229/235 (182 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/three_dots_moving_3.smt2 ========
+======== File No.229/235 (182 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/three_dots_moving_3.smt2 ========
 ********* SMT2 Loading time: 0.0034072399139404297 secs, Size: 0.69KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/three_dots_moving_3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/three_dots_moving_3.smt2.log
 ************** Finished in 0.04034423828125 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.866455078125e-05, DT Time: 0, Z3 Time: 0.014203310012817383
@@ -11592,9 +11592,9 @@ Learner's Result FAILED
 
 
 
-======== File No.230/235 (183 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/trex1.smt2 ========
+======== File No.230/235 (183 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/trex1.smt2 ========
 ********* SMT2 Loading time: 0.00357818603515625 secs, Size: 0.43KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/trex1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/trex1.smt2.log
 ************** Finished in 0.03568768501281738 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.937980651855469e-05, DT Time: 0, Z3 Time: 0.010581016540527344
@@ -11626,9 +11626,9 @@ Learner's Result FAILED
 
 
 
-======== File No.231/235 (184 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/trex3.smt2 ========
+======== File No.231/235 (184 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/trex3.smt2 ========
 ********* SMT2 Loading time: 0.004822492599487305 secs, Size: 0.98KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/trex3.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/trex3.smt2.log
 ************** Finished in 0.045592546463012695 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 0.00010967254638671875, DT Time: 0, Z3 Time: 0.01503300666809082
@@ -11660,9 +11660,9 @@ Learner's Result FAILED
 
 
 
-======== File No.232/235 (185 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/w1.smt2 ========
+======== File No.232/235 (185 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/w1.smt2 ========
 ********* SMT2 Loading time: 0.002801656723022461 secs, Size: 0.35KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/w1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/w1.smt2.log
 ************** Finished in 0.09332036972045898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 6.628036499023438e-05, DT Time: 0, Z3 Time: 0.046196699142456055
@@ -11723,9 +11723,9 @@ Learner's Result FAILED
 
 
 
-======== File No.233/235 (186 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/w2.smt2 ========
+======== File No.233/235 (186 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/w2.smt2 ========
 ********* SMT2 Loading time: 0.0028238296508789062 secs, Size: 0.40KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/w2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/w2.smt2.log
 ************** Finished in 0.09602642059326172 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.416175842285156e-05, DT Time: 0, Z3 Time: 0.04964852333068848
@@ -11834,9 +11834,9 @@ Learner's Result FAILED
 
 
 
-======== File No.234/235 (187 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/yz_plus_minus_1.smt2 ========
+======== File No.234/235 (187 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/yz_plus_minus_1.smt2 ========
 ********* SMT2 Loading time: 0.0029196739196777344 secs, Size: 0.41KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/yz_plus_minus_1.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/yz_plus_minus_1.smt2.log
 ************** Finished in 0.21686577796936035 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.005464076995849609, DT Time: 0.006799936294555664, Z3 Time: 0.12161827087402344
@@ -11898,9 +11898,9 @@ Learner's Result FAILED
 
 
 
-======== File No.235/235 (188 succeeded): /home/ssr/PyCHC/tests/freqhorn/bench_horn/yz_plus_minus_2.smt2 ========
+======== File No.235/235 (188 succeeded): /home/ssr/Chronosymbolic-Learning/tests/safe/yz_plus_minus_2.smt2 ========
 ********* SMT2 Loading time: 0.0028047561645507812 secs, Size: 0.49KB **********
-Log File Name: /home/ssr/PyCHC/log/bench_horn/yz_plus_minus_2.smt2.log
+Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/yz_plus_minus_2.smt2.log
 ************** Finished in 18.203960180282593 (secs) in 4 epochs **************
 Total SVM Calls: 76, DT Calls: 416, Z3 Calls: 653
 Total SVM Time: 1.490013837814331, DT Time: 1.8132071495056152, Z3 Time: 6.171950101852417
@@ -11996,49 +11996,49 @@ Candidate: False
 ********* Total time elapsed: 291.000000 mins 31.205209 secs **********
 ********* Successfully solved: 189/235 **********
 Fail to solve:
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_3.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/const_div_4.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/count_by_2_true-unreach-call_true-termination.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/dillig21.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_count_by_k_true-unreach-call_true-termination.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_gauss_sum.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mod_1.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mod_2.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/nonlin_mult_5.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_disj_ite_06.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_mutants_22.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_01.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_07.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_11.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_14.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_15.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_16.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_19.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_22.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_24.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_27.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_29.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_30.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_32.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_33.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_35.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_38.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_39.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_40.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_41.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_43.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_44.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_45.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_46.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_47.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_48.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_49.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_50.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_51.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_52.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_53.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_54.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_55.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_57.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_58.smt2
-/home/ssr/PyCHC/tests/freqhorn/bench_horn/s_triv_18.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/const_div_3.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/const_div_4.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/count_by_2_true-unreach-call_true-termination.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/dillig21.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_count_by_k_true-unreach-call_true-termination.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_gauss_sum.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mod_1.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mod_2.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/nonlin_mult_5.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_disj_ite_06.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_mutants_22.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_01.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_07.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_11.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_14.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_15.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_16.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_19.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_22.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_24.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_27.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_29.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_30.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_32.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_33.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_35.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_38.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_39.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_40.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_41.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_43.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_44.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_45.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_46.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_47.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_48.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_49.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_50.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_51.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_52.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_53.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_54.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_55.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_57.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_split_58.smt2
+/home/ssr/Chronosymbolic-Learning/tests/safe/s_triv_18.smt2
