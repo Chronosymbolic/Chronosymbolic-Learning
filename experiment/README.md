@@ -7,7 +7,9 @@ The structure of the log is as follows:
 
 2. The "Hyperparameters" section shows all the hyperparameters in `config.yml`.
 
-3. The "CHC Solving" part shows the results of solving all instances in the test suite. For each instance, it shows the file names, the size of the `*.smt2` or `*.smt` instance, the overall running time and time of each component, auxiliary info generated when running our tool (not important), the satisfiability of the CHC (correctness of corresponding program) and the proof (solution interpretation of predicates), and the double check procedure ensuring the correctness of the proof.
+3. The "CHC Solving" part shows the results of solving all instances in the test suite. For each instance, it shows the file names, the size of the `*.smt2` or `*.smt` instance, the overall running time and time of each component, auxiliary info generated when running our tool (not important), the satisfiability of the CHC (correctness of corresponding program) and the proof (solution interpretation of predicates), and the double check procedure ensuring the correctness of the proof. The figure below shows the detailed explanation of this part of log.
+
+![log](https://github.com/Chronosymbolic/Chronosymbolic-Learning/blob/main/experiment/log_explanation.png)
 
 4. At the end of the log, it shows the total time elapsed and the number of solved instances. It also provides a list of instances that our tool cannot solve.
 
