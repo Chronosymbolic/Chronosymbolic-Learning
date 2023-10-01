@@ -44,7 +44,7 @@ Python (3.7.0 or higher recommended, and [Anaconda](https://www.anaconda.com/) r
 
     - Adjust timeout using `-t TIMEOUT`, only effective in directory mode
 
-    - Specify the result summary log file using `-o FILE_NAME`; Export an additional result summary CSV `FILE_NAME_prefix.csv` (with success and timing statistics, and `is_correct` column shows the satisfiability of the CHC system *if successfully solved* (`is_successful=1`)) using `-a`; The summary is only available when running multiple instances (directory mode or file list mode)
+    - Specify the result summary log file using `-o FILE_NAME`; Export an additional result summary CSV `FILE_NAME_prefix.csv` (with success and timing statistics, and `is_correct` column indicates the satisfiability of the CHC system *if successfully solved* (`is_successful=1`); if `is_successful=0`, `is_correct` field is not meaningful) using `-a`; The summary is only available when running multiple instances (directory mode or file list mode)
 
     - Start solving from the file index `K` in the folder `-s K` (`K` is the index starting from zero)
 
@@ -65,13 +65,17 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 
 # To run the baselines
 ## Spacer and GSpacer
-- Configure [z3-gspacer-branch](https://github.com/hgvk94/z3/tree/ggbranch), `chmod +x z3`
+- Configure [z3-gspacer-branch](https://github.com/hgvk94/z3/tree/ggbranch), `chmod +x z3` ([pre-built binary](https://drive.google.com/file/d/1HjKCVuN7Csm_uxQh7paU3WMARXWJhhYY/view?usp=sharing) of z3 with Spacer and GSpacer for Ubuntu)
 
-- Specify the path of z3 (with GSpacer) binary in `utils/run_spacer.py` and `utils/run_spacer_filtered.py`
+- Specify the path of pre-built z3 (with Spacer and GSpacer) binary in `utils/run_spacer.py` and `utils/run_spacer_filtered.py`, at line 5
 
-- Specify a folder name and run `utils/run_spacer.py` or specify a file list name and run `utils/run_spacer_filtered.py`
+- Specify a target folder in `utils/run_spacer.py` or specify a file list in `utils/run_spacer_filtered.py`, at line 4
 
-- Enable GSpacer: `enable_global_guidance = 1`
+- Use GSpacer as the solving engine: `enable_global_guidance = 1`; Use Spacer as the solving engine: `enable_global_guidance = 0`, at line 8
+
+- Check `utils/run_spacer.py` and `utils/run_spacer_filtered.py` line 4-20 for other settings
+
+- After configuration, run `python utils/run_spacer.py`
 
 ## LinearArbitrary and FreqHorn
 Refer to [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test) and [FreqHorn](https://github.com/freqhorn/freqhorn).
@@ -86,10 +90,6 @@ In `test.py` `guess_manually` function:
 
 - Modify `db = load_horn_db_from_file(args.file_name, z3.main_ctx())` or pass the parameter in through command line to indicate SMTLIB2 file name
 
-## Enumeration
-- A simple implementation of an enumeration-based invariant synthesizer
-
-- Run `learner/enumerate.py` that enumerates through a context-free grammar
 
 # Benchmarks
 [CHC-COMP](https://github.com/chc-comp)

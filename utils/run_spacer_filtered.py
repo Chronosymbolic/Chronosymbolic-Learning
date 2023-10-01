@@ -1,12 +1,11 @@
 import os
 import time
 
-src = 'tests/filtered_22'
-z3_path = '/home/ssr/z3/build/z3'
-# z3_path = 'utils/z3'
-target = 'result/z3_gspacer_chc22_fil.log'
+src = 'tests/filtered.txt'
+z3_path = 'utils/z3'
+target = 'result/z3_gspacer_fil.log'
 
-enable_global_guidance = 1  # GSpacer version of Z3 required
+enable_global_guidance = 1  # GSpacer: 1; Spacer: 0
 timeout = 360
 
 enable_log = 1

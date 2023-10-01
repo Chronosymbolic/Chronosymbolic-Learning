@@ -1,0 +1,5 @@
+tests/safe/abdu_01.smt2
+tests/safe/abdu_02.smt2
+tests/safe/abdu_03.smt2
+tests/safe/abdu_04.smt2
+tests/unsafe/samples_multiple_inv_03_cex.smt2

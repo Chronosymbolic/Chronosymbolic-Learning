@@ -1,12 +1,9 @@
 import os
 import time
 
-src = '/home/ssr/PyCHC/tests/freqhorn/bench_horn_multiple'
-if not src.endswith('/'):
-    src += '/'
-z3_path = '/home/ssr/z3/build/z3'
-# z3_path = 'utils/z3'
-target = 'result/z3_gspacer_out_bench_horn_multiple_360.log'
+src = 'tests/safe'
+z3_path = 'utils/z3'
+target = 'result/z3_gspacer_out_safe_360.log'
 
 enable_global_guidance = 1  # GSpacer: 1; Spacer: 0
 timeout = 360
@@ -21,6 +18,9 @@ higher_verbose = 0
 print_stat = False
 enable_skip = 1
 print_proof = 1  # print invariant
+
+if not src.endswith('/'):
+    src += '/'
 
 
 if __name__ == "__main__":
