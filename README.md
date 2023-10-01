@@ -34,7 +34,7 @@ Python (3.7.0 or higher recommended, and [Anaconda](https://www.anaconda.com/) r
 
     - Specify the log file (which records how the tool solves the CHC system) using `-l FILE_NAME`
 
-    - Specify directory name using `-r -f DIR_NAME` to run a test suite (logs are automatically generated in log/DIR_NAME)
+    - Specify directory name using `-r -f DIR_NAME` to run a test suite (logs are automatically generated in log/DIR_NAME, see `experiment/README.md` to better understand the logs)
         - e.g. `python test.py -f tests/safe/ -a -r -v -t 360 -o result/result.log`
     
     - Or specify a file list using `-b -f FILELIST` (run files specified in the file list whose format is one file path in each line)
@@ -81,6 +81,8 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 Refer to [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test) and [FreqHorn](https://github.com/freqhorn/freqhorn).
 
 A prebuilt docker image is available on [Docker Hub](https://hub.docker.com/r/sunsetray/lineararbitrary_seahorn).
+
+The pre-built binary for FreqHorn is also provided here: [freqhorn](https://drive.google.com/file/d/1EWHCmboRpqQMjY_ySCBSbHvCBMWIXW9-/view?usp=sharing) and [expl](https://drive.google.com/file/d/1YA9e3L1d7NBYF25VZlMeU_ZZoFrBor96/view?usp=sharing).
 
 For LinearArbitrary, you can also try our optimized data-driven learner implementation (set `ClassAgent = Chronosymbolic` to `ClassAgent = DataDrivenLearner` in `test.py` and run it in the same way as Chronosymbolic does)
 
