@@ -162,7 +162,7 @@ class DataDrivenLearner:
             self.logger.addHandler(sh)
         else:
             self.logger.disabled = True
-        self.logger.info(f'{self.__class__.__name__} - by Ray Luo')
+        self.logger.info(f'{self.__class__.__name__}')
         self.logger.info('Date: ' + str(datetime.date.today()))
         self.logger.info('========Information========')
 
