@@ -9,10 +9,10 @@ The log shows how we handle the instance in Example 1.
     Var_4 == 0,
     Var_3 == 0),
     ```
-  and an init unsafe zone from query for inv:
+  and an init unsafe zone from a query for inv:
     `Not(Var_4 >= Var_0*Var_2)`
-  Then, after a few iterations of expansion, the reasoner output initial safe/unsafe zones, which will incorporated in future hypothese. The process is light-weight which corresponds to line 6 `reason()` in Algorithm 1.
-- The "Constraint Solving of Horn Clauses" section corresponds to line 5-15 in Algorithm 1. In this process, three positive samples `(1, 1, 3, 3, 3), (1, 1, 4, 4, 4), (1, 1, 5, 5, 5)` and 8 negative samples `(3, -3, -8, 3, -3), (3, -3, -9, 0, 0), (-1, -2, 5, -5, -2), (-1, -2, 4, -4, 0), (7, 3, -3, -8, -8), (7, 3, -4, -15, -11), (5, 4, 0, -2, 3), (5, 4, -1, -7, -1)` are discovered by implication cex converting (Lemma 3). The machine learning toolchain (SVMs and DT) is called multiple times to adjust the hypothesis during this section.
+  Then, after a few iterations of expansion, the reasoner outputs initial safe/unsafe zones, which will incorporated in future hypothese. The process is lightweight which corresponds to line 6 `reason()` in Algorithm 1.
+- The "Constraint Solving of Horn Clauses" section corresponds to lines 5-15 in Algorithm 1. In this process, three positive samples `(1, 1, 3, 3, 3), (1, 1, 4, 4, 4), (1, 1, 5, 5, 5)` and 8 negative samples `(3, -3, -8, 3, -3), (3, -3, -9, 0, 0), (-1, -2, 5, -5, -2), (-1, -2, 4, -4, 0), (7, 3, -3, -8, -8), (7, 3, -4, -15, -11), (5, 4, 0, -2, 3), (5, 4, -1, -7, -1)` are discovered by implication counterexample converting (Lemma 3). The machine learning toolchain (SVMs and DT) is called multiple times to adjust the hypothesis during this section.
 - In the second "Episode" (Epoch) of "Constraint Solving of Horn Clauses", all CHCs are passed `z3Check()`. This implies the satisfiability of the CHC system. The solution interpretations of all uninterpreted predicates are:
 ```
 Relation: fail,
@@ -46,5 +46,8 @@ Candidate: Or(And(Var_1 >= Var_0,
        Var_0 + -1*Var_1 <= 0))
 ```
 
-## DT exmaple
+## s_split_25.smt2.log
+The log shows how we handle the instance "s_split_25.smt2", which is **exclusively** solved by our approach among compared methods. As the log shows, it requires meticulous collaboration between the learner and the reasoner. The reasoner reasons essential symbolic zonal information that is hard to relearn by the learner. The learner then performs 94 iterations of guessing and finally finds the result.
+
+## DT example
 Visualize how DT changes over time, here we provide a simple instance in `dt_visualizer.ipynb` showcasing this feature.
