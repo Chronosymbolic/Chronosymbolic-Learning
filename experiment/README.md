@@ -29,7 +29,7 @@ Detailed running time data on our major performance evaluation in the experiment
 Detailed running time data on our performance evaluation with different random seeds is described in the Appendix of the paper. We only show safe instances as an example. In `result_rnd_seed_gini.xlsx`, the only difference is to use Gini impurity instead of Shannon Entropy in DTs.
 
 ## To reproduce Chronosymbolic-cover
-Unfortunately due to the incompleteness of our logging system then, the hyperparameters of the 13 runs are not fully recorded. We provide essential experiments needed to run to reproduce the result:
+We provide essential experiments needed to run to reproduce the result:
 
 1. Different strategies on scheduling the candidate hypothesis in Table 1 of our paper (e.g., tuning the hyperparameters in `SafeZoneUsage: '(self.total_iter // 200) % 2 == 0', UnsafeZoneUsage: '(self.total_iter // 100) % 2 == 0`);
 2. Using different DT settings (may try random DT as well that may not work well overall but works on some specific instances) and Agents (set in `./test.py`);
