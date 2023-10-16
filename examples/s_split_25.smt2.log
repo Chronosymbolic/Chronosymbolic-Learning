@@ -1,0 +1,1211 @@
+08:25:53 - line:173 - Chronosymbolic
+08:25:53 - line:174 - Date: 2023-09-01
+08:25:53 - line:175 - ========Information========
+08:25:53 - line:97 - Hyperparameters:
+ClearBodyAppsDP: false
+DIV: []
+DIVFind: false
+DT:
+  Criterion: entropy
+  RNDSeed: 400
+  Splitter: best
+Dataset:
+  QueueLenNeg: 50
+  QueueLenPos: 50
+  QueueModeNeg: true
+  QueueModePos: true
+  QueueRealNegProp: 0.5
+  QueueTentNegProp: 0.5
+EnableMatchFact: true
+Expansion:
+  BodyCstrExpUB: 700
+  ForceExp: false
+  FreeVarUB: 500
+  InitExpMaxIter: 7
+  InitExpMinIter: 3
+  NewZoneExpUB: 1500
+  UseExpansion: true
+FILE_NAME: tmp/FromCmd
+FactSampleMaxRound: 10
+InitPhase: true
+LC: 0
+LOGGING: true
+MOD: []
+MODFind: true
+OCT: true
+OverflowLimit: 214748364900
+QuerySampleMaxRound: 2
+RelationUpperBound: 500
+RuleSampleLen: 2
+RuleSampleLenNeg: 1
+RuleSampleWidth: 1
+RuleSampleWidthNeg: 1
+SVM:
+  EnableSVM: true
+  SVMAHyperplane: 0
+  SVMCParameter: 1
+  SVMCoeffBound: 5
+  SVMFreqNeg: 30
+  SVMFreqPos: 0
+SampleBatchSize: 0
+Strategy:
+  SafeZoneUsage: (self.total_iter // 200) % 2 == 0
+  UnsafeZoneUsage: (self.total_iter // 100) % 2 == 0
+UseSafeZone: true
+UseUnsafeZone: true
+ValIterMode: false
+Verbosity:
+  PrintCex: 5
+  PrintCstr: false
+  PrintNewCandFreq: 50
+Z3_Global_Timeout: 10000
+Z3_Solver_Timeout: 360000
+
+08:25:53 - line:98 - Rule number: 3
+08:25:53 - line:99 - Relation number: 2
+08:25:53 - line:100 - Horn Relations:
+[fail(), inv(inv_0_n, inv_1_n, inv_2_n, )]
+08:25:53 - line:128 - Mod Features:
+OrderedSet()
+08:25:53 - line:134 - Var number: 3
+08:25:53 - line:135 - C5 name to Relation name map:
+{'PRED_0': fail(), 'PRED_1': inv(inv_0_n, inv_1_n, inv_2_n, )}
+08:25:53 - line:136 - Horn Rules:
+Index: 1
+Rule: [x0 == 0, y0 == 10, z0 == 0] -> inv(x0, y0, z0)
+Index: 2
+Rule: [x1 == (1 + x0)%10, y1 == (9 + y0)%10, z1 == If(x0 == y0, 0, 1 + z0), inv(x0, y0, z0)] -> inv(x1, y1, z1)
+Index: 3
+Rule: [Not(z0 <= 5), inv(x0, y0, z0)] -> fail
+
+[fail] -> False
+08:25:53 - line:23 - Facts: [[x0 == 0, y0 == 10, z0 == 0] -> inv(x0, y0, z0)]
+Num: 1
+08:25:53 - line:24 - Fact rels: []
+Num: 0
+08:25:53 - line:25 - Query rels: [fail]
+Num: 1
+08:25:53 - line:26 - Queries: [[fail] -> False, [Not(z0 <= 5), inv(x0, y0, z0)] -> fail]
+Num: 2
+08:25:53 - line:148 - SMTLIB File Name: /home/ssr/PyCHC/tests/freqhorn/bench_horn/s_split_25.smt2
+08:25:53 - line:149 - Log File Name: /home/ssr/PyCHC/log/bench_horn/s_split_25.smt2.log
+08:25:53 - line:26 - Episode No.1
+08:25:53 - line:69 - ============== Init Phase ==============
+08:25:53 - line:102 - Find SAFE zones from Facts
+08:25:53 - line:104 - Init SAFE zone for inv: And(Var_0 == 0, Var_1 == 10, Var_2 == 0)
+08:25:53 - line:144 - Find UNSAFE zones from Queries
+08:25:53 - line:146 - Init UNSAFE zone for inv: Var_2 >= 6
+08:25:53 - line:241 - Forward Iteration 1
+08:25:53 - line:337 - Relation update count: 1
+08:25:53 - line:241 - Forward Iteration 2
+08:25:53 - line:304 - 
+                                Stop expansion at Rule 2,
+                                is_quantifier: True,
+                                len(body_and): 284, len(nzone): 461
+08:25:53 - line:335 - Relation update count: 0
+08:25:53 - line:340 - After expansion, update SAFE zone for inv
+08:25:53 - line:351 - Backward Iteration 1
+08:25:53 - line:449 - Relation update count: 1
+08:25:53 - line:351 - Backward Iteration 2
+08:25:53 - line:449 - Relation update count: 1
+08:25:53 - line:351 - Backward Iteration 3
+08:25:53 - line:449 - Relation update count: 1
+08:25:53 - line:452 - After expansion, updated UNSAFE zone for inv
+08:25:53 - line:459 - Sample dps for inv
+08:25:53 - line:778 - SVM Calls: 0, Total SVM time: 8.225440979003906e-05
+08:25:53 - line:597 - New Candidate for fail:
+   False
+08:25:53 - line:597 - New Candidate for inv:
+   False
+08:25:53 - line:208 - ============== Init Phase Ended, Time: 0.04034590721130371 ==============
+08:25:53 - line:637 - ========== Constraint Solving of Horn Clauses ===========
+08:25:53 - line:641 - Work list size: 3
+08:25:53 - line:643 - VERIFY Horn Rule Index 1
+08:25:53 - line:689 - This rule is a FACT, skipped
+08:25:53 - line:641 - Work list size: 2
+08:25:53 - line:643 - VERIFY Horn Rule Index 2
+08:25:53 - line:736 - Rule Index 2 Verification Round 1
+08:25:53 - line:1012 - SAT, CEX: inv(1, 9, 1, ); -> inv(2, 8, 2, ) 
+08:25:53 - line:37 - Add positive DP [2, 8, 2] for relation inv
+08:25:53 - line:804 - Got Pos DP inv(x1, y1, z1): [2, 8, 2] from forward implication
+08:25:53 - line:778 - SVM Calls: 0, Total SVM time: 0.00010848045349121094
+08:25:53 - line:37 - Add positive DP [3, 7, 3] for relation inv
+08:25:53 - line:37 - Add positive DP [4, 6, 4] for relation inv
+08:25:53 - line:135 - Sampled positive states in this round:
+08:25:53 - line:137 - Rel: inv, DP: [And(x1 == 2, y1 == 8, z1 == 2), And(x1 == 3, y1 == 7, z1 == 3), And(x1 == 4, y1 == 6, z1 == 4)]
+08:25:53 - line:357 - New Candidate for PRED_1:
+   True (dataset all True)
+08:25:53 - line:888 - For IMPLICATION rules this round,
+08:25:53 - line:889 - Updated positive datasets for 1 relations
+08:25:53 - line:890 - Updated negative datasets for 0 relations
+08:25:53 - line:736 - Rule Index 2 Verification Round 2
+08:25:53 - line:193 - Add (tentative: False) negative DP [-1, 12, 2] for relation inv
+08:25:53 - line:838 - Got Neg DP inv: [-1, 12, 2] from backward implication
+08:25:53 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 1 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:53 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:53 - line:730 - SVM data output:
+['0 3 -4 0']
+08:25:53 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(-4*PRED_1!V_1)
+08:25:53 - line:778 - SVM Calls: 1, Total SVM time: 0.0034782886505126953
+08:25:53 - line:347 - Sampled negative states in this round:
+08:25:53 - line:349 - Rel: inv, DP: [And(Var_0 == -1, Var_1 == 12, Var_2 == 2)]
+08:25:53 - line:888 - For IMPLICATION rules this round,
+08:25:53 - line:889 - Updated positive datasets for 0 relations
+08:25:53 - line:890 - Updated negative datasets for 1 relations
+08:25:53 - line:736 - Rule Index 2 Verification Round 3
+08:25:53 - line:193 - Add (tentative: False) negative DP [18, -7, 2] for relation inv
+08:25:53 - line:838 - Got Neg DP inv: [18, -7, 2] from backward implication
+08:25:53 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 2 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:53 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:53 - line:730 - SVM data output:
+['0 3 -4 0']
+08:25:53 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(-4*PRED_1!V_1)
+08:25:53 - line:778 - SVM Calls: 2, Total SVM time: 0.006183147430419922
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == 18, Var_1 == -7, Var_2 == 2)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 4
+08:25:54 - line:193 - Add (tentative: False) negative DP [-4, -5, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [-4, -5, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 3 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 3 -4 0']
+08:25:54 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(-4*PRED_1!V_1)
+08:25:54 - line:778 - SVM Calls: 3, Total SVM time: 0.009564638137817383
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == -4, Var_1 == -5, Var_2 == 2)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 5
+08:25:54 - line:193 - Add (tentative: False) negative DP [6, 7, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [6, 7, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 4 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['true']
+08:25:54 - line:778 - SVM Calls: 4, Total SVM time: 0.012421846389770508
+08:25:54 - line:193 - Add (tentative: False) negative DP [5, -2, 1] for relation inv
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == 6, Var_1 == 7, Var_2 == 2), And(x0 == 5, y0 == -2, z0 == 1)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 6
+08:25:54 - line:1012 - SAT, CEX: inv(19, 15, -5, ); -> inv(0, 4, -4, ) 
+08:25:54 - line:193 - Add (tentative: True) negative DP (19, 15, -5) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (19, 15, -5) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 7
+08:25:54 - line:193 - Add (tentative: True) negative DP (-1, 2, 1) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (-1, 2, 1) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 8
+08:25:54 - line:193 - Add (tentative: False) negative DP [-5, 6, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [-5, 6, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 8 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 0 0 1', '0 3 -4 0']
+08:25:54 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(-4*PRED_1!V_1)
+08:25:54 - line:778 - SVM Calls: 5, Total SVM time: 0.0157928466796875
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == -5, Var_1 == 6, Var_2 == 2)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 9
+08:25:54 - line:193 - Add (tentative: True) negative DP (1, 1, 3) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (1, 1, 3) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 10
+08:25:54 - line:193 - Add (tentative: True) negative DP (-14, 20, -2) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (-14, 20, -2) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 11
+08:25:54 - line:1012 - SAT, CEX: inv(-1, 11, 3, ); -> inv(0, 0, 4, ) 
+08:25:54 - line:193 - Add (tentative: True) negative DP (-1, 11, 3) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (-1, 11, 3) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 12
+08:25:54 - line:193 - Add (tentative: True) negative DP (8, 8, 4) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (8, 8, 4) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 13
+08:25:54 - line:193 - Add (tentative: True) negative DP (19, 20, 1) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (19, 20, 1) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 14
+08:25:54 - line:193 - Add (tentative: False) negative DP [2, 13, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [2, 13, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 14 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 0 -1 0', '0 4 5 1']
+08:25:54 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (4*PRED_1!V_0)+(5*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:54 - line:778 - SVM Calls: 6, Total SVM time: 0.019325733184814453
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == 2, Var_1 == 13, Var_2 == 2)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 15
+08:25:54 - line:193 - Add (tentative: False) negative DP [16, 23, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [16, 23, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 15 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 0 -1 0', '0 4 5 1']
+08:25:54 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (4*PRED_1!V_0)+(5*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:54 - line:778 - SVM Calls: 7, Total SVM time: 0.022588014602661133
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == 16, Var_1 == 23, Var_2 == 2)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 16
+08:25:54 - line:1012 - SAT, CEX: inv(0, 5, 2, ); -> inv(1, 4, 3, ) 
+08:25:54 - line:193 - Add (tentative: False) negative DP [0, 5, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [0, 5, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 16 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 0 -1 0']
+08:25:54 - line:778 - SVM Calls: 8, Total SVM time: 0.025461196899414062
+08:25:54 - line:193 - Add (tentative: False) negative DP [-1, -4, 1] for relation inv
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == 0, Var_1 == 5, Var_2 == 2), And(x0 == -1, y0 == -4, z0 == 1)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 17
+08:25:54 - line:193 - Add (tentative: True) negative DP (-1, 11, -1) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (-1, 11, -1) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 18
+08:25:54 - line:193 - Add (tentative: True) negative DP (9, -1, 1) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (9, -1, 1) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 19
+08:25:54 - line:193 - Add (tentative: True) negative DP (-11, 11, 4) for relation inv
+08:25:54 - line:873 - Got Tentative Neg DP inv: (-11, 11, 4) from implication CEX
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 20
+08:25:54 - line:193 - Add (tentative: False) negative DP [2, 10, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [2, 10, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 21 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 0 -1 0']
+08:25:54 - line:778 - SVM Calls: 9, Total SVM time: 0.028654098510742188
+08:25:54 - line:347 - Sampled negative states in this round:
+08:25:54 - line:349 - Rel: inv, DP: [And(Var_0 == 2, Var_1 == 10, Var_2 == 2)]
+08:25:54 - line:888 - For IMPLICATION rules this round,
+08:25:54 - line:889 - Updated positive datasets for 0 relations
+08:25:54 - line:890 - Updated negative datasets for 1 relations
+08:25:54 - line:736 - Rule Index 2 Verification Round 21
+08:25:54 - line:1012 - SAT, CEX: inv(35, -25, 2, ); -> inv(6, 4, 3, ) 
+08:25:54 - line:193 - Add (tentative: False) negative DP [35, -25, 2] for relation inv
+08:25:54 - line:838 - Got Neg DP inv: [35, -25, 2] from backward implication
+08:25:54 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 22 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:54 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:54 - line:730 - SVM data output:
+['0 -1 -1 1', '0 3 -4 0']
+08:25:54 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:54 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(-4*PRED_1!V_1)
+08:25:54 - line:778 - SVM Calls: 10, Total SVM time: 0.032103776931762695
+08:25:55 - line:347 - Sampled negative states in this round:
+08:25:55 - line:349 - Rel: inv, DP: [And(Var_0 == 35, Var_1 == -25, Var_2 == 2)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 22
+08:25:55 - line:193 - Add (tentative: True) negative DP (29, 29, 2) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (29, 29, 2) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 23
+08:25:55 - line:193 - Add (tentative: True) negative DP (9, 13, -1) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (9, 13, -1) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 24
+08:25:55 - line:193 - Add (tentative: False) negative DP [15, -5, 2] for relation inv
+08:25:55 - line:838 - Got Neg DP inv: [15, -5, 2] from backward implication
+08:25:55 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 25 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:55 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:55 - line:730 - SVM data output:
+['0 0 -1 0']
+08:25:55 - line:778 - SVM Calls: 11, Total SVM time: 0.03542804718017578
+08:25:55 - line:347 - Sampled negative states in this round:
+08:25:55 - line:349 - Rel: inv, DP: [And(Var_0 == 15, Var_1 == -5, Var_2 == 2)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 25
+08:25:55 - line:193 - Add (tentative: True) negative DP (3, 5, 1) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (3, 5, 1) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 26
+08:25:55 - line:1012 - SAT, CEX: inv(2, 2, 1, ); -> inv(3, 1, 0, ) 
+08:25:55 - line:193 - Add (tentative: True) negative DP (2, 2, 1) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (2, 2, 1) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 27
+08:25:55 - line:193 - Add (tentative: True) negative DP (2, 2, 2) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (2, 2, 2) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 28
+08:25:55 - line:193 - Add (tentative: True) negative DP (6, 6, 5) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (6, 6, 5) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 29
+08:25:55 - line:193 - Add (tentative: True) negative DP (8, 10, 4) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (8, 10, 4) from implication CEX
+08:25:55 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 30 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:55 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:55 - line:730 - SVM data output:
+['0 0 1 1']
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:55 - line:778 - SVM Calls: 12, Total SVM time: 0.03899836540222168
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 30
+08:25:55 - line:193 - Add (tentative: False) negative DP [2, 7, 2] for relation inv
+08:25:55 - line:838 - Got Neg DP inv: [2, 7, 2] from backward implication
+08:25:55 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 31 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:55 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:55 - line:730 - SVM data output:
+['0 1 2 1', '0 1 0 1']
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(2*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:55 - line:778 - SVM Calls: 13, Total SVM time: 0.042234182357788086
+08:25:55 - line:193 - Add (tentative: False) negative DP [1, -2, 1] for relation inv
+08:25:55 - line:347 - Sampled negative states in this round:
+08:25:55 - line:349 - Rel: inv, DP: [And(Var_0 == 2, Var_1 == 7, Var_2 == 2), And(x0 == 1, y0 == -2, z0 == 1)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 31
+08:25:55 - line:1012 - SAT, CEX: inv(8, 8, 2, ); -> inv(9, 7, 0, ) 
+08:25:55 - line:193 - Add (tentative: True) negative DP (8, 8, 2) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (8, 8, 2) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 32
+08:25:55 - line:193 - Add (tentative: True) negative DP (7, 9, -1) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (7, 9, -1) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 33
+08:25:55 - line:193 - Add (tentative: False) negative DP [3, 8, 2] for relation inv
+08:25:55 - line:838 - Got Neg DP inv: [3, 8, 2] from backward implication
+08:25:55 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 35 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:55 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:55 - line:730 - SVM data output:
+['0 0 1 1', '0 0 -1 0', '0 1 0 1']
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:55 - line:778 - SVM Calls: 14, Total SVM time: 0.045903921127319336
+08:25:55 - line:193 - Add (tentative: False) negative DP [2, -1, 1] for relation inv
+08:25:55 - line:347 - Sampled negative states in this round:
+08:25:55 - line:349 - Rel: inv, DP: [And(Var_0 == 3, Var_1 == 8, Var_2 == 2), And(x0 == 2, y0 == -1, z0 == 1)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 34
+08:25:55 - line:193 - Add (tentative: False) negative DP [2, 9, 2] for relation inv
+08:25:55 - line:838 - Got Neg DP inv: [2, 9, 2] from backward implication
+08:25:55 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 37 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:55 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:55 - line:730 - SVM data output:
+['0 0 1 1', '0 0 -1 0', '0 1 0 1']
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:55 - line:778 - SVM Calls: 15, Total SVM time: 0.04948830604553223
+08:25:55 - line:193 - Add (tentative: False) negative DP [1, 0, 1] for relation inv
+08:25:55 - line:347 - Sampled negative states in this round:
+08:25:55 - line:349 - Rel: inv, DP: [And(Var_0 == 2, Var_1 == 9, Var_2 == 2), And(x0 == 1, y0 == 0, z0 == 1)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 35
+08:25:55 - line:193 - Add (tentative: True) negative DP (5, 5, 5) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (5, 5, 5) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 36
+08:25:55 - line:1012 - SAT, CEX: inv(-5, 8, 2, ); -> inv(6, 7, 3, ) 
+08:25:55 - line:193 - Add (tentative: False) negative DP [-5, 8, 2] for relation inv
+08:25:55 - line:838 - Got Neg DP inv: [-5, 8, 2] from backward implication
+08:25:55 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 3 -n 40 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:55 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:55 - line:730 - SVM data output:
+['0 1 2 1', '0 0 -1 0', '0 -5 5 4', '0 -2 0 -1', '0 0 -1 2']
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(2*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-5*PRED_1!V_0)+(5*PRED_1!V_1)+(4*PRED_1!V_2)
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-2*PRED_1!V_0)+(-1*PRED_1!V_2)
+08:25:55 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:55 - line:778 - SVM Calls: 16, Total SVM time: 0.05359029769897461
+08:25:55 - line:347 - Sampled negative states in this round:
+08:25:55 - line:349 - Rel: inv, DP: [And(Var_0 == -5, Var_1 == 8, Var_2 == 2)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 37
+08:25:55 - line:37 - Add positive DP [5, 5, 5] for relation inv
+08:25:55 - line:804 - Got Pos DP inv(x1, y1, z1): [5, 5, 5] from forward implication
+08:25:55 - line:675 - Rel: inv dp: (5, 5, 5) conflict, no need for SVM to learn
+08:25:55 - line:292 - Clear tentative negative DP for relation inv
+08:25:55 - line:37 - Add positive DP [6, 4, 0] for relation inv
+08:25:55 - line:37 - Add positive DP [7, 3, 1] for relation inv
+08:25:55 - line:135 - Sampled positive states in this round:
+08:25:55 - line:137 - Rel: inv, DP: [And(x1 == 5, y1 == 5, z1 == 5), And(x1 == 6, y1 == 4, z1 == 0), And(x1 == 7, y1 == 3, z1 == 1)]
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 1 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 38
+08:25:55 - line:193 - Add (tentative: True) negative DP (25, 29, 0) for relation inv
+08:25:55 - line:873 - Got Tentative Neg DP inv: (25, 29, 0) from implication CEX
+08:25:55 - line:888 - For IMPLICATION rules this round,
+08:25:55 - line:889 - Updated positive datasets for 0 relations
+08:25:55 - line:890 - Updated negative datasets for 1 relations
+08:25:55 - line:736 - Rule Index 2 Verification Round 39
+08:25:56 - line:193 - Add (tentative: True) negative DP (19, 19, 3) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (19, 19, 3) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 40
+08:25:56 - line:193 - Add (tentative: True) negative DP (9, 1, 2) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (9, 1, 2) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 41
+08:25:56 - line:1012 - SAT, CEX: inv(-11, 21, -1, ); -> inv(0, 0, 0, ) 
+08:25:56 - line:193 - Add (tentative: True) negative DP (-11, 21, -1) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (-11, 21, -1) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 42
+08:25:56 - line:193 - Add (tentative: True) negative DP (20, 20, 4) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (20, 20, 4) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 43
+08:25:56 - line:193 - Add (tentative: True) negative DP (8, 2, -1) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (8, 2, -1) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 44
+08:25:56 - line:193 - Add (tentative: False) negative DP [5, 2, 2] for relation inv
+08:25:56 - line:838 - Got Neg DP inv: [5, 2, 2] from backward implication
+08:25:56 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 6 -n 27 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:56 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:56 - line:730 - SVM data output:
+['0 1 1 0', '0 -2 2 -1', '0 0 0 1', '0 1 0 1', '0 0 -3 -2', '0 -1 4 -1']
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-2*PRED_1!V_0)+(2*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(4*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:56 - line:778 - SVM Calls: 17, Total SVM time: 0.06061267852783203
+08:25:56 - line:193 - Add (tentative: False) negative DP [4, -7, 1] for relation inv
+08:25:56 - line:347 - Sampled negative states in this round:
+08:25:56 - line:349 - Rel: inv, DP: [And(Var_0 == 5, Var_1 == 2, Var_2 == 2), And(x0 == 4, y0 == -7, z0 == 1)]
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 45
+08:25:56 - line:193 - Add (tentative: True) negative DP (39, 13, -1) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (39, 13, -1) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 46
+08:25:56 - line:1012 - SAT, CEX: inv(2, 8, -1, ); -> inv(3, 7, 0, ) 
+08:25:56 - line:193 - Add (tentative: True) negative DP (2, 8, -1) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (2, 8, -1) from implication CEX
+08:25:56 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 6 -n 30 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:56 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:56 - line:730 - SVM data output:
+['0 1 1 0', '0 -2 2 -1', '0 0 0 1', '0 1 0 1', '0 0 -3 -2', '0 -1 4 -1']
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-2*PRED_1!V_0)+(2*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(4*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:56 - line:778 - SVM Calls: 18, Total SVM time: 0.06678915023803711
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 47
+08:25:56 - line:193 - Add (tentative: False) negative DP [3, 4, 2] for relation inv
+08:25:56 - line:838 - Got Neg DP inv: [3, 4, 2] from backward implication
+08:25:56 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 6 -n 31 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:56 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:56 - line:730 - SVM data output:
+['0 1 1 0', '0 -2 2 -1', '0 0 0 1', '0 1 0 1', '0 3 0 -2', '0 -2 2 1', '0 0 -3 -2']
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-2*PRED_1!V_0)+(2*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(-2*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-2*PRED_1!V_0)+(2*PRED_1!V_1)+(1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:56 - line:778 - SVM Calls: 19, Total SVM time: 0.07316470146179199
+08:25:56 - line:193 - Add (tentative: False) negative DP [2, -5, 1] for relation inv
+08:25:56 - line:347 - Sampled negative states in this round:
+08:25:56 - line:349 - Rel: inv, DP: [And(Var_0 == 3, Var_1 == 4, Var_2 == 2), And(x0 == 2, y0 == -5, z0 == 1)]
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 48
+08:25:56 - line:193 - Add (tentative: True) negative DP (7, 3, -1) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (7, 3, -1) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 49
+08:25:56 - line:193 - Add (tentative: True) negative DP (9, 1, 4) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (9, 1, 4) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 50
+08:25:56 - line:37 - Add positive DP [8, 2, 2] for relation inv
+08:25:56 - line:804 - Got Pos DP inv(x1, y1, z1): [8, 2, 2] from forward implication
+08:25:56 - line:698 - SVM data input:
+1 2 8 2
+1 3 7 3
+1 4 6 4
+1 5 5 5
+1 6 4 0
+1 7 3 1
+1 8 2 2
+0 -1 12 2
+0 18 -7 2
+0 -4 -5 2
+0 6 7 2
+0 5 -2 1
+0 -5 6 2
+0 2 13 2
+0 16 23 2
+0 0 5 2
+0 -1 -4 1
+0 2 10 2
+0 35 -25 2
+0 15 -5 2
+0 2 7 2
+0 1 -2 1
+0 3 8 2
+0 2 -1 1
+0 2 9 2
+0 1 0 1
+0 -5 8 2
+0 5 2 2
+0 4 -7 1
+0 3 4 2
+0 2 -5 1
+0 25 29 0
+0 19 19 3
+0 9 1 2
+0 -11 21 -1
+0 20 20 4
+0 8 2 -1
+0 39 13 -1
+0 2 8 -1
+0 7 3 -1
+0 9 1 4
+
+08:25:56 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 7 -n 34 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:56 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:56 - line:730 - SVM data output:
+['0 1 1 0', '0 -1 1 0', '0 1 -1 2', '0 0 -3 -2', '0 -5 5 4']
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-5*PRED_1!V_0)+(5*PRED_1!V_1)+(4*PRED_1!V_2)
+08:25:56 - line:778 - SVM Calls: 20, Total SVM time: 0.07787656784057617
+08:25:56 - line:292 - Clear tentative negative DP for relation inv
+08:25:56 - line:37 - Add positive DP [9, 1, 3] for relation inv
+08:25:56 - line:37 - Add positive DP [0, 0, 4] for relation inv
+08:25:56 - line:135 - Sampled positive states in this round:
+08:25:56 - line:137 - Rel: inv, DP: [And(x1 == 8, y1 == 2, z1 == 2), And(x1 == 9, y1 == 1, z1 == 3), And(x1 == 0, y1 == 0, z1 == 4)]
+08:25:56 - line:597 - New Candidate for fail:
+   False
+08:25:56 - line:597 - New Candidate for inv:
+   Or(Not(Var_2 <= 2),
+   And(Var_2 <= 2,
+       Not(Var_0 + Var_1 <= 9),
+       Var_0 + Var_1 <= 10,
+       Var_0 <= 11))
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 1 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 51
+08:25:56 - line:1012 - SAT, CEX: inv(19, 19, 3, ); -> inv(0, 8, 0, ) 
+08:25:56 - line:193 - Add (tentative: True) negative DP (19, 19, 3) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (19, 19, 3) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 52
+08:25:56 - line:193 - Add (tentative: True) negative DP (-11, -11, 3) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (-11, -11, 3) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 53
+08:25:56 - line:193 - Add (tentative: True) negative DP (-1, 11, -1) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (-1, 11, -1) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 54
+08:25:56 - line:193 - Add (tentative: True) negative DP (16, 16, 4) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (16, 16, 4) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 55
+08:25:56 - line:193 - Add (tentative: True) negative DP (-2, -2, 5) for relation inv
+08:25:56 - line:873 - Got Tentative Neg DP inv: (-2, -2, 5) from implication CEX
+08:25:56 - line:888 - For IMPLICATION rules this round,
+08:25:56 - line:889 - Updated positive datasets for 0 relations
+08:25:56 - line:890 - Updated negative datasets for 1 relations
+08:25:56 - line:736 - Rule Index 2 Verification Round 56
+08:25:56 - line:1012 - SAT, CEX: inv(1, 9, 2, ); -> inv(2, 8, 3, ) 
+08:25:56 - line:193 - Add (tentative: False) negative DP [1, 9, 2] for relation inv
+08:25:56 - line:838 - Got Neg DP inv: [1, 9, 2] from backward implication
+08:25:56 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 9 -n 30 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:56 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:56 - line:730 - SVM data output:
+['0 0 -1 0', '0 0 1 3', '0 -3 0 1', '0 2 2 -1', '0 1 -1 2']
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_1)+(3*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (2*PRED_1!V_0)+(2*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:56 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:56 - line:778 - SVM Calls: 21, Total SVM time: 0.08251214027404785
+08:25:56 - line:193 - Add (tentative: False) negative DP [0, 10, 1] for relation inv
+08:25:56 - line:198 - Poped out negative DP (-1, 12, 2) for relation inv
+08:25:57 - line:347 - Sampled negative states in this round:
+08:25:57 - line:349 - Rel: inv, DP: [And(Var_0 == 1, Var_1 == 9, Var_2 == 2), And(x0 == 0, y0 == 10, z0 == 1)]
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 57
+08:25:57 - line:193 - Add (tentative: True) negative DP (-1, -1, 5) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-1, -1, 5) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 58
+08:25:57 - line:193 - Add (tentative: True) negative DP (9, 1, -1) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (9, 1, -1) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 59
+08:25:57 - line:193 - Add (tentative: True) negative DP (1, 7, -1) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (1, 7, -1) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 60
+08:25:57 - line:193 - Add (tentative: True) negative DP (1, 1, 3) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (1, 1, 3) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 61
+08:25:57 - line:1012 - SAT, CEX: inv(19, -9, 4, ); -> inv(0, 0, 5, ) 
+08:25:57 - line:193 - Add (tentative: True) negative DP (19, -9, 4) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (19, -9, 4) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 62
+08:25:57 - line:37 - Add positive DP [1, 9, 0] for relation inv
+08:25:57 - line:804 - Got Pos DP inv(x1, y1, z1): [1, 9, 0] from forward implication
+08:25:57 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 10 -n 35 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:57 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:57 - line:730 - SVM data output:
+['0 -1 -5 -2', '0 2 2 -1', '0 -1 -1 0', '0 3 1 -4', '0 0 0 1', '0 -3 2 5', '0 1 -1 2', '0 0 0 -1']
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-5*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (2*PRED_1!V_0)+(2*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(1*PRED_1!V_1)+(-4*PRED_1!V_2)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_0)+(2*PRED_1!V_1)+(5*PRED_1!V_2)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:57 - line:778 - SVM Calls: 22, Total SVM time: 0.08785772323608398
+08:25:57 - line:292 - Clear tentative negative DP for relation inv
+08:25:57 - line:37 - Add positive DP [2, 8, 1] for relation inv
+08:25:57 - line:37 - Add positive DP [3, 7, 2] for relation inv
+08:25:57 - line:135 - Sampled positive states in this round:
+08:25:57 - line:137 - Rel: inv, DP: [And(x1 == 1, y1 == 9, z1 == 0), And(x1 == 2, y1 == 8, z1 == 1), And(x1 == 3, y1 == 7, z1 == 2)]
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 1 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 63
+08:25:57 - line:193 - Add (tentative: False) negative DP [6, 4, 2] for relation inv
+08:25:57 - line:198 - Poped out negative DP (18, -7, 2) for relation inv
+08:25:57 - line:838 - Got Neg DP inv: [6, 4, 2] from backward implication
+08:25:57 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 12 -n 25 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:57 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:57 - line:730 - SVM data output:
+['0 0 0 1', '0 1 -1 0', '0 1 1 0']
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:57 - line:778 - SVM Calls: 23, Total SVM time: 0.09206390380859375
+08:25:57 - line:193 - Add (tentative: False) negative DP [5, 15, 1] for relation inv
+08:25:57 - line:198 - Poped out negative DP (-4, -5, 2) for relation inv
+08:25:57 - line:347 - Sampled negative states in this round:
+08:25:57 - line:349 - Rel: inv, DP: [And(Var_0 == 6, Var_1 == 4, Var_2 == 2), And(x0 == 5, y0 == 15, z0 == 1)]
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 64
+08:25:57 - line:193 - Add (tentative: True) negative DP (-1, 11, -1) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-1, 11, -1) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 65
+08:25:57 - line:193 - Add (tentative: True) negative DP (7, 7, 3) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (7, 7, 3) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 66
+08:25:57 - line:1012 - SAT, CEX: inv(-34, -50, 3, ); -> inv(7, 9, 4, ) 
+08:25:57 - line:193 - Add (tentative: True) negative DP (-34, -50, 3) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-34, -50, 3) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 67
+08:25:57 - line:193 - Add (tentative: True) negative DP (-2, -2, 5) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-2, -2, 5) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 68
+08:25:57 - line:193 - Add (tentative: True) negative DP (-2, 0, 4) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-2, 0, 4) from implication CEX
+08:25:57 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 12 -n 30 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:57 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:57 - line:730 - SVM data output:
+['0 -1 -5 -2', '0 1 1 0', '0 -1 -1 0', '0 0 -5 2', '0 1 0 0', '0 -5 -2 2']
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-5*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-5*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:57 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-5*PRED_1!V_0)+(-2*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:57 - line:778 - SVM Calls: 24, Total SVM time: 0.09905672073364258
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 69
+08:25:57 - line:193 - Add (tentative: True) negative DP (-15, 19, -29) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-15, 19, -29) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 70
+08:25:57 - line:193 - Add (tentative: True) negative DP (5, 4, -2) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (5, 4, -2) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 71
+08:25:57 - line:1012 - SAT, CEX: inv(2, 2, 4, ); -> inv(3, 1, 0, ) 
+08:25:57 - line:193 - Add (tentative: True) negative DP (2, 2, 4) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (2, 2, 4) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 72
+08:25:57 - line:193 - Add (tentative: True) negative DP (-6, 16, -12) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (-6, 16, -12) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 73
+08:25:57 - line:193 - Add (tentative: True) negative DP (9, -1, -1) for relation inv
+08:25:57 - line:873 - Got Tentative Neg DP inv: (9, -1, -1) from implication CEX
+08:25:57 - line:888 - For IMPLICATION rules this round,
+08:25:57 - line:889 - Updated positive datasets for 0 relations
+08:25:57 - line:890 - Updated negative datasets for 1 relations
+08:25:57 - line:736 - Rule Index 2 Verification Round 74
+08:25:58 - line:193 - Add (tentative: True) negative DP (-1, -1, 5) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (-1, -1, 5) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 75
+08:25:58 - line:193 - Add (tentative: True) negative DP (-2, 12, -4) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (-2, 12, -4) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 76
+08:25:58 - line:1012 - SAT, CEX: inv(-2, 10, -8, ); -> inv(9, 9, -7, ) 
+08:25:58 - line:193 - Add (tentative: True) negative DP (-2, 10, -8) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (-2, 10, -8) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 77
+08:25:58 - line:193 - Add (tentative: True) negative DP (11, 5, -1) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (11, 5, -1) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 78
+08:25:58 - line:193 - Add (tentative: True) negative DP (1, 9, -3) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (1, 9, -3) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 79
+08:25:58 - line:193 - Add (tentative: True) negative DP (1, 1, 5) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (1, 1, 5) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 80
+08:25:58 - line:193 - Add (tentative: True) negative DP (6, 6, -5) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (6, 6, -5) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 81
+08:25:58 - line:1012 - SAT, CEX: inv(4, 7, 2, ); -> inv(5, 6, 3, ) 
+08:25:58 - line:193 - Add (tentative: False) negative DP [4, 7, 2] for relation inv
+08:25:58 - line:198 - Poped out negative DP (6, 7, 2) for relation inv
+08:25:58 - line:838 - Got Neg DP inv: [4, 7, 2] from backward implication
+08:25:58 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 12 -n 42 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:58 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:58 - line:730 - SVM data output:
+['0 1 -1 -1', '0 -1 -1 0', '0 1 1 0', '0 3 4 0', '0 -1 -1 -1', '0 2 1 -1']
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(4*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (2*PRED_1!V_0)+(1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:778 - SVM Calls: 25, Total SVM time: 0.10390162467956543
+08:25:58 - line:193 - Add (tentative: False) negative DP [3, -2, 1] for relation inv
+08:25:58 - line:198 - Poped out negative DP (5, -2, 1) for relation inv
+08:25:58 - line:347 - Sampled negative states in this round:
+08:25:58 - line:349 - Rel: inv, DP: [And(Var_0 == 4, Var_1 == 7, Var_2 == 2), And(x0 == 3, y0 == -2, z0 == 1)]
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 82
+08:25:58 - line:193 - Add (tentative: True) negative DP (1, -7, 4) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (1, -7, 4) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 83
+08:25:58 - line:193 - Add (tentative: True) negative DP (1, 1, 4) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (1, 1, 4) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 84
+08:25:58 - line:193 - Add (tentative: False) negative DP [3, 6, 2] for relation inv
+08:25:58 - line:198 - Poped out negative DP (-5, 6, 2) for relation inv
+08:25:58 - line:838 - Got Neg DP inv: [3, 6, 2] from backward implication
+08:25:58 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 12 -n 44 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:58 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:58 - line:730 - SVM data output:
+['0 -1 -5 -2', '0 1 0 0', '0 -1 -1 0', '0 1 1 0', '0 1 1 -1']
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-5*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:778 - SVM Calls: 26, Total SVM time: 0.10841774940490723
+08:25:58 - line:193 - Add (tentative: False) negative DP [2, -3, 1] for relation inv
+08:25:58 - line:198 - Poped out negative DP (2, 13, 2) for relation inv
+08:25:58 - line:347 - Sampled negative states in this round:
+08:25:58 - line:349 - Rel: inv, DP: [And(Var_0 == 3, Var_1 == 6, Var_2 == 2), And(x0 == 2, y0 == -3, z0 == 1)]
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 85
+08:25:58 - line:193 - Add (tentative: True) negative DP (9, 3, -1) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (9, 3, -1) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 86
+08:25:58 - line:1012 - SAT, CEX: inv(-6, 6, 0, ); -> inv(5, 5, 1, ) 
+08:25:58 - line:193 - Add (tentative: True) negative DP (-6, 6, 0) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (-6, 6, 0) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 87
+08:25:58 - line:193 - Add (tentative: False) negative DP [9, 2, 2] for relation inv
+08:25:58 - line:198 - Poped out negative DP (16, 23, 2) for relation inv
+08:25:58 - line:838 - Got Neg DP inv: [9, 2, 2] from backward implication
+08:25:58 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 12 -n 46 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:58 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:58 - line:730 - SVM data output:
+['0 1 -1 -1', '0 -1 -1 0', '0 3 5 2', '0 -2 -3 0', '0 -3 3 -4', '0 2 1 -1']
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (3*PRED_1!V_0)+(5*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-2*PRED_1!V_0)+(-3*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-3*PRED_1!V_0)+(3*PRED_1!V_1)+(-4*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (2*PRED_1!V_0)+(1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:778 - SVM Calls: 27, Total SVM time: 0.11349320411682129
+08:25:58 - line:193 - Add (tentative: False) negative DP [8, -7, 1] for relation inv
+08:25:58 - line:198 - Poped out negative DP (0, 5, 2) for relation inv
+08:25:58 - line:347 - Sampled negative states in this round:
+08:25:58 - line:349 - Rel: inv, DP: [And(Var_0 == 9, Var_1 == 2, Var_2 == 2), And(x0 == 8, y0 == -7, z0 == 1)]
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 88
+08:25:58 - line:193 - Add (tentative: True) negative DP (-2, 2, 3) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (-2, 2, 3) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 89
+08:25:58 - line:193 - Add (tentative: True) negative DP (9, 1, 2) for relation inv
+08:25:58 - line:873 - Got Tentative Neg DP inv: (9, 1, 2) from implication CEX
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 90
+08:25:58 - line:193 - Add (tentative: False) negative DP [-3, 2, 2] for relation inv
+08:25:58 - line:198 - Poped out negative DP (-1, -4, 1) for relation inv
+08:25:58 - line:838 - Got Neg DP inv: [-3, 2, 2] from backward implication
+08:25:58 - line:710 - SVM cmd: utils/svm/libsvm/svm-invgen -c 1 -t 5 -a 0 -v 3 -p 12 -n 48 -g 0 -f PRED_1 tmp/FromCmd230901_010420.svm.data 2>&1
+08:25:58 - line:718 - SVM out buffer: Call SVM For Invariant Learning.
+Using LINEAR kernel...
+[33m  Hypotheses: {  }[0m
+
+08:25:58 - line:730 - SVM data output:
+['0 1 -1 -1', '0 1 0 0', '0 -1 -1 0', '0 1 2 -2', '0 -5 -2 2', '0 -1 0 1']
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(-1*PRED_1!V_1)+(-1*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(-1*PRED_1!V_1)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (1*PRED_1!V_0)+(2*PRED_1!V_1)+(-2*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-5*PRED_1!V_0)+(-2*PRED_1!V_1)+(2*PRED_1!V_2)
+08:25:58 - line:771 - SVM inferred a hyperlane for rel PRED_1(inv): (-1*PRED_1!V_0)+(1*PRED_1!V_2)
+08:25:58 - line:778 - SVM Calls: 28, Total SVM time: 0.1185142993927002
+08:25:58 - line:347 - Sampled negative states in this round:
+08:25:58 - line:349 - Rel: inv, DP: [And(Var_0 == -3, Var_1 == 2, Var_2 == 2)]
+08:25:58 - line:888 - For IMPLICATION rules this round,
+08:25:58 - line:889 - Updated positive datasets for 0 relations
+08:25:58 - line:890 - Updated negative datasets for 1 relations
+08:25:58 - line:736 - Rule Index 2 Verification Round 91
+08:25:58 - line:1012 - SAT, CEX: inv(9, 1, 4, ); -> inv(0, 0, 5, ) 
+08:25:59 - line:193 - Add (tentative: True) negative DP (9, 1, 4) for relation inv
+08:25:59 - line:873 - Got Tentative Neg DP inv: (9, 1, 4) from implication CEX
+08:25:59 - line:888 - For IMPLICATION rules this round,
+08:25:59 - line:889 - Updated positive datasets for 0 relations
+08:25:59 - line:890 - Updated negative datasets for 1 relations
+08:25:59 - line:736 - Rule Index 2 Verification Round 92
+08:25:59 - line:193 - Add (tentative: True) negative DP (-4, 14, -10) for relation inv
+08:25:59 - line:873 - Got Tentative Neg DP inv: (-4, 14, -10) from implication CEX
+08:25:59 - line:888 - For IMPLICATION rules this round,
+08:25:59 - line:889 - Updated positive datasets for 0 relations
+08:25:59 - line:890 - Updated negative datasets for 1 relations
+08:25:59 - line:736 - Rule Index 2 Verification Round 93
+08:25:59 - line:881 - UNSAT, This rule is PASSED
+08:25:59 - line:641 - Work list size: 2
+08:25:59 - line:643 - VERIFY Horn Rule Index 3
+08:25:59 - line:727 - This rule is a Query, skipped
+08:25:59 - line:641 - Work list size: 1
+08:25:59 - line:643 - VERIFY Horn Rule Index 3
+08:25:59 - line:727 - This rule is a Query, skipped
+08:25:59 - line:905 - ==================================
+08:25:59 - line:26 - Episode No.2
+08:25:59 - line:637 - ========== Constraint Solving of Horn Clauses ===========
+08:25:59 - line:641 - Work list size: 3
+08:25:59 - line:643 - VERIFY Horn Rule Index 1
+08:25:59 - line:689 - This rule is a FACT, skipped
+08:25:59 - line:641 - Work list size: 2
+08:25:59 - line:643 - VERIFY Horn Rule Index 2
+08:25:59 - line:736 - Rule Index 2 Verification Round 1
+08:25:59 - line:881 - UNSAT, This rule is PASSED
+08:25:59 - line:641 - Work list size: 1
+08:25:59 - line:643 - VERIFY Horn Rule Index 3
+08:25:59 - line:727 - This rule is a Query, skipped
+08:25:59 - line:905 - ==================================
+08:25:59 - line:52 - ************** Finished in 5.34783411026001 (secs) in 2 epochs **************
+08:25:59 - line:55 - Total SVM Calls: 28, DT Calls: 91, Z3 Calls: 173
+08:25:59 - line:56 - Total SVM Time: 0.1185142993927002, DT Time: 0.22401690483093262, Z3 Time: 2.261012554168701
+08:25:59 - line:57 - Others: 2.744290351867676, Init Phase Time: 0.04034590721130371, Simplifier Solver Time: 0.028955459594726562
+08:25:59 - line:64 - ************** Auxiliary Info **************
+08:25:59 - line:67 - max_len_exp_fwd: 284
+08:25:59 - line:67 - max_len_exp_bwd: 334
+08:25:59 - line:67 - len_exp_zone_fwd: [(41, 93), (284, 461)]
+08:25:59 - line:67 - len_exp_zone_bwd: [(40, 58), (164, 230), (334, 498)]
+08:25:59 - line:67 - Total Iter: 94
+08:25:59 - line:67 - QE Time: 0.0014901161193847656
+08:25:59 - line:72 - ************** Program is correct **************
+08:25:59 - line:75 - 
+Relation: fail, 
+Candidate: False
+08:25:59 - line:75 - 
+Relation: inv, 
+Candidate: Or(And(Var_0 == 0, Var_1 == 10, Var_2 == 0),
+   And(Var_2 == 1, Var_0 == 1, Var_1 == 9),
+   And(Not(Or(And(Not((1 + Var_0)%10 == (9 + Var_1)%10),
+                  Not(Var_0 == Var_1),
+                  Var_2 >= 4),
+              And(Not(Var_0 == Var_1), Var_2 >= 5),
+              And(Not((1 + Var_0)%10 == (9 + Var_1)%10),
+                  Not(Var_0 == Var_1),
+                  Var_2 >= 3,
+                  Not((2 + Var_0)%10 == (8 + Var_1)%10)),
+              Var_2 >= 6,
+              And(Var_2 >= 5, Not(Var_0 == Var_1)),
+              And(Not(Var_0 == Var_1),
+                  Var_2 >= 4,
+                  Not((1 + Var_0)%10 == (9 + Var_1)%10)))),
+       Or(And(Not(Var_1 + Var_2 <= 3),
+              Not(Var_0 <= -1),
+              Not(-1*Var_0 + -1*Var_1 <= -11),
+              -5*Var_0 + -2*Var_1 + 2*Var_2 <= -21,
+              Not(Var_1 + Var_2 <= 8)),
+          And(Not(Var_1 + Var_2 <= 3),
+              Not(Var_0 <= -1),
+              Not(-1*Var_0 + -1*Var_1 <= -11),
+              Not(-5*Var_0 + -2*Var_1 + 2*Var_2 <= -21),
+              Var_0 + Var_1 <= 1),
+          And(Not(Var_1 + Var_2 <= 3),
+              Not(Var_0 <= -1),
+              Not(-1*Var_0 + -1*Var_1 <= -11),
+              -5*Var_0 + -2*Var_1 + 2*Var_2 <= -21,
+              Var_1 + Var_2 <= 8,
+              Not(Var_0 + -1*Var_2 <= 5)))))
