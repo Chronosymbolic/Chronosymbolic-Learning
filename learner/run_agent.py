@@ -54,10 +54,10 @@ def run_Agent(Agent, main_logger):
     other_time = elapsed_time - Agent.svm_time - Agent.dt_time - Agent.z3_time
     Agent.logger.warning(f'Total SVM Calls: {Agent.svm_calls}, DT Calls: {Agent.dt_calls}, Z3 Calls: {Agent.z3_calls}')
     Agent.logger.warning(f'Total SVM Time: {Agent.svm_time}, DT Time: {Agent.dt_time}, Z3 Time: {Agent.z3_time}')
-    Agent.logger.warning(f'Others: {other_time}, Init Phase Time: {Agent.init_phase_time}, Simplifier Solver Time: {Agent.eq_solver_time}')
+    Agent.logger.warning(f'Others: {other_time}, Reasoner Time: {Agent.init_phase_time}, Simplifier Solver Time: {Agent.eq_solver_time}')
     main_logger.info(f'Total SVM Calls: {Agent.svm_calls}, DT Calls: {Agent.dt_calls}, Z3 Calls: {Agent.z3_calls}')
     main_logger.info(f'Total SVM Time: {Agent.svm_time}, DT Time: {Agent.dt_time}, Z3 Time: {Agent.z3_time}')
-    main_logger.info(f'Others: {other_time}, Init Phase Time: {Agent.init_phase_time}, Simplifier Solver Time: {Agent.eq_solver_time}')
+    main_logger.info(f'Others: {other_time}, Reasoner Time: {Agent.init_phase_time}, Simplifier Solver Time: {Agent.eq_solver_time}')
     
     # Print auxiliary information
     if len(Agent.aux_info) > 0:
