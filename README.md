@@ -71,7 +71,7 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 
 - Specify a target folder in `utils/run_spacer.py` or specify a file list in `utils/run_spacer_filtered.py`, at line 4
 
-- Use GSpacer as the solving engine: `enable_global_guidance = 1`; Use Spacer as the solving engine: `enable_global_guidance = 0`, at line 8
+- Use GSpacer as the solving engine: `enable_global_guidance = 1`; Use Spacer as the solving engine: `enable_global_guidance = 0`, at line 8 in `utils/run_spacer.py` and in `utils/run_spacer_filtered.py`
 
 - Check `utils/run_spacer.py` and `utils/run_spacer_filtered.py` line 4-20 for other settings
 
