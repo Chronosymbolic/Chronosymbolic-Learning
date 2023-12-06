@@ -1164,7 +1164,7 @@ Using LINEAR kernel...
 08:25:59 - line:52 - ************** Finished in 5.34783411026001 (secs) in 2 epochs **************
 08:25:59 - line:55 - Total SVM Calls: 28, DT Calls: 91, Z3 Calls: 173
 08:25:59 - line:56 - Total SVM Time: 0.1185142993927002, DT Time: 0.22401690483093262, Z3 Time: 2.261012554168701
-08:25:59 - line:57 - Others: 2.744290351867676, Init Phase Time: 0.04034590721130371, Simplifier Solver Time: 0.028955459594726562
+08:25:59 - line:57 - Others: 2.744290351867676, Reasoner Time: 0.04034590721130371, Simplifier Solver Time: 0.028955459594726562
 08:25:59 - line:64 - ************** Auxiliary Info **************
 08:25:59 - line:67 - max_len_exp_fwd: 284
 08:25:59 - line:67 - max_len_exp_bwd: 334

@@ -66,7 +66,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_01.smt2.log
 ************** Finished in 0.0799407958984375 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.58306884765625e-05, DT Time: 0, Z3 Time: 0.035310983657836914
-Others: 0.04454398155212402, Init Phase Time: 0.03125262260437012, Simplifier Solver Time: 0.00096893310546875
+Others: 0.04454398155212402, Reasoner Time: 0.03125262260437012, Simplifier Solver Time: 0.00096893310546875
 ************** Auxiliary Info **************
 max_len_exp_fwd: 398
 max_len_exp_bwd: 345
@@ -128,7 +128,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_02.smt2.log
 ************** Finished in 1.7012879848480225 (secs) in 2 epochs **************
 Total SVM Calls: 24, DT Calls: 38, Z3 Calls: 128
 Total SVM Time: 0.09222626686096191, DT Time: 0.16869139671325684, Z3 Time: 0.7937185764312744
-Others: 0.6466517448425293, Init Phase Time: 0.027915000915527344, Simplifier Solver Time: 0.005237102508544922
+Others: 0.6466517448425293, Reasoner Time: 0.027915000915527344, Simplifier Solver Time: 0.005237102508544922
 ************** Auxiliary Info **************
 max_len_exp_fwd: 398
 max_len_exp_bwd: 509
@@ -205,7 +205,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_03.smt2.log
 ************** Finished in 1.0431442260742188 (secs) in 2 epochs **************
 Total SVM Calls: 20, DT Calls: 21, Z3 Calls: 91
 Total SVM Time: 0.05865120887756348, DT Time: 0.07776713371276855, Z3 Time: 0.5426256656646729
-Others: 0.36410021781921387, Init Phase Time: 0.028490066528320312, Simplifier Solver Time: 0.0031638145446777344
+Others: 0.36410021781921387, Reasoner Time: 0.028490066528320312, Simplifier Solver Time: 0.0031638145446777344
 ************** Auxiliary Info **************
 max_len_exp_fwd: 398
 max_len_exp_bwd: 587
@@ -283,7 +283,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/abdu_04.smt2.log
 ************** Finished in 0.08884000778198242 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.059906005859375e-05, DT Time: 0, Z3 Time: 0.04884004592895508
-Others: 0.03990936279296875, Init Phase Time: 0.021309852600097656, Simplifier Solver Time: 0.0004134178161621094
+Others: 0.03990936279296875, Reasoner Time: 0.021309852600097656, Simplifier Solver Time: 0.0004134178161621094
 ************** Auxiliary Info **************
 max_len_exp_fwd: 384
 max_len_exp_bwd: 248
@@ -317,7 +317,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/bhmr2007_true-unreach-
 ************** Finished in 0.8526737689971924 (secs) in 2 epochs **************
 Total SVM Calls: 17, DT Calls: 17, Z3 Calls: 77
 Total SVM Time: 0.04782509803771973, DT Time: 0.06083321571350098, Z3 Time: 0.44094133377075195
-Others: 0.3030741214752197, Init Phase Time: 0.022856712341308594, Simplifier Solver Time: 0.002044677734375
+Others: 0.3030741214752197, Reasoner Time: 0.022856712341308594, Simplifier Solver Time: 0.002044677734375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 472
 max_len_exp_bwd: 301
@@ -359,7 +359,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/bouncy_three_counters_
 ************** Finished in 3.174579620361328 (secs) in 2 epochs **************
 Total SVM Calls: 22, DT Calls: 89, Z3 Calls: 171
 Total SVM Time: 0.08414888381958008, DT Time: 0.39272403717041016, Z3 Time: 1.1045048236846924
-Others: 1.5932018756866455, Init Phase Time: 0.021925926208496094, Simplifier Solver Time: 0.009425163269042969
+Others: 1.5932018756866455, Reasoner Time: 0.021925926208496094, Simplifier Solver Time: 0.009425163269042969
 ************** Auxiliary Info **************
 max_len_exp_fwd: 1076
 max_len_exp_bwd: 617
@@ -404,7 +404,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/bouncy_two_counters_me
 ************** Finished in 0.48987674713134766 (secs) in 2 epochs **************
 Total SVM Calls: 8, DT Calls: 10, Z3 Calls: 45
 Total SVM Time: 0.022233247756958008, DT Time: 0.034568071365356445, Z3 Time: 0.2503385543823242
-Others: 0.18273687362670898, Init Phase Time: 0.020183801651000977, Simplifier Solver Time: 0.0013473033905029297
+Others: 0.18273687362670898, Reasoner Time: 0.020183801651000977, Simplifier Solver Time: 0.0013473033905029297
 ************** Auxiliary Info **************
 max_len_exp_fwd: 492
 max_len_exp_bwd: 328
@@ -443,7 +443,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cegar1.smt2.log
 ************** Finished in 0.2305450439453125 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 3, Z3 Calls: 25
 Total SVM Time: 0.007143974304199219, DT Time: 0.009798288345336914, Z3 Time: 0.13217520713806152
-Others: 0.08142757415771484, Init Phase Time: 0.022893667221069336, Simplifier Solver Time: 0.0011186599731445312
+Others: 0.08142757415771484, Reasoner Time: 0.022893667221069336, Simplifier Solver Time: 0.0011186599731445312
 ************** Auxiliary Info **************
 max_len_exp_fwd: 248
 max_len_exp_bwd: 156
@@ -484,7 +484,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cegar2.smt2.log
 ************** Finished in 0.23098492622375488 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 5, Z3 Calls: 17
 Total SVM Time: 0.0025424957275390625, DT Time: 0.01623249053955078, Z3 Time: 0.09551191329956055
-Others: 0.11669802665710449, Init Phase Time: 0.01930713653564453, Simplifier Solver Time: 0.0008440017700195312
+Others: 0.11669802665710449, Reasoner Time: 0.01930713653564453, Simplifier Solver Time: 0.0008440017700195312
 ************** Auxiliary Info **************
 max_len_exp_fwd: 194
 max_len_exp_bwd: 156
@@ -518,7 +518,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cggmp_iter_1.smt2.log
 ************** Finished in 0.03174567222595215 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.935264587402344e-05, DT Time: 0, Z3 Time: 0.008819580078125
-Others: 0.022876739501953125, Init Phase Time: 0.024445295333862305, Simplifier Solver Time: 0.0006361007690429688
+Others: 0.022876739501953125, Reasoner Time: 0.024445295333862305, Simplifier Solver Time: 0.0006361007690429688
 ************** Auxiliary Info **************
 max_len_exp_fwd: 262
 max_len_exp_bwd: 485
@@ -557,7 +557,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cggmp_iter_2.smt2.log
 ************** Finished in 0.03273510932922363 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.507469177246094e-05, DT Time: 0, Z3 Time: 0.00971364974975586
-Others: 0.022966384887695312, Init Phase Time: 0.024590253829956055, Simplifier Solver Time: 0.000606536865234375
+Others: 0.022966384887695312, Reasoner Time: 0.024590253829956055, Simplifier Solver Time: 0.000606536865234375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 238
 max_len_exp_bwd: 485
@@ -596,7 +596,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/cggmp_iter_3.smt2.log
 ************** Finished in 0.03164792060852051 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.744529724121094e-05, DT Time: 0, Z3 Time: 0.009141921997070312
-Others: 0.022458553314208984, Init Phase Time: 0.023755550384521484, Simplifier Solver Time: 0.0006084442138671875
+Others: 0.022458553314208984, Reasoner Time: 0.023755550384521484, Simplifier Solver Time: 0.0006084442138671875
 ************** Auxiliary Info **************
 max_len_exp_fwd: 238
 max_len_exp_bwd: 485
@@ -635,7 +635,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_1.smt2.log
 ************** Finished in 0.08923101425170898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.462501525878906e-05, DT Time: 0, Z3 Time: 0.04656338691711426
-Others: 0.04259300231933594, Init Phase Time: 0.026838064193725586, Simplifier Solver Time: 0.0009653568267822266
+Others: 0.04259300231933594, Reasoner Time: 0.026838064193725586, Simplifier Solver Time: 0.0009653568267822266
 ************** Auxiliary Info **************
 max_len_exp_fwd: 136
 max_len_exp_bwd: 29
@@ -670,7 +670,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_2.smt2.log
 ************** Finished in 0.08773922920227051 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.937980651855469e-05, DT Time: 0, Z3 Time: 0.04886341094970703
-Others: 0.03880643844604492, Init Phase Time: 0.021939754486083984, Simplifier Solver Time: 0.0006830692291259766
+Others: 0.03880643844604492, Reasoner Time: 0.021939754486083984, Simplifier Solver Time: 0.0006830692291259766
 ************** Auxiliary Info **************
 max_len_exp_fwd: 152
 max_len_exp_bwd: 32
@@ -706,7 +706,7 @@ Solving instance timeout!
 ************** Finished in 360.00181221961975 (secs) in 1 epochs **************
 Total SVM Calls: 128, DT Calls: 3666, Z3 Calls: 3922
 Total SVM Time: 240.4647946357727, DT Time: 14.23142695426941, Z3 Time: 27.034478425979614
-Others: 78.27111220359802, Init Phase Time: 0.025838136672973633, Simplifier Solver Time: 0.41510868072509766
+Others: 78.27111220359802, Reasoner Time: 0.025838136672973633, Simplifier Solver Time: 0.41510868072509766
 ************** Auxiliary Info **************
 max_len_exp_fwd: 342
 max_len_exp_bwd: 489
@@ -724,7 +724,7 @@ Solving instance timeout!
 ************** Finished in 360.00488924980164 (secs) in 1 epochs **************
 Total SVM Calls: 166, DT Calls: 3999, Z3 Calls: 4182
 Total SVM Time: 242.95121097564697, DT Time: 14.446904420852661, Z3 Time: 28.3028244972229
-Others: 74.3039493560791, Init Phase Time: 0.026498794555664062, Simplifier Solver Time: 0.45148158073425293
+Others: 74.3039493560791, Reasoner Time: 0.026498794555664062, Simplifier Solver Time: 0.45148158073425293
 ************** Auxiliary Info **************
 max_len_exp_fwd: 354
 max_len_exp_bwd: 497
@@ -741,7 +741,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_div_mod.smt2.log
 ************** Finished in 0.06993675231933594 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 6.556510925292969e-05, DT Time: 0, Z3 Time: 0.03290438652038574
-Others: 0.036966800689697266, Init Phase Time: 0.02247905731201172, Simplifier Solver Time: 0.0005419254302978516
+Others: 0.036966800689697266, Reasoner Time: 0.02247905731201172, Simplifier Solver Time: 0.0005419254302978516
 ************** Auxiliary Info **************
 max_len_exp_fwd: 260
 max_len_exp_bwd: 697
@@ -798,7 +798,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_mod_1.smt2.log
 ************** Finished in 0.07942652702331543 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.626678466796875e-05, DT Time: 0, Z3 Time: 0.04564666748046875
-Others: 0.03372359275817871, Init Phase Time: 0.019268035888671875, Simplifier Solver Time: 0.0005743503570556641
+Others: 0.03372359275817871, Reasoner Time: 0.019268035888671875, Simplifier Solver Time: 0.0005743503570556641
 ************** Auxiliary Info **************
 max_len_exp_fwd: 40
 max_len_exp_bwd: 25
@@ -831,7 +831,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_mod_2.smt2.log
 ************** Finished in 0.08535242080688477 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.8650970458984375e-05, DT Time: 0, Z3 Time: 0.0504758358001709
-Others: 0.03481793403625488, Init Phase Time: 0.019722938537597656, Simplifier Solver Time: 0.0005865097045898438
+Others: 0.03481793403625488, Reasoner Time: 0.019722938537597656, Simplifier Solver Time: 0.0005865097045898438
 ************** Auxiliary Info **************
 max_len_exp_fwd: 52
 max_len_exp_bwd: 29
@@ -864,7 +864,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/const_mod_3.smt2.log
 ************** Finished in 0.08347201347351074 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.747245788574219e-05, DT Time: 0, Z3 Time: 0.04521894454956055
-Others: 0.03818559646606445, Init Phase Time: 0.02174687385559082, Simplifier Solver Time: 0.0005469322204589844
+Others: 0.03818559646606445, Reasoner Time: 0.02174687385559082, Simplifier Solver Time: 0.0005469322204589844
 ************** Auxiliary Info **************
 max_len_exp_fwd: 130
 max_len_exp_bwd: 180
@@ -899,7 +899,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/count_by_1_variant_tru
 ************** Finished in 0.07265472412109375 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 7.462501525878906e-05, DT Time: 0, Z3 Time: 0.03339529037475586
-Others: 0.0391848087310791, Init Phase Time: 0.02492690086364746, Simplifier Solver Time: 0.0007417201995849609
+Others: 0.0391848087310791, Reasoner Time: 0.02492690086364746, Simplifier Solver Time: 0.0007417201995849609
 ************** Auxiliary Info **************
 max_len_exp_fwd: 405
 max_len_exp_bwd: 511
@@ -966,7 +966,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/count_by_2_modif_true-
 ************** Finished in 93.58772659301758 (secs) in 5 epochs **************
 Total SVM Calls: 202, DT Calls: 1671, Z3 Calls: 2272
 Total SVM Time: 43.15684914588928, DT Time: 6.594724655151367, Z3 Time: 14.658939838409424
-Others: 29.177212953567505, Init Phase Time: 0.025959491729736328, Simplifier Solver Time: 0.19744205474853516
+Others: 29.177212953567505, Reasoner Time: 0.025959491729736328, Simplifier Solver Time: 0.19744205474853516
 ************** Auxiliary Info **************
 max_len_exp_fwd: 402
 max_len_exp_bwd: 541
@@ -1041,7 +1041,7 @@ Solving instance timeout!
 ************** Finished in 360.0184805393219 (secs) in 10 epochs **************
 Total SVM Calls: 1752, DT Calls: 6839, Z3 Calls: 11975
 Total SVM Time: 97.74305462837219, DT Time: 54.9923141002655, Z3 Time: 86.78494834899902
-Others: 120.49816346168518, Init Phase Time: 0.024582386016845703, Simplifier Solver Time: 0.9140613079071045
+Others: 120.49816346168518, Reasoner Time: 0.024582386016845703, Simplifier Solver Time: 0.9140613079071045
 ************** Auxiliary Info **************
 max_len_exp_fwd: 354
 max_len_exp_bwd: 541
@@ -1059,7 +1059,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/countud.smt2.log
 ************** Finished in 0.6624927520751953 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 12, Z3 Calls: 67
 Total SVM Time: 0.03183555603027344, DT Time: 0.03944063186645508, Z3 Time: 0.370891809463501
-Others: 0.22032475471496582, Init Phase Time: 0.02428436279296875, Simplifier Solver Time: 0.0019922256469726562
+Others: 0.22032475471496582, Reasoner Time: 0.02428436279296875, Simplifier Solver Time: 0.0019922256469726562
 ************** Auxiliary Info **************
 max_len_exp_fwd: 256
 max_len_exp_bwd: 272
@@ -1106,7 +1106,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/css2003_true-unreach-c
 ************** Finished in 0.100067138671875 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001068115234375, DT Time: 0, Z3 Time: 0.049634456634521484
-Others: 0.050325870513916016, Init Phase Time: 0.03129220008850098, Simplifier Solver Time: 0.0007464885711669922
+Others: 0.050325870513916016, Reasoner Time: 0.03129220008850098, Simplifier Solver Time: 0.0007464885711669922
 ************** Auxiliary Info **************
 max_len_exp_fwd: 1047
 max_len_exp_bwd: 716
@@ -1180,7 +1180,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig01.smt2.log
 ************** Finished in 0.08205819129943848 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.794929504394531e-05, DT Time: 0, Z3 Time: 0.04525256156921387
-Others: 0.036737680435180664, Init Phase Time: 0.020152807235717773, Simplifier Solver Time: 0.0005593299865722656
+Others: 0.036737680435180664, Reasoner Time: 0.020152807235717773, Simplifier Solver Time: 0.0005593299865722656
 ************** Auxiliary Info **************
 max_len_exp_fwd: 191
 max_len_exp_bwd: 105
@@ -1214,7 +1214,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig02.smt2.log
 ************** Finished in 0.09869050979614258 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00011229515075683594, DT Time: 0, Z3 Time: 0.050966739654541016
-Others: 0.04761147499084473, Init Phase Time: 0.027400493621826172, Simplifier Solver Time: 0.0006766319274902344
+Others: 0.04761147499084473, Reasoner Time: 0.027400493621826172, Simplifier Solver Time: 0.0006766319274902344
 ************** Auxiliary Info **************
 max_len_exp_fwd: 647
 max_len_exp_bwd: 364
@@ -1341,7 +1341,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig03.smt2.log
 ************** Finished in 0.16080689430236816 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 16
 Total SVM Time: 0.005239963531494141, DT Time: 0.006208658218383789, Z3 Time: 0.08651995658874512
-Others: 0.06283831596374512, Init Phase Time: 0.018874168395996094, Simplifier Solver Time: 0.0005643367767333984
+Others: 0.06283831596374512, Reasoner Time: 0.018874168395996094, Simplifier Solver Time: 0.0005643367767333984
 ************** Auxiliary Info **************
 max_len_exp_fwd: 263
 max_len_exp_bwd: 96
@@ -1372,7 +1372,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig04.smt2.log
 ************** Finished in 0.0886545181274414 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.628036499023438e-05, DT Time: 0, Z3 Time: 0.0482180118560791
-Others: 0.04037022590637207, Init Phase Time: 0.02491140365600586, Simplifier Solver Time: 0.0007450580596923828
+Others: 0.04037022590637207, Reasoner Time: 0.02491140365600586, Simplifier Solver Time: 0.0007450580596923828
 ************** Auxiliary Info **************
 max_len_exp_fwd: 370
 max_len_exp_bwd: 489
@@ -1430,7 +1430,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig05.smt2.log
 ************** Finished in 0.13035297393798828 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0023980140686035156, DT Time: 0.0028307437896728516, Z3 Time: 0.0698232650756836
-Others: 0.05530095100402832, Init Phase Time: 0.021018028259277344, Simplifier Solver Time: 0.0004818439483642578
+Others: 0.05530095100402832, Reasoner Time: 0.021018028259277344, Simplifier Solver Time: 0.0004818439483642578
 ************** Auxiliary Info **************
 max_len_exp_fwd: 438
 max_len_exp_bwd: 129
@@ -1464,7 +1464,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig07.smt2.log
 ************** Finished in 0.6950242519378662 (secs) in 2 epochs **************
 Total SVM Calls: 14, DT Calls: 14, Z3 Calls: 64
 Total SVM Time: 0.03611111640930176, DT Time: 0.04526877403259277, Z3 Time: 0.36629438400268555
-Others: 0.24734997749328613, Init Phase Time: 0.02681136131286621, Simplifier Solver Time: 0.002354860305786133
+Others: 0.24734997749328613, Reasoner Time: 0.02681136131286621, Simplifier Solver Time: 0.002354860305786133
 ************** Auxiliary Info **************
 max_len_exp_fwd: 398
 max_len_exp_bwd: 541
@@ -1541,7 +1541,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig08.smt2.log
 ************** Finished in 8.161878824234009 (secs) in 3 epochs **************
 Total SVM Calls: 3, DT Calls: 296, Z3 Calls: 317
 Total SVM Time: 0.007876873016357422, DT Time: 0.9868965148925781, Z3 Time: 2.0610744953155518
-Others: 5.1060309410095215, Init Phase Time: 0.019815921783447266, Simplifier Solver Time: 0.028119564056396484
+Others: 5.1060309410095215, Reasoner Time: 0.019815921783447266, Simplifier Solver Time: 0.028119564056396484
 ************** Auxiliary Info **************
 max_len_exp_fwd: 493
 max_len_exp_bwd: 452
@@ -1579,7 +1579,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig10.smt2.log
 ************** Finished in 0.03265833854675293 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.723403930664062e-05, DT Time: 0, Z3 Time: 0.009134292602539062
-Others: 0.023456811904907227, Init Phase Time: 0.024912357330322266, Simplifier Solver Time: 0.0004937648773193359
+Others: 0.023456811904907227, Reasoner Time: 0.024912357330322266, Simplifier Solver Time: 0.0004937648773193359
 ************** Auxiliary Info **************
 max_len_exp_fwd: 434
 max_len_exp_bwd: 535
@@ -1609,7 +1609,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig13.smt2.log
 ************** Finished in 0.7270853519439697 (secs) in 2 epochs **************
 Total SVM Calls: 14, DT Calls: 14, Z3 Calls: 73
 Total SVM Time: 0.03722190856933594, DT Time: 0.048732757568359375, Z3 Time: 0.3991506099700928
-Others: 0.24198007583618164, Init Phase Time: 0.01913619041442871, Simplifier Solver Time: 0.0017037391662597656
+Others: 0.24198007583618164, Reasoner Time: 0.01913619041442871, Simplifier Solver Time: 0.0017037391662597656
 ************** Auxiliary Info **************
 max_len_exp_fwd: 431
 max_len_exp_bwd: 324
@@ -1654,7 +1654,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig14.smt2.log
 ************** Finished in 0.5744361877441406 (secs) in 2 epochs **************
 Total SVM Calls: 11, DT Calls: 11, Z3 Calls: 53
 Total SVM Time: 0.029017210006713867, DT Time: 0.037430524826049805, Z3 Time: 0.310138463973999
-Others: 0.19784998893737793, Init Phase Time: 0.02077341079711914, Simplifier Solver Time: 0.0014429092407226562
+Others: 0.19784998893737793, Reasoner Time: 0.02077341079711914, Simplifier Solver Time: 0.0014429092407226562
 ************** Auxiliary Info **************
 max_len_exp_fwd: 354
 max_len_exp_bwd: 238
@@ -1693,7 +1693,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig15.smt2.log
 ************** Finished in 0.2631685733795166 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 24
 Total SVM Time: 0.010217428207397461, DT Time: 0.012131214141845703, Z3 Time: 0.1396617889404297
-Others: 0.10115814208984375, Init Phase Time: 0.025936126708984375, Simplifier Solver Time: 0.0012156963348388672
+Others: 0.10115814208984375, Reasoner Time: 0.025936126708984375, Simplifier Solver Time: 0.0012156963348388672
 ************** Auxiliary Info **************
 max_len_exp_fwd: 525
 max_len_exp_bwd: 476
@@ -1771,7 +1771,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig16.smt2.log
 ************** Finished in 0.7239844799041748 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 13, Z3 Calls: 69
 Total SVM Time: 0.03255105018615723, DT Time: 0.04502153396606445, Z3 Time: 0.391787052154541
-Others: 0.2546248435974121, Init Phase Time: 0.02647876739501953, Simplifier Solver Time: 0.0022001266479492188
+Others: 0.2546248435974121, Reasoner Time: 0.02647876739501953, Simplifier Solver Time: 0.0022001266479492188
 ************** Auxiliary Info **************
 max_len_exp_fwd: 488
 max_len_exp_bwd: 504
@@ -1857,7 +1857,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig18.smt2.log
 ************** Finished in 48.88166880607605 (secs) in 3 epochs **************
 Total SVM Calls: 129, DT Calls: 1251, Z3 Calls: 1692
 Total SVM Time: 11.50386929512024, DT Time: 4.906095504760742, Z3 Time: 10.846851348876953
-Others: 21.624852657318115, Init Phase Time: 0.0244295597076416, Simplifier Solver Time: 0.1406691074371338
+Others: 21.624852657318115, Reasoner Time: 0.0244295597076416, Simplifier Solver Time: 0.1406691074371338
 ************** Auxiliary Info **************
 max_len_exp_fwd: 222
 max_len_exp_bwd: 645
@@ -1972,7 +1972,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig19.smt2.log
 ************** Finished in 0.21788716316223145 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 3, Z3 Calls: 19
 Total SVM Time: 0.008289337158203125, DT Time: 0.009941816329956055, Z3 Time: 0.10780024528503418
-Others: 0.09185576438903809, Init Phase Time: 0.029671430587768555, Simplifier Solver Time: 0.0009987354278564453
+Others: 0.09185576438903809, Reasoner Time: 0.029671430587768555, Simplifier Solver Time: 0.0009987354278564453
 ************** Auxiliary Info **************
 max_len_exp_fwd: 1018
 max_len_exp_bwd: 762
@@ -2048,7 +2048,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig20-1.smt2.log
 ************** Finished in 1.3287065029144287 (secs) in 2 epochs **************
 Total SVM Calls: 21, DT Calls: 28, Z3 Calls: 107
 Total SVM Time: 0.06042194366455078, DT Time: 0.10768246650695801, Z3 Time: 0.6126134395599365
-Others: 0.5479886531829834, Init Phase Time: 0.020739078521728516, Simplifier Solver Time: 0.002722501754760742
+Others: 0.5479886531829834, Reasoner Time: 0.020739078521728516, Simplifier Solver Time: 0.002722501754760742
 ************** Auxiliary Info **************
 max_len_exp_fwd: 328
 max_len_exp_bwd: 316
@@ -2085,7 +2085,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig20-2.smt2.log
 ************** Finished in 0.484372615814209 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 10, Z3 Calls: 38
 Total SVM Time: 0.015603065490722656, DT Time: 0.03448772430419922, Z3 Time: 0.21457672119140625
-Others: 0.21970510482788086, Init Phase Time: 0.019408226013183594, Simplifier Solver Time: 0.0012233257293701172
+Others: 0.21970510482788086, Reasoner Time: 0.019408226013183594, Simplifier Solver Time: 0.0012233257293701172
 ************** Auxiliary Info **************
 max_len_exp_fwd: 328
 max_len_exp_bwd: 170
@@ -2117,7 +2117,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig20-3.smt2.log
 ************** Finished in 0.27087974548339844 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 5, Z3 Calls: 21
 Total SVM Time: 0.007959365844726562, DT Time: 0.016604185104370117, Z3 Time: 0.11806178092956543
-Others: 0.12825441360473633, Init Phase Time: 0.019651174545288086, Simplifier Solver Time: 0.0008041858673095703
+Others: 0.12825441360473633, Reasoner Time: 0.019651174545288086, Simplifier Solver Time: 0.0008041858673095703
 ************** Auxiliary Info **************
 max_len_exp_fwd: 328
 max_len_exp_bwd: 170
@@ -2149,7 +2149,7 @@ Solving instance timeout!
 ************** Finished in 360.0014135837555 (secs) in 118 epochs **************
 Total SVM Calls: 1764, DT Calls: 6077, Z3 Calls: 11735
 Total SVM Time: 158.37401461601257, DT Time: 22.085620880126953, Z3 Time: 69.2465877532959
-Others: 110.29519033432007, Init Phase Time: 0.01938009262084961, Simplifier Solver Time: 0.5644106864929199
+Others: 110.29519033432007, Reasoner Time: 0.01938009262084961, Simplifier Solver Time: 0.5644106864929199
 ************** Auxiliary Info **************
 max_len_exp_fwd: 241
 max_len_exp_bwd: 188
@@ -2167,7 +2167,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-1.smt2.log
 ************** Finished in 0.09020709991455078 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.7738037109375e-05, DT Time: 0, Z3 Time: 0.046813249588012695
-Others: 0.04330611228942871, Init Phase Time: 0.023607969284057617, Simplifier Solver Time: 0.0005826950073242188
+Others: 0.04330611228942871, Reasoner Time: 0.023607969284057617, Simplifier Solver Time: 0.0005826950073242188
 ************** Auxiliary Info **************
 max_len_exp_fwd: 390
 max_len_exp_bwd: 21
@@ -2201,7 +2201,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-2.smt2.log
 ************** Finished in 0.09692144393920898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00010824203491210938, DT Time: 0, Z3 Time: 0.05277538299560547
-Others: 0.044037818908691406, Init Phase Time: 0.025154829025268555, Simplifier Solver Time: 0.0006449222564697266
+Others: 0.044037818908691406, Reasoner Time: 0.025154829025268555, Simplifier Solver Time: 0.0006449222564697266
 ************** Auxiliary Info **************
 max_len_exp_fwd: 390
 max_len_exp_bwd: 294
@@ -2277,7 +2277,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-3.smt2.log
 ************** Finished in 2.544267177581787 (secs) in 2 epochs **************
 Total SVM Calls: 34, DT Calls: 63, Z3 Calls: 145
 Total SVM Time: 0.11274981498718262, DT Time: 0.24273228645324707, Z3 Time: 1.1064109802246094
-Others: 1.082374095916748, Init Phase Time: 0.028058528900146484, Simplifier Solver Time: 0.007230043411254883
+Others: 1.082374095916748, Reasoner Time: 0.028058528900146484, Simplifier Solver Time: 0.007230043411254883
 ************** Auxiliary Info **************
 max_len_exp_fwd: 491
 max_len_exp_bwd: 683
@@ -2446,7 +2446,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-4.smt2.log
 ************** Finished in 1.0947225093841553 (secs) in 2 epochs **************
 Total SVM Calls: 16, DT Calls: 26, Z3 Calls: 74
 Total SVM Time: 0.042540550231933594, DT Time: 0.0922231674194336, Z3 Time: 0.5011477470397949
-Others: 0.45881104469299316, Init Phase Time: 0.028781890869140625, Simplifier Solver Time: 0.0034575462341308594
+Others: 0.45881104469299316, Reasoner Time: 0.028781890869140625, Simplifier Solver Time: 0.0034575462341308594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 406
 max_len_exp_bwd: 669
@@ -2601,7 +2601,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-5.smt2.log
 ************** Finished in 0.7044899463653564 (secs) in 2 epochs **************
 Total SVM Calls: 9, DT Calls: 17, Z3 Calls: 47
 Total SVM Time: 0.023204803466796875, DT Time: 0.0582127571105957, Z3 Time: 0.3057832717895508
-Others: 0.3172891139984131, Init Phase Time: 0.026660680770874023, Simplifier Solver Time: 0.00246429443359375
+Others: 0.3172891139984131, Reasoner Time: 0.026660680770874023, Simplifier Solver Time: 0.00246429443359375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 454
 max_len_exp_bwd: 681
@@ -2754,7 +2754,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22-6.smt2.log
 ************** Finished in 0.029709815979003906 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.271766662597656e-05, DT Time: 0, Z3 Time: 0.009467363357543945
-Others: 0.020169734954833984, Init Phase Time: 0.021570444107055664, Simplifier Solver Time: 0.00029349327087402344
+Others: 0.020169734954833984, Reasoner Time: 0.021570444107055664, Simplifier Solver Time: 0.00029349327087402344
 ************** Auxiliary Info **************
 max_len_exp_fwd: 487
 max_len_exp_bwd: 259
@@ -2786,7 +2786,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig22.smt2.log
 ************** Finished in 0.0957796573638916 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.845329284667969e-05, DT Time: 0, Z3 Time: 0.05190634727478027
-Others: 0.04378485679626465, Init Phase Time: 0.024966001510620117, Simplifier Solver Time: 0.0006151199340820312
+Others: 0.04378485679626465, Reasoner Time: 0.024966001510620117, Simplifier Solver Time: 0.0006151199340820312
 ************** Auxiliary Info **************
 max_len_exp_fwd: 390
 max_len_exp_bwd: 398
@@ -2868,7 +2868,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig37.smt2.log
 ************** Finished in 0.7317860126495361 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 17, Z3 Calls: 63
 Total SVM Time: 0.031054258346557617, DT Time: 0.05765414237976074, Z3 Time: 0.35181093215942383
-Others: 0.29126667976379395, Init Phase Time: 0.019576311111450195, Simplifier Solver Time: 0.0019712448120117188
+Others: 0.29126667976379395, Reasoner Time: 0.019576311111450195, Simplifier Solver Time: 0.0019712448120117188
 ************** Auxiliary Info **************
 max_len_exp_fwd: 277
 max_len_exp_bwd: 180
@@ -2902,7 +2902,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig41.smt2.log
 ************** Finished in 0.42208385467529297 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 9, Z3 Calls: 32
 Total SVM Time: 0.0138397216796875, DT Time: 0.03073596954345703, Z3 Time: 0.19222116470336914
-Others: 0.1852869987487793, Init Phase Time: 0.027536392211914062, Simplifier Solver Time: 0.0018239021301269531
+Others: 0.1852869987487793, Reasoner Time: 0.027536392211914062, Simplifier Solver Time: 0.0018239021301269531
 ************** Auxiliary Info **************
 max_len_exp_fwd: 571
 max_len_exp_bwd: 567
@@ -2985,7 +2985,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig42-1.smt2.log
 ************** Finished in 0.10573577880859375 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.463859558105469e-05, DT Time: 0, Z3 Time: 0.06036543846130371
-Others: 0.045285701751708984, Init Phase Time: 0.028305768966674805, Simplifier Solver Time: 0.0005581378936767578
+Others: 0.045285701751708984, Reasoner Time: 0.028305768966674805, Simplifier Solver Time: 0.0005581378936767578
 ************** Auxiliary Info **************
 max_len_exp_fwd: 804
 max_len_exp_bwd: 914
@@ -3079,7 +3079,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig42.smt2.log
 ************** Finished in 0.11036419868469238 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.58306884765625e-05, DT Time: 0, Z3 Time: 0.06430292129516602
-Others: 0.045975446701049805, Init Phase Time: 0.028812408447265625, Simplifier Solver Time: 0.00052642822265625
+Others: 0.045975446701049805, Reasoner Time: 0.028812408447265625, Simplifier Solver Time: 0.00052642822265625
 ************** Auxiliary Info **************
 max_len_exp_fwd: 911
 max_len_exp_bwd: 1014
@@ -3177,7 +3177,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig43.smt2.log
 ************** Finished in 0.0891427993774414 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.700920104980469e-05, DT Time: 0, Z3 Time: 0.04747605323791504
-Others: 0.04158973693847656, Init Phase Time: 0.024457693099975586, Simplifier Solver Time: 0.0006897449493408203
+Others: 0.04158973693847656, Reasoner Time: 0.024457693099975586, Simplifier Solver Time: 0.0006897449493408203
 ************** Auxiliary Info **************
 max_len_exp_fwd: 515
 max_len_exp_bwd: 326
@@ -3241,7 +3241,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig44-1.smt2.log
 ************** Finished in 0.09150147438049316 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.775161743164062e-05, DT Time: 0, Z3 Time: 0.047250986099243164
-Others: 0.04415273666381836, Init Phase Time: 0.02479863166809082, Simplifier Solver Time: 0.0007717609405517578
+Others: 0.04415273666381836, Reasoner Time: 0.02479863166809082, Simplifier Solver Time: 0.0007717609405517578
 ************** Auxiliary Info **************
 max_len_exp_fwd: 380
 max_len_exp_bwd: 218
@@ -3284,7 +3284,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig44.smt2.log
 ************** Finished in 0.09076046943664551 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.870529174804688e-05, DT Time: 0, Z3 Time: 0.04713296890258789
-Others: 0.04352879524230957, Init Phase Time: 0.024886369705200195, Simplifier Solver Time: 0.0007622241973876953
+Others: 0.04352879524230957, Reasoner Time: 0.024886369705200195, Simplifier Solver Time: 0.0007622241973876953
 ************** Auxiliary Info **************
 max_len_exp_fwd: 398
 max_len_exp_bwd: 236
@@ -3333,7 +3333,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/dillig46.smt2.log
 ************** Finished in 0.033144474029541016 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.699562072753906e-05, DT Time: 0, Z3 Time: 0.009568452835083008
-Others: 0.02350902557373047, Init Phase Time: 0.025012969970703125, Simplifier Solver Time: 0.00046944618225097656
+Others: 0.02350902557373047, Reasoner Time: 0.025012969970703125, Simplifier Solver Time: 0.00046944618225097656
 ************** Auxiliary Info **************
 max_len_exp_fwd: 525
 max_len_exp_bwd: 289
@@ -3363,7 +3363,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/ex14.smt2.log
 ************** Finished in 0.07343935966491699 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.678436279296875e-05, DT Time: 0, Z3 Time: 0.03304862976074219
-Others: 0.040303945541381836, Init Phase Time: 0.025370121002197266, Simplifier Solver Time: 0.0005838871002197266
+Others: 0.040303945541381836, Reasoner Time: 0.025370121002197266, Simplifier Solver Time: 0.0005838871002197266
 ************** Auxiliary Info **************
 max_len_exp_fwd: 271
 max_len_exp_bwd: 673
@@ -3422,7 +3422,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/ex7.smt2.log
 ************** Finished in 0.11738109588623047 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 10
 Total SVM Time: 0.0023190975189208984, DT Time: 0.003174304962158203, Z3 Time: 0.055121660232543945
-Others: 0.05676603317260742, Init Phase Time: 0.025978565216064453, Simplifier Solver Time: 0.0007905960083007812
+Others: 0.05676603317260742, Reasoner Time: 0.025978565216064453, Simplifier Solver Time: 0.0007905960083007812
 ************** Auxiliary Info **************
 max_len_exp_fwd: 448
 max_len_exp_bwd: 592
@@ -3490,7 +3490,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_1.smt2.log
 ************** Finished in 0.1690969467163086 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.005228757858276367, DT Time: 0.00647282600402832, Z3 Time: 0.09041714668273926
-Others: 0.06697821617126465, Init Phase Time: 0.022991657257080078, Simplifier Solver Time: 0.0009093284606933594
+Others: 0.06697821617126465, Reasoner Time: 0.022991657257080078, Simplifier Solver Time: 0.0009093284606933594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 136
 max_len_exp_bwd: 167
@@ -3531,7 +3531,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_2.smt2.log
 ************** Finished in 3.687397003173828 (secs) in 2 epochs **************
 Total SVM Calls: 35, DT Calls: 111, Z3 Calls: 231
 Total SVM Time: 0.14052581787109375, DT Time: 0.3858036994934082, Z3 Time: 1.3587021827697754
-Others: 1.8023653030395508, Init Phase Time: 0.023220539093017578, Simplifier Solver Time: 0.011606216430664062
+Others: 1.8023653030395508, Reasoner Time: 0.023220539093017578, Simplifier Solver Time: 0.011606216430664062
 ************** Auxiliary Info **************
 max_len_exp_fwd: 144
 max_len_exp_bwd: 176
@@ -3574,7 +3574,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_3.smt2.log
 ************** Finished in 3.4149763584136963 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 56, Z3 Calls: 104
 Total SVM Time: 1.640789270401001, DT Time: 0.19803905487060547, Z3 Time: 0.6226370334625244
-Others: 0.9535109996795654, Init Phase Time: 0.023145437240600586, Simplifier Solver Time: 0.006406545639038086
+Others: 0.9535109996795654, Reasoner Time: 0.023145437240600586, Simplifier Solver Time: 0.006406545639038086
 ************** Auxiliary Info **************
 max_len_exp_fwd: 148
 max_len_exp_bwd: 184
@@ -3622,7 +3622,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_4.smt2.log
 ************** Finished in 0.17336344718933105 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.005341291427612305, DT Time: 0.006471872329711914, Z3 Time: 0.0915379524230957
-Others: 0.07001233100891113, Init Phase Time: 0.02379894256591797, Simplifier Solver Time: 0.0009233951568603516
+Others: 0.07001233100891113, Reasoner Time: 0.02379894256591797, Simplifier Solver Time: 0.0009233951568603516
 ************** Auxiliary Info **************
 max_len_exp_fwd: 184
 max_len_exp_bwd: 156
@@ -3661,7 +3661,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/exact_iters_5.smt2.log
 ************** Finished in 25.785250902175903 (secs) in 5 epochs **************
 Total SVM Calls: 70, DT Calls: 823, Z3 Calls: 1043
 Total SVM Time: 1.751211166381836, DT Time: 3.0952556133270264, Z3 Time: 6.538817644119263
-Others: 14.399966478347778, Init Phase Time: 0.024041414260864258, Simplifier Solver Time: 0.0953218936920166
+Others: 14.399966478347778, Reasoner Time: 0.024041414260864258, Simplifier Solver Time: 0.0953218936920166
 ************** Auxiliary Info **************
 max_len_exp_fwd: 192
 max_len_exp_bwd: 162
@@ -3706,7 +3706,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/fig3.smt2.log
 ************** Finished in 0.027063846588134766 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.343292236328125e-05, DT Time: 0, Z3 Time: 0.008151769638061523
-Others: 0.01883864402770996, Init Phase Time: 0.019446849822998047, Simplifier Solver Time: 0.00020003318786621094
+Others: 0.01883864402770996, Reasoner Time: 0.019446849822998047, Simplifier Solver Time: 0.00020003318786621094
 ************** Auxiliary Info **************
 max_len_exp_fwd: 211
 max_len_exp_bwd: 5
@@ -3736,7 +3736,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/fig9.smt2.log
 ************** Finished in 0.030225515365600586 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.9114227294921875e-05, DT Time: 0, Z3 Time: 0.008016347885131836
-Others: 0.022160053253173828, Init Phase Time: 0.0231935977935791, Simplifier Solver Time: 0.0006165504455566406
+Others: 0.022160053253173828, Reasoner Time: 0.0231935977935791, Simplifier Solver Time: 0.0006165504455566406
 ************** Auxiliary Info **************
 max_len_exp_fwd: 311
 max_len_exp_bwd: 319
@@ -3775,7 +3775,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/formula22.smt2.log
 ************** Finished in 0.06735992431640625 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 9.274482727050781e-05, DT Time: 0, Z3 Time: 0.031177282333374023
-Others: 0.03608989715576172, Init Phase Time: 0.019747018814086914, Simplifier Solver Time: 0.0003314018249511719
+Others: 0.03608989715576172, Reasoner Time: 0.019747018814086914, Simplifier Solver Time: 0.0003314018249511719
 ************** Auxiliary Info **************
 max_len_exp_fwd: 264
 max_len_exp_bwd: 488
@@ -3806,7 +3806,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/formula25.smt2.log
 ************** Finished in 0.06964421272277832 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 9.202957153320312e-05, DT Time: 0, Z3 Time: 0.031928300857543945
-Others: 0.03762388229370117, Init Phase Time: 0.020714998245239258, Simplifier Solver Time: 0.0003838539123535156
+Others: 0.03762388229370117, Reasoner Time: 0.020714998245239258, Simplifier Solver Time: 0.0003838539123535156
 ************** Auxiliary Info **************
 max_len_exp_fwd: 337
 max_len_exp_bwd: 892
@@ -3839,7 +3839,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/formula27.smt2.log
 ************** Finished in 0.07116246223449707 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 0.00010633468627929688, DT Time: 0, Z3 Time: 0.03180074691772461
-Others: 0.039255380630493164, Init Phase Time: 0.02193593978881836, Simplifier Solver Time: 0.0005052089691162109
+Others: 0.039255380630493164, Reasoner Time: 0.02193593978881836, Simplifier Solver Time: 0.0005052089691162109
 ************** Auxiliary Info **************
 max_len_exp_fwd: 513
 max_len_exp_bwd: 1049
@@ -3877,7 +3877,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gcd_1.smt2.log
 ************** Finished in 0.08791160583496094 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.678436279296875e-05, DT Time: 0, Z3 Time: 0.046061038970947266
-Others: 0.0417637825012207, Init Phase Time: 0.029230833053588867, Simplifier Solver Time: 0.0006604194641113281
+Others: 0.0417637825012207, Reasoner Time: 0.029230833053588867, Simplifier Solver Time: 0.0006604194641113281
 ************** Auxiliary Info **************
 max_len_exp_fwd: 542
 max_len_exp_bwd: 666
@@ -4106,7 +4106,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gcd_2.smt2.log
 ************** Finished in 1.0463364124298096 (secs) in 2 epochs **************
 Total SVM Calls: 13, DT Calls: 25, Z3 Calls: 72
 Total SVM Time: 0.03253817558288574, DT Time: 0.08568477630615234, Z3 Time: 0.4702341556549072
-Others: 0.45787930488586426, Init Phase Time: 0.02759242057800293, Simplifier Solver Time: 0.0030031204223632812
+Others: 0.45787930488586426, Reasoner Time: 0.02759242057800293, Simplifier Solver Time: 0.0030031204223632812
 ************** Auxiliary Info **************
 max_len_exp_fwd: 542
 max_len_exp_bwd: 706
@@ -4229,7 +4229,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gcd_3.smt2.log
 ************** Finished in 1.3588237762451172 (secs) in 2 epochs **************
 Total SVM Calls: 20, DT Calls: 30, Z3 Calls: 105
 Total SVM Time: 0.04819917678833008, DT Time: 0.10450935363769531, Z3 Time: 0.6672711372375488
-Others: 0.538844108581543, Init Phase Time: 0.02853703498840332, Simplifier Solver Time: 0.003636598587036133
+Others: 0.538844108581543, Reasoner Time: 0.02853703498840332, Simplifier Solver Time: 0.003636598587036133
 ************** Auxiliary Info **************
 max_len_exp_fwd: 542
 max_len_exp_bwd: 815
@@ -4372,7 +4372,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/gj2007_true-unreach-ca
 ************** Finished in 1.1483089923858643 (secs) in 2 epochs **************
 Total SVM Calls: 18, DT Calls: 25, Z3 Calls: 97
 Total SVM Time: 0.05517005920410156, DT Time: 0.0913994312286377, Z3 Time: 0.5683858394622803
-Others: 0.4333536624908447, Init Phase Time: 0.025841951370239258, Simplifier Solver Time: 0.003141164779663086
+Others: 0.4333536624908447, Reasoner Time: 0.025841951370239258, Simplifier Solver Time: 0.003141164779663086
 ************** Auxiliary Info **************
 max_len_exp_fwd: 391
 max_len_exp_bwd: 890
@@ -4437,7 +4437,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/half_true_modif.smt2.l
 ************** Finished in 1.5008249282836914 (secs) in 2 epochs **************
 Total SVM Calls: 23, DT Calls: 37, Z3 Calls: 106
 Total SVM Time: 0.08062601089477539, DT Time: 0.13929057121276855, Z3 Time: 0.6418938636779785
-Others: 0.639014482498169, Init Phase Time: 0.026426076889038086, Simplifier Solver Time: 0.004367828369140625
+Others: 0.639014482498169, Reasoner Time: 0.026426076889038086, Simplifier Solver Time: 0.004367828369140625
 ************** Auxiliary Info **************
 max_len_exp_fwd: 437
 max_len_exp_bwd: 751
@@ -4495,7 +4495,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/half_true_orig.smt2.lo
 ************** Finished in 0.8622896671295166 (secs) in 2 epochs **************
 Total SVM Calls: 13, DT Calls: 18, Z3 Calls: 73
 Total SVM Time: 0.041008710861206055, DT Time: 0.06862711906433105, Z3 Time: 0.43300795555114746
-Others: 0.31964588165283203, Init Phase Time: 0.02536797523498535, Simplifier Solver Time: 0.002448558807373047
+Others: 0.31964588165283203, Reasoner Time: 0.02536797523498535, Simplifier Solver Time: 0.002448558807373047
 ************** Auxiliary Info **************
 max_len_exp_fwd: 291
 max_len_exp_bwd: 713
@@ -4549,7 +4549,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/hhk2008_true-unreach-c
 ************** Finished in 3.951198101043701 (secs) in 2 epochs **************
 Total SVM Calls: 13, DT Calls: 14, Z3 Calls: 68
 Total SVM Time: 3.2416205406188965, DT Time: 0.04896974563598633, Z3 Time: 0.3907299041748047
-Others: 0.26987791061401367, Init Phase Time: 0.02835249900817871, Simplifier Solver Time: 0.0022115707397460938
+Others: 0.26987791061401367, Reasoner Time: 0.02835249900817871, Simplifier Solver Time: 0.0022115707397460938
 ************** Auxiliary Info **************
 max_len_exp_fwd: 952
 max_len_exp_bwd: 475
@@ -4628,7 +4628,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/menlo_park_term_orig.s
 ************** Finished in 0.03803610801696777 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.4849853515625e-05, DT Time: 0, Z3 Time: 0.010119915008544922
-Others: 0.027851343154907227, Init Phase Time: 0.029382705688476562, Simplifier Solver Time: 0.0006382465362548828
+Others: 0.027851343154907227, Reasoner Time: 0.029382705688476562, Simplifier Solver Time: 0.0006382465362548828
 ************** Auxiliary Info **************
 max_len_exp_fwd: 1137
 max_len_exp_bwd: 456
@@ -4672,7 +4672,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/menlo_park_term_simpl_
 ************** Finished in 0.03688311576843262 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.128715515136719e-05, DT Time: 0, Z3 Time: 0.009787321090698242
-Others: 0.027024507522583008, Init Phase Time: 0.02877974510192871, Simplifier Solver Time: 0.000637054443359375
+Others: 0.027024507522583008, Reasoner Time: 0.02877974510192871, Simplifier Solver Time: 0.000637054443359375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 886
 max_len_exp_bwd: 432
@@ -4716,7 +4716,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/menlo_park_term_simpl_
 ************** Finished in 0.039186716079711914 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.318092346191406e-05, DT Time: 0, Z3 Time: 0.010655403137207031
-Others: 0.02846813201904297, Init Phase Time: 0.030346393585205078, Simplifier Solver Time: 0.0007038116455078125
+Others: 0.02846813201904297, Reasoner Time: 0.030346393585205078, Simplifier Solver Time: 0.0007038116455078125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 1317
 max_len_exp_bwd: 456
@@ -4767,7 +4767,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/n_c11.smt2.log
 ************** Finished in 0.08513617515563965 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.698204040527344e-05, DT Time: 0, Z3 Time: 0.046539306640625
-Others: 0.038539886474609375, Init Phase Time: 0.021488189697265625, Simplifier Solver Time: 0.00048613548278808594
+Others: 0.038539886474609375, Reasoner Time: 0.021488189697265625, Simplifier Solver Time: 0.00048613548278808594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 133
 max_len_exp_bwd: 707
@@ -4807,7 +4807,7 @@ Solving instance timeout!
 ************** Finished in 360.0163023471832 (secs) in 3 epochs **************
 Total SVM Calls: 640, DT Calls: 2049, Z3 Calls: 4054
 Total SVM Time: 245.90944051742554, DT Time: 13.031455755233765, Z3 Time: 65.1006109714508
-Others: 35.97479510307312, Init Phase Time: 0.03882765769958496, Simplifier Solver Time: 0.25098371505737305
+Others: 35.97479510307312, Reasoner Time: 0.03882765769958496, Simplifier Solver Time: 0.25098371505737305
 ************** Auxiliary Info **************
 max_len_exp_fwd: 821
 max_len_exp_bwd: 705
@@ -4825,7 +4825,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_div.smt2.log
 ************** Finished in 0.18060040473937988 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.677078247070312e-05, DT Time: 0, Z3 Time: 0.13910579681396484
-Others: 0.041417837142944336, Init Phase Time: 0.04906797409057617, Simplifier Solver Time: 0.0007200241088867188
+Others: 0.041417837142944336, Reasoner Time: 0.04906797409057617, Simplifier Solver Time: 0.0007200241088867188
 ************** Auxiliary Info **************
 max_len_exp_fwd: 290
 max_len_exp_bwd: 366
@@ -4871,7 +4871,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_factorial.smt2.
 ************** Finished in 0.12879228591918945 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.866455078125e-05, DT Time: 0, Z3 Time: 0.09204888343811035
-Others: 0.03667473793029785, Init Phase Time: 0.028516769409179688, Simplifier Solver Time: 0.0005371570587158203
+Others: 0.03667473793029785, Reasoner Time: 0.028516769409179688, Simplifier Solver Time: 0.0005371570587158203
 ************** Auxiliary Info **************
 max_len_exp_fwd: 134
 max_len_exp_bwd: 117
@@ -4906,7 +4906,7 @@ Solving instance timeout!
 ************** Finished in 360.00350856781006 (secs) in 3 epochs **************
 Total SVM Calls: 205, DT Calls: 833, Z3 Calls: 1442
 Total SVM Time: 313.5459258556366, DT Time: 4.166146278381348, Z3 Time: 25.222541093826294
-Others: 17.06889533996582, Init Phase Time: 0.05162191390991211, Simplifier Solver Time: 0.10491490364074707
+Others: 17.06889533996582, Reasoner Time: 0.05162191390991211, Simplifier Solver Time: 0.10491490364074707
 ************** Auxiliary Info **************
 max_len_exp_fwd: 763
 max_len_exp_bwd: 684
@@ -4924,7 +4924,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_minus_1.smt2.lo
 ************** Finished in 0.42928433418273926 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 6, Z3 Calls: 30
 Total SVM Time: 0.013275384902954102, DT Time: 0.020543336868286133, Z3 Time: 0.25603246688842773
-Others: 0.1394331455230713, Init Phase Time: 0.03391575813293457, Simplifier Solver Time: 0.0019190311431884766
+Others: 0.1394331455230713, Reasoner Time: 0.03391575813293457, Simplifier Solver Time: 0.0019190311431884766
 ************** Auxiliary Info **************
 max_len_exp_fwd: 420
 max_len_exp_bwd: 296
@@ -4976,7 +4976,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_minus_2.smt2.lo
 ************** Finished in 0.12866783142089844 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.893013000488281e-05, DT Time: 0, Z3 Time: 0.08313608169555664
-Others: 0.045442819595336914, Init Phase Time: 0.03415322303771973, Simplifier Solver Time: 0.0007555484771728516
+Others: 0.045442819595336914, Reasoner Time: 0.03415322303771973, Simplifier Solver Time: 0.0007555484771728516
 ************** Auxiliary Info **************
 max_len_exp_fwd: 725
 max_len_exp_bwd: 679
@@ -5063,7 +5063,7 @@ Error <class 'RuntimeError'>: Z3 returns unknown (solve_negated_rule)
 ************** Finished in 360.21852469444275 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 8
 Total SVM Time: 6.628036499023438e-05, DT Time: 0, Z3 Time: 360.1720759868622
-Others: 0.04638242721557617, Init Phase Time: 0.08687305450439453, Simplifier Solver Time: 0.0006930828094482422
+Others: 0.04638242721557617, Reasoner Time: 0.08687305450439453, Simplifier Solver Time: 0.0006930828094482422
 ************** Auxiliary Info **************
 max_len_exp_fwd: 242
 max_len_exp_bwd: 188
@@ -5102,7 +5102,7 @@ Error <class 'RuntimeError'>: Z3 returns unknown (check_overlap)
 ************** Finished in 360.09948801994324 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 1
 Total SVM Time: 0, DT Time: 0, Z3 Time: 360.0668132305145
-Others: 0.03267478942871094, Init Phase Time: 360.0830509662628, Simplifier Solver Time: 0.0006601810455322266
+Others: 0.03267478942871094, Reasoner Time: 360.0830509662628, Simplifier Solver Time: 0.0006601810455322266
 ************** Auxiliary Info **************
 Unsolved Last Constraint: [Or(And(inv_1_n >= 1, inv_0_n >= 1, inv_0_n%inv_1_n == 0),
     And(Not(inv_0_n <= 0),
@@ -5159,7 +5159,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mod_mult.smt2.l
 ************** Finished in 1.039076805114746 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.006211996078491211, DT Time: 0.006666421890258789, Z3 Time: 0.9480545520782471
-Others: 0.07814383506774902, Init Phase Time: 0.026578187942504883, Simplifier Solver Time: 0.0008339881896972656
+Others: 0.07814383506774902, Reasoner Time: 0.026578187942504883, Simplifier Solver Time: 0.0008339881896972656
 ************** Auxiliary Info **************
 max_len_exp_fwd: 157
 max_len_exp_bwd: 493
@@ -5203,7 +5203,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_1.smt2.log
 ************** Finished in 0.15309882164001465 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.107589721679688e-05, DT Time: 0, Z3 Time: 0.11019563674926758
-Others: 0.04281210899353027, Init Phase Time: 0.03707098960876465, Simplifier Solver Time: 0.0007488727569580078
+Others: 0.04281210899353027, Reasoner Time: 0.03707098960876465, Simplifier Solver Time: 0.0007488727569580078
 ************** Auxiliary Info **************
 max_len_exp_fwd: 324
 max_len_exp_bwd: 212
@@ -5241,7 +5241,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_2.smt2.log
 ************** Finished in 0.5233364105224609 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 25
 Total SVM Time: 0.010342121124267578, DT Time: 0.013721942901611328, Z3 Time: 0.3731210231781006
-Others: 0.12615132331848145, Init Phase Time: 0.03614616394042969, Simplifier Solver Time: 0.0011470317840576172
+Others: 0.12615132331848145, Reasoner Time: 0.03614616394042969, Simplifier Solver Time: 0.0011470317840576172
 ************** Auxiliary Info **************
 max_len_exp_fwd: 776
 max_len_exp_bwd: 215
@@ -5294,7 +5294,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_3.smt2.log
 ************** Finished in 2.2437140941619873 (secs) in 2 epochs **************
 Total SVM Calls: 17, DT Calls: 40, Z3 Calls: 102
 Total SVM Time: 0.04828476905822754, DT Time: 0.1486067771911621, Z3 Time: 1.2646799087524414
-Others: 0.7821426391601562, Init Phase Time: 0.03655123710632324, Simplifier Solver Time: 0.004759788513183594
+Others: 0.7821426391601562, Reasoner Time: 0.03655123710632324, Simplifier Solver Time: 0.004759788513183594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 776
 max_len_exp_bwd: 215
@@ -5347,7 +5347,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_4.smt2.log
 ************** Finished in 0.5764486789703369 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.004704952239990234, DT Time: 0.006443977355957031, Z3 Time: 0.4763612747192383
-Others: 0.08893847465515137, Init Phase Time: 0.03796577453613281, Simplifier Solver Time: 0.0009453296661376953
+Others: 0.08893847465515137, Reasoner Time: 0.03796577453613281, Simplifier Solver Time: 0.0009453296661376953
 ************** Auxiliary Info **************
 max_len_exp_fwd: 776
 max_len_exp_bwd: 221
@@ -5401,7 +5401,7 @@ Solving instance timeout!
 ************** Finished in 360.00144052505493 (secs) in 1 epochs **************
 Total SVM Calls: 240, DT Calls: 884, Z3 Calls: 1632
 Total SVM Time: 318.21032214164734, DT Time: 4.639162063598633, Z3 Time: 20.91266179084778
-Others: 16.23929452896118, Init Phase Time: 0.03842735290527344, Simplifier Solver Time: 0.11400008201599121
+Others: 16.23929452896118, Reasoner Time: 0.03842735290527344, Simplifier Solver Time: 0.11400008201599121
 ************** Auxiliary Info **************
 max_len_exp_fwd: 568
 max_len_exp_bwd: 352
@@ -5418,7 +5418,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_mult_6.smt2.log
 ************** Finished in 1.2670466899871826 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.724761962890625e-05, DT Time: 0, Z3 Time: 1.2232050895690918
-Others: 0.043764352798461914, Init Phase Time: 0.1732943058013916, Simplifier Solver Time: 0.0005702972412109375
+Others: 0.043764352798461914, Reasoner Time: 0.1732943058013916, Simplifier Solver Time: 0.0005702972412109375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 212
 max_len_exp_bwd: 117
@@ -5452,7 +5452,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_power.smt2.log
 ************** Finished in 0.13088417053222656 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.246566772460938e-05, DT Time: 0, Z3 Time: 0.09476566314697266
-Others: 0.0360560417175293, Init Phase Time: 0.03127789497375488, Simplifier Solver Time: 0.0005781650543212891
+Others: 0.0360560417175293, Reasoner Time: 0.03127789497375488, Simplifier Solver Time: 0.0005781650543212891
 ************** Auxiliary Info **************
 max_len_exp_fwd: 130
 max_len_exp_bwd: 99
@@ -5486,7 +5486,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonlin_square.smt2.log
 ************** Finished in 0.12746500968933105 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.747245788574219e-05, DT Time: 0, Z3 Time: 0.08649826049804688
-Others: 0.04089927673339844, Init Phase Time: 0.03176164627075195, Simplifier Solver Time: 0.000743865966796875
+Others: 0.04089927673339844, Reasoner Time: 0.03176164627075195, Simplifier Solver Time: 0.000743865966796875
 ************** Auxiliary Info **************
 max_len_exp_fwd: 218
 max_len_exp_bwd: 266
@@ -5526,7 +5526,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/nonterm_01.smt2.log
 ************** Finished in 0.03068995475769043 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.601478576660156e-05, DT Time: 0, Z3 Time: 0.00822591781616211
-Others: 0.02241802215576172, Init Phase Time: 0.023300647735595703, Simplifier Solver Time: 0.0006508827209472656
+Others: 0.02241802215576172, Reasoner Time: 0.023300647735595703, Simplifier Solver Time: 0.0006508827209472656
 ************** Auxiliary Info **************
 max_len_exp_fwd: 206
 max_len_exp_bwd: 178
@@ -5559,7 +5559,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/phases_true-unreach-ca
 ************** Finished in 6.292083978652954 (secs) in 2 epochs **************
 Total SVM Calls: 63, DT Calls: 134, Z3 Calls: 363
 Total SVM Time: 0.307265043258667, DT Time: 0.5966591835021973, Z3 Time: 3.03145170211792
-Others: 2.35670804977417, Init Phase Time: 0.02975606918334961, Simplifier Solver Time: 0.01485896110534668
+Others: 2.35670804977417, Reasoner Time: 0.02975606918334961, Simplifier Solver Time: 0.01485896110534668
 ************** Auxiliary Info **************
 max_len_exp_fwd: 398
 max_len_exp_bwd: 544
@@ -5620,7 +5620,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/recur_1.smt2.log
 ************** Finished in 0.0839548110961914 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.866455078125e-05, DT Time: 0, Z3 Time: 0.04897618293762207
-Others: 0.034909963607788086, Init Phase Time: 0.017831802368164062, Simplifier Solver Time: 0.00031280517578125
+Others: 0.034909963607788086, Reasoner Time: 0.017831802368164062, Simplifier Solver Time: 0.00031280517578125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 80
 max_len_exp_bwd: 276
@@ -5649,7 +5649,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/recur_102.smt2.log
 ************** Finished in 0.07996439933776855 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 8
 Total SVM Time: 8.177757263183594e-05, DT Time: 0, Z3 Time: 0.045336008071899414
-Others: 0.034546613693237305, Init Phase Time: 0.018220186233520508, Simplifier Solver Time: 0.0003256797790527344
+Others: 0.034546613693237305, Reasoner Time: 0.018220186233520508, Simplifier Solver Time: 0.0003256797790527344
 ************** Auxiliary Info **************
 max_len_exp_fwd: 100
 max_len_exp_bwd: 433
@@ -5678,7 +5678,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_01.smt2.log
 ************** Finished in 0.13956117630004883 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.002855062484741211, DT Time: 0.003101348876953125, Z3 Time: 0.07759737968444824
-Others: 0.05600738525390625, Init Phase Time: 0.025380611419677734, Simplifier Solver Time: 0.0007460117340087891
+Others: 0.05600738525390625, Reasoner Time: 0.025380611419677734, Simplifier Solver Time: 0.0007460117340087891
 ************** Auxiliary Info **************
 max_len_exp_fwd: 253
 max_len_exp_bwd: 577
@@ -5745,7 +5745,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_02.smt2.log
 ************** Finished in 0.13254237174987793 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0027141571044921875, DT Time: 0.0034859180450439453, Z3 Time: 0.07587075233459473
-Others: 0.05047154426574707, Init Phase Time: 0.02060723304748535, Simplifier Solver Time: 0.0005106925964355469
+Others: 0.05047154426574707, Reasoner Time: 0.02060723304748535, Simplifier Solver Time: 0.0005106925964355469
 ************** Auxiliary Info **************
 max_len_exp_fwd: 289
 max_len_exp_bwd: 174
@@ -5777,7 +5777,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_03.smt2.log
 ************** Finished in 0.13665461540222168 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.002910614013671875, DT Time: 0.003063678741455078, Z3 Time: 0.07704353332519531
-Others: 0.053636789321899414, Init Phase Time: 0.02405548095703125, Simplifier Solver Time: 0.0007712841033935547
+Others: 0.053636789321899414, Reasoner Time: 0.02405548095703125, Simplifier Solver Time: 0.0007712841033935547
 ************** Auxiliary Info **************
 max_len_exp_fwd: 148
 max_len_exp_bwd: 459
@@ -5829,7 +5829,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_04.smt2.log
 ************** Finished in 0.1367506980895996 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0029883384704589844, DT Time: 0.0034215450286865234, Z3 Time: 0.07677483558654785
-Others: 0.05356597900390625, Init Phase Time: 0.023440837860107422, Simplifier Solver Time: 0.000782012939453125
+Others: 0.05356597900390625, Reasoner Time: 0.023440837860107422, Simplifier Solver Time: 0.000782012939453125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 156
 max_len_exp_bwd: 453
@@ -5880,7 +5880,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_disj_ite_05.smt2.log
 ************** Finished in 14.381858587265015 (secs) in 3 epochs **************
 Total SVM Calls: 74, DT Calls: 404, Z3 Calls: 690
 Total SVM Time: 1.4365684986114502, DT Time: 1.5131323337554932, Z3 Time: 4.6176745891571045
-Others: 6.814483165740967, Init Phase Time: 0.025175809860229492, Simplifier Solver Time: 0.04485774040222168
+Others: 6.814483165740967, Reasoner Time: 0.025175809860229492, Simplifier Solver Time: 0.04485774040222168
 ************** Auxiliary Info **************
 max_len_exp_fwd: 260
 max_len_exp_bwd: 861
@@ -5956,7 +5956,7 @@ Error <class 'RuntimeError'>: Duplicate neg data points should be impossible
 ************** Finished in 3.7934157848358154 (secs) in 2 epochs **************
 Total SVM Calls: 30, DT Calls: 104, Z3 Calls: 239
 Total SVM Time: 0.11089706420898438, DT Time: 0.37355685234069824, Z3 Time: 1.5929088592529297
-Others: 1.7160530090332031, Init Phase Time: 0.02747511863708496, Simplifier Solver Time: 0.012206077575683594
+Others: 1.7160530090332031, Reasoner Time: 0.02747511863708496, Simplifier Solver Time: 0.012206077575683594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 260
 max_len_exp_bwd: 1052
@@ -5974,7 +5974,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_01.smt2.log
 ************** Finished in 0.13644170761108398 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.00250244140625, DT Time: 0.003081798553466797, Z3 Time: 0.07559418678283691
-Others: 0.05526328086853027, Init Phase Time: 0.024465084075927734, Simplifier Solver Time: 0.0008971691131591797
+Others: 0.05526328086853027, Reasoner Time: 0.024465084075927734, Simplifier Solver Time: 0.0008971691131591797
 ************** Auxiliary Info **************
 max_len_exp_fwd: 224
 max_len_exp_bwd: 111
@@ -6012,7 +6012,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_02.smt2.log
 ************** Finished in 0.9643564224243164 (secs) in 2 epochs **************
 Total SVM Calls: 9, DT Calls: 24, Z3 Calls: 57
 Total SVM Time: 0.022631168365478516, DT Time: 0.08523130416870117, Z3 Time: 0.3744528293609619
-Others: 0.4820411205291748, Init Phase Time: 0.028654098510742188, Simplifier Solver Time: 0.0032656192779541016
+Others: 0.4820411205291748, Reasoner Time: 0.028654098510742188, Simplifier Solver Time: 0.0032656192779541016
 ************** Auxiliary Info **************
 max_len_exp_fwd: 800
 max_len_exp_bwd: 167
@@ -6061,7 +6061,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_03.smt2.log
 ************** Finished in 0.8910632133483887 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 19, Z3 Calls: 64
 Total SVM Time: 0.030963659286499023, DT Time: 0.06780266761779785, Z3 Time: 0.4396378993988037
-Others: 0.3526589870452881, Init Phase Time: 0.021342754364013672, Simplifier Solver Time: 0.0020656585693359375
+Others: 0.3526589870452881, Reasoner Time: 0.021342754364013672, Simplifier Solver Time: 0.0020656585693359375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 288
 max_len_exp_bwd: 115
@@ -6098,7 +6098,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_04.smt2.log
 ************** Finished in 0.1404275894165039 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0026035308837890625, DT Time: 0.002924680709838867, Z3 Time: 0.07406163215637207
-Others: 0.060837745666503906, Init Phase Time: 0.030532121658325195, Simplifier Solver Time: 0.0011851787567138672
+Others: 0.060837745666503906, Reasoner Time: 0.030532121658325195, Simplifier Solver Time: 0.0011851787567138672
 ************** Auxiliary Info **************
 max_len_exp_fwd: 136
 max_len_exp_bwd: 128
@@ -6143,7 +6143,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_05.smt2.log
 ************** Finished in 4.972194194793701 (secs) in 2 epochs **************
 Total SVM Calls: 15, DT Calls: 103, Z3 Calls: 188
 Total SVM Time: 1.5007634162902832, DT Time: 0.39995574951171875, Z3 Time: 1.2378911972045898
-Others: 1.8335838317871094, Init Phase Time: 0.02367711067199707, Simplifier Solver Time: 0.011056184768676758
+Others: 1.8335838317871094, Reasoner Time: 0.02367711067199707, Simplifier Solver Time: 0.011056184768676758
 ************** Auxiliary Info **************
 max_len_exp_fwd: 226
 max_len_exp_bwd: 124
@@ -6184,7 +6184,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_06.smt2.log
 ************** Finished in 0.2758464813232422 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 25
 Total SVM Time: 0.010009527206420898, DT Time: 0.012842655181884766, Z3 Time: 0.1484208106994629
-Others: 0.10457348823547363, Init Phase Time: 0.027130126953125, Simplifier Solver Time: 0.001178741455078125
+Others: 0.10457348823547363, Reasoner Time: 0.027130126953125, Simplifier Solver Time: 0.001178741455078125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 518
 max_len_exp_bwd: 204
@@ -6231,7 +6231,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_07.smt2.log
 ************** Finished in 0.029867172241210938 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.343292236328125e-05, DT Time: 0, Z3 Time: 0.009183645248413086
-Others: 0.02061009407043457, Init Phase Time: 0.021732807159423828, Simplifier Solver Time: 0.0003421306610107422
+Others: 0.02061009407043457, Reasoner Time: 0.021732807159423828, Simplifier Solver Time: 0.0003421306610107422
 ************** Auxiliary Info **************
 max_len_exp_fwd: 319
 max_len_exp_bwd: 165
@@ -6261,7 +6261,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_08.smt2.log
 ************** Finished in 0.08883166313171387 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.7738037109375e-05, DT Time: 0, Z3 Time: 0.049398183822631836
-Others: 0.039345741271972656, Init Phase Time: 0.0224301815032959, Simplifier Solver Time: 0.0006036758422851562
+Others: 0.039345741271972656, Reasoner Time: 0.0224301815032959, Simplifier Solver Time: 0.0006036758422851562
 ************** Auxiliary Info **************
 max_len_exp_fwd: 199
 max_len_exp_bwd: 128
@@ -6295,7 +6295,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_09.smt2.log
 ************** Finished in 0.08319258689880371 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.678436279296875e-05, DT Time: 0, Z3 Time: 0.04782533645629883
-Others: 0.035280466079711914, Init Phase Time: 0.018720149993896484, Simplifier Solver Time: 0.00035881996154785156
+Others: 0.035280466079711914, Reasoner Time: 0.018720149993896484, Simplifier Solver Time: 0.00035881996154785156
 ************** Auxiliary Info **************
 max_len_exp_fwd: 99
 max_len_exp_bwd: 5
@@ -6326,7 +6326,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_10.smt2.log
 ************** Finished in 0.02545905113220215 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.4345855712890625e-05, DT Time: 0, Z3 Time: 0.009085416793823242
-Others: 0.016329288482666016, Init Phase Time: 0.0172274112701416, Simplifier Solver Time: 0.00019311904907226562
+Others: 0.016329288482666016, Reasoner Time: 0.0172274112701416, Simplifier Solver Time: 0.00019311904907226562
 ************** Auxiliary Info **************
 max_len_exp_fwd: 5
 max_len_exp_bwd: 114
@@ -6355,7 +6355,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_11.smt2.log
 ************** Finished in 0.0921483039855957 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.390975952148438e-05, DT Time: 0, Z3 Time: 0.05039262771606445
-Others: 0.041681766510009766, Init Phase Time: 0.02385544776916504, Simplifier Solver Time: 0.0006630420684814453
+Others: 0.041681766510009766, Reasoner Time: 0.02385544776916504, Simplifier Solver Time: 0.0006630420684814453
 ************** Auxiliary Info **************
 max_len_exp_fwd: 220
 max_len_exp_bwd: 120
@@ -6389,7 +6389,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_12.smt2.log
 ************** Finished in 0.10040044784545898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00012230873107910156, DT Time: 0, Z3 Time: 0.051802635192871094
-Others: 0.04847550392150879, Init Phase Time: 0.026645898818969727, Simplifier Solver Time: 0.0006594657897949219
+Others: 0.04847550392150879, Reasoner Time: 0.026645898818969727, Simplifier Solver Time: 0.0006594657897949219
 ************** Auxiliary Info **************
 max_len_exp_fwd: 729
 max_len_exp_bwd: 357
@@ -6445,7 +6445,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_13.smt2.log
 ************** Finished in 0.09518694877624512 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001125335693359375, DT Time: 0, Z3 Time: 0.0502934455871582
-Others: 0.04478096961975098, Init Phase Time: 0.022652864456176758, Simplifier Solver Time: 0.00044465065002441406
+Others: 0.04478096961975098, Reasoner Time: 0.022652864456176758, Simplifier Solver Time: 0.00044465065002441406
 ************** Auxiliary Info **************
 max_len_exp_fwd: 729
 max_len_exp_bwd: 5
@@ -6486,7 +6486,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_14.smt2.log
 ************** Finished in 0.09363293647766113 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00010967254638671875, DT Time: 0, Z3 Time: 0.04858875274658203
-Others: 0.04493451118469238, Init Phase Time: 0.022784709930419922, Simplifier Solver Time: 0.00045800209045410156
+Others: 0.04493451118469238, Reasoner Time: 0.022784709930419922, Simplifier Solver Time: 0.00045800209045410156
 ************** Auxiliary Info **************
 max_len_exp_fwd: 729
 max_len_exp_bwd: 5
@@ -6527,7 +6527,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_15.smt2.log
 ************** Finished in 0.09476661682128906 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00011038780212402344, DT Time: 0, Z3 Time: 0.048921823501586914
-Others: 0.045734405517578125, Init Phase Time: 0.023288488388061523, Simplifier Solver Time: 0.0005400180816650391
+Others: 0.045734405517578125, Reasoner Time: 0.023288488388061523, Simplifier Solver Time: 0.0005400180816650391
 ************** Auxiliary Info **************
 max_len_exp_fwd: 729
 max_len_exp_bwd: 5
@@ -6568,7 +6568,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_16.smt2.log
 ************** Finished in 0.4258596897125244 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 7, Z3 Calls: 38
 Total SVM Time: 0.015723705291748047, DT Time: 0.0231170654296875, Z3 Time: 0.22782635688781738
-Others: 0.15919256210327148, Init Phase Time: 0.0282289981842041, Simplifier Solver Time: 0.0015676021575927734
+Others: 0.15919256210327148, Reasoner Time: 0.0282289981842041, Simplifier Solver Time: 0.0015676021575927734
 ************** Auxiliary Info **************
 max_len_exp_fwd: 629
 max_len_exp_bwd: 379
@@ -6646,7 +6646,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_17.smt2.log
 ************** Finished in 0.3187596797943115 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 5, Z3 Calls: 28
 Total SVM Time: 0.009971380233764648, DT Time: 0.016304731369018555, Z3 Time: 0.16855812072753906
-Others: 0.12392544746398926, Init Phase Time: 0.028028488159179688, Simplifier Solver Time: 0.001329660415649414
+Others: 0.12392544746398926, Reasoner Time: 0.028028488159179688, Simplifier Solver Time: 0.001329660415649414
 ************** Auxiliary Info **************
 max_len_exp_fwd: 631
 max_len_exp_bwd: 384
@@ -6724,7 +6724,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_18.smt2.log
 ************** Finished in 0.09682559967041016 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.655952453613281e-05, DT Time: 0, Z3 Time: 0.05286812782287598
-Others: 0.04386091232299805, Init Phase Time: 0.025951147079467773, Simplifier Solver Time: 0.0006382465362548828
+Others: 0.04386091232299805, Reasoner Time: 0.025951147079467773, Simplifier Solver Time: 0.0006382465362548828
 ************** Auxiliary Info **************
 max_len_exp_fwd: 374
 max_len_exp_bwd: 514
@@ -6775,7 +6775,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_19.smt2.log
 ************** Finished in 0.09681272506713867 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.584426879882812e-05, DT Time: 0, Z3 Time: 0.051047563552856445
-Others: 0.0456693172454834, Init Phase Time: 0.025118350982666016, Simplifier Solver Time: 0.0006632804870605469
+Others: 0.0456693172454834, Reasoner Time: 0.025118350982666016, Simplifier Solver Time: 0.0006632804870605469
 ************** Auxiliary Info **************
 max_len_exp_fwd: 242
 max_len_exp_bwd: 567
@@ -6830,7 +6830,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_20.smt2.log
 ************** Finished in 98.02219581604004 (secs) in 32 epochs **************
 Total SVM Calls: 387, DT Calls: 2907, Z3 Calls: 4097
 Total SVM Time: 2.1258933544158936, DT Time: 11.86864447593689, Z3 Time: 29.754645824432373
-Others: 54.27301216125488, Init Phase Time: 0.027033329010009766, Simplifier Solver Time: 0.3377039432525635
+Others: 54.27301216125488, Reasoner Time: 0.027033329010009766, Simplifier Solver Time: 0.3377039432525635
 ************** Auxiliary Info **************
 max_len_exp_fwd: 242
 max_len_exp_bwd: 1057
@@ -6874,7 +6874,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_21.smt2.log
 ************** Finished in 0.3120548725128174 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 5, Z3 Calls: 26
 Total SVM Time: 0.012038230895996094, DT Time: 0.016244888305664062, Z3 Time: 0.165147066116333
-Others: 0.11862468719482422, Init Phase Time: 0.020263671875, Simplifier Solver Time: 0.0006957054138183594
+Others: 0.11862468719482422, Reasoner Time: 0.020263671875, Simplifier Solver Time: 0.0006957054138183594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 458
 max_len_exp_bwd: 279
@@ -6910,7 +6910,7 @@ Solving instance timeout!
 ************** Finished in 360.0092363357544 (secs) in 1 epochs **************
 Total SVM Calls: 2493, DT Calls: 6894, Z3 Calls: 15198
 Total SVM Time: 56.83639740943909, DT Time: 50.287256956100464, Z3 Time: 131.2322130203247
-Others: 121.65336894989014, Init Phase Time: 0.019244909286499023, Simplifier Solver Time: 0.8226778507232666
+Others: 121.65336894989014, Reasoner Time: 0.019244909286499023, Simplifier Solver Time: 0.8226778507232666
 ************** Auxiliary Info **************
 max_len_exp_fwd: 378
 max_len_exp_bwd: 279
@@ -6927,7 +6927,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_23.smt2.log
 ************** Finished in 0.18499279022216797 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.0059506893157958984, DT Time: 0.006733417510986328, Z3 Time: 0.10393047332763672
-Others: 0.06837821006774902, Init Phase Time: 0.021701574325561523, Simplifier Solver Time: 0.0005502700805664062
+Others: 0.06837821006774902, Reasoner Time: 0.021701574325561523, Simplifier Solver Time: 0.0005502700805664062
 ************** Auxiliary Info **************
 max_len_exp_fwd: 530
 max_len_exp_bwd: 227
@@ -6960,7 +6960,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_24.smt2.log
 ************** Finished in 3.2982466220855713 (secs) in 2 epochs **************
 Total SVM Calls: 59, DT Calls: 65, Z3 Calls: 259
 Total SVM Time: 0.20151519775390625, DT Time: 0.2661306858062744, Z3 Time: 1.69441819190979
-Others: 1.1361825466156006, Init Phase Time: 0.02984452247619629, Simplifier Solver Time: 0.008556842803955078
+Others: 1.1361825466156006, Reasoner Time: 0.02984452247619629, Simplifier Solver Time: 0.008556842803955078
 ************** Auxiliary Info **************
 max_len_exp_fwd: 632
 max_len_exp_bwd: 471
@@ -7055,7 +7055,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_25.smt2.log
 ************** Finished in 0.14380550384521484 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0026357173919677734, DT Time: 0.003189563751220703, Z3 Time: 0.08317279815673828
-Others: 0.054807424545288086, Init Phase Time: 0.025547266006469727, Simplifier Solver Time: 0.0007407665252685547
+Others: 0.054807424545288086, Reasoner Time: 0.025547266006469727, Simplifier Solver Time: 0.0007407665252685547
 ************** Auxiliary Info **************
 max_len_exp_fwd: 174
 max_len_exp_bwd: 443
@@ -7117,7 +7117,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_mutants_26.smt2.log
 ************** Finished in 0.6882760524749756 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 12, Z3 Calls: 59
 Total SVM Time: 0.031449317932128906, DT Time: 0.042128801345825195, Z3 Time: 0.37611842155456543
-Others: 0.23857951164245605, Init Phase Time: 0.02787327766418457, Simplifier Solver Time: 0.0016977787017822266
+Others: 0.23857951164245605, Reasoner Time: 0.02787327766418457, Simplifier Solver Time: 0.0016977787017822266
 ************** Auxiliary Info **************
 max_len_exp_fwd: 580
 max_len_exp_bwd: 742
@@ -7183,7 +7183,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_01.smt2.log
 ************** Finished in 0.09097623825073242 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.43865966796875e-05, DT Time: 0, Z3 Time: 0.05088973045349121
-Others: 0.04001212120056152, Init Phase Time: 0.023713111877441406, Simplifier Solver Time: 0.0007393360137939453
+Others: 0.04001212120056152, Reasoner Time: 0.023713111877441406, Simplifier Solver Time: 0.0007393360137939453
 ************** Auxiliary Info **************
 max_len_exp_fwd: 112
 max_len_exp_bwd: 99
@@ -7219,7 +7219,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_02.smt2.log
 ************** Finished in 0.10368800163269043 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.00010657310485839844, DT Time: 0, Z3 Time: 0.052545785903930664
-Others: 0.05103564262390137, Init Phase Time: 0.029790639877319336, Simplifier Solver Time: 0.0008223056793212891
+Others: 0.05103564262390137, Reasoner Time: 0.029790639877319336, Simplifier Solver Time: 0.0008223056793212891
 ************** Auxiliary Info **************
 max_len_exp_fwd: 280
 max_len_exp_bwd: 689
@@ -7297,7 +7297,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_03.smt2.log
 ************** Finished in 0.09052467346191406 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.961822509765625e-05, DT Time: 0, Z3 Time: 0.050295114517211914
-Others: 0.04015994071960449, Init Phase Time: 0.0238955020904541, Simplifier Solver Time: 0.0007061958312988281
+Others: 0.04015994071960449, Reasoner Time: 0.0238955020904541, Simplifier Solver Time: 0.0007061958312988281
 ************** Auxiliary Info **************
 max_len_exp_fwd: 152
 max_len_exp_bwd: 138
@@ -7335,7 +7335,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_04.smt2.log
 ************** Finished in 0.49456191062927246 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 10, Z3 Calls: 42
 Total SVM Time: 0.012778043746948242, DT Time: 0.03453683853149414, Z3 Time: 0.2574329376220703
-Others: 0.18981409072875977, Init Phase Time: 0.023281097412109375, Simplifier Solver Time: 0.0017597675323486328
+Others: 0.18981409072875977, Reasoner Time: 0.023281097412109375, Simplifier Solver Time: 0.0017597675323486328
 ************** Auxiliary Info **************
 max_len_exp_fwd: 102
 max_len_exp_bwd: 156
@@ -7380,7 +7380,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_05.smt2.log
 ************** Finished in 0.13666582107543945 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 1, Z3 Calls: 13
 Total SVM Time: 0.0024962425231933594, DT Time: 0.0031251907348632812, Z3 Time: 0.07639408111572266
-Others: 0.054650306701660156, Init Phase Time: 0.02322244644165039, Simplifier Solver Time: 0.0008411407470703125
+Others: 0.054650306701660156, Reasoner Time: 0.02322244644165039, Simplifier Solver Time: 0.0008411407470703125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 148
 max_len_exp_bwd: 121
@@ -7425,7 +7425,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_06.smt2.log
 ************** Finished in 0.8379597663879395 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 18, Z3 Calls: 63
 Total SVM Time: 0.031087875366210938, DT Time: 0.06346011161804199, Z3 Time: 0.40445446968078613
-Others: 0.3389573097229004, Init Phase Time: 0.02903580665588379, Simplifier Solver Time: 0.0027015209197998047
+Others: 0.3389573097229004, Reasoner Time: 0.02903580665588379, Simplifier Solver Time: 0.0027015209197998047
 ************** Auxiliary Info **************
 max_len_exp_fwd: 518
 max_len_exp_bwd: 496
@@ -7483,7 +7483,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_07.smt2.log
 ************** Finished in 0.08416318893432617 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.364418029785156e-05, DT Time: 0, Z3 Time: 0.048064231872558594
-Others: 0.03604531288146973, Init Phase Time: 0.020403385162353516, Simplifier Solver Time: 0.0005729198455810547
+Others: 0.03604531288146973, Reasoner Time: 0.020403385162353516, Simplifier Solver Time: 0.0005729198455810547
 ************** Auxiliary Info **************
 max_len_exp_fwd: 102
 max_len_exp_bwd: 311
@@ -7528,7 +7528,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_08.smt2.log
 ************** Finished in 0.09373998641967773 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.296966552734375e-05, DT Time: 0, Z3 Time: 0.052034616470336914
-Others: 0.04162240028381348, Init Phase Time: 0.02556633949279785, Simplifier Solver Time: 0.0005593299865722656
+Others: 0.04162240028381348, Reasoner Time: 0.02556633949279785, Simplifier Solver Time: 0.0005593299865722656
 ************** Auxiliary Info **************
 max_len_exp_fwd: 326
 max_len_exp_bwd: 883
@@ -7679,7 +7679,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_09.smt2.log
 ************** Finished in 0.0964057445526123 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.581710815429688e-05, DT Time: 0, Z3 Time: 0.05304121971130371
-Others: 0.0432887077331543, Init Phase Time: 0.026076555252075195, Simplifier Solver Time: 0.00078582763671875
+Others: 0.0432887077331543, Reasoner Time: 0.026076555252075195, Simplifier Solver Time: 0.00078582763671875
 ************** Auxiliary Info **************
 max_len_exp_fwd: 230
 max_len_exp_bwd: 332
@@ -7735,7 +7735,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_seeds_10.smt2.log
 ************** Finished in 0.02815079689025879 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.0067901611328125e-05, DT Time: 0, Z3 Time: 0.008469343185424805
-Others: 0.019631385803222656, Init Phase Time: 0.020689725875854492, Simplifier Solver Time: 0.0004944801330566406
+Others: 0.019631385803222656, Reasoner Time: 0.020689725875854492, Simplifier Solver Time: 0.0004944801330566406
 ************** Auxiliary Info **************
 max_len_exp_fwd: 11
 max_len_exp_bwd: 17
@@ -7765,7 +7765,7 @@ Solving instance timeout!
 ************** Finished in 360.0012254714966 (secs) in 2 epochs **************
 Total SVM Calls: 71, DT Calls: 11491, Z3 Calls: 11721
 Total SVM Time: 18.555529594421387, DT Time: 41.054747581481934, Z3 Time: 87.84936785697937
-Others: 212.5415804386139, Init Phase Time: 0.025220632553100586, Simplifier Solver Time: 1.4515833854675293
+Others: 212.5415804386139, Reasoner Time: 0.025220632553100586, Simplifier Solver Time: 1.4515833854675293
 ************** Auxiliary Info **************
 max_len_exp_fwd: 158
 max_len_exp_bwd: 473
@@ -7783,7 +7783,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_02.smt2.log
 ************** Finished in 166.14070296287537 (secs) in 47 epochs **************
 Total SVM Calls: 559, DT Calls: 3281, Z3 Calls: 5068
 Total SVM Time: 55.390727043151855, DT Time: 13.317276954650879, Z3 Time: 37.995147466659546
-Others: 59.437551498413086, Init Phase Time: 0.027294635772705078, Simplifier Solver Time: 0.40235233306884766
+Others: 59.437551498413086, Reasoner Time: 0.027294635772705078, Simplifier Solver Time: 0.40235233306884766
 ************** Auxiliary Info **************
 max_len_exp_fwd: 262
 max_len_exp_bwd: 672
@@ -7852,7 +7852,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_03.smt2.log
 ************** Finished in 203.07662439346313 (secs) in 17 epochs **************
 Total SVM Calls: 1098, DT Calls: 5149, Z3 Calls: 8504
 Total SVM Time: 18.866774797439575, DT Time: 25.913662910461426, Z3 Time: 62.66845893859863
-Others: 95.6277277469635, Init Phase Time: 0.027342796325683594, Simplifier Solver Time: 0.6122097969055176
+Others: 95.6277277469635, Reasoner Time: 0.027342796325683594, Simplifier Solver Time: 0.6122097969055176
 ************** Auxiliary Info **************
 max_len_exp_fwd: 349
 max_len_exp_bwd: 412
@@ -7899,7 +7899,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_04.smt2.log
 ************** Finished in 1.2887935638427734 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 36, Z3 Calls: 59
 Total SVM Time: 0.011196613311767578, DT Time: 0.13716983795166016, Z3 Time: 0.4399428367614746
-Others: 0.7004842758178711, Init Phase Time: 0.025026559829711914, Simplifier Solver Time: 0.0042340755462646484
+Others: 0.7004842758178711, Reasoner Time: 0.025026559829711914, Simplifier Solver Time: 0.0042340755462646484
 ************** Auxiliary Info **************
 max_len_exp_fwd: 296
 max_len_exp_bwd: 414
@@ -7961,7 +7961,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_05.smt2.log
 ************** Finished in 0.4878110885620117 (secs) in 2 epochs **************
 Total SVM Calls: 8, DT Calls: 8, Z3 Calls: 43
 Total SVM Time: 0.02183079719543457, DT Time: 0.02680683135986328, Z3 Time: 0.2710585594177246
-Others: 0.16811490058898926, Init Phase Time: 0.027416467666625977, Simplifier Solver Time: 0.001527547836303711
+Others: 0.16811490058898926, Reasoner Time: 0.027416467666625977, Simplifier Solver Time: 0.001527547836303711
 ************** Auxiliary Info **************
 max_len_exp_fwd: 222
 max_len_exp_bwd: 409
@@ -8016,7 +8016,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_06.smt2.log
 ************** Finished in 49.228846073150635 (secs) in 2 epochs **************
 Total SVM Calls: 12, DT Calls: 314, Z3 Calls: 389
 Total SVM Time: 39.20159363746643, DT Time: 1.2289769649505615, Z3 Time: 2.940614938735962
-Others: 5.857660531997681, Init Phase Time: 0.027092695236206055, Simplifier Solver Time: 0.04078936576843262
+Others: 5.857660531997681, Reasoner Time: 0.027092695236206055, Simplifier Solver Time: 0.04078936576843262
 ************** Auxiliary Info **************
 max_len_exp_fwd: 254
 max_len_exp_bwd: 760
@@ -8056,7 +8056,7 @@ Solving instance timeout!
 ************** Finished in 360.0123357772827 (secs) in 1 epochs **************
 Total SVM Calls: 1, DT Calls: 11833, Z3 Calls: 11844
 Total SVM Time: 0.0028579235076904297, DT Time: 41.83554196357727, Z3 Time: 92.11658835411072
-Others: 226.05734753608704, Init Phase Time: 0.028606176376342773, Simplifier Solver Time: 1.411214828491211
+Others: 226.05734753608704, Reasoner Time: 0.028606176376342773, Simplifier Solver Time: 1.411214828491211
 ************** Auxiliary Info **************
 max_len_exp_fwd: 433
 max_len_exp_bwd: 502
@@ -8073,7 +8073,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_08.smt2.log
 ************** Finished in 0.716080904006958 (secs) in 2 epochs **************
 Total SVM Calls: 4, DT Calls: 18, Z3 Calls: 46
 Total SVM Time: 0.010313749313354492, DT Time: 0.06415271759033203, Z3 Time: 0.30285000801086426
-Others: 0.3387644290924072, Init Phase Time: 0.024308443069458008, Simplifier Solver Time: 0.0024590492248535156
+Others: 0.3387644290924072, Reasoner Time: 0.024308443069458008, Simplifier Solver Time: 0.0024590492248535156
 ************** Auxiliary Info **************
 max_len_exp_fwd: 186
 max_len_exp_bwd: 386
@@ -8150,7 +8150,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_09.smt2.log
 ************** Finished in 0.09093642234802246 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.555152893066406e-05, DT Time: 0, Z3 Time: 0.052215576171875
-Others: 0.0386652946472168, Init Phase Time: 0.023927688598632812, Simplifier Solver Time: 0.0006299018859863281
+Others: 0.0386652946472168, Reasoner Time: 0.023927688598632812, Simplifier Solver Time: 0.0006299018859863281
 ************** Auxiliary Info **************
 max_len_exp_fwd: 111
 max_len_exp_bwd: 599
@@ -8210,7 +8210,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_10.smt2.log
 ************** Finished in 75.41095328330994 (secs) in 4 epochs **************
 Total SVM Calls: 1146, DT Calls: 1524, Z3 Calls: 7246
 Total SVM Time: 9.84489130973816, DT Time: 5.35794734954834, Z3 Time: 43.12432885169983
-Others: 17.08378577232361, Init Phase Time: 0.024177074432373047, Simplifier Solver Time: 0.16608476638793945
+Others: 17.08378577232361, Reasoner Time: 0.024177074432373047, Simplifier Solver Time: 0.16608476638793945
 ************** Auxiliary Info **************
 max_len_exp_fwd: 144
 max_len_exp_bwd: 377
@@ -8246,7 +8246,7 @@ Solving instance timeout!
 ************** Finished in 360.01152658462524 (secs) in 2 epochs **************
 Total SVM Calls: 305, DT Calls: 2938, Z3 Calls: 4048
 Total SVM Time: 254.27618288993835, DT Time: 11.860367774963379, Z3 Time: 29.563313007354736
-Others: 64.31166291236877, Init Phase Time: 0.024151086807250977, Simplifier Solver Time: 0.3244953155517578
+Others: 64.31166291236877, Reasoner Time: 0.024151086807250977, Simplifier Solver Time: 0.3244953155517578
 ************** Auxiliary Info **************
 max_len_exp_fwd: 218
 max_len_exp_bwd: 337
@@ -8264,7 +8264,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_12.smt2.log
 ************** Finished in 8.786245822906494 (secs) in 2 epochs **************
 Total SVM Calls: 14, DT Calls: 139, Z3 Calls: 194
 Total SVM Time: 3.9804461002349854, DT Time: 0.5563240051269531, Z3 Time: 1.504896879196167
-Others: 2.7445788383483887, Init Phase Time: 0.025641441345214844, Simplifier Solver Time: 0.01507425308227539
+Others: 2.7445788383483887, Reasoner Time: 0.025641441345214844, Simplifier Solver Time: 0.01507425308227539
 ************** Auxiliary Info **************
 max_len_exp_fwd: 322
 max_len_exp_bwd: 528
@@ -8305,7 +8305,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_13.smt2.log
 ************** Finished in 0.26926350593566895 (secs) in 2 epochs **************
 Total SVM Calls: 3, DT Calls: 4, Z3 Calls: 24
 Total SVM Time: 0.00825047492980957, DT Time: 0.013576984405517578, Z3 Time: 0.15078043937683105
-Others: 0.09665560722351074, Init Phase Time: 0.025289535522460938, Simplifier Solver Time: 0.0009982585906982422
+Others: 0.09665560722351074, Reasoner Time: 0.025289535522460938, Simplifier Solver Time: 0.0009982585906982422
 ************** Auxiliary Info **************
 max_len_exp_fwd: 266
 max_len_exp_bwd: 332
@@ -8387,7 +8387,7 @@ Solving instance timeout!
 ************** Finished in 360.002032995224 (secs) in 1 epochs **************
 Total SVM Calls: 1328, DT Calls: 6113, Z3 Calls: 9659
 Total SVM Time: 106.99384784698486, DT Time: 45.7177460193634, Z3 Time: 97.89962553977966
-Others: 109.39081358909607, Init Phase Time: 0.026014328002929688, Simplifier Solver Time: 0.8010387420654297
+Others: 109.39081358909607, Reasoner Time: 0.026014328002929688, Simplifier Solver Time: 0.8010387420654297
 ************** Auxiliary Info **************
 max_len_exp_fwd: 234
 max_len_exp_bwd: 374
@@ -8405,7 +8405,7 @@ Solving instance timeout!
 ************** Finished in 360.00577569007874 (secs) in 1 epochs **************
 Total SVM Calls: 156, DT Calls: 1124, Z3 Calls: 1514
 Total SVM Time: 316.8273916244507, DT Time: 4.6081202030181885, Z3 Time: 12.671600818634033
-Others: 25.89866304397583, Init Phase Time: 0.026343822479248047, Simplifier Solver Time: 0.16278839111328125
+Others: 25.89866304397583, Reasoner Time: 0.026343822479248047, Simplifier Solver Time: 0.16278839111328125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 238
 max_len_exp_bwd: 617
@@ -8423,7 +8423,7 @@ Solving instance timeout!
 ************** Finished in 360.00325059890747 (secs) in 1 epochs **************
 Total SVM Calls: 94, DT Calls: 3226, Z3 Calls: 3451
 Total SVM Time: 254.25307703018188, DT Time: 13.732523918151855, Z3 Time: 28.096370935440063
-Others: 63.92127871513367, Init Phase Time: 0.027686119079589844, Simplifier Solver Time: 0.3954339027404785
+Others: 63.92127871513367, Reasoner Time: 0.027686119079589844, Simplifier Solver Time: 0.3954339027404785
 ************** Auxiliary Info **************
 max_len_exp_fwd: 332
 max_len_exp_bwd: 767
@@ -8440,7 +8440,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_17.smt2.log
 ************** Finished in 0.5285940170288086 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 9, Z3 Calls: 40
 Total SVM Time: 0.017659425735473633, DT Time: 0.032740116119384766, Z3 Time: 0.26772475242614746
-Others: 0.21046972274780273, Init Phase Time: 0.02841782569885254, Simplifier Solver Time: 0.0016350746154785156
+Others: 0.21046972274780273, Reasoner Time: 0.02841782569885254, Simplifier Solver Time: 0.0016350746154785156
 ************** Auxiliary Info **************
 max_len_exp_fwd: 463
 max_len_exp_bwd: 666
@@ -8519,7 +8519,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_18.smt2.log
 ************** Finished in 0.17122483253479004 (secs) in 2 epochs **************
 Total SVM Calls: 1, DT Calls: 2, Z3 Calls: 13
 Total SVM Time: 0.003305673599243164, DT Time: 0.00790262222290039, Z3 Time: 0.08597373962402344
-Others: 0.07404279708862305, Init Phase Time: 0.02483844757080078, Simplifier Solver Time: 0.0008697509765625
+Others: 0.07404279708862305, Reasoner Time: 0.02483844757080078, Simplifier Solver Time: 0.0008697509765625
 ************** Auxiliary Info **************
 max_len_exp_fwd: 200
 max_len_exp_bwd: 310
@@ -8586,7 +8586,7 @@ Solving instance timeout!
 ************** Finished in 360.0015103816986 (secs) in 1 epochs **************
 Total SVM Calls: 96, DT Calls: 209, Z3 Calls: 242
 Total SVM Time: 352.33673334121704, DT Time: 0.8859922885894775, Z3 Time: 1.9578988552093506
-Others: 4.820885896682739, Init Phase Time: 0.025051593780517578, Simplifier Solver Time: 0.022462844848632812
+Others: 4.820885896682739, Reasoner Time: 0.025051593780517578, Simplifier Solver Time: 0.022462844848632812
 ************** Auxiliary Info **************
 max_len_exp_fwd: 217
 max_len_exp_bwd: 461
@@ -8603,7 +8603,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_20.smt2.log
 ************** Finished in 52.24874925613403 (secs) in 2 epochs **************
 Total SVM Calls: 31, DT Calls: 371, Z3 Calls: 469
 Total SVM Time: 40.10338306427002, DT Time: 1.5361402034759521, Z3 Time: 3.5768489837646484
-Others: 7.032377004623413, Init Phase Time: 0.02526402473449707, Simplifier Solver Time: 0.052555084228515625
+Others: 7.032377004623413, Reasoner Time: 0.02526402473449707, Simplifier Solver Time: 0.052555084228515625
 ************** Auxiliary Info **************
 max_len_exp_fwd: 381
 max_len_exp_bwd: 502
@@ -8642,7 +8642,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_21.smt2.log
 ************** Finished in 9.640626668930054 (secs) in 5 epochs **************
 Total SVM Calls: 51, DT Calls: 266, Z3 Calls: 408
 Total SVM Time: 0.22670912742614746, DT Time: 1.2475459575653076, Z3 Time: 3.1815555095672607
-Others: 4.984816074371338, Init Phase Time: 0.027120351791381836, Simplifier Solver Time: 0.036580562591552734
+Others: 4.984816074371338, Reasoner Time: 0.027120351791381836, Simplifier Solver Time: 0.036580562591552734
 ************** Auxiliary Info **************
 max_len_exp_fwd: 305
 max_len_exp_bwd: 488
@@ -8802,7 +8802,7 @@ Solving instance timeout!
 ************** Finished in 360.0025415420532 (secs) in 2 epochs **************
 Total SVM Calls: 609, DT Calls: 7801, Z3 Calls: 9631
 Total SVM Time: 112.15900206565857, DT Time: 29.550434827804565, Z3 Time: 72.13418912887573
-Others: 146.15891551971436, Init Phase Time: 0.02696061134338379, Simplifier Solver Time: 0.9093067646026611
+Others: 146.15891551971436, Reasoner Time: 0.02696061134338379, Simplifier Solver Time: 0.9093067646026611
 ************** Auxiliary Info **************
 max_len_exp_fwd: 249
 max_len_exp_bwd: 484
@@ -8820,7 +8820,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_23.smt2.log
 ************** Finished in 0.03431057929992676 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 4.8160552978515625e-05, DT Time: 0, Z3 Time: 0.011887788772583008
-Others: 0.022374629974365234, Init Phase Time: 0.02486133575439453, Simplifier Solver Time: 0.0004591941833496094
+Others: 0.022374629974365234, Reasoner Time: 0.02486133575439453, Simplifier Solver Time: 0.0004591941833496094
 ************** Auxiliary Info **************
 max_len_exp_fwd: 359
 max_len_exp_bwd: 450
@@ -8851,7 +8851,7 @@ Solving instance timeout!
 ************** Finished in 360.0291051864624 (secs) in 4 epochs **************
 Total SVM Calls: 278, DT Calls: 7674, Z3 Calls: 8486
 Total SVM Time: 109.61141681671143, DT Time: 34.69462823867798, Z3 Time: 70.17387771606445
-Others: 145.54918241500854, Init Phase Time: 0.026974201202392578, Simplifier Solver Time: 0.9433722496032715
+Others: 145.54918241500854, Reasoner Time: 0.026974201202392578, Simplifier Solver Time: 0.9433722496032715
 ************** Auxiliary Info **************
 max_len_exp_fwd: 464
 max_len_exp_bwd: 331
@@ -8869,7 +8869,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_25.smt2.log
 ************** Finished in 8.538275957107544 (secs) in 2 epochs **************
 Total SVM Calls: 58, DT Calls: 214, Z3 Calls: 372
 Total SVM Time: 0.24164986610412598, DT Time: 0.9450829029083252, Z3 Time: 3.4832701683044434
-Others: 3.8682730197906494, Init Phase Time: 0.02419567108154297, Simplifier Solver Time: 0.023120641708374023
+Others: 3.8682730197906494, Reasoner Time: 0.02419567108154297, Simplifier Solver Time: 0.023120641708374023
 ************** Auxiliary Info **************
 max_len_exp_fwd: 284
 max_len_exp_bwd: 334
@@ -8932,7 +8932,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_26.smt2.log
 ************** Finished in 0.338716983795166 (secs) in 2 epochs **************
 Total SVM Calls: 5, DT Calls: 5, Z3 Calls: 29
 Total SVM Time: 0.012761354446411133, DT Time: 0.0163118839263916, Z3 Time: 0.18484234809875488
-Others: 0.1248013973236084, Init Phase Time: 0.027627229690551758, Simplifier Solver Time: 0.0012350082397460938
+Others: 0.1248013973236084, Reasoner Time: 0.027627229690551758, Simplifier Solver Time: 0.0012350082397460938
 ************** Auxiliary Info **************
 max_len_exp_fwd: 254
 max_len_exp_bwd: 426
@@ -8996,7 +8996,7 @@ Solving instance timeout!
 ************** Finished in 360.00124287605286 (secs) in 1 epochs **************
 Total SVM Calls: 329, DT Calls: 2190, Z3 Calls: 3167
 Total SVM Time: 286.19166898727417, DT Time: 9.160715579986572, Z3 Time: 23.463122844696045
-Others: 41.18573546409607, Init Phase Time: 0.027222633361816406, Simplifier Solver Time: 0.27080821990966797
+Others: 41.18573546409607, Reasoner Time: 0.027222633361816406, Simplifier Solver Time: 0.27080821990966797
 ************** Auxiliary Info **************
 max_len_exp_fwd: 252
 max_len_exp_bwd: 462
@@ -9013,7 +9013,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_28.smt2.log
 ************** Finished in 265.01318526268005 (secs) in 7 epochs **************
 Total SVM Calls: 271, DT Calls: 7178, Z3 Calls: 7933
 Total SVM Time: 37.82847785949707, DT Time: 29.236005067825317, Z3 Time: 62.24666619300842
-Others: 135.70203614234924, Init Phase Time: 0.025539398193359375, Simplifier Solver Time: 0.900336503982544
+Others: 135.70203614234924, Reasoner Time: 0.025539398193359375, Simplifier Solver Time: 0.900336503982544
 ************** Auxiliary Info **************
 max_len_exp_fwd: 313
 max_len_exp_bwd: 473
@@ -9053,7 +9053,7 @@ Solving instance timeout!
 ************** Finished in 360.0060911178589 (secs) in 1 epochs **************
 Total SVM Calls: 116, DT Calls: 9340, Z3 Calls: 9681
 Total SVM Time: 55.400864601135254, DT Time: 42.071715354919434, Z3 Time: 82.0667474269867
-Others: 180.4667637348175, Init Phase Time: 0.0289003849029541, Simplifier Solver Time: 1.1223292350769043
+Others: 180.4667637348175, Reasoner Time: 0.0289003849029541, Simplifier Solver Time: 1.1223292350769043
 ************** Auxiliary Info **************
 max_len_exp_fwd: 533
 max_len_exp_bwd: 575
@@ -9071,7 +9071,7 @@ Solving instance timeout!
 ************** Finished in 360.0041117668152 (secs) in 1 epochs **************
 Total SVM Calls: 162, DT Calls: 781, Z3 Calls: 1096
 Total SVM Time: 331.3168923854828, DT Time: 3.0964229106903076, Z3 Time: 8.254616737365723
-Others: 17.336179733276367, Init Phase Time: 0.027911901473999023, Simplifier Solver Time: 0.0963597297668457
+Others: 17.336179733276367, Reasoner Time: 0.027911901473999023, Simplifier Solver Time: 0.0963597297668457
 ************** Auxiliary Info **************
 max_len_exp_fwd: 551
 max_len_exp_bwd: 555
@@ -9088,7 +9088,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_31.smt2.log
 ************** Finished in 81.77399635314941 (secs) in 2 epochs **************
 Total SVM Calls: 108, DT Calls: 1445, Z3 Calls: 1771
 Total SVM Time: 35.6438205242157, DT Time: 5.710603952407837, Z3 Time: 13.219727516174316
-Others: 27.199844360351562, Init Phase Time: 0.02640843391418457, Simplifier Solver Time: 0.16539740562438965
+Others: 27.199844360351562, Reasoner Time: 0.02640843391418457, Simplifier Solver Time: 0.16539740562438965
 ************** Auxiliary Info **************
 max_len_exp_fwd: 281
 max_len_exp_bwd: 661
@@ -9161,7 +9161,7 @@ Solving instance timeout!
 ************** Finished in 360.00102281570435 (secs) in 1 epochs **************
 Total SVM Calls: 1093, DT Calls: 9456, Z3 Calls: 12735
 Total SVM Time: 6.838393211364746, DT Time: 53.46239256858826, Z3 Time: 117.5135567188263
-Others: 182.18668031692505, Init Phase Time: 0.028942584991455078, Simplifier Solver Time: 1.2501153945922852
+Others: 182.18668031692505, Reasoner Time: 0.028942584991455078, Simplifier Solver Time: 1.2501153945922852
 ************** Auxiliary Info **************
 max_len_exp_fwd: 623
 max_len_exp_bwd: 432
@@ -9179,7 +9179,7 @@ Solving instance timeout!
 ************** Finished in 360.0015935897827 (secs) in 1 epochs **************
 Total SVM Calls: 913, DT Calls: 1352, Z3 Calls: 4075
 Total SVM Time: 302.4648175239563, DT Time: 5.721709966659546, Z3 Time: 29.456393241882324
-Others: 22.358672857284546, Init Phase Time: 0.026538848876953125, Simplifier Solver Time: 0.16416382789611816
+Others: 22.358672857284546, Reasoner Time: 0.026538848876953125, Simplifier Solver Time: 0.16416382789611816
 ************** Auxiliary Info **************
 max_len_exp_fwd: 364
 max_len_exp_bwd: 446
@@ -9196,7 +9196,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_34.smt2.log
 ************** Finished in 3.0635547637939453 (secs) in 2 epochs **************
 Total SVM Calls: 31, DT Calls: 82, Z3 Calls: 183
 Total SVM Time: 0.09347248077392578, DT Time: 0.29633140563964844, Z3 Time: 1.2159528732299805
-Others: 1.4577980041503906, Init Phase Time: 0.025721073150634766, Simplifier Solver Time: 0.009049177169799805
+Others: 1.4577980041503906, Reasoner Time: 0.025721073150634766, Simplifier Solver Time: 0.009049177169799805
 ************** Auxiliary Info **************
 max_len_exp_fwd: 479
 max_len_exp_bwd: 756
@@ -9248,7 +9248,7 @@ Solving instance timeout!
 ************** Finished in 360.01685309410095 (secs) in 29 epochs **************
 Total SVM Calls: 1986, DT Calls: 7566, Z3 Calls: 13642
 Total SVM Time: 77.48063898086548, DT Time: 40.378074407577515, Z3 Time: 100.30742287635803
-Others: 141.85071682929993, Init Phase Time: 0.02783060073852539, Simplifier Solver Time: 0.9408752918243408
+Others: 141.85071682929993, Reasoner Time: 0.02783060073852539, Simplifier Solver Time: 0.9408752918243408
 ************** Auxiliary Info **************
 max_len_exp_fwd: 360
 max_len_exp_bwd: 394
@@ -9266,7 +9266,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_36.smt2.log
 ************** Finished in 0.0928342342376709 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.914138793945312e-05, DT Time: 0, Z3 Time: 0.0511777400970459
-Others: 0.04158735275268555, Init Phase Time: 0.025455474853515625, Simplifier Solver Time: 0.0006704330444335938
+Others: 0.04158735275268555, Reasoner Time: 0.025455474853515625, Simplifier Solver Time: 0.0006704330444335938
 ************** Auxiliary Info **************
 max_len_exp_fwd: 263
 max_len_exp_bwd: 802
@@ -9317,7 +9317,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_37.smt2.log
 ************** Finished in 3.1868293285369873 (secs) in 2 epochs **************
 Total SVM Calls: 9, DT Calls: 48, Z3 Calls: 80
 Total SVM Time: 1.5142860412597656, DT Time: 0.18907380104064941, Z3 Time: 0.5808916091918945
-Others: 0.9025778770446777, Init Phase Time: 0.024925708770751953, Simplifier Solver Time: 0.0054399967193603516
+Others: 0.9025778770446777, Reasoner Time: 0.024925708770751953, Simplifier Solver Time: 0.0054399967193603516
 ************** Auxiliary Info **************
 max_len_exp_fwd: 244
 max_len_exp_bwd: 404
@@ -9406,7 +9406,7 @@ Solving instance timeout!
 ************** Finished in 360.02648878097534 (secs) in 1 epochs **************
 Total SVM Calls: 1430, DT Calls: 11193, Z3 Calls: 15488
 Total SVM Time: 4.009603500366211, DT Time: 39.60890436172485, Z3 Time: 111.60014057159424
-Others: 204.80784034729004, Init Phase Time: 0.02304363250732422, Simplifier Solver Time: 1.1410102844238281
+Others: 204.80784034729004, Reasoner Time: 0.02304363250732422, Simplifier Solver Time: 1.1410102844238281
 ************** Auxiliary Info **************
 max_len_exp_fwd: 231
 max_len_exp_bwd: 782
@@ -9424,7 +9424,7 @@ Solving instance timeout!
 ************** Finished in 360.01720428466797 (secs) in 1 epochs **************
 Total SVM Calls: 53, DT Calls: 11574, Z3 Calls: 12030
 Total SVM Time: 0.1424851417541504, DT Time: 41.86640906333923, Z3 Time: 101.83714032173157
-Others: 216.17116975784302, Init Phase Time: 0.024754047393798828, Simplifier Solver Time: 1.292253017425537
+Others: 216.17116975784302, Reasoner Time: 0.024754047393798828, Simplifier Solver Time: 1.292253017425537
 ************** Auxiliary Info **************
 max_len_exp_fwd: 288
 max_len_exp_bwd: 468
@@ -9442,7 +9442,7 @@ Solving instance timeout!
 ************** Finished in 360.0331108570099 (secs) in 3 epochs **************
 Total SVM Calls: 502, DT Calls: 7466, Z3 Calls: 8937
 Total SVM Time: 51.33030366897583, DT Time: 37.54699110984802, Z3 Time: 129.19266939163208
-Others: 141.96314668655396, Init Phase Time: 0.026937484741210938, Simplifier Solver Time: 0.8541991710662842
+Others: 141.96314668655396, Reasoner Time: 0.026937484741210938, Simplifier Solver Time: 0.8541991710662842
 ************** Auxiliary Info **************
 max_len_exp_fwd: 380
 max_len_exp_bwd: 801
@@ -9461,7 +9461,7 @@ Solving instance timeout!
 ************** Finished in 360.027880191803 (secs) in 1 epochs **************
 Total SVM Calls: 48, DT Calls: 11395, Z3 Calls: 11528
 Total SVM Time: 7.6739501953125, DT Time: 41.58196711540222, Z3 Time: 96.16582918167114
-Others: 214.60613369941711, Init Phase Time: 0.024605989456176758, Simplifier Solver Time: 1.3897173404693604
+Others: 214.60613369941711, Reasoner Time: 0.024605989456176758, Simplifier Solver Time: 1.3897173404693604
 ************** Auxiliary Info **************
 max_len_exp_fwd: 263
 max_len_exp_bwd: 612
@@ -9478,7 +9478,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_42.smt2.log
 ************** Finished in 48.92671751976013 (secs) in 21 epochs **************
 Total SVM Calls: 153, DT Calls: 915, Z3 Calls: 1438
 Total SVM Time: 18.50139045715332, DT Time: 3.4034318923950195, Z3 Time: 10.253399848937988
-Others: 16.768495321273804, Init Phase Time: 0.024871826171875, Simplifier Solver Time: 0.10391426086425781
+Others: 16.768495321273804, Reasoner Time: 0.024871826171875, Simplifier Solver Time: 0.10391426086425781
 ************** Auxiliary Info **************
 max_len_exp_fwd: 272
 max_len_exp_bwd: 451
@@ -9516,7 +9516,7 @@ Solving instance timeout!
 ************** Finished in 360.00087571144104 (secs) in 3 epochs **************
 Total SVM Calls: 3223, DT Calls: 8490, Z3 Calls: 21422
 Total SVM Time: 50.56779217720032, DT Time: 31.428409099578857, Z3 Time: 138.85774207115173
-Others: 139.14693236351013, Init Phase Time: 0.02619767189025879, Simplifier Solver Time: 0.9818305969238281
+Others: 139.14693236351013, Reasoner Time: 0.02619767189025879, Simplifier Solver Time: 0.9818305969238281
 ************** Auxiliary Info **************
 max_len_exp_fwd: 208
 max_len_exp_bwd: 519
@@ -9535,7 +9535,7 @@ Solving instance timeout!
 ************** Finished in 360.0058591365814 (secs) in 1 epochs **************
 Total SVM Calls: 240, DT Calls: 2367, Z3 Calls: 3097
 Total SVM Time: 276.59567975997925, DT Time: 9.278753280639648, Z3 Time: 24.853331565856934
-Others: 49.27809453010559, Init Phase Time: 0.02639913558959961, Simplifier Solver Time: 0.3107941150665283
+Others: 49.27809453010559, Reasoner Time: 0.02639913558959961, Simplifier Solver Time: 0.3107941150665283
 ************** Auxiliary Info **************
 max_len_exp_fwd: 268
 max_len_exp_bwd: 666
@@ -9553,7 +9553,7 @@ Solving instance timeout!
 ************** Finished in 360.00199341773987 (secs) in 1 epochs **************
 Total SVM Calls: 2529, DT Calls: 6048, Z3 Calls: 17891
 Total SVM Time: 124.63498592376709, DT Time: 23.080960273742676, Z3 Time: 114.36363363265991
-Others: 97.92241358757019, Init Phase Time: 0.026841163635253906, Simplifier Solver Time: 0.6670715808868408
+Others: 97.92241358757019, Reasoner Time: 0.026841163635253906, Simplifier Solver Time: 0.6670715808868408
 ************** Auxiliary Info **************
 max_len_exp_fwd: 413
 max_len_exp_bwd: 612
@@ -9571,7 +9571,7 @@ Solving instance timeout!
 ************** Finished in 360.00377440452576 (secs) in 3 epochs **************
 Total SVM Calls: 1283, DT Calls: 2985, Z3 Calls: 9336
 Total SVM Time: 241.85341024398804, DT Time: 11.073632717132568, Z3 Time: 59.20179843902588
-Others: 47.87493300437927, Init Phase Time: 0.02475285530090332, Simplifier Solver Time: 0.3495957851409912
+Others: 47.87493300437927, Reasoner Time: 0.02475285530090332, Simplifier Solver Time: 0.3495957851409912
 ************** Auxiliary Info **************
 max_len_exp_fwd: 213
 max_len_exp_bwd: 524
@@ -9590,7 +9590,7 @@ Solving instance timeout!
 ************** Finished in 360.02267932891846 (secs) in 1 epochs **************
 Total SVM Calls: 57, DT Calls: 9513, Z3 Calls: 9683
 Total SVM Time: 67.0119297504425, DT Time: 34.89007568359375, Z3 Time: 75.88752722740173
-Others: 182.23314666748047, Init Phase Time: 0.02766108512878418, Simplifier Solver Time: 1.0712809562683105
+Others: 182.23314666748047, Reasoner Time: 0.02766108512878418, Simplifier Solver Time: 1.0712809562683105
 ************** Auxiliary Info **************
 max_len_exp_fwd: 380
 max_len_exp_bwd: 730
@@ -9608,7 +9608,7 @@ Solving instance timeout!
 ************** Finished in 360.01803278923035 (secs) in 1 epochs **************
 Total SVM Calls: 619, DT Calls: 9740, Z3 Calls: 12822
 Total SVM Time: 52.294697999954224, DT Time: 35.77613306045532, Z3 Time: 93.09912991523743
-Others: 178.84807181358337, Init Phase Time: 0.02447819709777832, Simplifier Solver Time: 1.2782394886016846
+Others: 178.84807181358337, Reasoner Time: 0.02447819709777832, Simplifier Solver Time: 1.2782394886016846
 ************** Auxiliary Info **************
 max_len_exp_fwd: 307
 max_len_exp_bwd: 664
@@ -9626,7 +9626,7 @@ Solving instance timeout!
 ************** Finished in 360.00820899009705 (secs) in 1 epochs **************
 Total SVM Calls: 455, DT Calls: 10653, Z3 Calls: 12006
 Total SVM Time: 31.751436948776245, DT Time: 38.889421463012695, Z3 Time: 89.62292265892029
-Others: 199.74442791938782, Init Phase Time: 0.025422334671020508, Simplifier Solver Time: 1.392580509185791
+Others: 199.74442791938782, Reasoner Time: 0.025422334671020508, Simplifier Solver Time: 1.392580509185791
 ************** Auxiliary Info **************
 max_len_exp_fwd: 321
 max_len_exp_bwd: 671
@@ -9644,7 +9644,7 @@ Solving instance timeout!
 ************** Finished in 360.00923252105713 (secs) in 1 epochs **************
 Total SVM Calls: 94, DT Calls: 3662, Z3 Calls: 3886
 Total SVM Time: 232.87385892868042, DT Time: 15.837034463882446, Z3 Time: 32.15048599243164
-Others: 79.14785313606262, Init Phase Time: 0.028390169143676758, Simplifier Solver Time: 0.45726680755615234
+Others: 79.14785313606262, Reasoner Time: 0.028390169143676758, Simplifier Solver Time: 0.45726680755615234
 ************** Auxiliary Info **************
 max_len_exp_fwd: 332
 max_len_exp_bwd: 839
@@ -9662,7 +9662,7 @@ Solving instance timeout!
 ************** Finished in 360.0062646865845 (secs) in 1 epochs **************
 Total SVM Calls: 103, DT Calls: 10037, Z3 Calls: 10346
 Total SVM Time: 47.84935903549194, DT Time: 37.54569220542908, Z3 Time: 80.63340377807617
-Others: 193.97780966758728, Init Phase Time: 0.026103973388671875, Simplifier Solver Time: 1.253972053527832
+Others: 193.97780966758728, Reasoner Time: 0.026103973388671875, Simplifier Solver Time: 1.253972053527832
 ************** Auxiliary Info **************
 max_len_exp_fwd: 268
 max_len_exp_bwd: 615
@@ -9680,7 +9680,7 @@ Solving instance timeout!
 ************** Finished in 360.00116181373596 (secs) in 2 epochs **************
 Total SVM Calls: 397, DT Calls: 11505, Z3 Calls: 12704
 Total SVM Time: 1.095029354095459, DT Time: 41.09538459777832, Z3 Time: 97.75067114830017
-Others: 220.060076713562, Init Phase Time: 0.026247024536132812, Simplifier Solver Time: 1.416607141494751
+Others: 220.060076713562, Reasoner Time: 0.026247024536132812, Simplifier Solver Time: 1.416607141494751
 ************** Auxiliary Info **************
 max_len_exp_fwd: 317
 max_len_exp_bwd: 487
@@ -9699,7 +9699,7 @@ Error <class 'RuntimeError'>: Z3 returns unknown (solve_negated_rule)
 ************** Finished in 615.9165632724762 (secs) in 1 epochs **************
 Total SVM Calls: 70, DT Calls: 3003, Z3 Calls: 3163
 Total SVM Time: 128.27403450012207, DT Time: 12.745380163192749, Z3 Time: 416.2508707046509
-Others: 58.6462779045105, Init Phase Time: 0.028080224990844727, Simplifier Solver Time: 0.4085104465484619
+Others: 58.6462779045105, Reasoner Time: 0.028080224990844727, Simplifier Solver Time: 0.4085104465484619
 ************** Auxiliary Info **************
 max_len_exp_fwd: 354
 max_len_exp_bwd: 604
@@ -9917,7 +9917,7 @@ Solving instance timeout!
 ************** Finished in 360.0087056159973 (secs) in 2 epochs **************
 Total SVM Calls: 640, DT Calls: 8260, Z3 Calls: 10156
 Total SVM Time: 85.80096364021301, DT Time: 32.36253619194031, Z3 Time: 77.22943115234375
-Others: 164.61577463150024, Init Phase Time: 0.030986309051513672, Simplifier Solver Time: 1.0943048000335693
+Others: 164.61577463150024, Reasoner Time: 0.030986309051513672, Simplifier Solver Time: 1.0943048000335693
 ************** Auxiliary Info **************
 max_len_exp_fwd: 282
 max_len_exp_bwd: 636
@@ -9936,7 +9936,7 @@ Solving instance timeout!
 ************** Finished in 360.0159137248993 (secs) in 1 epochs **************
 Total SVM Calls: 253, DT Calls: 6678, Z3 Calls: 7476
 Total SVM Time: 141.71535754203796, DT Time: 30.298567533493042, Z3 Time: 60.021151304244995
-Others: 127.98083734512329, Init Phase Time: 0.025963783264160156, Simplifier Solver Time: 0.8284296989440918
+Others: 127.98083734512329, Reasoner Time: 0.025963783264160156, Simplifier Solver Time: 0.8284296989440918
 ************** Auxiliary Info **************
 max_len_exp_fwd: 373
 max_len_exp_bwd: 558
@@ -9953,7 +9953,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_split_56.smt2.log
 ************** Finished in 9.92481780052185 (secs) in 2 epochs **************
 Total SVM Calls: 53, DT Calls: 262, Z3 Calls: 454
 Total SVM Time: 0.2958533763885498, DT Time: 1.185326099395752, Z3 Time: 3.535191774368286
-Others: 4.908446550369263, Init Phase Time: 0.02689671516418457, Simplifier Solver Time: 0.03333878517150879
+Others: 4.908446550369263, Reasoner Time: 0.02689671516418457, Simplifier Solver Time: 0.03333878517150879
 ************** Auxiliary Info **************
 max_len_exp_fwd: 442
 max_len_exp_bwd: 655
@@ -10121,7 +10121,7 @@ Solving instance timeout!
 ************** Finished in 360.0030143260956 (secs) in 2 epochs **************
 Total SVM Calls: 359, DT Calls: 5162, Z3 Calls: 6251
 Total SVM Time: 189.6781132221222, DT Time: 19.859776258468628, Z3 Time: 48.203553676605225
-Others: 102.26157116889954, Init Phase Time: 0.027498960494995117, Simplifier Solver Time: 0.611443281173706
+Others: 102.26157116889954, Reasoner Time: 0.027498960494995117, Simplifier Solver Time: 0.611443281173706
 ************** Auxiliary Info **************
 max_len_exp_fwd: 367
 max_len_exp_bwd: 825
@@ -10140,7 +10140,7 @@ Solving instance timeout!
 ************** Finished in 360.0031545162201 (secs) in 3 epochs **************
 Total SVM Calls: 344, DT Calls: 2647, Z3 Calls: 3821
 Total SVM Time: 269.0103368759155, DT Time: 10.78067421913147, Z3 Time: 28.486014127731323
-Others: 51.72612929344177, Init Phase Time: 0.02701854705810547, Simplifier Solver Time: 0.329010009765625
+Others: 51.72612929344177, Reasoner Time: 0.02701854705810547, Simplifier Solver Time: 0.329010009765625
 ************** Auxiliary Info **************
 max_len_exp_fwd: 226
 max_len_exp_bwd: 549
@@ -10158,7 +10158,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_01.smt2.log
 ************** Finished in 0.20444536209106445 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 19
 Total SVM Time: 0.006184101104736328, DT Time: 0.007275104522705078, Z3 Time: 0.11744952201843262
-Others: 0.07353663444519043, Init Phase Time: 0.025048494338989258, Simplifier Solver Time: 0.0009481906890869141
+Others: 0.07353663444519043, Reasoner Time: 0.025048494338989258, Simplifier Solver Time: 0.0009481906890869141
 ************** Auxiliary Info **************
 max_len_exp_fwd: 200
 max_len_exp_bwd: 192
@@ -10199,7 +10199,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_02.smt2.log
 ************** Finished in 0.02614617347717285 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.1021575927734375e-05, DT Time: 0, Z3 Time: 0.009040355682373047
-Others: 0.01705479621887207, Init Phase Time: 0.018198251724243164, Simplifier Solver Time: 0.00013208389282226562
+Others: 0.01705479621887207, Reasoner Time: 0.018198251724243164, Simplifier Solver Time: 0.00013208389282226562
 ************** Auxiliary Info **************
 max_len_exp_fwd: 64
 max_len_exp_bwd: 5
@@ -10228,7 +10228,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_03.smt2.log
 ************** Finished in 0.09453487396240234 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.842613220214844e-05, DT Time: 0, Z3 Time: 0.0578455924987793
-Others: 0.0366208553314209, Init Phase Time: 0.01844930648803711, Simplifier Solver Time: 0.0003037452697753906
+Others: 0.0366208553314209, Reasoner Time: 0.01844930648803711, Simplifier Solver Time: 0.0003037452697753906
 ************** Auxiliary Info **************
 max_len_exp_fwd: 79
 max_len_exp_bwd: 5
@@ -10257,7 +10257,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_04.smt2.log
 ************** Finished in 0.09400153160095215 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 8.20159912109375e-05, DT Time: 0, Z3 Time: 0.05262279510498047
-Others: 0.04129672050476074, Init Phase Time: 0.022298812866210938, Simplifier Solver Time: 0.0005023479461669922
+Others: 0.04129672050476074, Reasoner Time: 0.022298812866210938, Simplifier Solver Time: 0.0005023479461669922
 ************** Auxiliary Info **************
 max_len_exp_fwd: 74
 max_len_exp_bwd: 5
@@ -10291,7 +10291,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_05.smt2.log
 ************** Finished in 0.029427528381347656 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.030632019042969e-05, DT Time: 0, Z3 Time: 0.008949518203735352
-Others: 0.020427703857421875, Init Phase Time: 0.021381378173828125, Simplifier Solver Time: 0.0004897117614746094
+Others: 0.020427703857421875, Reasoner Time: 0.021381378173828125, Simplifier Solver Time: 0.0004897117614746094
 ************** Auxiliary Info **************
 max_len_exp_fwd: 11
 max_len_exp_bwd: 17
@@ -10320,7 +10320,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_06.smt2.log
 ************** Finished in 0.09334874153137207 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.200241088867188e-05, DT Time: 0, Z3 Time: 0.05224108695983887
-Others: 0.04103565216064453, Init Phase Time: 0.023176908493041992, Simplifier Solver Time: 0.0007433891296386719
+Others: 0.04103565216064453, Reasoner Time: 0.023176908493041992, Simplifier Solver Time: 0.0007433891296386719
 ************** Auxiliary Info **************
 max_len_exp_fwd: 102
 max_len_exp_bwd: 17
@@ -10353,7 +10353,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_07.smt2.log
 ************** Finished in 0.09015297889709473 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 7.104873657226562e-05, DT Time: 0, Z3 Time: 0.05060601234436035
-Others: 0.03947591781616211, Init Phase Time: 0.020488262176513672, Simplifier Solver Time: 0.00041985511779785156
+Others: 0.03947591781616211, Reasoner Time: 0.020488262176513672, Simplifier Solver Time: 0.00041985511779785156
 ************** Auxiliary Info **************
 max_len_exp_fwd: 111
 max_len_exp_bwd: 5
@@ -10384,7 +10384,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_08.smt2.log
 ************** Finished in 0.027285337448120117 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.054473876953125e-05, DT Time: 0, Z3 Time: 0.008911609649658203
-Others: 0.018323183059692383, Init Phase Time: 0.019212007522583008, Simplifier Solver Time: 0.0002455711364746094
+Others: 0.018323183059692383, Reasoner Time: 0.019212007522583008, Simplifier Solver Time: 0.0002455711364746094
 ************** Auxiliary Info **************
 max_len_exp_fwd: 5
 max_len_exp_bwd: 72
@@ -10413,7 +10413,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_09.smt2.log
 ************** Finished in 0.02796173095703125 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.079673767089844e-05, DT Time: 0, Z3 Time: 0.009250402450561523
-Others: 0.018650531768798828, Init Phase Time: 0.02000570297241211, Simplifier Solver Time: 0.0002486705780029297
+Others: 0.018650531768798828, Reasoner Time: 0.02000570297241211, Simplifier Solver Time: 0.0002486705780029297
 ************** Auxiliary Info **************
 max_len_exp_fwd: 104
 max_len_exp_bwd: 155
@@ -10442,7 +10442,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_10.smt2.log
 ************** Finished in 0.026261091232299805 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 3.743171691894531e-05, DT Time: 0, Z3 Time: 0.008301973342895508
-Others: 0.01792168617248535, Init Phase Time: 0.01908278465270996, Simplifier Solver Time: 0.0005402565002441406
+Others: 0.01792168617248535, Reasoner Time: 0.01908278465270996, Simplifier Solver Time: 0.0005402565002441406
 ************** Auxiliary Info **************
 max_len_exp_fwd: 17
 max_len_exp_bwd: 15
@@ -10471,7 +10471,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_11.smt2.log
 ************** Finished in 0.0265963077545166 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 5.245208740234375e-05, DT Time: 0, Z3 Time: 0.008872270584106445
-Others: 0.017671585083007812, Init Phase Time: 0.01881575584411621, Simplifier Solver Time: 0.000263214111328125
+Others: 0.017671585083007812, Reasoner Time: 0.01881575584411621, Simplifier Solver Time: 0.000263214111328125
 ************** Auxiliary Info **************
 max_len_exp_fwd: 104
 max_len_exp_bwd: 155
@@ -10500,7 +10500,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_12.smt2.log
 ************** Finished in 0.028211116790771484 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 8.535385131835938e-05, DT Time: 0, Z3 Time: 0.009355545043945312
-Others: 0.018770217895507812, Init Phase Time: 0.019822120666503906, Simplifier Solver Time: 0.00022411346435546875
+Others: 0.018770217895507812, Reasoner Time: 0.019822120666503906, Simplifier Solver Time: 0.00022411346435546875
 ************** Auxiliary Info **************
 max_len_exp_fwd: 225
 max_len_exp_bwd: 195
@@ -10529,7 +10529,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_13.smt2.log
 ************** Finished in 0.09090995788574219 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.413459777832031e-05, DT Time: 0, Z3 Time: 0.05111050605773926
-Others: 0.03973531723022461, Init Phase Time: 0.022272348403930664, Simplifier Solver Time: 0.0005636215209960938
+Others: 0.03973531723022461, Reasoner Time: 0.022272348403930664, Simplifier Solver Time: 0.0005636215209960938
 ************** Auxiliary Info **************
 max_len_exp_fwd: 71
 max_len_exp_bwd: 55
@@ -10563,7 +10563,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_14.smt2.log
 ************** Finished in 0.09523606300354004 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 6.604194641113281e-05, DT Time: 0, Z3 Time: 0.05544567108154297
-Others: 0.03972434997558594, Init Phase Time: 0.023647308349609375, Simplifier Solver Time: 0.0005381107330322266
+Others: 0.03972434997558594, Reasoner Time: 0.023647308349609375, Simplifier Solver Time: 0.0005381107330322266
 ************** Auxiliary Info **************
 max_len_exp_fwd: 213
 max_len_exp_bwd: 254
@@ -10621,7 +10621,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_15.smt2.log
 ************** Finished in 0.08996129035949707 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 9.5367431640625e-05, DT Time: 0, Z3 Time: 0.04987454414367676
-Others: 0.03999137878417969, Init Phase Time: 0.022949934005737305, Simplifier Solver Time: 0.0007085800170898438
+Others: 0.03999137878417969, Reasoner Time: 0.022949934005737305, Simplifier Solver Time: 0.0007085800170898438
 ************** Auxiliary Info **************
 max_len_exp_fwd: 170
 max_len_exp_bwd: 11
@@ -10656,7 +10656,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_16.smt2.log
 ************** Finished in 0.10217761993408203 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001163482666015625, DT Time: 0, Z3 Time: 0.053552865982055664
-Others: 0.048508405685424805, Init Phase Time: 0.026472091674804688, Simplifier Solver Time: 0.0005023479461669922
+Others: 0.048508405685424805, Reasoner Time: 0.026472091674804688, Simplifier Solver Time: 0.0005023479461669922
 ************** Auxiliary Info **************
 max_len_exp_fwd: 356
 max_len_exp_bwd: 722
@@ -10696,7 +10696,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/s_triv_17.smt2.log
 ************** Finished in 0.10248541831970215 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 0.0001266002655029297, DT Time: 0, Z3 Time: 0.051775217056274414
-Others: 0.050583600997924805, Init Phase Time: 0.025932788848876953, Simplifier Solver Time: 0.0005483627319335938
+Others: 0.050583600997924805, Reasoner Time: 0.025932788848876953, Simplifier Solver Time: 0.0005483627319335938
 ************** Auxiliary Info **************
 max_len_exp_fwd: 1299
 max_len_exp_bwd: 5
@@ -10751,7 +10751,7 @@ Error <class 'RuntimeError'>: Overflow Value: 3292348566220
 ************** Finished in 0.06690597534179688 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 7.534027099609375e-05, DT Time: 0, Z3 Time: 0.031386613845825195
-Others: 0.035444021224975586, Init Phase Time: 0.02271413803100586, Simplifier Solver Time: 0.0005271434783935547
+Others: 0.035444021224975586, Reasoner Time: 0.02271413803100586, Simplifier Solver Time: 0.0005271434783935547
 ************** Auxiliary Info **************
 max_len_exp_fwd: 155
 max_len_exp_bwd: 53
@@ -10768,7 +10768,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_1024.smt2.log
 ************** Finished in 0.38747739791870117 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.602836608886719e-05, DT Time: 0, Z3 Time: 0.3052828311920166
-Others: 0.0821385383605957, Init Phase Time: 0.08476400375366211, Simplifier Solver Time: 0.001253366470336914
+Others: 0.0821385383605957, Reasoner Time: 0.08476400375366211, Simplifier Solver Time: 0.001253366470336914
 ************** Auxiliary Info **************
 max_len_exp_fwd: 18352
 max_len_exp_bwd: 55
@@ -10926,7 +10926,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_2048.smt2.log
 ************** Finished in 0.7915501594543457 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.626678466796875e-05, DT Time: 0, Z3 Time: 0.6697218418121338
-Others: 0.12177205085754395, Init Phase Time: 0.15053820610046387, Simplifier Solver Time: 0.0020830631256103516
+Others: 0.12177205085754395, Reasoner Time: 0.15053820610046387, Simplifier Solver Time: 0.0020830631256103516
 ************** Auxiliary Info **************
 max_len_exp_fwd: 37808
 max_len_exp_bwd: 55
@@ -11084,7 +11084,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_4096.smt2.log
 ************** Finished in 1.994642972946167 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.698204040527344e-05, DT Time: 0, Z3 Time: 1.761354684829712
-Others: 0.2332313060760498, Init Phase Time: 0.3452723026275635, Simplifier Solver Time: 0.003627777099609375
+Others: 0.2332313060760498, Reasoner Time: 0.3452723026275635, Simplifier Solver Time: 0.003627777099609375
 ************** Auxiliary Info **************
 max_len_exp_fwd: 101350
 max_len_exp_bwd: 38
@@ -11242,7 +11242,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/sn_8192.smt2.log
 ************** Finished in 5.6922242641448975 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 9
 Total SVM Time: 5.8650970458984375e-05, DT Time: 0, Z3 Time: 5.340851068496704
-Others: 0.3513145446777344, Init Phase Time: 0.7789723873138428, Simplifier Solver Time: 0.007985353469848633
+Others: 0.3513145446777344, Reasoner Time: 0.7789723873138428, Simplifier Solver Time: 0.007985353469848633
 ************** Auxiliary Info **************
 max_len_exp_fwd: 154544
 max_len_exp_bwd: 55
@@ -11400,7 +11400,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/spec_011.smt2.log
 ************** Finished in 0.050328969955444336 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.081031799316406e-05, DT Time: 0, Z3 Time: 0.018356800079345703
-Others: 0.03190135955810547, Init Phase Time: 0.03832054138183594, Simplifier Solver Time: 0.0007703304290771484
+Others: 0.03190135955810547, Reasoner Time: 0.03832054138183594, Simplifier Solver Time: 0.0007703304290771484
 ************** Auxiliary Info **************
 max_len_exp_fwd: 615
 max_len_exp_bwd: 493
@@ -11450,7 +11450,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/tg.smt2.log
 ************** Finished in 3.958604097366333 (secs) in 2 epochs **************
 Total SVM Calls: 6, DT Calls: 96, Z3 Calls: 131
 Total SVM Time: 0.017253398895263672, DT Time: 0.3427760601043701, Z3 Time: 1.6497950553894043
-Others: 1.948779582977295, Init Phase Time: 0.026441097259521484, Simplifier Solver Time: 0.009877681732177734
+Others: 1.948779582977295, Reasoner Time: 0.026441097259521484, Simplifier Solver Time: 0.009877681732177734
 ************** Auxiliary Info **************
 max_len_exp_fwd: 312
 max_len_exp_bwd: 1287
@@ -11496,7 +11496,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/three_dots_moving_1.sm
 ************** Finished in 0.046254634857177734 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 7.224082946777344e-05, DT Time: 0, Z3 Time: 0.016417741775512695
-Others: 0.029764652252197266, Init Phase Time: 0.035195350646972656, Simplifier Solver Time: 0.0004506111145019531
+Others: 0.029764652252197266, Reasoner Time: 0.035195350646972656, Simplifier Solver Time: 0.0004506111145019531
 ************** Auxiliary Info **************
 max_len_exp_fwd: 709
 max_len_exp_bwd: 928
@@ -11530,7 +11530,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/three_dots_moving_2.sm
 ************** Finished in 2.85072660446167 (secs) in 2 epochs **************
 Total SVM Calls: 40, DT Calls: 50, Z3 Calls: 199
 Total SVM Time: 0.14732837677001953, DT Time: 0.21061468124389648, Z3 Time: 1.5525166988372803
-Others: 0.9402668476104736, Init Phase Time: 0.02696681022644043, Simplifier Solver Time: 0.004959583282470703
+Others: 0.9402668476104736, Reasoner Time: 0.02696681022644043, Simplifier Solver Time: 0.004959583282470703
 ************** Auxiliary Info **************
 max_len_exp_fwd: 561
 max_len_exp_bwd: 412
@@ -11566,7 +11566,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/three_dots_moving_3.sm
 ************** Finished in 0.04034423828125 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.866455078125e-05, DT Time: 0, Z3 Time: 0.014203310012817383
-Others: 0.026072263717651367, Init Phase Time: 0.03003978729248047, Simplifier Solver Time: 0.00037169456481933594
+Others: 0.026072263717651367, Reasoner Time: 0.03003978729248047, Simplifier Solver Time: 0.00037169456481933594
 ************** Auxiliary Info **************
 max_len_exp_fwd: 635
 max_len_exp_bwd: 820
@@ -11598,7 +11598,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/trex1.smt2.log
 ************** Finished in 0.03568768501281738 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 6.937980651855469e-05, DT Time: 0, Z3 Time: 0.010581016540527344
-Others: 0.025037288665771484, Init Phase Time: 0.027874469757080078, Simplifier Solver Time: 0.0005588531494140625
+Others: 0.025037288665771484, Reasoner Time: 0.027874469757080078, Simplifier Solver Time: 0.0005588531494140625
 ************** Auxiliary Info **************
 max_len_exp_fwd: 329
 max_len_exp_bwd: 453
@@ -11632,7 +11632,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/trex3.smt2.log
 ************** Finished in 0.045592546463012695 (secs) in 1 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 2
 Total SVM Time: 0.00010967254638671875, DT Time: 0, Z3 Time: 0.01503300666809082
-Others: 0.030449867248535156, Init Phase Time: 0.034204959869384766, Simplifier Solver Time: 0.0004208087921142578
+Others: 0.030449867248535156, Reasoner Time: 0.034204959869384766, Simplifier Solver Time: 0.0004208087921142578
 ************** Auxiliary Info **************
 max_len_exp_fwd: 673
 max_len_exp_bwd: 1233
@@ -11666,7 +11666,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/w1.smt2.log
 ************** Finished in 0.09332036972045898 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 6.628036499023438e-05, DT Time: 0, Z3 Time: 0.046196699142456055
-Others: 0.047057390213012695, Init Phase Time: 0.0331721305847168, Simplifier Solver Time: 0.0008766651153564453
+Others: 0.047057390213012695, Reasoner Time: 0.0331721305847168, Simplifier Solver Time: 0.0008766651153564453
 ************** Auxiliary Info **************
 max_len_exp_fwd: 350
 max_len_exp_bwd: 541
@@ -11729,7 +11729,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/w2.smt2.log
 ************** Finished in 0.09602642059326172 (secs) in 2 epochs **************
 Total SVM Calls: 0, DT Calls: 0, Z3 Calls: 6
 Total SVM Time: 8.416175842285156e-05, DT Time: 0, Z3 Time: 0.04964852333068848
-Others: 0.04629373550415039, Init Phase Time: 0.03360247611999512, Simplifier Solver Time: 0.0007078647613525391
+Others: 0.04629373550415039, Reasoner Time: 0.03360247611999512, Simplifier Solver Time: 0.0007078647613525391
 ************** Auxiliary Info **************
 max_len_exp_fwd: 275
 max_len_exp_bwd: 644
@@ -11840,7 +11840,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/yz_plus_minus_1.smt2.l
 ************** Finished in 0.21686577796936035 (secs) in 2 epochs **************
 Total SVM Calls: 2, DT Calls: 2, Z3 Calls: 17
 Total SVM Time: 0.005464076995849609, DT Time: 0.006799936294555664, Z3 Time: 0.12161827087402344
-Others: 0.08298349380493164, Init Phase Time: 0.033293724060058594, Simplifier Solver Time: 0.0009987354278564453
+Others: 0.08298349380493164, Reasoner Time: 0.033293724060058594, Simplifier Solver Time: 0.0009987354278564453
 ************** Auxiliary Info **************
 max_len_exp_fwd: 501
 max_len_exp_bwd: 370
@@ -11904,7 +11904,7 @@ Log File Name: /home/ssr/Chronosymbolic-Learning/log/safe/yz_plus_minus_2.smt2.l
 ************** Finished in 18.203960180282593 (secs) in 4 epochs **************
 Total SVM Calls: 76, DT Calls: 416, Z3 Calls: 653
 Total SVM Time: 1.490013837814331, DT Time: 1.8132071495056152, Z3 Time: 6.171950101852417
-Others: 8.72878909111023, Init Phase Time: 0.0357663631439209, Simplifier Solver Time: 0.05827522277832031
+Others: 8.72878909111023, Reasoner Time: 0.0357663631439209, Simplifier Solver Time: 0.05827522277832031
 ************** Auxiliary Info **************
 max_len_exp_fwd: 645
 max_len_exp_bwd: 394

@@ -226,7 +226,7 @@ size: 8, tentative_size: 0
 13:20:06 - line:1285 - ************** Finished in 0.646906852722168 (secs) in 2 epochs **************
 13:20:06 - line:1288 - Total SVM Calls: 4, DT Calls: 4, Z3 Calls: 25
 13:20:06 - line:1289 - Total SVM Time: 0.011057138442993164, DT Time: 0.01905083656311035, Z3 Time: 0.3920609951019287
-13:20:06 - line:1290 - Others: 0.22473788261413574, Init Phase Time: 0.08259844779968262, Simplifier Solver Time: 0.002895832061767578
+13:20:06 - line:1290 - Others: 0.22473788261413574, Reasoner Time: 0.08259844779968262, Simplifier Solver Time: 0.002895832061767578
 13:20:06 - line:1297 - ************** Auxiliary Info **************
 13:20:06 - line:1300 - max_len_exp_fwd: 776
 13:20:06 - line:1300 - max_len_exp_bwd: 215
