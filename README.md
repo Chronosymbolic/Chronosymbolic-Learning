@@ -93,6 +93,31 @@ In `test.py` `guess_manually` function:
 - Modify `db = load_horn_db_from_file(args.file_name, z3.main_ctx())` or pass the parameter in through command line to indicate SMTLIB2 file name
 
 
+# Citing Chronosymbolic Learning
+
+```
+@InProceedings{10.1007/978-3-031-65112-0_1,
+author="Luo, Ziyan
+and Si, Xujie",
+editor="Avni, Guy
+and Giacobbe, Mirco
+and Johnson, Taylor T.
+and Katz, Guy
+and Lukina, Anna
+and Narodytska, Nina
+and Schilling, Christian",
+title="Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning",
+booktitle="AI Verification",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="1--28",
+abstract="Solving Constrained Horn Clauses (CHCs) is a fundamental challenge behind a wide range of verification and analysis tasks. To enhance CHC solving without the laborious task of manual heuristic creation and tuning, data-driven approaches demonstrate significant potential by extracting crucial patterns from a small set of data points. However, at present, symbolic methods generally surpass data-driven solvers in performance. In this work, we develop a simple but effective framework, Chronosymbolic Learning, which unifies symbolic information and numerical data to solve a CHC system efficiently. We also present a simple instance (The artifact is available on this link: https://github.com/Chronosymbolic/Chronosymbolic-Learning) of Chronosymbolic Learning with a data-driven learner and a BMC-styled reasoner (BMC represents Bounded Model Checking [9].). Despite its relative simplicity, experimental results show the efficacy and robustness of our tool. It outperforms state-of-the-art CHC solvers on a test suite of 288 arithmetic benchmarks, including some instances with non-linear arithmetic.",
+isbn="978-3-031-65112-0"
+}
+```
+
+
 # Benchmarks
 [CHC-COMP](https://github.com/chc-comp)
 
@@ -101,7 +126,7 @@ In `test.py` `guess_manually` function:
 [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test)
 
 
-# Reference
+# References
 [chc-tools](https://github.com/chc-comp/chc-tools/tree/master/chctools)
 
 [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm)
