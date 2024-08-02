@@ -1,9 +1,38 @@
 # Chronosymbolic Learning
-Artifact for the paper "Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning"
+Artifact for the paper "[Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning](https://link.springer.com/chapter/10.1007/978-3-031-65112-0_1)"
+
+- [arXiv](https://arxiv.org/abs/2305.01206)
 
 - See `./experiment` for some significant results and configurations
 
 - See `./examples` for examples of how our tool works
+
+
+## Citing Chronosymbolic Learning
+If you use our codebase, please consider citing our paper:
+
+```
+@InProceedings{10.1007/978-3-031-65112-0_1,
+author="Luo, Ziyan
+and Si, Xujie",
+editor="Avni, Guy
+and Giacobbe, Mirco
+and Johnson, Taylor T.
+and Katz, Guy
+and Lukina, Anna
+and Narodytska, Nina
+and Schilling, Christian",
+title="Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning",
+booktitle="AI Verification",
+year="2024",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="1--28",
+abstract="Solving Constrained Horn Clauses (CHCs) is a fundamental challenge behind a wide range of verification and analysis tasks. To enhance CHC solving without the laborious task of manual heuristic creation and tuning, data-driven approaches demonstrate significant potential by extracting crucial patterns from a small set of data points. However, at present, symbolic methods generally surpass data-driven solvers in performance. In this work, we develop a simple but effective framework, Chronosymbolic Learning, which unifies symbolic information and numerical data to solve a CHC system efficiently. We also present a simple instance (The artifact is available on this link: https://github.com/Chronosymbolic/Chronosymbolic-Learning) of Chronosymbolic Learning with a data-driven learner and a BMC-styled reasoner (BMC represents Bounded Model Checking [9].). Despite its relative simplicity, experimental results show the efficacy and robustness of our tool. It outperforms state-of-the-art CHC solvers on a test suite of 288 arithmetic benchmarks, including some instances with non-linear arithmetic.",
+isbn="978-3-031-65112-0"
+}
+```
+
 
 ## Requirement (To set up our environment)
 Python (3.7.0 or higher recommended, and [Anaconda](https://www.anaconda.com/) recommended to set up a new environment)
@@ -15,7 +44,7 @@ Python (3.7.0 or higher recommended, and [Anaconda](https://www.anaconda.com/) r
 
 - If the C5.0/LIBSVM binary cannot be executed properly, may have to recompile them in your OS and specify the binary executable files in `utils/dt/dt.py` in `class C5DT`, `C5_exec_path` and `utils/svm/svm.py` in `class LibSVMLearner`, `svm_exec_path`
 
-## Chronosymbolic Learning
+## Our instance of Chronosymbolic Learning
 - Support SMT-LIB2 format (check-sat) and Datalog format (rule-query) 
 
 - Have executable binaries of decision tree and SVM for Linux and MacOS, and can automatically adapt to the OS (Linux/Mac)
@@ -54,7 +83,7 @@ Python (3.7.0 or higher recommended, and [Anaconda](https://www.anaconda.com/) r
 
 - After finishing running, the `./tmp` directory can be deleted safely
 
-# To reproduce the major result: Chronosymbolic-single
+## To reproduce the major result: Chronosymbolic-single
 
 Please refer to the configuration in `./experiment/result_summary.log` and `./experiment/README.md` (where settings for other minor experiments are also provided). Using the default config in `config.yml` should also be decent. Even fixed random seeds can cause minor randomness that may slightly affect the performance.
 
@@ -63,8 +92,8 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 - `python test.py -f tests/unsafe -a -r -v -t 360 -o result/result_unsafe.log`
 
 
-# To run the baselines
-## Spacer and GSpacer
+## To run the baselines
+### Spacer and GSpacer
 - Configure [z3-gspacer-branch](https://github.com/hgvk94/z3/tree/ggbranch), `chmod +x z3` ([pre-built binary](https://drive.google.com/file/d/1HjKCVuN7Csm_uxQh7paU3WMARXWJhhYY/view?usp=sharing) of z3 with Spacer and GSpacer for Ubuntu)
 
 - Specify the path of pre-built z3 (with Spacer and GSpacer) binary in `utils/run_spacer.py` and `utils/run_spacer_filtered.py`, at line 5
@@ -77,7 +106,7 @@ Please refer to the configuration in `./experiment/result_summary.log` and `./ex
 
 - After configuration, run `python utils/run_spacer.py`
 
-## LinearArbitrary and FreqHorn
+### LinearArbitrary and FreqHorn
 Refer to [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test) and [FreqHorn](https://github.com/freqhorn/freqhorn).
 
 A prebuilt docker image is available on [Docker Hub](https://hub.docker.com/r/sunsetray/lineararbitrary_seahorn).
@@ -86,39 +115,15 @@ The pre-built binary for FreqHorn is also provided here: [freqhorn](https://driv
 
 For LinearArbitrary, you can also try our optimized data-driven learner implementation (set `ClassAgent = Chronosymbolic` to `ClassAgent = DataDrivenLearner` in `test.py` and run it in the same way as Chronosymbolic does)
 
-## Manually "guess" an inductive invariant (hard to scale up)
+### Manually "guess" an inductive invariant (hard to scale up)
 In `test.py` `guess_manually` function:
 - Modify `s = 'v_0 == v_1'` to indicate the inductive invariant
 
 - Modify `db = load_horn_db_from_file(args.file_name, z3.main_ctx())` or pass the parameter in through command line to indicate SMTLIB2 file name
 
 
-# Citing Chronosymbolic Learning
 
-```
-@InProceedings{10.1007/978-3-031-65112-0_1,
-author="Luo, Ziyan
-and Si, Xujie",
-editor="Avni, Guy
-and Giacobbe, Mirco
-and Johnson, Taylor T.
-and Katz, Guy
-and Lukina, Anna
-and Narodytska, Nina
-and Schilling, Christian",
-title="Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning",
-booktitle="AI Verification",
-year="2024",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="1--28",
-abstract="Solving Constrained Horn Clauses (CHCs) is a fundamental challenge behind a wide range of verification and analysis tasks. To enhance CHC solving without the laborious task of manual heuristic creation and tuning, data-driven approaches demonstrate significant potential by extracting crucial patterns from a small set of data points. However, at present, symbolic methods generally surpass data-driven solvers in performance. In this work, we develop a simple but effective framework, Chronosymbolic Learning, which unifies symbolic information and numerical data to solve a CHC system efficiently. We also present a simple instance (The artifact is available on this link: https://github.com/Chronosymbolic/Chronosymbolic-Learning) of Chronosymbolic Learning with a data-driven learner and a BMC-styled reasoner (BMC represents Bounded Model Checking [9].). Despite its relative simplicity, experimental results show the efficacy and robustness of our tool. It outperforms state-of-the-art CHC solvers on a test suite of 288 arithmetic benchmarks, including some instances with non-linear arithmetic.",
-isbn="978-3-031-65112-0"
-}
-```
-
-
-# Benchmarks
+## Benchmarks
 [CHC-COMP](https://github.com/chc-comp)
 
 [FreqHorn](https://github.com/freqhorn/freqhorn)
@@ -126,7 +131,7 @@ isbn="978-3-031-65112-0"
 [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test)
 
 
-# References
+## Major References
 [chc-tools](https://github.com/chc-comp/chc-tools/tree/master/chctools)
 
 [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm)
