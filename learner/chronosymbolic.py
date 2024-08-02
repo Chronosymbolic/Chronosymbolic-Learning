@@ -108,9 +108,7 @@ class Chronosymbolic(DataDrivenLearner_v2):
         for q in self.queries:
             body = q.body()
             body_pred = q.body_preds()
-            # assert(len(body_pred) <= 1)  # currently only support linear chcs
-            if len(body_pred) > 1:
-                return True
+            assert(len(body_pred) <= 1)  # currently only support linear chcs
             if len(body_pred) == 0:
                 continue
             body_pred = body_pred[0]
@@ -249,9 +247,7 @@ class Chronosymbolic(DataDrivenLearner_v2):
                     # skip rels that cannot be expand anymore
                     continue
                 body_pred = r.body_preds()
-                # assert(len(body_pred) <= 1)  # currently only support linear chcs
-                if len(body_pred) > 1:
-                    return
+                assert(len(body_pred) <= 1)  # currently only support linear chcs
                 body_pred = body_pred[0]
                 b_decl = body_pred.decl()
                 head = r.head()
@@ -358,9 +354,7 @@ class Chronosymbolic(DataDrivenLearner_v2):
 
                 h_decl = r.head().decl()
                 body_pred = r.body_preds()
-                # assert(len(body_pred) <= 1)  # currently only support linear chcs
-                if len(body_pred) > 1:
-                    return
+                assert(len(body_pred) <= 1)  # currently only support linear chcs
                 if len(body_pred) == 0:
                     continue
                 body_pred = body_pred[0]
