@@ -1,5 +1,9 @@
 # Chronosymbolic Learning
-Artifact for the paper "[Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning](https://link.springer.com/chapter/10.1007/978-3-031-65112-0_1)"
+Artifact for the paper "[Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning, Ziyan Luo and Xujie Si](https://link.springer.com/chapter/10.1007/978-3-031-65112-0_1)"
+
+<p align="center">
+  <img src="examples/3solvers.jpg" alt="Chronosymbolic diagram." width="500"/>
+</p>
 
 - [arXiv](https://arxiv.org/abs/2305.01206)
 
@@ -11,7 +15,7 @@ Artifact for the paper "[Chronosymbolic Learning: Efficient CHC Solving with Sym
 ## Citing Chronosymbolic Learning
 If you use our codebase, please consider citing our paper:
 
-```
+```bib
 @InProceedings{10.1007/978-3-031-65112-0_1,
 author="Luo, Ziyan
 and Si, Xujie",
