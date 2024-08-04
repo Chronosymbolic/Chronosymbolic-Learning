@@ -1,11 +1,9 @@
 # Chronosymbolic Learning
-Artifact for the paper "[Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning, Ziyan Luo and Xujie Si](https://link.springer.com/chapter/10.1007/978-3-031-65112-0_1)"
+Artifact for the paper "[Chronosymbolic Learning: Efficient CHC Solving with Symbolic Reasoning and Inductive Learning, Ziyan Luo and Xujie Si](https://link.springer.com/chapter/10.1007/978-3-031-65112-0_1)"; [arXiv preprint](https://arxiv.org/abs/2305.01206)
 
 <p align="center">
   <img src="examples/3solvers.jpg" alt="Chronosymbolic diagram." width="500"/>
 </p>
-
-- [arXiv](https://arxiv.org/abs/2305.01206)
 
 - See `./experiment` for some significant results and configurations
 
@@ -135,7 +133,7 @@ In `test.py` `guess_manually` function:
 [LinearArbitrary](https://github.com/GaloisInc/LinearArbitrary-SeaHorn/tree/master/test)
 
 
-## Major References
+## Major Reference Tools
 [chc-tools](https://github.com/chc-comp/chc-tools/tree/master/chctools)
 
 [libsvm](http://www.csie.ntu.edu.tw/~cjlin/libsvm)
